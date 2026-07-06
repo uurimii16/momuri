@@ -1,0 +1,5 @@
+# momuri 분석 파이프라인 재현용 (웹 데모만 볼 거면 불필요)
+pandas
+numpy
+pyreadstat
+networkx

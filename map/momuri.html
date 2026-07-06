@@ -9,7 +9,11 @@
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: 'Pretendard', -apple-system, sans-serif; color: #1b1b1f; }
-    #app { display: flex; height: 100vh; }
+    .nav { height: 46px; background: #1b1b1f; color: #fff; display: flex; align-items: center; gap: 18px; padding: 0 20px; font-size: 14px; }
+    .nav b { color: #e8b84b; }
+    .nav a { color: #ddd; text-decoration: none; }
+    .nav a:hover { color: #fff; }
+    #app { display: flex; height: calc(100vh - 46px); }
     #side { width: 360px; background: #f7f6f3; overflow-y: auto; padding: 20px; border-right: 1px solid #e5e3dd; }
     #side h1 { font-size: 22px; }
     #side .sub { font-size: 12px; color: #6b6b70; margin: 4px 0 16px; line-height: 1.5; }
@@ -35,6 +39,12 @@
   </style>
 </head>
 <body>
+  <div class="nav">
+    <b>머무리</b>
+    <a href="momuri.html" style="color:#fff;">숨은 매력지</a>
+    <a href="decline-map.html">쇠퇴지수 지도</a>
+    <a href="methodology.html">지표 방법론</a>
+  </div>
   <div id="app">
     <aside id="side">
       <h1>머무리 <span style="font-size:12px;color:#b8860b;">숨은 매력지</span></h1>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>시군구 관광쇠퇴지수 단계구분도 · 머무리</title>
+  <link href="https://tile.routo.com/webgis_tile01/TEST/gljs-qa/20241205/developers/web_gl_js/routo-gl.css" rel="stylesheet">
+  <script src="https://stg-api.routo.com/v3/maps/map?key=c914fb43-0d44-4fa7-838a-84619e3486c3"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Pretendard', -apple-system, sans-serif; color: #1b1b1f; }
+    .nav { height: 46px; background: #1b1b1f; color: #fff; display: flex; align-items: center; gap: 18px; padding: 0 20px; font-size: 14px; }
+    .nav b { color: #e8b84b; }
+    .nav a { color: #ddd; text-decoration: none; }
+    .nav a:hover { color: #fff; }
+    #wrap { position: relative; height: calc(100vh - 46px); }
+    #map { width: 100%; height: 100%; }
+    .legend { position: absolute; left: 16px; bottom: 22px; background: #fff; border-radius: 12px; padding: 14px 16px; box-shadow: 0 4px 18px rgba(0,0,0,.15); font-size: 12px; }
+    .legend h4 { font-size: 13px; margin-bottom: 8px; }
+    .legend .row { display: flex; align-items: center; gap: 8px; margin: 3px 0; }
+    .legend .sw { width: 22px; height: 12px; border-radius: 3px; }
+    .panel { position: absolute; right: 16px; top: 16px; width: 280px; background: #fff; border-radius: 14px; box-shadow: 0 8px 30px rgba(0,0,0,.18); padding: 18px; display: none; }
+    .panel h2 { font-size: 19px; }
+    .panel .tag { display:inline-block; font-size: 11px; background:#fbeecb; color:#8a6d1a; padding:3px 8px; border-radius:20px; margin:6px 0; }
+    .panel .idx { display:flex; gap:6px; margin-top:10px; }
+    .panel .idx div { flex:1; background:#faf9f6; border-radius:8px; padding:7px; text-align:center; font-size:10px; color:#888; }
+    .panel .idx b { display:block; font-size:15px; color:#c0392b; }
+    .panel .big { font-size: 30px; font-weight: 800; color: #a63603; }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <b>머무리</b>
+    <a href="momuri.html">숨은 매력지</a>
+    <a href="decline-map.html" style="color:#fff;">쇠퇴지수 지도</a>
+    <a href="methodology.html">지표 방법론</a>
+  </div>
+  <div id="wrap">
+    <div id="map"></div>
+    <div class="legend">
+      <h4>복합 관광쇠퇴지수 (시군구)</h4>
+      <div class="row"><span class="sw" style="background:#a63603"></span>매우 높음 (쇠퇴 심함)</div>
+      <div class="row"><span class="sw" style="background:#d85a1a"></span>높음</div>
+      <div class="row"><span class="sw" style="background:#ef8a3c"></span>중간</div>
+      <div class="row"><span class="sw" style="background:#f9b878"></span>낮음</div>
+      <div class="row"><span class="sw" style="background:#fde0c8"></span>매우 낮음</div>
+      <div class="row"><span class="sw" style="background:#e8e8e8"></span>분석 제외(광역시 자치구 등)</div>
+      <div style="margin-top:8px;color:#999;font-size:11px;">도지역 시·군 123곳 · 5단계 분위</div>
+    </div>
+    <div class="panel" id="panel"></div>
+  </div>
+
+  <script>
+    const map = new routogl.Map({ container: 'map', style: routogl.RoutoStyle.LIGHT, center: [127.8, 36.3], zoom: 6.6 });
+    const panel = document.getElementById('panel');
+
+    map.on('load', () => {
+      map.addSource('sgg', { type: 'geojson', data: `data/decline_choropleth.geojson?v=${Date.now()}` });
+      map.addLayer({
+        id: 'sgg-fill', type: 'fill', source: 'sgg',
+        paint: {
+          'fill-color': ['match', ['get', 'level'],
+            1, '#fde0c8', 2, '#f9b878', 3, '#ef8a3c', 4, '#d85a1a', 5, '#a63603', '#e8e8e8'],
+          'fill-opacity': 0.8
+        }
+      });
+      map.addLayer({
+        id: 'sgg-line', type: 'line', source: 'sgg',
+        paint: { 'line-color': '#ffffff', 'line-width': 0.5 }
+      });
+
+      map.on('click', 'sgg-fill', (e) => {
+        const p = e.features[0].properties;
+        if (p.composite === undefined || p.composite === null || p.composite === '') {
+          panel.style.display = 'none'; return;
+        }
+        panel.style.display = 'block';
+        panel.innerHTML = `
+          <h2>${p.sido} ${p.name}</h2>
+          <div class="tag">${p.segment || '분석 대상'}</div>
+          <div>복합 관광쇠퇴지수</div>
+          <div class="big">${(+p.composite).toFixed(2)}</div>
+          <div style="font-size:12px;color:#666;">문화유산 ${p.heritage ?? '-'}건 · 숨은매력점수 ${p.hidden ?? '-'}</div>`;
+      });
+      map.on('mouseenter', 'sgg-fill', () => map.getCanvas().style.cursor = 'pointer');
+      map.on('mouseleave', 'sgg-fill', () => map.getCanvas().style.cursor = '');
+    });
+  </script>
+</body>
+</html>

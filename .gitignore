@@ -9,3 +9,6 @@ __pycache__/
 # 인용 참고용 PDF(제3자 저작물 — 인용은 docs/인용자료_정리.md에 정리)
 *.pdf
 *.zip
+
+# 원본 시군구 경계(재다운로드 가능, 18MB)
+map/data/sigungu.geojson

@@ -125,8 +125,9 @@ def main():
             "stay_total_min": sum(s["stay"] for s in stops),
             "has_transit": all(l["transit"] for l in legs) if legs else False,
         })
-        print(f"  {r['region']:16s} 스톱 {len(stops)} · 자동차 {out[-1]['car_total_min']}분"
-              f" · 대중교통 {'O' if out[-1]['has_transit'] else 'X(키없음)'}")
+        n_tr = sum(1 for l in legs if l["transit"])
+        tr_lbl = "O(전구간)" if out[-1]["has_transit"] else (f"△({n_tr}/{len(legs)}구간)" if n_tr else ("X(경로없음)" if ODSAY_KEY else "X(키없음)"))
+        print(f"  {r['region']:16s} 스톱 {len(stops)} · 자동차 {out[-1]['car_total_min']}분 · 대중교통 {tr_lbl}")
     json.dump(out, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print(f"\n저장: {OUT}  ({len(out)}개 코스, {os.path.getsize(OUT)/1024:.0f}KB)")
     if not ODSAY_KEY:

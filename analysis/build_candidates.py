@@ -13,6 +13,10 @@ import json
 import numpy as np
 import pandas as pd
 
+# 인구 50만+ 대도시(지방자치법 대도시 기준) — 도지역 시. 타깃에서 제외하고 '참고'로만.
+METRO = {"수원시","용인시","고양시","화성시","성남시","부천시","남양주시","안산시","평택시",
+         "안양시","시흥시","파주시","청주시","천안시","전주시","창원시","김해시"}
+
 def z(s):
     return (s - s.mean()) / s.std(ddof=0)
 
@@ -39,16 +43,17 @@ def main():
         return "기타"
     P["segment"] = P.apply(seg, axis=1)
     P["theme"] = P["heritage"].apply(lambda c: "문화유산형" if c >= med_h else "자연힐링형")
+    P["tier"] = P["sigungu"].apply(lambda s: "metro" if s in METRO else "target")
 
-    cols = ["region","sido_s","sigungu","composite","ax_visit","ax_attract","ax_connect",
+    cols = ["region","sido_s","sigungu","tier","composite","ax_visit","ax_attract","ax_connect",
             "heritage","z_decline","z_asset","hidden_score","segment","theme"]
     out = P[cols].sort_values("hidden_score", ascending=False).reset_index(drop=True)
     out.to_json("analysis/data/candidates.json", orient="records", force_ascii=False, indent=1)
-    print(f"저장: analysis/data/candidates.json ({len(out)} 시군)")
+    print(f"저장: analysis/data/candidates.json ({len(out)} 시군, 대도시 {int((out['tier']=='metro').sum())} 제외대상)")
     print(f"중위선  쇠퇴={med_d:.2f}  문화유산={med_h:.0f}건")
     print(f"세그 분포: {out['segment'].value_counts().to_dict()}")
 
-    hs = out[out["segment"] == "숨은매력지(문화유산형)"].head(12)
+    hs = out[(out["segment"] == "숨은매력지(문화유산형)") & (out["tier"] == "target")].head(12)
     print("\n[숨은매력지(문화유산형) 상위 12]")
     for _, r in hs.iterrows():
         print(f"  점수{r['hidden_score']:+.2f}  {r['region']:14s} 쇠퇴{r['composite']:+.2f}·유산{r['heritage']:>4d}건 "

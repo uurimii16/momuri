@@ -12,3 +12,6 @@ __pycache__/
 
 # 원본 시군구 경계(재다운로드 가능, 18MB)
 map/data/sigungu.geojson
+
+# ODsay 키(로컬 전용, 커밋 금지)
+analysis/.odsay_key.local

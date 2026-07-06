@@ -1,0 +1,1600 @@
+[
+ {
+  "id": "changnyeong-heritage",
+  "title": "창녕 가야·신라 문화유산 루트",
+  "region": "경남 창녕군",
+  "creator": "관광쇠퇴 진단 기반 큐레이션",
+  "theme": "세계유산 고분군 + 산성 + 우포늪",
+  "distance": "약 25km",
+  "routeDistanceMeters": 25000,
+  "duration": "약 4시간",
+  "routeDurationSeconds": 9000,
+  "difficulty": "보통",
+  "description": "복합 관광쇠퇴지수상 '문화유산형' 활성화 타깃인 창녕. 세계유산 교동·송현동 고분군에서 진흥왕 척경비, 관룡사, 화왕산성, 우포늪까지 잇는 데이터 기반 추천 동선.",
+  "routePath": [
+   [
+    128.506938395713,
+    35.5462473359888
+   ],
+   [
+    128.50264501968,
+    35.5407250695667
+   ],
+   [
+    128.498441,
+    35.542571
+   ],
+   [
+    128.496103617453,
+    35.5395963195985
+   ],
+   [
+    128.553456832577,
+    35.5319753232157
+   ],
+   [
+    128.535099,
+    35.54535599
+   ],
+   [
+    128.4158,
+    35.5524
+   ]
+  ],
+  "waypoints": [
+   {
+    "id": "cn-1",
+    "name": "창녕 교동과 송현동 고분군",
+    "address": "경남 창녕군 창녕읍 교리 129 등",
+    "fallbackLat": 35.5462473359888,
+    "fallbackLng": 128.506938395713,
+    "lockCoordinates": true,
+    "category": "사적",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/history_site/1628509.jpg",
+    "description": "창녕의 대표 사적. 쇠퇴 진단상 문화유산형 활성화 타깃으로, 가야·신라 유산을 잇는 추천 동선의 거점."
+   },
+   {
+    "id": "cn-2",
+    "name": "창녕 신라 진흥왕 척경비",
+    "address": "경남 창녕군 창녕읍 교상리 28-1번지",
+    "fallbackLat": 35.5407250695667,
+    "fallbackLng": 128.50264501968,
+    "lockCoordinates": true,
+    "category": "국보",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/national_treasure/1613008.jpg",
+    "description": "창녕의 대표 국보. 쇠퇴 진단상 문화유산형 활성화 타깃으로, 가야·신라 유산을 잇는 추천 동선의 거점."
+   },
+   {
+    "id": "cn-3",
+    "name": "창녕 석빙고",
+    "address": "경남 창녕군 창녕읍 송현리 288번지",
+    "fallbackLat": 35.542571,
+    "fallbackLng": 128.498441,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1622483.jpg",
+    "description": "창녕의 대표 보물. 쇠퇴 진단상 문화유산형 활성화 타깃으로, 가야·신라 유산을 잇는 추천 동선의 거점."
+   },
+   {
+    "id": "cn-4",
+    "name": "창녕 술정리 동 삼층석탑",
+    "address": "경남 창녕군 창녕읍 시장2길 37 (술정리)",
+    "fallbackLat": 35.5395963195985,
+    "fallbackLng": 128.496103617453,
+    "lockCoordinates": true,
+    "category": "국보",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/national_treasure/1613016.jpg",
+    "description": "창녕의 대표 국보. 쇠퇴 진단상 문화유산형 활성화 타깃으로, 가야·신라 유산을 잇는 추천 동선의 거점."
+   },
+   {
+    "id": "cn-5",
+    "name": "창녕 관룡사 대웅전",
+    "address": "경남 창녕군 창녕읍 화왕산관룡사길 171 (옥천리)",
+    "fallbackLat": 35.5319753232157,
+    "fallbackLng": 128.553456832577,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1622395.jpg",
+    "description": "창녕의 대표 보물. 쇠퇴 진단상 문화유산형 활성화 타깃으로, 가야·신라 유산을 잇는 추천 동선의 거점."
+   },
+   {
+    "id": "cn-6",
+    "name": "창녕 화왕산성",
+    "address": "경남 창녕군 창녕읍 옥천리 산322번지",
+    "fallbackLat": 35.54535599,
+    "fallbackLng": 128.535099,
+    "lockCoordinates": true,
+    "category": "사적",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/history_site/1628122.jpg",
+    "description": "창녕의 대표 사적. 쇠퇴 진단상 문화유산형 활성화 타깃으로, 가야·신라 유산을 잇는 추천 동선의 거점."
+   },
+   {
+    "id": "cn-7",
+    "name": "창녕 우포늪 천연보호구역",
+    "address": "경상남도 창녕군 유어면, 이방면, 대합면 일원",
+    "fallbackLat": 35.5524,
+    "fallbackLng": 128.4158,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1632268.jpg",
+    "description": "창녕의 대표 천연기념물. 쇠퇴 진단상 문화유산형 활성화 타깃으로, 가야·신라 유산을 잇는 추천 동선의 거점."
+   }
+  ]
+ },
+ {
+  "id": "진천-heritage",
+  "title": "진천군 국가유산 루트",
+  "region": "충북 진천군",
+  "creator": "관광쇠퇴 진단 기반 자동 큐레이션",
+  "theme": "보물 · 사적 · 국가등록문화유산",
+  "distance": "약 36km",
+  "routeDistanceMeters": 36083,
+  "duration": "약 4.9시간",
+  "routeDurationSeconds": 17647,
+  "difficulty": "보통",
+  "description": "복합 관광쇠퇴지수상 활성화 타깃인 진천군. 국가유산청 지정유산을 등급·거리 기준으로 이은 데이터 기반 추천 동선(출처: 국가유산청).",
+  "routePath": [
+   [
+    127.340220210484,
+    36.8398527598449
+   ],
+   [
+    127.375442,
+    36.840324
+   ],
+   [
+    127.442768145649,
+    36.8432747886193
+   ],
+   [
+    127.476934839029,
+    36.9012655885836
+   ],
+   [
+    127.508643539385,
+    36.9082438197197
+   ],
+   [
+    127.414290079552,
+    36.9239723071124
+   ]
+  ],
+  "waypoints": [
+   {
+    "id": "진천-1",
+    "name": "진천 연곡리 석비",
+    "address": "충북 진천군 진천읍 김유신길 639 (연곡리)",
+    "fallbackLat": 36.8398527598449,
+    "fallbackLng": 127.340220210484,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1617017.jpg",
+    "description": "충북 진천군 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "진천-2",
+    "name": "진천 김유신 탄생지와 태실",
+    "address": "충북 진천군 진천읍 김유신길 170-4, 외 129필지 (상계리)",
+    "fallbackLat": 36.840324,
+    "fallbackLng": 127.375442,
+    "lockCoordinates": true,
+    "category": "사적",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/history_site/1626330.jpg",
+    "description": "충북 진천군 활성화 타깃의 대표 사적. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "진천-3",
+    "name": "대한성공회 진천성당",
+    "address": "충청북도 진천군 문화3길  72(진천읍, 성공회)",
+    "fallbackLat": 36.8432747886193,
+    "fallbackLng": 127.442768145649,
+    "lockCoordinates": true,
+    "category": "국가등록문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/register/1668475.jpg",
+    "description": "충북 진천군 활성화 타깃의 대표 국가등록문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "진천-4",
+    "name": "진천 산수리와 삼용리 요지",
+    "address": "충북 진천군 덕산면 산수리 196-3 등",
+    "fallbackLat": 36.9012655885836,
+    "fallbackLng": 127.476934839029,
+    "lockCoordinates": true,
+    "category": "사적",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/history_site/1626398.jpg",
+    "description": "충북 진천군 활성화 타깃의 대표 사적. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "진천-5",
+    "name": "진천 덕산양조장",
+    "address": "서울특별시 양천구 목동중앙로3길  93-5(목동) 2층 202호",
+    "fallbackLat": 36.9082438197197,
+    "fallbackLng": 127.508643539385,
+    "lockCoordinates": true,
+    "category": "국가등록문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/register/1668499.jpg",
+    "description": "충북 진천군 활성화 타깃의 대표 국가등록문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "진천-6",
+    "name": "진천 노원리 왜가리 번식지",
+    "address": "충북 진천군 이월면 논실길 113-12 (노원리)",
+    "fallbackLat": 36.9239723071124,
+    "fallbackLng": 127.414290079552,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1630269.jpg",
+    "description": "충북 진천군 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   }
+  ]
+ },
+ {
+  "id": "울릉-heritage",
+  "title": "울릉군 국가유산 루트",
+  "region": "경북 울릉군",
+  "creator": "관광쇠퇴 진단 기반 자동 큐레이션",
+  "theme": "천연기념물",
+  "distance": "약 33km",
+  "routeDistanceMeters": 32695,
+  "duration": "약 4.8시간",
+  "routeDurationSeconds": 17342,
+  "difficulty": "보통",
+  "description": "복합 관광쇠퇴지수상 활성화 타깃인 울릉군. 국가유산청 지정유산을 등급·거리 기준으로 이은 데이터 기반 추천 동선(출처: 국가유산청).",
+  "routePath": [
+   [
+    130.853406381238,
+    37.4654728840151
+   ],
+   [
+    130.827058159047,
+    37.4978381950429
+   ],
+   [
+    130.863722943006,
+    37.5039468768938
+   ],
+   [
+    130.860137390457,
+    37.5151810582136
+   ],
+   [
+    130.907635370076,
+    37.4866560466065
+   ],
+   [
+    130.794019358659,
+    37.5278154969646
+   ]
+  ],
+  "waypoints": [
+   {
+    "id": "울릉-1",
+    "name": "울릉 통구미 향나무 자생지",
+    "address": "경북 울릉군 서면 남양리 산70번지",
+    "fallbackLat": 37.4654728840151,
+    "fallbackLng": 130.853406381238,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1631403.jpg",
+    "description": "경북 울릉군 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "울릉-2",
+    "name": "울릉 태하동 솔송나무·섬잣나무·너도밤나무군락",
+    "address": "경북 울릉군 서면 태하리 산1-1번지",
+    "fallbackLat": 37.4978381950429,
+    "fallbackLng": 130.827058159047,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1631415.jpg",
+    "description": "경북 울릉군 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "울릉-3",
+    "name": "울릉 성인봉 원시림",
+    "address": "경북 울릉군 북면 나리 산44-1번지",
+    "fallbackLat": 37.5039468768938,
+    "fallbackLng": 130.863722943006,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1631539.jpg",
+    "description": "경북 울릉군 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "울릉-4",
+    "name": "울릉 나리동 울릉국화와 섬백리향군락",
+    "address": "경북 울릉군 북면 나리 320-1번지",
+    "fallbackLat": 37.5151810582136,
+    "fallbackLng": 130.860137390457,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1631432.jpg",
+    "description": "경북 울릉군 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "울릉-5",
+    "name": "울릉 도동 섬개야광나무와 섬댕강나무군락",
+    "address": "경북 울릉군 울릉읍 도동리 산4번지",
+    "fallbackLat": 37.4866560466065,
+    "fallbackLng": 130.907635370076,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1631425.jpg",
+    "description": "경북 울릉군 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "울릉-6",
+    "name": "울릉 대풍감 향나무 자생지",
+    "address": "경북 울릉군 서면 태하리 산99번지",
+    "fallbackLat": 37.5278154969646,
+    "fallbackLng": 130.794019358659,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1631408.jpg",
+    "description": "경북 울릉군 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   }
+  ]
+ },
+ {
+  "id": "상주-heritage",
+  "title": "상주시 국가유산 루트",
+  "region": "경북 상주시",
+  "creator": "관광쇠퇴 진단 기반 자동 큐레이션",
+  "theme": "보물",
+  "distance": "약 68km",
+  "routeDistanceMeters": 67598,
+  "duration": "약 5.7시간",
+  "routeDurationSeconds": 20483,
+  "difficulty": "보통",
+  "description": "복합 관광쇠퇴지수상 활성화 타깃인 상주시. 국가유산청 지정유산을 등급·거리 기준으로 이은 데이터 기반 추천 동선(출처: 국가유산청).",
+  "routePath": [
+   [
+    128.223198600087,
+    36.4447862673023
+   ],
+   [
+    128.241073648958,
+    36.4599081634069
+   ],
+   [
+    128.162037407286,
+    36.4169341069809
+   ],
+   [
+    128.171560642364,
+    36.5681389743447
+   ],
+   [
+    128.17156541947,
+    36.5681526274911
+   ],
+   [
+    127.902086479628,
+    36.5376595140396
+   ]
+  ],
+  "waypoints": [
+   {
+    "id": "상주-1",
+    "name": "상주 화달리 삼층석탑",
+    "address": "경북 상주시 사벌면 화달리 857, 417-4",
+    "fallbackLat": 36.4447862673023,
+    "fallbackLng": 128.223198600087,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1620232.jpg",
+    "description": "경북 상주시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "상주-2",
+    "name": "상주 석조천인상",
+    "address": "경북 상주시 사벌면 삼덕리 산18-7번지 상주박물관 전시실내",
+    "fallbackLat": 36.4599081634069,
+    "fallbackLng": 128.241073648958,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1621359.jpg",
+    "description": "경북 상주시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "상주-3",
+    "name": "상주 복용동 석조여래좌상",
+    "address": "경북 상주시 서성동 163-48번지",
+    "fallbackLat": 36.4169341069809,
+    "fallbackLng": 128.162037407286,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1620244.jpg",
+    "description": "경북 상주시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "상주-4",
+    "name": "상주 증촌리 석조여래입상",
+    "address": "경북 상주시 함창읍 증촌2길 10-13 (증촌리)",
+    "fallbackLat": 36.5681389743447,
+    "fallbackLng": 128.171560642364,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1620240.jpg",
+    "description": "경북 상주시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "상주-5",
+    "name": "상주 증촌리 석조여래좌상",
+    "address": "경북 상주시 함창읍 증촌2길 10-13 (증촌리)",
+    "fallbackLat": 36.5681526274911,
+    "fallbackLng": 128.17156541947,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1620250.jpg",
+    "description": "경북 상주시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "상주-6",
+    "name": "상주 상오리 칠층석탑",
+    "address": "경북 상주시 화북면 상오리 699번지",
+    "fallbackLat": 36.5376595140396,
+    "fallbackLng": 127.902086479628,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1621475.jpg",
+    "description": "경북 상주시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   }
+  ]
+ },
+ {
+  "id": "의정부-heritage",
+  "title": "의정부시 국가유산 루트",
+  "region": "경기 의정부시",
+  "creator": "관광쇠퇴 진단 기반 자동 큐레이션",
+  "theme": "시도유형문화유산",
+  "distance": "약 14km",
+  "routeDistanceMeters": 14404,
+  "duration": "약 4.4시간",
+  "routeDurationSeconds": 15696,
+  "difficulty": "보통",
+  "description": "복합 관광쇠퇴지수상 활성화 타깃인 의정부시. 국가유산청 지정유산을 등급·거리 기준으로 이은 데이터 기반 추천 동선(출처: 국가유산청).",
+  "routePath": [
+   [
+    127.020802673528,
+    37.7036522100415
+   ],
+   [
+    127.0282563,
+    37.709201
+   ],
+   [
+    127.027215498167,
+    37.7202521063165
+   ],
+   [
+    127.0441099,
+    37.7043368
+   ],
+   [
+    127.0573395,
+    37.7000394
+   ],
+   [
+    127.08230433869,
+    37.7441932842675
+   ]
+  ],
+  "waypoints": [
+   {
+    "id": "의정부-1",
+    "name": "망월사혜거국사부도",
+    "address": "경기도 의정부시 망월로28번길 211-500 (호원동, 망월사)",
+    "fallbackLat": 37.7036522100415,
+    "fallbackLng": 127.020802673528,
+    "lockCoordinates": true,
+    "category": "시도유형문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/tangible_cult_prop/1637577.jpg",
+    "description": "경기 의정부시 활성화 타깃의 대표 시도유형문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "의정부-2",
+    "name": "의정부원효사묘법연화경",
+    "address": "경기도 의정부시 망월로28번길 356 (호원동, 원효사)",
+    "fallbackLat": 37.709201,
+    "fallbackLng": 127.0282563,
+    "lockCoordinates": true,
+    "category": "시도유형문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/tangible_cult_prop/1637760.jpg",
+    "description": "경기 의정부시 활성화 타깃의 대표 시도유형문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "의정부-3",
+    "name": "의정부회룡사오층석탑",
+    "address": "경기도 의정부시 전좌로155번길 262 (호원동, 회룡사)",
+    "fallbackLat": 37.7202521063165,
+    "fallbackLng": 127.027215498167,
+    "lockCoordinates": true,
+    "category": "시도유형문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/tangible_cult_prop/1637749.jpg",
+    "description": "경기 의정부시 활성화 타깃의 대표 시도유형문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "의정부-4",
+    "name": "의정부약수선원목조보살입상",
+    "address": "경기 의정부시 망월로 58 (호원동)",
+    "fallbackLat": 37.7043368,
+    "fallbackLng": 127.0441099,
+    "lockCoordinates": true,
+    "category": "시도유형문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/tangible_cult_prop/1637718.jpg",
+    "description": "경기 의정부시 활성화 타깃의 대표 시도유형문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "의정부-5",
+    "name": "하석박정영정",
+    "address": "경기도 의정부시 장암동 197-27",
+    "fallbackLat": 37.7000394,
+    "fallbackLng": 127.0573395,
+    "lockCoordinates": true,
+    "category": "시도유형문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/tangible_cult_prop/1637722.jpg",
+    "description": "경기 의정부시 활성화 타깃의 대표 시도유형문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "의정부-6",
+    "name": "정문부장군묘",
+    "address": "경기도 의정부시 산단로132번길 59-17 (용현동, 정문부장군묘와충덕사)",
+    "fallbackLat": 37.7441932842675,
+    "fallbackLng": 127.08230433869,
+    "lockCoordinates": true,
+    "category": "시도기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/monument/1646043.jpg",
+    "description": "경기 의정부시 활성화 타깃의 대표 시도기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   }
+  ]
+ },
+ {
+  "id": "청송-heritage",
+  "title": "청송군 국가유산 루트",
+  "region": "경북 청송군",
+  "creator": "관광쇠퇴 진단 기반 자동 큐레이션",
+  "theme": "보물 · 명승",
+  "distance": "약 39km",
+  "routeDistanceMeters": 38922,
+  "duration": "약 5.0시간",
+  "routeDurationSeconds": 17903,
+  "difficulty": "보통",
+  "description": "복합 관광쇠퇴지수상 활성화 타깃인 청송군. 국가유산청 지정유산을 등급·거리 기준으로 이은 데이터 기반 추천 동선(출처: 국가유산청).",
+  "routePath": [
+   [
+    129.145959659946,
+    36.3968026306968
+   ],
+   [
+    129.161806965043,
+    36.4004266285172
+   ],
+   [
+    129.1884,
+    36.3625
+   ],
+   [
+    129.055494,
+    36.433183
+   ],
+   [
+    129.044177,
+    36.41768
+   ],
+   [
+    129.033595055575,
+    36.4833788239604
+   ]
+  ],
+  "waypoints": [
+   {
+    "id": "청송-1",
+    "name": "청송 대전사 보광전",
+    "address": "경상북도 청송군 공원길 226 (주왕산면, 대전사)",
+    "fallbackLat": 36.3968026306968,
+    "fallbackLng": 129.145959659946,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1622251.jpg",
+    "description": "경북 청송군 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "청송-2",
+    "name": "청송 주왕산 주왕계곡 일원",
+    "address": "경북 청송군 부동면 상의리 산24번지 등 120필",
+    "fallbackLat": 36.4004266285172,
+    "fallbackLng": 129.161806965043,
+    "lockCoordinates": true,
+    "category": "명승",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/scenic_site/1629122.jpg",
+    "description": "경북 청송군 활성화 타깃의 대표 명승. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "청송-3",
+    "name": "청송 주산지 일원",
+    "address": "경상북도 청송군 부동면 이전리 산 41-1",
+    "fallbackLat": 36.3625,
+    "fallbackLng": 129.1884,
+    "lockCoordinates": true,
+    "category": "명승",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/scenic_site/1629200.jpg",
+    "description": "경북 청송군 활성화 타깃의 대표 명승. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "청송-4",
+    "name": "청송 찬경루",
+    "address": "경상북도 청송군 금월로 269 (청송읍)",
+    "fallbackLat": 36.433183,
+    "fallbackLng": 129.055494,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/2019122715190600.JPG",
+    "description": "경북 청송군 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "청송-5",
+    "name": "청송 보광사 극락전",
+    "address": "경상북도 청송군 현충로 51-352 (청송읍)",
+    "fallbackLat": 36.41768,
+    "fallbackLng": 129.044177,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/2338526.jpg",
+    "description": "경북 청송군 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "청송-6",
+    "name": "청송 신기리 느티나무",
+    "address": "경북 청송군 파천면 신기리 659외 15필",
+    "fallbackLat": 36.4833788239604,
+    "fallbackLng": 129.033595055575,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1631559.jpg",
+    "description": "경북 청송군 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   }
+  ]
+ },
+ {
+  "id": "여주-heritage",
+  "title": "여주시 국가유산 루트",
+  "region": "경기 여주시",
+  "creator": "관광쇠퇴 진단 기반 자동 큐레이션",
+  "theme": "국보 · 보물",
+  "distance": "약 15km",
+  "routeDistanceMeters": 14694,
+  "duration": "약 4.4시간",
+  "routeDurationSeconds": 15722,
+  "difficulty": "보통",
+  "description": "복합 관광쇠퇴지수상 활성화 타깃인 여주시. 국가유산청 지정유산을 등급·거리 기준으로 이은 데이터 기반 추천 동선(출처: 국가유산청).",
+  "routePath": [
+   [
+    127.652160778359,
+    37.3939072455202
+   ],
+   [
+    127.653058838789,
+    37.3943007881472
+   ],
+   [
+    127.65390794718,
+    37.3927914935105
+   ],
+   [
+    127.654336061579,
+    37.3928921768526
+   ],
+   [
+    127.648092560684,
+    37.2942500248431
+   ],
+   [
+    127.648132646123,
+    37.2941957980286
+   ]
+  ],
+  "waypoints": [
+   {
+    "id": "여주-1",
+    "name": "여주 고달사지 승탑",
+    "address": "경기도 여주시 북내면 상교리 411-1",
+    "fallbackLat": 37.3939072455202,
+    "fallbackLng": 127.652160778359,
+    "lockCoordinates": true,
+    "category": "국보",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/national_treasure/1612029.jpg",
+    "description": "경기 여주시 활성화 타깃의 대표 국보. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "여주-2",
+    "name": "여주 고달사지 원종대사탑",
+    "address": "경기도 여주시 북내면 상교리 산46-1번지",
+    "fallbackLat": 37.3943007881472,
+    "fallbackLng": 127.653058838789,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1615598.jpg",
+    "description": "경기 여주시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "여주-3",
+    "name": "여주 고달사지 원종대사탑비",
+    "address": "경기도 여주시 북내면 상교리 419-3번지",
+    "fallbackLat": 37.3927914935105,
+    "fallbackLng": 127.65390794718,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1615589.jpg",
+    "description": "경기 여주시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "여주-4",
+    "name": "여주 고달사지 석조대좌",
+    "address": "경기도 여주시 북내면 상교리 420-5번지",
+    "fallbackLat": 37.3928921768526,
+    "fallbackLng": 127.654336061579,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1615611.jpg",
+    "description": "경기 여주시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "여주-5",
+    "name": "여주 창리 삼층석탑",
+    "address": "경기도 여주시 주내로 13 (상동)",
+    "fallbackLat": 37.2942500248431,
+    "fallbackLng": 127.648092560684,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1615660.jpg",
+    "description": "경기 여주시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "여주-6",
+    "name": "여주 하리 삼층석탑",
+    "address": "경기도 여주시 주내로  13(상동)",
+    "fallbackLat": 37.2941957980286,
+    "fallbackLng": 127.648132646123,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1615665.jpg",
+    "description": "경기 여주시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   }
+  ]
+ },
+ {
+  "id": "이천-heritage",
+  "title": "이천시 국가유산 루트",
+  "region": "경기 이천시",
+  "creator": "관광쇠퇴 진단 기반 자동 큐레이션",
+  "theme": "보물 · 사적",
+  "distance": "약 19km",
+  "routeDistanceMeters": 18537,
+  "duration": "약 4.5시간",
+  "routeDurationSeconds": 16068,
+  "difficulty": "보통",
+  "description": "복합 관광쇠퇴지수상 활성화 타깃인 이천시. 국가유산청 지정유산을 등급·거리 기준으로 이은 데이터 기반 추천 동선(출처: 국가유산청).",
+  "routePath": [
+   [
+    127.415249173144,
+    37.2817396535506
+   ],
+   [
+    127.416851958435,
+    37.2852024161726
+   ],
+   [
+    127.40068568793,
+    37.2719230846342
+   ],
+   [
+    127.4048806,
+    37.3086173
+   ],
+   [
+    127.460141914177,
+    37.3200284970663
+   ],
+   [
+    127.475434568692,
+    37.3404956787945
+   ]
+  ],
+  "waypoints": [
+   {
+    "id": "이천-1",
+    "name": "이천 영월암 마애여래입상",
+    "address": "경기 이천시 관고동 산64-1번지",
+    "fallbackLat": 37.2817396535506,
+    "fallbackLng": 127.415249173144,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1615853.jpg",
+    "description": "경기 이천시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "이천-2",
+    "name": "이천 설봉산성",
+    "address": "경기 이천시 사음동 산24번지 외",
+    "fallbackLat": 37.2852024161726,
+    "fallbackLng": 127.416851958435,
+    "lockCoordinates": true,
+    "category": "사적",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/history_site/1625951.jpg",
+    "description": "경기 이천시 활성화 타깃의 대표 사적. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "이천-3",
+    "name": "이천 장암리 마애보살반가상",
+    "address": "경기 이천시 마장면 서이천로 577-5 (장암리) / (지번)경기 이천시 마장면 장암리 183-1",
+    "fallbackLat": 37.2719230846342,
+    "fallbackLng": 127.40068568793,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1615907.jpg",
+    "description": "경기 이천시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "이천-4",
+    "name": "청자 양각연판문 접시",
+    "address": "경기도 이천시 경충대로2697번길  172(관고동, 이천시립박물관)",
+    "fallbackLat": 37.3086173,
+    "fallbackLng": 127.4048806,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1616140.jpg",
+    "description": "경기 이천시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "이천-5",
+    "name": "이천 신대리 백송",
+    "address": "경기 이천시 백사면 신대리 산32번지 외 7필",
+    "fallbackLat": 37.3200284970663,
+    "fallbackLng": 127.460141914177,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1629788.jpg",
+    "description": "경기 이천시 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "이천-6",
+    "name": "이천 도립리 반룡송",
+    "address": "경기 이천시 백사면 도립리 201-11번지",
+    "fallbackLat": 37.3404956787945,
+    "fallbackLng": 127.475434568692,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1629810.jpg",
+    "description": "경기 이천시 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   }
+  ]
+ },
+ {
+  "id": "경산-heritage",
+  "title": "경산시 국가유산 루트",
+  "region": "경북 경산시",
+  "creator": "관광쇠퇴 진단 기반 자동 큐레이션",
+  "theme": "보물",
+  "distance": "약 30km",
+  "routeDistanceMeters": 30052,
+  "duration": "약 4.8시간",
+  "routeDurationSeconds": 17104,
+  "difficulty": "보통",
+  "description": "복합 관광쇠퇴지수상 활성화 타깃인 경산시. 국가유산청 지정유산을 등급·거리 기준으로 이은 데이터 기반 추천 동선(출처: 국가유산청).",
+  "routePath": [
+   [
+    128.7531392,
+    35.8330552
+   ],
+   [
+    128.7593754,
+    35.8285272
+   ],
+   [
+    128.763070044401,
+    35.813975996213
+   ],
+   [
+    128.766129,
+    35.936388
+   ],
+   [
+    128.778819,
+    35.945194
+   ],
+   [
+    128.735976595262,
+    35.9816154652358
+   ]
+  ],
+  "waypoints": [
+   {
+    "id": "경산-1",
+    "name": "분청사기 상감모란문 매병",
+    "address": "경북 경산시 대학로 280, 영남대학교박물관 (대동,영남대학교)",
+    "fallbackLat": 35.8330552,
+    "fallbackLng": 128.7531392,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1620630.jpg",
+    "description": "경북 경산시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "경산-2",
+    "name": "청구도(2008-2)",
+    "address": "경상북도 경산시 대학로 280 (대동, 영남대학교)",
+    "fallbackLat": 35.8285272,
+    "fallbackLng": 128.7593754,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1622261.jpg",
+    "description": "경북 경산시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "경산-3",
+    "name": "최문병 의병장 안장",
+    "address": "경북 경산시 박물관로 46, 경산시립박물관 (사동)",
+    "fallbackLat": 35.813975996213,
+    "fallbackLng": 128.763070044401,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1621518.jpg",
+    "description": "경북 경산시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "경산-4",
+    "name": "경산 환성사 대웅전",
+    "address": "경북 경산시 하양읍 환성로 392-30, 환성사 (사기리)",
+    "fallbackLat": 35.936388,
+    "fallbackLng": 128.766129,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1621203.jpg",
+    "description": "경북 경산시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "경산-5",
+    "name": "경산 불굴사 삼층석탑",
+    "address": "경상북도 경산시 불굴사길  205(와촌면, 불굴사)",
+    "fallbackLat": 35.945194,
+    "fallbackLng": 128.778819,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1620922.jpg",
+    "description": "경북 경산시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "경산-6",
+    "name": "경산 팔공산 관봉 석조여래좌상",
+    "address": "경북 경산시 와촌면 갓바위로81길 176-64, 선본사 (대한리)",
+    "fallbackLat": 35.9816154652358,
+    "fallbackLng": 128.735976595262,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1620933.jpg",
+    "description": "경북 경산시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   }
+  ]
+ },
+ {
+  "id": "금산-heritage",
+  "title": "금산군 국가유산 루트",
+  "region": "충남 금산군",
+  "creator": "관광쇠퇴 진단 기반 자동 큐레이션",
+  "theme": "보물 · 사적 · 국가등록문화유산",
+  "distance": "약 51km",
+  "routeDistanceMeters": 51165,
+  "duration": "약 5.3시간",
+  "routeDurationSeconds": 19004,
+  "difficulty": "보통",
+  "description": "복합 관광쇠퇴지수상 활성화 타깃인 금산군. 국가유산청 지정유산을 등급·거리 기준으로 이은 데이터 기반 추천 동선(출처: 국가유산청).",
+  "routePath": [
+   [
+    127.492452,
+    36.1313562
+   ],
+   [
+    127.491546,
+    36.129824
+   ],
+   [
+    127.489792001201,
+    36.1247177959231
+   ],
+   [
+    127.474882418272,
+    36.0542505166132
+   ],
+   [
+    127.492548289288,
+    36.2122347500414
+   ],
+   [
+    127.353238,
+    36.180395
+   ]
+  ],
+  "waypoints": [
+   {
+    "id": "금산-1",
+    "name": "조헌 관련 유품",
+    "address": "충남 금산군 금성면 의총길 50, 칠백의총관리소 (의총리,칠백의 총)",
+    "fallbackLat": 36.1313562,
+    "fallbackLng": 127.492452,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1618000.jpg",
+    "description": "충남 금산군 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "금산-2",
+    "name": "금산 칠백의총",
+    "address": "충남 금산군 금성면 의총길 50번지",
+    "fallbackLat": 36.129824,
+    "fallbackLng": 127.491546,
+    "lockCoordinates": true,
+    "category": "사적",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/history_site/1626513.jpg",
+    "description": "충남 금산군 활성화 타깃의 대표 사적. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "금산-3",
+    "name": "금산위성통신 제1지구국 안테나설비",
+    "address": "충청남도 금산군 가래울길 117 (금성면, KT 위성운용센터 국제위성센터)",
+    "fallbackLat": 36.1247177959231,
+    "fallbackLng": 127.489792001201,
+    "lockCoordinates": true,
+    "category": "국가등록문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/register/1668620.jpg",
+    "description": "충남 금산군 활성화 타깃의 대표 국가등록문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "금산-4",
+    "name": "금산 보석사 은행나무",
+    "address": "충남 금산군 남이면 석동리 709번지",
+    "fallbackLat": 36.0542505166132,
+    "fallbackLng": 127.474882418272,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1630582.jpg",
+    "description": "충남 금산군 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "금산-5",
+    "name": "금산 요광리 은행나무",
+    "address": "충남 금산군 추부면 요광리 329-8번지",
+    "fallbackLat": 36.2122347500414,
+    "fallbackLng": 127.492548289288,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1630472.jpg",
+    "description": "충남 금산군 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "금산-6",
+    "name": "천주교 진산성지성당",
+    "address": "충청남도 금산군 실학로 207 (진산면, 천주교대전교주진산성지성당)",
+    "fallbackLat": 36.180395,
+    "fallbackLng": 127.353238,
+    "lockCoordinates": true,
+    "category": "국가등록문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/register/2017060117355100.JPG",
+    "description": "충남 금산군 활성화 타깃의 대표 국가등록문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   }
+  ]
+ },
+ {
+  "id": "거창-heritage",
+  "title": "거창군 국가유산 루트",
+  "region": "경남 거창군",
+  "creator": "관광쇠퇴 진단 기반 자동 큐레이션",
+  "theme": "보물 · 사적",
+  "distance": "약 40km",
+  "routeDistanceMeters": 39613,
+  "duration": "약 5.0시간",
+  "routeDurationSeconds": 17965,
+  "difficulty": "보통",
+  "description": "복합 관광쇠퇴지수상 활성화 타깃인 거창군. 국가유산청 지정유산을 등급·거리 기준으로 이은 데이터 기반 추천 동선(출처: 국가유산청).",
+  "routePath": [
+   [
+    127.932214681881,
+    35.700194487611
+   ],
+   [
+    127.894665721146,
+    35.6876150742476
+   ],
+   [
+    127.966874083563,
+    35.7208172052614
+   ],
+   [
+    127.8327,
+    35.7608
+   ],
+   [
+    127.813248873478,
+    35.7698025761029
+   ],
+   [
+    127.793353871198,
+    35.7337664810932
+   ]
+  ],
+  "waypoints": [
+   {
+    "id": "거창-1",
+    "name": "거창 양평리 석조여래입상",
+    "address": "경남 거창군 거창읍 노혜3길 6-33 (양평리)",
+    "fallbackLat": 35.700194487611,
+    "fallbackLng": 127.932214681881,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1622575.jpg",
+    "description": "경남 거창군 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "거창-2",
+    "name": "거창 상림리 석조보살입상",
+    "address": "경남 거창군 거창읍 미륵길 19-61 (상림리)",
+    "fallbackLat": 35.6876150742476,
+    "fallbackLng": 127.894665721146,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1622599.jpg",
+    "description": "경남 거창군 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "거창-3",
+    "name": "거창 둔마리 벽화 고분",
+    "address": "경남 거창군 남하면 둔마리 산298-1번지",
+    "fallbackLat": 35.7208172052614,
+    "fallbackLng": 127.966874083563,
+    "lockCoordinates": true,
+    "category": "사적",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/history_site/1628285.jpg",
+    "description": "경남 거창군 활성화 타깃의 대표 사적. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "거창-4",
+    "name": "거창 수승대",
+    "address": "경남 거창군 위천면 황산리 890번지",
+    "fallbackLat": 35.7608,
+    "fallbackLng": 127.8327,
+    "lockCoordinates": true,
+    "category": "명승",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/scenic_site/1629238.jpg",
+    "description": "경남 거창군 활성화 타깃의 대표 명승. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "거창-5",
+    "name": "거창 농산리 석조여래입상",
+    "address": "경남 거창군 북상면 농산리 산53번지",
+    "fallbackLat": 35.7698025761029,
+    "fallbackLng": 127.813248873478,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1622982.jpg",
+    "description": "경남 거창군 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "거창-6",
+    "name": "거창 가섭암지 마애여래삼존입상",
+    "address": "경남 거창군 위천면 상천리 산6-2번지",
+    "fallbackLat": 35.7337664810932,
+    "fallbackLng": 127.793353871198,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1622769.jpg",
+    "description": "경남 거창군 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   }
+  ]
+ },
+ {
+  "id": "구미-heritage",
+  "title": "구미시 국가유산 루트",
+  "region": "경북 구미시",
+  "creator": "관광쇠퇴 진단 기반 자동 큐레이션",
+  "theme": "국보 · 보물",
+  "distance": "약 49km",
+  "routeDistanceMeters": 48636,
+  "duration": "약 5.2시간",
+  "routeDurationSeconds": 18777,
+  "difficulty": "보통",
+  "description": "복합 관광쇠퇴지수상 활성화 타깃인 구미시. 국가유산청 지정유산을 등급·거리 기준으로 이은 데이터 기반 추천 동선(출처: 국가유산청).",
+  "routePath": [
+   [
+    128.281699692974,
+    36.2485579923652
+   ],
+   [
+    128.362038344744,
+    36.2516402580034
+   ],
+   [
+    128.399328243194,
+    36.2553800568758
+   ],
+   [
+    128.373983918587,
+    36.2037862926954
+   ],
+   [
+    128.412912247458,
+    36.1151113044781
+   ],
+   [
+    128.301717919041,
+    36.0966388266307
+   ]
+  ],
+  "waypoints": [
+   {
+    "id": "구미-1",
+    "name": "구미 죽장리 오층석탑",
+    "address": "경북 구미시 선산읍 죽장2길 90 (죽장리)",
+    "fallbackLat": 36.2485579923652,
+    "fallbackLng": 128.281699692974,
+    "lockCoordinates": true,
+    "category": "국보",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/national_treasure/1612850.jpg",
+    "description": "경북 구미시 활성화 타깃의 대표 국보. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "구미-2",
+    "name": "구미 낙산리 삼층석탑",
+    "address": "경북 구미시 해평면 낙산리 837-4번지",
+    "fallbackLat": 36.2516402580034,
+    "fallbackLng": 128.362038344744,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1621031.jpg",
+    "description": "경북 구미시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "구미-3",
+    "name": "구미 도리사 석탑",
+    "address": "경북 구미시 해평면 도리사로 526, 도리사 (송곡리)",
+    "fallbackLat": 36.2553800568758,
+    "fallbackLng": 128.399328243194,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1621039.jpg",
+    "description": "경북 구미시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "구미-4",
+    "name": "구미 해평리 석조여래좌상",
+    "address": "경상북도 구미시 해평4길  86(해평면, 보천사)",
+    "fallbackLat": 36.2037862926954,
+    "fallbackLng": 128.373983918587,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1621075.jpg",
+    "description": "경북 구미시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "구미-5",
+    "name": "구미 황상동 마애여래입상",
+    "address": "경상북도 구미시 황상동 산 90-14",
+    "fallbackLat": 36.1151113044781,
+    "fallbackLng": 128.412912247458,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1622055.jpg",
+    "description": "경북 구미시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "구미-6",
+    "name": "구미 금오산 마애여래입상",
+    "address": "경상북도 구미시 남통동 산 33",
+    "fallbackLat": 36.0966388266307,
+    "fallbackLng": 128.301717919041,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1621070.jpg",
+    "description": "경북 구미시 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   }
+  ]
+ },
+ {
+  "id": "함평-heritage",
+  "title": "함평군 국가유산 루트",
+  "region": "전남 함평군",
+  "creator": "관광쇠퇴 진단 기반 자동 큐레이션",
+  "theme": "보물 · 국가등록문화유산",
+  "distance": "약 24km",
+  "routeDistanceMeters": 23910,
+  "duration": "약 4.6시간",
+  "routeDurationSeconds": 16551,
+  "difficulty": "보통",
+  "description": "복합 관광쇠퇴지수상 활성화 타깃인 함평군. 국가유산청 지정유산을 등급·거리 기준으로 이은 데이터 기반 추천 동선(출처: 국가유산청).",
+  "routePath": [
+   [
+    126.593301,
+    35.033124
+   ],
+   [
+    126.580642672419,
+    34.9864623539293
+   ],
+   [
+    126.535920816289,
+    35.0146984457769
+   ],
+   [
+    126.516480480004,
+    35.0623034422816
+   ],
+   [
+    126.518565450713,
+    35.0708819145175
+   ],
+   [
+    126.532761156259,
+    35.066509909589
+   ]
+  ],
+  "waypoints": [
+   {
+    "id": "함평-1",
+    "name": "함평 고막천 석교",
+    "address": "전남광주통합특별시 함평군 학교면 고막리 629번지",
+    "fallbackLat": 35.033124,
+    "fallbackLng": 126.593301,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1619870.jpg",
+    "description": "전남 함평군 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "함평-2",
+    "name": "함평 월호리 일본식 가옥과 창고",
+    "address": "전남광주통합특별시 함평군 학교면 중천포로 634, 외 2필지 (월호리)",
+    "fallbackLat": 34.9864623539293,
+    "fallbackLng": 126.580642672419,
+    "lockCoordinates": true,
+    "category": "국가등록문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/register/1668906.jpg",
+    "description": "전남 함평군 활성화 타깃의 대표 국가등록문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "함평-3",
+    "name": "함평 구 학다리역 급수탑",
+    "address": "전남광주통합특별시 함평군 학교면 학교리 878-278",
+    "fallbackLat": 35.0146984457769,
+    "fallbackLng": 126.535920816289,
+    "lockCoordinates": true,
+    "category": "국가등록문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/register/1668860.jpg",
+    "description": "전남 함평군 활성화 타깃의 대표 국가등록문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "함평-4",
+    "name": "구 함평성당",
+    "address": "전남광주통합특별시 함평군 함평읍 남일길 21 (내교리)",
+    "fallbackLat": 35.0623034422816,
+    "fallbackLng": 126.516480480004,
+    "lockCoordinates": true,
+    "category": "국가등록문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/register/1668904.jpg",
+    "description": "전남 함평군 활성화 타깃의 대표 국가등록문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "함평-5",
+    "name": "함평 기각리 붉가시나무 자생북한지",
+    "address": "전남광주통합특별시 함평군 함평읍 기각리 산12-2번지",
+    "fallbackLat": 35.0708819145175,
+    "fallbackLng": 126.518565450713,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1630965.jpg",
+    "description": "전남 함평군 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "함평-6",
+    "name": "함평 향교리 느티나무·팽나무·개서어나무 숲",
+    "address": "전남광주통합특별시 함평군 대동면 향교리 산948-2번지",
+    "fallbackLat": 35.066509909589,
+    "fallbackLng": 126.532761156259,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1630958.jpg",
+    "description": "전남 함평군 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   }
+  ]
+ },
+ {
+  "id": "양평-heritage",
+  "title": "양평군 국가유산 루트",
+  "region": "경기 양평군",
+  "creator": "관광쇠퇴 진단 기반 자동 큐레이션",
+  "theme": "보물 · 천연기념물 · 시도유형문화유산",
+  "distance": "약 33km",
+  "routeDistanceMeters": 33459,
+  "duration": "약 4.8시간",
+  "routeDurationSeconds": 17411,
+  "difficulty": "보통",
+  "description": "복합 관광쇠퇴지수상 활성화 타깃인 양평군. 국가유산청 지정유산을 등급·거리 기준으로 이은 데이터 기반 추천 동선(출처: 국가유산청).",
+  "routePath": [
+   [
+    127.573498059266,
+    37.5509318762548
+   ],
+   [
+    127.571246003173,
+    37.5497840290018
+   ],
+   [
+    127.506594018359,
+    37.5383413752994
+   ],
+   [
+    127.506554781103,
+    37.5384334877904
+   ],
+   [
+    127.635328291784,
+    37.4747793463604
+   ],
+   [
+    127.68842,
+    37.437353
+   ]
+  ],
+  "waypoints": [
+   {
+    "id": "양평-1",
+    "name": "양평 용문사 정지국사탑 및 비",
+    "address": "경기 양평군 용문면 신점리 산99-6번지 용문사",
+    "fallbackLat": 37.5509318762548,
+    "fallbackLng": 127.573498059266,
+    "lockCoordinates": true,
+    "category": "보물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/treasure/1615804.jpg",
+    "description": "경기 양평군 활성화 타깃의 대표 보물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "양평-2",
+    "name": "양평 용문사 은행나무",
+    "address": "경기 양평군 용문면 신점리 626-1번지",
+    "fallbackLat": 37.5497840290018,
+    "fallbackLng": 127.571246003173,
+    "lockCoordinates": true,
+    "category": "천연기념물",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/natural_monument/1629757.jpg",
+    "description": "경기 양평군 활성화 타깃의 대표 천연기념물. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "양평-3",
+    "name": "사나사원증국사탑",
+    "address": "경기 양평군 옥천면 용천리 304번지",
+    "fallbackLat": 37.5383413752994,
+    "fallbackLng": 127.506594018359,
+    "lockCoordinates": true,
+    "category": "시도유형문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/tangible_cult_prop/1637451.jpg",
+    "description": "경기 양평군 활성화 타깃의 대표 시도유형문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "양평-4",
+    "name": "사나사원증국사석종비",
+    "address": "경기 양평군 옥천면 용천리 304번지",
+    "fallbackLat": 37.5384334877904,
+    "fallbackLng": 127.506554781103,
+    "lockCoordinates": true,
+    "category": "시도유형문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/tangible_cult_prop/1637452.jpg",
+    "description": "경기 양평군 활성화 타깃의 대표 시도유형문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "양평-5",
+    "name": "양평 지평양조장",
+    "address": "경기도 양평군 지평면 지평리 551-2",
+    "fallbackLat": 37.4747793463604,
+    "fallbackLng": 127.635328291784,
+    "lockCoordinates": true,
+    "category": "국가등록문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/register/2056684.jpg",
+    "description": "경기 양평군 활성화 타깃의 대표 국가등록문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   },
+   {
+    "id": "양평-6",
+    "name": "양평 구 구둔역",
+    "address": "경기도 양평군 지평면 일신리 1336-2, 1336-9, 1289, 1289-1, 1329, 1338-3, 1340, 1346-2, 1349-1, 1692, 1692-1, 1693-7",
+    "fallbackLat": 37.437353,
+    "fallbackLng": 127.68842,
+    "lockCoordinates": true,
+    "category": "국가등록문화유산",
+    "stay": "40분",
+    "imageUrl": "https://www.khs.go.kr/unisearch/images/register/1668093.jpg",
+    "description": "경기 양평군 활성화 타깃의 대표 국가등록문화유산. 데이터 진단 기반 문화유산 추천 동선의 거점."
+   }
+  ]
+ }
+]

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>관광쇠퇴 진단 & 활성화 지도 | 2026 관광데이터 분석 공모전</title>
+  <link href="https://tile.routo.com/webgis_tile01/TEST/gljs-qa/20241205/developers/web_gl_js/routo-gl.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://stg-api.routo.com/v3/maps/map?key=c914fb43-0d44-4fa7-838a-84619e3486c3"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="brand-source">
+        <img src="assets/tourgo_logo.png" alt="관광지식정보시스템 TourGo" class="brand-logo">
+        <span class="brand-caption">데이터 출처 · 관광지식정보시스템(TourGo)<br>국민여행조사 · 지역별 방문자수</span>
+      </div>
+      <p class="eyebrow">2026 관광데이터 분석 포스터 공모전</p>
+      <h1>관광쇠퇴 진단 & 활성화 지도</h1>
+      <p class="sidebar-copy" data-i18n="intro">국민여행조사·방문자수·동선 네트워크로 지역 관광쇠퇴를 진단하고, 문화유산 연계 추천 루트로 활성화를 제안하는 데이터 기반 지도입니다.</p>
+      <div class="map-mode-tabs" aria-label="지도 콘텐츠 선택">
+        <button class="map-mode-tab" type="button" data-map-mode="domestic">문화유산 루트</button>
+        <button class="map-mode-tab active" type="button" data-map-mode="hawaii">관광쇠퇴 진단</button>
+      </div>
+      <div class="language-switcher" aria-label="언어 선택">
+        <span class="language-icon" aria-hidden="true">🌐</span>
+        <button class="language-button active" type="button" data-language="ko">KO</button>
+        <button class="language-button" type="button" data-language="en">EN</button>
+        <button class="language-button" type="button" data-language="zh">中文</button>
+        <button class="language-button" type="button" data-language="ja">日本語</button>
+      </div>
+    </div>
+
+    <section id="domestic-course-section" class="panel-section domestic-section">
+      <div class="section-title-row">
+        <h2 data-i18n="recommendedCourses">추천 드라이브 큐레이션</h2>
+        <span id="geocode-status" class="status-pill">데이터 준비 중</span>
+      </div>
+      <div id="course-list" class="course-list"></div>
+    </section>
+
+    <section id="domestic-detail-section" class="panel-section domestic-section">
+      <h2 data-i18n="selectedCourse">선택된 드라이브 흐름</h2>
+      <div id="course-summary" class="course-summary empty" data-i18n="courseEmpty">드라이브를 선택하면 목적지 맥락, 체류 제안, 이동 흐름이 함께 표시됩니다.</div>
+      <div id="waypoint-list" class="waypoint-list"></div>
+    </section>
+
+    <section id="hawaii-site-section" class="panel-section hawaii-section">
+      <div class="section-title-row">
+        <h2 data-i18n="hawaiiSites">헤리티지 스토리 포인트</h2>
+        <span id="historic-site-status" class="status-pill">데이터 준비 중</span>
+      </div>
+      <div id="historic-site-list" class="historic-site-list"></div>
+    </section>
+
+    <section id="domestic-search-section" class="panel-section panel-section-search domestic-section">
+      <h2 data-i18n="poiSearch">Destination Discovery</h2>
+      <form id="poi-search-form" class="search-form">
+        <input id="poi-search-input" type="text" placeholder="예: 성산일출봉, 북악스카이웨이" autocomplete="off" data-i18n-placeholder="poiPlaceholder">
+        <button type="submit" data-i18n="searchButton">검색</button>
+      </form>
+      <div id="poi-search-meta" class="search-meta" data-i18n="poiSearchMeta">탐색, 이해, 이동이 자연스럽게 이어지는 차량 경험을 제안하는 컨셉 데모입니다.</div>
+      <div id="poi-results" class="poi-results"></div>
+    </section>
+  </aside>
+
+  <main class="map-shell">
+    <div id="map"></div>
+    <div class="map-overlay">
+      <div class="overlay-card">
+        <p class="overlay-label" data-i18n="overlayLabel">2026 관광데이터 분석</p>
+        <strong data-i18n="overlayTitle">데이터로 진단하는 지역 관광쇠퇴</strong>
+        <span data-i18n="overlayCopy">방문 추세·재방문·동선 네트워크 3축으로 쇠퇴를 진단하고, 문화유산 연계 루트로 활성화를 제안합니다.</span>
+      </div>
+    </div>
+  </main>
+
+  <section id="detail-panel" class="detail-panel">
+    <div class="detail-media">
+      <div id="detail-badge" class="detail-badge">ROUTE</div>
+      <button id="detail-close" class="detail-close" type="button" aria-label="닫기">×</button>
+    </div>
+    <div class="detail-body">
+      <p id="detail-kicker" class="detail-kicker"></p>
+      <h2 id="detail-name" class="detail-name"></h2>
+      <p id="detail-address" class="detail-address"></p>
+      <p id="detail-description" class="detail-description"></p>
+      <dl class="detail-meta">
+        <div>
+          <dt id="detail-type-label">유형</dt>
+          <dd id="detail-type"></dd>
+        </div>
+        <div>
+          <dt id="detail-coords-label">좌표</dt>
+          <dd id="detail-coords"></dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <script src="app.js?v=20260705-tourgo-1"></script>
+</body>
+</html>

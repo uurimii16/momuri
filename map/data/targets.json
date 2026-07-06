@@ -1,0 +1,181 @@
+[
+ {
+  "id": "target-1",
+  "number": 1,
+  "name": "충북 진천군",
+  "address": "자연·힐링형 · 국가유산 43건 · 방문 1.0백만",
+  "historicalSignificance": "복합쇠퇴지수 1.53 (방문 -0.2·매력 +3.9·연결 +0.9)",
+  "currentStatus": "자연·힐링형 활성화 타깃",
+  "lat": 36.87156,
+  "lng": 127.44572,
+  "populationDecline": false
+ },
+ {
+  "id": "target-2",
+  "number": 2,
+  "name": "경북 울릉군",
+  "address": "자연·힐링형 · 국가유산 19건 · 방문 1.0백만",
+  "historicalSignificance": "복합쇠퇴지수 1.38 (방문 +1.4·매력 +1.6·연결 +1.2)",
+  "currentStatus": "자연·힐링형 활성화 타깃",
+  "lat": 37.47562,
+  "lng": 130.96099,
+  "populationDecline": true
+ },
+ {
+  "id": "target-3",
+  "number": 3,
+  "name": "경북 상주시",
+  "address": "문화유산형 · 국가유산 112건 · 방문 0.9백만",
+  "historicalSignificance": "복합쇠퇴지수 1.16 (방문 -0.3·매력 +2.6·연결 +1.2)",
+  "currentStatus": "문화유산형 활성화 타깃",
+  "lat": 36.43768,
+  "lng": 128.11986,
+  "populationDecline": true
+ },
+ {
+  "id": "target-4",
+  "number": 4,
+  "name": "경기 의정부시",
+  "address": "자연·힐링형 · 국가유산 22건 · 방문 0.9백만",
+  "historicalSignificance": "복합쇠퇴지수 0.92 (방문 +0.7·매력 +0.9·연결 +1.2)",
+  "currentStatus": "자연·힐링형 활성화 타깃",
+  "lat": 37.716,
+  "lng": 127.04975,
+  "populationDecline": false
+ },
+ {
+  "id": "target-5",
+  "number": 5,
+  "name": "경북 청송군",
+  "address": "자연·힐링형 · 국가유산 52건 · 방문 0.6백만",
+  "historicalSignificance": "복합쇠퇴지수 0.87 (방문 +0.7·매력 +0.9·연결 +1.0)",
+  "currentStatus": "자연·힐링형 활성화 타깃",
+  "lat": 36.39868,
+  "lng": 129.03254,
+  "populationDecline": true
+ },
+ {
+  "id": "target-6",
+  "number": 6,
+  "name": "경기 여주시",
+  "address": "문화유산형 · 국가유산 75건 · 방문 1.9백만",
+  "historicalSignificance": "복합쇠퇴지수 0.78 (방문 +1.7·매력 +0.5·연결 +0.2)",
+  "currentStatus": "문화유산형 활성화 타깃",
+  "lat": 37.32592,
+  "lng": 127.62163,
+  "populationDecline": false
+ },
+ {
+  "id": "target-7",
+  "number": 7,
+  "name": "경기 이천시",
+  "address": "자연·힐링형 · 국가유산 27건 · 방문 1.8백만",
+  "historicalSignificance": "복합쇠퇴지수 0.77 (방문 +1.5·매력 -0.2·연결 +1.0)",
+  "currentStatus": "자연·힐링형 활성화 타깃",
+  "lat": 37.24202,
+  "lng": 127.46505,
+  "populationDecline": false
+ },
+ {
+  "id": "target-8",
+  "number": 8,
+  "name": "경북 경산시",
+  "address": "자연·힐링형 · 국가유산 52건 · 방문 0.8백만",
+  "historicalSignificance": "복합쇠퇴지수 0.70 (방문 +1.0·매력 +0.3·연결 +0.8)",
+  "currentStatus": "자연·힐링형 활성화 타깃",
+  "lat": 35.88492,
+  "lng": 128.76925,
+  "populationDecline": false
+ },
+ {
+  "id": "target-9",
+  "number": 9,
+  "name": "충남 금산군",
+  "address": "자연·힐링형 · 국가유산 46건 · 방문 1.3백만",
+  "historicalSignificance": "복합쇠퇴지수 0.68 (방문 +0.7·매력 +0.8·연결 +0.5)",
+  "currentStatus": "자연·힐링형 활성화 타깃",
+  "lat": 36.11798,
+  "lng": 127.48294,
+  "populationDecline": true
+ },
+ {
+  "id": "target-10",
+  "number": 10,
+  "name": "경남 거창군",
+  "address": "문화유산형 · 국가유산 96건 · 방문 1.5백만",
+  "historicalSignificance": "복합쇠퇴지수 0.67 (방문 +1.1·매력 +0.2·연결 +0.8)",
+  "currentStatus": "문화유산형 활성화 타깃",
+  "lat": 35.71913,
+  "lng": 127.90741,
+  "populationDecline": true
+ },
+ {
+  "id": "target-11",
+  "number": 11,
+  "name": "경북 구미시",
+  "address": "문화유산형 · 국가유산 95건 · 방문 1.3백만",
+  "historicalSignificance": "복합쇠퇴지수 0.66 (방문 +0.2·매력 +1.3·연결 +0.5)",
+  "currentStatus": "문화유산형 활성화 타깃",
+  "lat": 36.20783,
+  "lng": 128.35331,
+  "populationDecline": false
+ },
+ {
+  "id": "target-12",
+  "number": 12,
+  "name": "전남 함평군",
+  "address": "자연·힐링형 · 국가유산 30건 · 방문 0.8백만",
+  "historicalSignificance": "복합쇠퇴지수 0.66 (방문 +0.9·매력 +0.3·연결 +0.8)",
+  "currentStatus": "자연·힐링형 활성화 타깃",
+  "lat": 35.10081,
+  "lng": 126.54281,
+  "populationDecline": true
+ },
+ {
+  "id": "target-13",
+  "number": 13,
+  "name": "경기 양평군",
+  "address": "자연·힐링형 · 국가유산 39건 · 방문 6.2백만",
+  "historicalSignificance": "복합쇠퇴지수 0.65 (방문 +1.4·매력 +0.3·연결 +0.2)",
+  "currentStatus": "자연·힐링형 활성화 타깃",
+  "lat": 37.52492,
+  "lng": 127.50954,
+  "populationDecline": false
+ },
+ {
+  "id": "metro-1",
+  "number": "M1",
+  "tier": "metro",
+  "name": "경기 고양시",
+  "address": "대도시권 참고 · 문화유산형 · 국가유산 102건 · 방문 1.9백만",
+  "historicalSignificance": "복합쇠퇴지수 0.72 (방문 +0.0·매력 +1.5·연결 +0.6)",
+  "currentStatus": "대도시권(인구 50만↑) · 참고, 활성화 타깃 제외",
+  "lat": 37.66115,
+  "lng": 126.8765,
+  "populationDecline": false
+ },
+ {
+  "id": "metro-2",
+  "number": "M2",
+  "tier": "metro",
+  "name": "경기 성남시",
+  "address": "대도시권 참고 · 문화유산형 · 국가유산 72건 · 방문 1.4백만",
+  "historicalSignificance": "복합쇠퇴지수 0.72 (방문 +0.3·매력 +0.9·연결 +0.9)",
+  "currentStatus": "대도시권(인구 50만↑) · 참고, 활성화 타깃 제외",
+  "lat": 37.39208,
+  "lng": 127.06898,
+  "populationDecline": false
+ },
+ {
+  "id": "metro-3",
+  "number": "M3",
+  "tier": "metro",
+  "name": "경기 시흥시",
+  "address": "대도시권 참고 · 자연·힐링형 · 국가유산 11건 · 방문 1.7백만",
+  "historicalSignificance": "복합쇠퇴지수 0.74 (방문 +0.2·매력 +0.4·연결 +1.6)",
+  "currentStatus": "대도시권(인구 50만↑) · 참고, 활성화 타깃 제외",
+  "lat": 37.38863,
+  "lng": 126.78264,
+  "populationDecline": false
+ }
+]

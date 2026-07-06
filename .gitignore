@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+# 원자료(라이선스·용량)
+*.SAV
+*.sav
+*.xlsx
+# 인용 참고용 PDF(제3자 저작물 — 인용은 docs/인용자료_정리.md에 정리)
+*.pdf
+*.zip

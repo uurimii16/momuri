@@ -15,6 +15,8 @@ SRC = "map/data/momuri.json"
 OUT = "map/data/courses.json"
 OSRM = "https://router.project-osrm.org/route/v1/driving"
 ODSAY_KEY = os.environ.get("ODSAY_KEY", "").strip()
+# ODsay 앱에 등록한 '서비스 URL(허용 도메인)'과 동일하게. 서버측 호출이라 이 값을 Referer로 붙여 도메인검증 통과.
+ODSAY_REFERER = os.environ.get("ODSAY_REFERER", "https://momuri.netlify.app").strip()
 
 # 하루 코스 골격: (종류, 머무는 분). 앞에서부터 직전 위치 최근접으로 채움
 PLAN = [("명소", 80), ("맛집", 60), ("명소", 80), ("명소", 60), ("맛집", 70)]
@@ -25,13 +27,16 @@ def haversine(a, b):
     h = math.sin(dlat/2)**2 + math.cos(math.radians(a[1]))*math.cos(math.radians(b[1]))*math.sin(dlng/2)**2
     return 2*R*math.asin(math.sqrt(h))
 
-def get(url, tries=3, use_curl=False):
-    """공개 API GET → dict. OSRM 데모서버는 urllib TLS를 막아 curl로 우회(use_curl)."""
+def get(url, tries=3, use_curl=False, referer=None):
+    """공개 API GET → dict. OSRM 데모서버는 urllib TLS를 막아 curl로 우회(use_curl).
+    referer: ODsay 도메인검증용 Referer 헤더(서버측 호출엔 referer가 없어 붙여줌)."""
     for i in range(tries):
         try:
             if use_curl:
-                out = subprocess.run(["curl", "-s", "--max-time", "25", "-A", "momuri-course/1.0", url],
-                                     capture_output=True, text=True, timeout=30).stdout
+                cmd = ["curl", "-s", "--max-time", "25", "-A", "momuri-course/1.0"]
+                if referer:
+                    cmd += ["-e", referer]
+                out = subprocess.run(cmd + [url], capture_output=True, text=True, timeout=30).stdout
                 return json.loads(out) if out.strip() else None
             with urllib.request.urlopen(url, timeout=25) as r:
                 return json.load(r)
@@ -58,7 +63,7 @@ def odsay_leg(a, b):
         return None
     q = urllib.parse.urlencode({"SX": a[0], "SY": a[1], "EX": b[0], "EY": b[1],
                                 "apiKey": ODSAY_KEY, "OPT": 0})
-    d = get(f"https://api.odsay.com/v1/api/searchPubTransPathT?{q}")
+    d = get(f"https://api.odsay.com/v1/api/searchPubTransPathT?{q}", use_curl=True, referer=ODSAY_REFERER)
     try:
         path = d["result"]["path"][0]
         info = path["info"]

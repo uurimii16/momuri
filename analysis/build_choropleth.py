@@ -58,6 +58,15 @@ def round_coords(c):
         return [round(c[0], 4), round(c[1], 4)]
     return [round_coords(x) for x in c]
 
+SIMP_TOL = 0.002   # 단순화 허용오차(도, ≈180m) — 전국 축척 형상 유지, 용량↓
+def simplify_geom(geom):
+    """shapely 있으면 Douglas-Peucker 단순화(용량 9MB→~0.7MB). 없으면 원형 유지."""
+    try:
+        from shapely.geometry import shape, mapping
+        return mapping(shape(geom).simplify(SIMP_TOL, preserve_topology=True))
+    except Exception:
+        return geom
+
 def main():
     full = json.load(open(FULL, encoding="utf-8"))
     cands = json.load(open(CANDS, encoding="utf-8"))
@@ -80,9 +89,12 @@ def main():
             matched += 1
             props.update(composite=round(c["composite"], 2), tier=c["tier"],
                          segment=c["segment"], level=level(c["composite"]),
-                         hidden=round(c["hidden_score"], 2), heritage=c["heritage"])
+                         hidden=round(c["hidden_score"], 2), heritage=c["heritage"],
+                         ax_visit=round(c["ax_visit"], 2), ax_attract=round(c["ax_attract"], 2),
+                         ax_connect=round(c["ax_connect"], 2))
         else:
             props.update(composite=None, level=0)
+        f["geometry"] = simplify_geom(f["geometry"])
         f["geometry"]["coordinates"] = round_coords(f["geometry"]["coordinates"])
         feats.append({"type": "Feature", "properties": props, "geometry": f["geometry"]})
 

@@ -3,3 +3,4 @@ pandas
 numpy
 pyreadstat
 networkx
+shapely      # 단계구분도 GeoJSON 단순화(build_choropleth / patch_choropleth)

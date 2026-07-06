@@ -7,7 +7,7 @@
   <link href="https://tile.routo.com/webgis_tile01/TEST/gljs-qa/20241205/developers/web_gl_js/routo-gl.css" rel="stylesheet">
   <script src="https://stg-api.routo.com/v3/maps/map?key=c914fb43-0d44-4fa7-838a-84619e3486c3"></script>
   <style>
-    :root{ --brand:#14b8a6; --brand-d:#0f766e; --ink:#26343a; --muted:#6b7684; --line:#e7ebec; --soft:#f5f8f7; }
+    :root{ --brand:#14b8a6; --brand-d:#0f766e; --ink:#26343a; --muted:#6b7684; --line:#e7ebec; --soft:#f5f8f7; --decl:#e0561a; }
     *{ box-sizing:border-box; margin:0; padding:0; }
     body{ font-family:'Pretendard',-apple-system,sans-serif; color:var(--ink); background:#fff; }
     .nav{ height:56px; background:#fff; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:22px; padding:0 24px; position:sticky; top:0; z-index:20; }
@@ -20,20 +20,43 @@
     .head{ padding:26px 24px 10px; max-width:1100px; margin:0 auto; }
     .head h1{ font-size:24px; }
     .head p{ color:var(--muted); font-size:14px; margin-top:6px; }
-    #wrap{ position:relative; height:66vh; margin:14px auto 0; max-width:1100px; border-radius:16px; overflow:hidden; box-shadow:0 4px 22px rgba(20,80,80,.08); border:1px solid var(--line); }
+    #wrap{ position:relative; height:66vh; min-height:460px; margin:14px auto 0; max-width:1100px; border-radius:16px; overflow:hidden; box-shadow:0 4px 22px rgba(20,80,80,.08); border:1px solid var(--line); }
     #map{ width:100%; height:100%; }
-    .legend{ position:absolute; left:16px; bottom:18px; background:rgba(255,255,255,.96); border-radius:14px; padding:14px 16px; box-shadow:0 4px 18px rgba(0,0,0,.12); font-size:12px; }
+
+    /* 범례 */
+    .legend{ position:absolute; left:16px; bottom:18px; background:rgba(255,255,255,.96); border-radius:14px; padding:14px 16px; box-shadow:0 4px 18px rgba(0,0,0,.12); font-size:12px; z-index:5; }
     .legend h4{ font-size:12px; margin-bottom:9px; color:var(--ink); }
     .legend .row{ display:flex; align-items:center; gap:9px; margin:4px 0; }
     .legend .sw{ width:26px; height:13px; border-radius:3px; }
     .legend .rng{ color:var(--muted); font-variant-numeric:tabular-nums; }
-    .panel{ position:absolute; right:16px; top:16px; width:264px; background:#fff; border-radius:16px; box-shadow:0 8px 30px rgba(0,0,0,.15); padding:18px; display:none; }
-    .panel h2{ font-size:19px; }
+
+    /* 쇠퇴 상위 랭킹 */
+    .rank{ position:absolute; left:16px; top:16px; width:214px; background:rgba(255,255,255,.97); border-radius:14px; box-shadow:0 4px 18px rgba(0,0,0,.12); overflow:hidden; z-index:6; }
+    .rank h4{ font-size:12.5px; padding:12px 14px 8px; color:var(--ink); display:flex; align-items:center; gap:6px; }
+    .rank h4 .dot{ width:8px; height:8px; border-radius:50%; background:var(--decl); }
+    .rank ol{ list-style:none; max-height:230px; overflow-y:auto; padding:0 6px 8px; }
+    .rank li{ display:flex; align-items:center; gap:8px; padding:6px 8px; border-radius:8px; cursor:pointer; font-size:12.5px; }
+    .rank li:hover{ background:var(--soft); }
+    .rank li .no{ width:18px; text-align:center; font-weight:800; color:var(--decl); font-variant-numeric:tabular-nums; }
+    .rank li .nm{ flex:1; color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .rank li .nm small{ color:var(--muted); }
+    .rank li .val{ font-variant-numeric:tabular-nums; font-weight:700; color:var(--decl); }
+
+    /* 상세 패널 */
+    .panel{ position:absolute; right:16px; top:16px; width:272px; background:#fff; border-radius:16px; box-shadow:0 8px 30px rgba(0,0,0,.18); padding:18px; display:none; z-index:7; }
+    .panel .close{ position:absolute; right:12px; top:10px; border:none; background:none; font-size:20px; line-height:1; color:#aab3b8; cursor:pointer; }
+    .panel .close:hover{ color:var(--ink); }
+    .panel h2{ font-size:19px; padding-right:20px; }
     .panel .tag{ display:inline-block; font-size:11px; background:#e6f7f4; color:var(--brand-d); padding:3px 9px; border-radius:20px; margin:7px 0; }
-    .panel .big{ font-size:30px; font-weight:800; color:#e0561a; line-height:1.1; }
+    .panel .big{ font-size:30px; font-weight:800; color:var(--decl); line-height:1.1; }
     .panel .idx{ display:flex; gap:6px; margin-top:12px; }
-    .panel .idx div{ flex:1; background:var(--soft); border-radius:9px; padding:8px 4px; text-align:center; font-size:10px; color:var(--muted); }
-    .panel .idx b{ display:block; font-size:14px; color:var(--ink); margin-top:2px; }
+    .panel .idx div{ flex:1; background:var(--soft); border-radius:9px; padding:8px 4px 9px; text-align:center; font-size:10px; color:var(--muted); }
+    .panel .idx b{ display:block; font-size:14px; margin-top:2px; font-variant-numeric:tabular-nums; }
+    .panel .idx .bar{ height:4px; border-radius:3px; margin:6px 5px 0; background:#e6ebe9; overflow:hidden; }
+    .panel .idx .bar span{ display:block; height:100%; }
+    .panel .why{ margin-top:12px; font-size:12px; color:#48555b; background:#fff6f0; border-left:3px solid var(--decl); border-radius:6px; padding:8px 10px; line-height:1.5; }
+    .panel .meta{ font-size:12px; color:var(--muted); margin-top:10px; }
+
     .explain{ max-width:1100px; margin:30px auto 60px; padding:0 24px; }
     .explain h2{ font-size:20px; border-bottom:2px solid var(--brand); padding-bottom:6px; margin-bottom:14px; }
     .grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
@@ -41,7 +64,14 @@
     .card h3{ font-size:15px; color:var(--brand-d); margin-bottom:6px; }
     .card p{ font-size:13.5px; color:#48555b; line-height:1.6; }
     .more{ display:inline-block; margin-top:14px; color:var(--brand-d); font-size:13px; text-decoration:none; font-weight:600; }
-    @media(max-width:760px){ .grid{ grid-template-columns:1fr; } }
+    @media(max-width:760px){
+      .grid{ grid-template-columns:1fr; }
+      #wrap{ height:72vh; }
+      .rank{ width:150px; }
+      .rank ol{ max-height:150px; }
+      .panel{ width:calc(100% - 32px); }
+      .legend{ font-size:11px; padding:10px 12px; }
+    }
   </style>
 </head>
 <body>
@@ -56,11 +86,12 @@
 
   <div class="head">
     <h1>시군구 복합 관광쇠퇴지수 단계구분도</h1>
-    <p>전국 도지역 시·군 123곳을 방문·매력·연결 3축으로 진단. 색이 진할수록 관광쇠퇴가 심한 지역입니다. 시군구를 클릭하면 상세 지수를 볼 수 있어요.</p>
+    <p>전국 도지역 시·군 123곳을 방문·매력·연결 3축으로 진단. 색이 진할수록 관광쇠퇴가 심한 지역입니다. 시군구를 클릭하거나 좌측 <b>쇠퇴 상위</b> 목록을 눌러 상세 지수를 보세요.</p>
   </div>
 
   <div id="wrap">
     <div id="map"></div>
+    <div class="rank" id="rank"><h4><span class="dot"></span>쇠퇴 상위 지역</h4><ol id="ranklist"></ol></div>
     <div class="legend" id="legend"><h4>복합 관광쇠퇴지수 · Jenks 자연분류</h4></div>
     <div class="panel" id="panel"></div>
   </div>
@@ -78,11 +109,49 @@
   <script>
     const RAMP = ['#ffe9b3','#ffc861','#fb9d3a','#ef6b2b','#d63f18'];
     const LABEL = ['매우 낮음','낮음','중간','높음','매우 높음'];
+    const DATA_V = '3';   // 데이터 버전(캐시 정상 동작 — 데이터 바뀌면 숫자만 올림)
+    const AX = [
+      {key:'ax_visit',   name:'방문', desc:'방문이 줄어드는'},
+      {key:'ax_attract', name:'매력', desc:'재방문·추천이 약한'},
+      {key:'ax_connect', name:'연결', desc:'동선에서 소외된'}
+    ];
     const map = new routogl.Map({ container:'map', style:routogl.RoutoStyle.LIGHT, center:[127.8,36.25], zoom:6.5 });
     const panel = document.getElementById('panel');
+    let hoverId = null;
+
+    // z값(양수=쇠퇴)을 0~100% 막대폭·색으로
+    function axBar(v){
+      const w = Math.min(Math.abs(v),3)/3*100;
+      const color = v > 0 ? 'var(--decl)' : 'var(--brand)';
+      return `<div class="bar"><span style="width:${w.toFixed(0)}%;background:${color}"></span></div>`;
+    }
+    function axValColor(v){ return v > 0 ? 'var(--decl)' : 'var(--brand-d)'; }
+
+    function renderPanel(p){
+      const has3 = p.ax_visit !== undefined && p.ax_visit !== null;
+      let why = '';
+      if(has3){
+        const arr = AX.map(a => ({...a, v:+p[a.key]}));
+        const top = arr.slice().sort((x,y)=>y.v-x.v)[0];
+        if(top.v > 0) why = `<div class="why">주된 쇠퇴 요인은 <b>${top.name}</b> — ${top.desc} 지역입니다. 같은 쇠퇴여도 원인이 달라 처방이 갈립니다.</div>`;
+      }
+      const idx = has3 ? `<div class="idx">${
+        AX.map(a=>{ const v=+p[a.key]; return `<div>${a.name}<b style="color:${axValColor(v)}">${v>0?'+':''}${v.toFixed(2)}</b>${axBar(v)}</div>`; }).join('')
+      }</div>` : '';
+      panel.innerHTML = `
+        <button class="close" aria-label="닫기" onclick="document.getElementById('panel').style.display='none'">×</button>
+        <h2>${p.sido} ${p.name}</h2>
+        <div class="tag">${p.segment || '분석 대상'}</div>
+        <div style="font-size:12px;color:#6b7684;">복합 관광쇠퇴지수</div>
+        <div class="big">${(+p.composite).toFixed(2)}</div>
+        ${idx}
+        ${why}
+        <div class="meta">문화유산 ${p.heritage ?? '-'}건 · 숨은매력점수 ${p.hidden ?? '-'}</div>`;
+      panel.style.display='block';
+    }
 
     async function buildLegend(){
-      const b = (await (await fetch(`data/decline_breaks.json?v=${Date.now()}`,{cache:'no-store'})).json()).breaks;
+      const b = (await (await fetch(`data/decline_breaks.json?v=${DATA_V}`)).json()).breaks;
       let html = '<h4>복합 관광쇠퇴지수 · Jenks 자연분류</h4>';
       for(let i=5;i>=1;i--){
         html += `<div class="row"><span class="sw" style="background:${RAMP[i-1]}"></span>
@@ -93,27 +162,86 @@
       document.getElementById('legend').innerHTML = html;
     }
 
+    // 대략 중심점(외곽 좌표 평균) — flyTo용
+    function centroid(geom){
+      let sx=0, sy=0, n=0;
+      (function walk(c){
+        if(Array.isArray(c)){
+          if(typeof c[0]==='number'){ sx+=c[0]; sy+=c[1]; n++; }
+          else c.forEach(walk);
+        }
+      })(geom.coordinates);
+      return n ? [sx/n, sy/n] : null;
+    }
+
+    function focusFeat(feat){
+      const c = feat.__c;
+      if(c) map.flyTo({center:c, zoom:8.4, speed:0.9});
+      renderPanel(feat.properties);
+      if(hoverId!==null) map.setFeatureState({source:'sgg',id:hoverId},{hover:false});
+      hoverId = feat.properties.code;
+      map.setFeatureState({source:'sgg',id:hoverId},{hover:true});
+    }
+
     map.on('load', async () => {
       buildLegend();
-      map.addSource('sgg',{ type:'geojson', data:`data/decline_choropleth.geojson?v=${Date.now()}` });
+      const gj = await (await fetch(`data/decline_choropleth.geojson?v=${DATA_V}`)).json();
+
+      map.addSource('sgg',{ type:'geojson', data:gj, promoteId:'code' });
       map.addLayer({ id:'sgg-fill', type:'fill', source:'sgg', paint:{
         'fill-color':['match',['get','level'],1,RAMP[0],2,RAMP[1],3,RAMP[2],4,RAMP[3],5,RAMP[4],'#eef1f2'],
-        'fill-opacity':0.82 }});
-      map.addLayer({ id:'sgg-line', type:'line', source:'sgg', paint:{ 'line-color':'#ffffff','line-width':0.6 }});
+        'fill-opacity':['case',['boolean',['feature-state','hover'],false],0.95,0.82] }});
+      map.addLayer({ id:'sgg-line', type:'line', source:'sgg', paint:{
+        'line-color':['case',['boolean',['feature-state','hover'],false],'#0f766e','#ffffff'],
+        'line-width':['case',['boolean',['feature-state','hover'],false],2,0.6] }});
 
-      map.on('click','sgg-fill',(e)=>{
-        const p = e.features[0].properties;
-        if(p.composite===undefined||p.composite===null||p.composite===''){ panel.style.display='none'; return; }
-        panel.style.display='block';
-        panel.innerHTML = `
-          <h2>${p.sido} ${p.name}</h2>
-          <div class="tag">${p.segment || '분석 대상'}</div>
-          <div style="font-size:12px;color:#6b7684;">복합 관광쇠퇴지수</div>
-          <div class="big">${(+p.composite).toFixed(2)}</div>
-          <div style="font-size:12px;color:#6b7684;margin-top:4px;">문화유산 ${p.heritage ?? '-'}건 · 숨은매력점수 ${p.hidden ?? '-'}</div>`;
+      // ④ 쇠퇴 상위 랭킹
+      const feats = gj.features
+        .filter(f => f.properties.composite !== undefined && f.properties.composite !== null && f.properties.composite !== '')
+        .map(f => { f.__c = centroid(f.geometry); return f; })
+        .sort((a,b)=> b.properties.composite - a.properties.composite);
+      const byCode = {}; feats.forEach(f => byCode[f.properties.code] = f);
+      document.getElementById('ranklist').innerHTML = feats.slice(0,15).map((f,i)=>{
+        const p=f.properties;
+        return `<li data-code="${p.code}"><span class="no">${i+1}</span>
+          <span class="nm">${p.name} <small>${p.sido}</small></span>
+          <span class="val">${(+p.composite).toFixed(2)}</span></li>`;
+      }).join('');
+      document.querySelectorAll('#ranklist li').forEach(li=>{
+        li.onclick = ()=> focusFeat(byCode[li.dataset.code]);
       });
-      map.on('mouseenter','sgg-fill',()=>map.getCanvas().style.cursor='pointer');
-      map.on('mouseleave','sgg-fill',()=>map.getCanvas().style.cursor='');
+
+      // 클릭
+      map.on('click','sgg-fill',(e)=>{
+        const f = e.features[0];
+        const p = f.properties;
+        if(p.composite===undefined||p.composite===null||p.composite===''){ panel.style.display='none'; return; }
+        renderPanel(p);
+        if(hoverId!==null) map.setFeatureState({source:'sgg',id:hoverId},{hover:false});
+        hoverId = p.code;
+        map.setFeatureState({source:'sgg',id:hoverId},{hover:true});
+      });
+      // 빈 지도 클릭 → 패널 닫기
+      map.on('click',(e)=>{
+        const hit = map.queryRenderedFeatures(e.point,{layers:['sgg-fill']});
+        if(!hit.length) panel.style.display='none';
+      });
+
+      // ③ hover 하이라이트
+      let hov = null;
+      map.on('mousemove','sgg-fill',(e)=>{
+        map.getCanvas().style.cursor='pointer';
+        const id = e.features[0].properties.code;
+        if(hov===id) return;
+        if(hov!==null && hov!==hoverId) map.setFeatureState({source:'sgg',id:hov},{hover:false});
+        hov = id;
+        map.setFeatureState({source:'sgg',id},{hover:true});
+      });
+      map.on('mouseleave','sgg-fill',()=>{
+        map.getCanvas().style.cursor='';
+        if(hov!==null && hov!==hoverId) map.setFeatureState({source:'sgg',id:hov},{hover:false});
+        hov = null;
+      });
     });
   </script>
 </body>

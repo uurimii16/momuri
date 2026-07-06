@@ -14,7 +14,7 @@
     .lead{ color:var(--muted); font-size:16px; line-height:1.6; max-width:640px; margin:0 auto; }
     .kto{ font-size:12px; color:#94a0a8; margin-top:14px; }
     .kto b{ color:var(--brand-d); }
-    .cards{ max-width:960px; margin:16px auto 70px; padding:0 24px; display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+    .cards{ max-width:960px; margin:16px auto 70px; padding:0 24px; display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:18px; }
     a.card{ display:block; text-decoration:none; color:inherit; background:var(--soft); border:1px solid var(--line); border-radius:16px; padding:24px 22px; transition:.15s; }
     a.card:hover{ border-color:var(--brand); box-shadow:0 6px 22px rgba(20,184,166,.15); transform:translateY(-2px); }
     a.card h3{ font-size:17px; color:var(--brand-d); margin-bottom:8px; }
@@ -34,6 +34,11 @@
     <a class="card" href="map/momuri.html">
       <h3>숨은 매력지</h3>
       <p>쇠퇴 × 문화유산으로 뽑은 소도시와 실제 관광 콘텐츠를 지도로.</p>
+      <span class="go">바로가기 →</span>
+    </a>
+    <a class="card" href="map/course.html">
+      <h3>하루 코스</h3>
+      <p>명소·맛집을 현실적 동선으로 묶은 하루 일정. 구간별 이동시간·경로를 한눈에.</p>
       <span class="go">바로가기 →</span>
     </a>
     <a class="card" href="map/decline-map.html">

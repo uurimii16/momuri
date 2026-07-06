@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>하루 코스 · 머무리</title>
+  <link href="https://tile.routo.com/webgis_tile01/TEST/gljs-qa/20241205/developers/web_gl_js/routo-gl.css" rel="stylesheet">
+  <script src="https://stg-api.routo.com/v3/maps/map?key=c914fb43-0d44-4fa7-838a-84619e3486c3"></script>
+  <style>
+    :root{ --brand:#14b8a6; --brand-d:#0f766e; --amber:#f59e0b; --blue:#2e79c4; --ink:#26343a; --muted:#6b7684; --line:#e7ebec; --soft:#f5f8f7; }
+    *{ box-sizing:border-box; margin:0; padding:0; }
+    body{ font-family:'Pretendard',-apple-system,sans-serif; color:var(--ink); }
+    .nav{ height:56px; background:#fff; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:22px; padding:0 24px; }
+    .brand{ display:flex; align-items:center; gap:8px; font-weight:800; font-size:18px; color:var(--brand-d); text-decoration:none; }
+    .nav a{ color:var(--muted); text-decoration:none; font-size:14px; }
+    .nav a.active,.nav a:hover{ color:var(--brand-d); }
+    .spacer{ flex:1; }
+    .kto{ font-size:11px; color:#94a0a8; }
+    .kto b{ color:var(--brand-d); }
+    #app{ display:flex; height:calc(100vh - 56px); }
+    #side{ width:400px; background:var(--soft); overflow-y:auto; padding:20px 22px 40px; border-right:1px solid var(--line); }
+    #map{ flex:1; }
+    .chead h1{ font-size:20px; }
+    .chead .sub{ font-size:12.5px; color:var(--muted); margin:6px 0 4px; }
+    .rsel{ width:100%; margin:10px 0 4px; padding:8px 10px; border:1px solid var(--line); border-radius:9px; font-size:13.5px; background:#fff; color:var(--ink); }
+    .summary{ display:flex; gap:8px; margin:12px 0 6px; }
+    .summary div{ flex:1; background:#fff; border:1px solid var(--line); border-radius:10px; padding:9px 6px; text-align:center; font-size:11px; color:var(--muted); }
+    .summary b{ display:block; font-size:15px; color:var(--ink); margin-top:2px; }
+    /* 이동수단 토글 */
+    .modes{ display:flex; gap:6px; margin:12px 0 14px; background:#eef1f2; border-radius:10px; padding:4px; }
+    .modes button{ flex:1; border:none; background:none; padding:8px; border-radius:8px; font-size:13px; font-weight:700; color:var(--muted); cursor:pointer; }
+    .modes button.on{ background:#fff; color:var(--brand-d); box-shadow:0 1px 4px rgba(0,0,0,.1); }
+    .banner{ font-size:12px; background:#fff6f0; border-left:3px solid var(--amber); border-radius:7px; padding:8px 10px; margin-bottom:12px; color:#7a5a3a; line-height:1.5; display:none; }
+    /* 타임라인 */
+    .tl{ position:relative; }
+    .stop{ display:flex; gap:12px; }
+    .stop .rail{ display:flex; flex-direction:column; align-items:center; width:34px; flex:none; }
+    .dot{ width:30px; height:30px; border-radius:50%; color:#fff; font-weight:800; font-size:13px; display:flex; align-items:center; justify-content:center; flex:none; box-shadow:0 2px 6px rgba(0,0,0,.15); }
+    .dot.명소{ background:var(--blue); } .dot.맛집{ background:var(--amber); }
+    .line{ width:2px; flex:1; background:linear-gradient(#cfd8d6,#cfd8d6); min-height:20px; margin:2px 0; }
+    .stop .body{ flex:1; padding-bottom:6px; }
+    .stop .time{ font-size:12px; color:var(--brand-d); font-weight:700; font-variant-numeric:tabular-nums; }
+    .stop .name{ font-size:15.5px; font-weight:700; margin:1px 0 2px; }
+    .stop .name .kind{ font-size:10px; font-weight:700; color:#fff; padding:1px 7px; border-radius:20px; margin-left:6px; vertical-align:middle; }
+    .kind.명소{ background:var(--blue); } .kind.맛집{ background:var(--amber); }
+    .stop .addr{ font-size:11.5px; color:var(--muted); line-height:1.4; }
+    .stop .stay{ font-size:11.5px; color:#8a949a; margin-top:3px; }
+    .stop img{ width:100%; height:120px; object-fit:cover; border-radius:10px; margin-top:8px; background:#e6ebe9; }
+    /* 구간(이동) */
+    .leg{ display:flex; gap:12px; }
+    .leg .rail{ width:34px; flex:none; display:flex; justify-content:center; }
+    .leg .rail .line{ width:2px; background:#cfd8d6; }
+    .leg .info{ flex:1; padding:6px 0 6px; }
+    .leg .pill{ display:inline-flex; align-items:center; gap:6px; background:#fff; border:1px solid var(--line); border-radius:20px; padding:5px 11px; font-size:12px; color:#48555b; }
+    .leg .pill b{ color:var(--ink); }
+    .leg .steps{ margin-top:6px; font-size:11.5px; color:#5a666c; line-height:1.7; }
+    .leg .step{ display:inline-block; background:#eef4f2; border-radius:6px; padding:2px 7px; margin:2px 4px 2px 0; }
+    .leg .step.버스{ background:#e7f0fa; color:#245b93; } .leg .step.지하철{ background:#fdeede; color:#9a5a12; }
+    .leg .rec{ color:#b56a25; font-weight:700; }
+    /* 지도 번호 마커 */
+    .nm{ width:28px; height:28px; border-radius:50% 50% 50% 4px; transform:rotate(45deg); color:#fff; font-weight:800; font-size:13px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 8px rgba(0,0,0,.3); border:2px solid #fff; }
+    .nm span{ transform:rotate(-45deg); }
+    @media(max-width:820px){ #side{ width:320px; } }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a class="brand" href="../index.html"><svg width="24" height="24" viewBox="0 0 32 32" fill="none"><path d="M16 3c-5.5 0-10 4.3-10 10 0 7.2 10 16 10 16s10-8.8 10-16c0-5.7-4.5-10-10-10z" fill="#14b8a6"/><path d="M16 9l6 5v7h-3.9v-4.4h-4.2V21H10v-7z" fill="#fff"/></svg>머무리</a>
+    <a href="../index.html">홈</a>
+    <a href="momuri.html">숨은 매력지</a>
+    <a href="course.html" class="active">하루 코스</a>
+    <a href="decline-map.html">쇠퇴지수 지도</a>
+    <a href="methodology.html">지표 방법론</a>
+    <span class="spacer"></span>
+    <span class="kto">데이터 · <b>한국관광공사 TourAPI</b> · 경로 OSRM/ODsay</span>
+  </div>
+  <div id="app">
+    <aside id="side">
+      <div class="chead">
+        <h1>하루 코스</h1>
+        <p class="sub">숨은 매력지의 명소·맛집을 현실적 동선으로 묶은 하루 일정입니다.</p>
+        <select class="rsel" id="rsel"></select>
+      </div>
+      <div class="summary" id="summary"></div>
+      <div class="modes" id="modes">
+        <button data-m="car" class="on">🚗 자동차</button>
+        <button data-m="transit">🚌 대중교통</button>
+      </div>
+      <div class="banner" id="banner"></div>
+      <div class="tl" id="tl"></div>
+    </aside>
+    <div id="map"></div>
+  </div>
+
+  <script>
+    const COLOR = { '명소':'#2e79c4', '맛집':'#f59e0b' };
+    const START = 9*60 + 30;   // 09:30 출발
+    let map, courses = [], cur = 0, mode = 'car', markers = [];
+
+    const fmt = m => `${String(Math.floor(m/60)%24).padStart(2,'0')}:${String(m%60).padStart(2,'0')}`;
+    const esc = s => String(s ?? '').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+    const qparam = k => new URLSearchParams(location.search).get(k);
+
+    map = new routogl.Map({ container:'map', style:routogl.RoutoStyle.LIGHT, center:[127.8,36.3], zoom:7 });
+
+    map.on('load', async () => {
+      courses = await (await fetch(`data/courses.json?v=1`)).json();
+      const want = qparam('region');
+      const idx = courses.findIndex(c => c.sigungu === want || c.region === want);
+      cur = idx >= 0 ? idx : 0;
+      document.getElementById('rsel').innerHTML = courses.map((c,i)=>
+        `<option value="${i}">${esc(c.region)} · ${esc(c.theme)}</option>`).join('');
+      document.getElementById('rsel').value = cur;
+      document.getElementById('rsel').onchange = e => { cur = +e.target.value; render(); };
+      document.querySelectorAll('#modes button').forEach(b=> b.onclick = ()=>{
+        mode = b.dataset.m;
+        document.querySelectorAll('#modes button').forEach(x=>x.classList.toggle('on', x===b));
+        render();
+      });
+      render();
+    });
+
+    // 구간 이동 분(선택 모드) — 대중교통 없으면 자동차로 폴백
+    function legMin(leg){
+      if(mode==='transit' && leg.transit) return leg.transit.min;
+      return leg.car.min;
+    }
+
+    function render(){
+      const c = courses[cur];
+      // 요약
+      const legs = c.legs;
+      const moveMin = legs.reduce((s,l)=>s+legMin(l),0);
+      const total = c.stay_total_min + moveMin;
+      document.getElementById('summary').innerHTML =
+        `<div>스톱<b>${c.stops.length}곳</b></div><div>이동<b>${moveMin}분</b></div>`+
+        `<div>총 소요<b>${Math.floor(total/60)}시간 ${total%60}분</b></div>`;
+
+      // 대중교통 미제공 배너 + 토글 처리
+      const anyTransit = legs.some(l=>l.transit);
+      const banner = document.getElementById('banner');
+      if(mode==='transit' && !c.has_transit){
+        banner.style.display='block';
+        banner.innerHTML = anyTransit
+          ? '이 코스는 일부 구간만 대중교통 경로가 있어, 없는 구간은 <b>자동차 기준(🚗 자동차 권장)</b>으로 표시합니다.'
+          : '🚗 <b>자동차 권장</b> — 이 지역은 대중교통 노선이 드물어 경로가 준비되지 않았습니다. 자동차 기준으로 안내합니다.';
+      } else banner.style.display='none';
+
+      // 타임라인
+      let t = START, html = '';
+      c.stops.forEach((s,i)=>{
+        const arrive = t, depart = t + s.stay;
+        html += `<div class="stop">
+          <div class="rail"><div class="dot ${s.kind}">${i+1}</div><div class="line"></div></div>
+          <div class="body">
+            <div class="time">${fmt(arrive)} – ${fmt(depart)}</div>
+            <div class="name">${esc(s.name)}<span class="kind ${s.kind}">${s.kind}</span></div>
+            ${s.addr?`<div class="addr">${esc(s.addr)}</div>`:''}
+            <div class="stay">⏱ 머무름 ${s.stay}분</div>
+            ${s.img?`<img src="${esc(s.img)}" onerror="this.style.display='none'">`:''}
+          </div></div>`;
+        // 다음 구간
+        if(i < legs.length){
+          const leg = legs[i], m = legMin(leg);
+          const useTransit = mode==='transit' && leg.transit;
+          let inner;
+          if(useTransit){
+            const tr = leg.transit;
+            const steps = tr.steps.map(st => st.type==='도보'
+              ? `<span class="step">🚶 도보 ${st.min}분</span>`
+              : `<span class="step ${st.type}">${st.type==='버스'?'🚌':'🚇'} ${esc(st.name)} ${st.min}분</span>`).join('');
+            inner = `<span class="pill">🚌 <b>${m}분</b> · 환승 ${tr.transfers}회</span><div class="steps">${steps}</div>`;
+          } else {
+            const rec = (mode==='transit') ? ` <span class="rec">🚗 자동차 권장</span>` : '';
+            inner = `<span class="pill">🚗 <b>${m}분</b> · ${leg.car.km}km${leg.car.estimated?' (추정)':''}</span>${rec}`;
+          }
+          html += `<div class="leg"><div class="rail"><div class="line"></div></div><div class="info">${inner}</div></div>`;
+          t = depart + m;
+        }
+      });
+      document.getElementById('tl').innerHTML = html;
+
+      drawMap(c);
+    }
+
+    function drawMap(c){
+      markers.forEach(m=>m.remove()); markers = [];
+      // 경로선(자동차 실도로 경로 연결)
+      const path = c.legs.flatMap(l => l.car.path);
+      const gj = { type:'Feature', geometry:{ type:'LineString', coordinates:path } };
+      if(map.getSource('route')) map.getSource('route').setData(gj);
+      else {
+        map.addSource('route',{ type:'geojson', data:gj });
+        map.addLayer({ id:'route-line', type:'line', source:'route',
+          paint:{ 'line-color':'#14b8a6','line-width':4,'line-opacity':0.85 },
+          layout:{ 'line-cap':'round','line-join':'round' }});
+      }
+      // 번호 마커
+      c.stops.forEach((s,i)=>{
+        const el = document.createElement('div');
+        el.className = 'nm'; el.style.background = COLOR[s.kind];
+        el.innerHTML = `<span>${i+1}</span>`;
+        markers.push(new routogl.Marker({ element:el }).setLngLat([s.lng,s.lat]).addTo(map));
+      });
+      // 화면 맞춤
+      const lngs = c.stops.map(s=>s.lng), lats = c.stops.map(s=>s.lat);
+      map.fitBounds([[Math.min(...lngs),Math.min(...lats)],[Math.max(...lngs),Math.max(...lats)]],
+        { padding:70, duration:800, maxZoom:13 });
+    }
+  </script>
+</body>
+</html>

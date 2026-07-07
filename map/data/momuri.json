@@ -136,7 +136,64 @@
     "end": null
    }
   ],
-  "festivals": []
+  "stays": [],
+  "festivals": [
+   {
+    "title": "굿네이버스 세계 놀이 페스티벌 '놀자GO! 지구로!'",
+    "addr": "경상북도 포항시 북구 양덕남로 166 (양덕동)",
+    "lat": 36.0800254208,
+    "lng": 129.4107100131,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/61/3567661_image2_1.jpg",
+    "start": "20251207",
+    "end": "20251207",
+    "scope": "sido",
+    "status": "annual"
+   },
+   {
+    "title": "아이가 행복입니다 해피투게더 경북 in 포항",
+    "addr": "경상북도 포항시 남구 희망대로 814 (대도동)",
+    "lat": 36.0065133515,
+    "lng": 129.3615414552,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/22/3567122_image2_1.jpg",
+    "start": "20251121",
+    "end": "20251122",
+    "scope": "sido",
+    "status": "annual"
+   },
+   {
+    "title": "죽변항 수산물축제",
+    "addr": "경상북도 울진군 죽변면 죽변항길 150",
+    "lat": 37.0571311575,
+    "lng": 129.4250268958,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/82/3563382_image2_1.jpg",
+    "start": "20251107",
+    "end": "20251109",
+    "scope": "sido",
+    "status": "annual"
+   },
+   {
+    "title": "2025 한국공예전 <미래유산_우리가 남기고자 하는 것들에 관하여>",
+    "addr": "경상북도 경주시 경감로 627 (천군동)",
+    "lat": 35.8339676142,
+    "lng": 129.2911192494,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/40/3553940_image2_1.jpg",
+    "start": "20251027",
+    "end": "20251130",
+    "scope": "sido",
+    "status": "annual"
+   },
+   {
+    "title": "2025 포항스틸아트페스티벌 (2025PSAF)",
+    "addr": "경상북도 포항시 북구 선착로 78 (동빈1가)",
+    "lat": 36.0486865532,
+    "lng": 129.3716421277,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/03/3547903_image2_1.jpg",
+    "start": "20251025",
+    "end": "20251109",
+    "scope": "sido",
+    "status": "annual"
+   }
+  ]
  },
  {
   "region": "충청남도 공주시",
@@ -275,7 +332,75 @@
     "end": null
    }
   ],
-  "festivals": []
+  "stays": [
+   {
+    "title": "봉황재 한옥 게스트하우스",
+    "addr": "충청남도 공주시 큰샘3길 8",
+    "lat": 36.4508188891,
+    "lng": 127.120030717,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/81/2707581_image2_1.jpeg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "호스텔정중동",
+    "addr": "충청남도 공주시 웅진로 145-9 (중동)",
+    "lat": 36.4530798041,
+    "lng": 127.1235942252,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/39/3545039_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "공주공산성게스트 하우스",
+    "addr": "충청남도 공주시 백미고을길 5-4",
+    "lat": 36.4651700701,
+    "lng": 127.1227634182,
+    "img": "",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "굿모닝 관광펜션",
+    "addr": "충청남도 공주시 사곡면 단평길 245",
+    "lat": 36.5306302273,
+    "lng": 127.0216901749,
+    "img": "",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "담담",
+    "addr": "충청남도 공주시 봉황로 86-8 (반죽동)",
+    "lat": 36.453646376,
+    "lng": 127.1218999174,
+    "img": "",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "청담",
+    "addr": "충청남도 공주시 은행나무길 5 (반죽동)",
+    "lat": 36.4558738758,
+    "lng": 127.1206083067,
+    "img": "",
+    "start": null,
+    "end": null
+   }
+  ],
+  "festivals": [
+   {
+    "title": "2025 문화공간 어디쉐어 <공주 하숙동 1번지> 시즌2",
+    "addr": "충청남도 공주시 당간지주길 21 (반죽동)",
+    "lat": 36.4522271167,
+    "lng": 127.1231998391,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/79/3524279_image2_1.png",
+    "start": "20250919",
+    "end": "20250920",
+    "scope": "sigungu",
+    "status": "annual"
+   }
+  ]
  },
  {
   "region": "전라북도 익산시",
@@ -414,7 +539,101 @@
     "end": null
    }
   ],
-  "festivals": []
+  "stays": [
+   {
+    "title": "금마관",
+    "addr": "전북특별자치도 익산시 금마면 고도8길 3",
+    "lat": 35.9963447951,
+    "lng": 127.059295472,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/67/2573367_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "익산유스호스텔",
+    "addr": "전북특별자치도 익산시 마한로 11",
+    "lat": 35.9658466444,
+    "lng": 126.9653018835,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/20/3592120_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "미륵산자연학교",
+    "addr": "전북특별자치도 익산시 삼기면 죽청길 46-60",
+    "lat": 36.0322899906,
+    "lng": 127.0187537023,
+    "img": "",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "함라한옥체험단지",
+    "addr": "전북특별자치도 익산시 함라면 함라교동길 25",
+    "lat": 36.0627735156,
+    "lng": 126.9098737429,
+    "img": "",
+    "start": null,
+    "end": null
+   }
+  ],
+  "festivals": [
+   {
+    "title": "2025 홀로그램 엑스포 - HOLO WAVE",
+    "addr": "전북특별자치도 익산시 익산대로 460 (신동)",
+    "lat": 35.9670185276,
+    "lng": 126.9533945826,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/96/3565396_image2_1.png",
+    "start": "20251120",
+    "end": "20251122",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "보물찾기 축제 - 금괴를 찾아라 !",
+    "addr": "전북특별자치도 익산시 인북로12길 28 (주현동)",
+    "lat": 35.9335834631,
+    "lng": 126.9541092806,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/91/3536391_image2_1.jpg",
+    "start": "20251101",
+    "end": "20251102",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "익산천만송이 국화축제",
+    "addr": "전북특별자치도 익산시 하나로 322 (어양동)",
+    "lat": 35.9492655338,
+    "lng": 126.9844672731,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/75/3542875_image2_1.jpg",
+    "start": "20251024",
+    "end": "20251102",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "익산마한문화대전",
+    "addr": "전북특별자치도 익산시 금마면 고도9길 41-14",
+    "lat": 36.0006415547,
+    "lng": 127.0609146595,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/13/3546713_image2_1.jpg",
+    "start": "20251003",
+    "end": "20251005",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "NS푸드페스타",
+    "addr": "전북특별자치도 익산시 함열읍 익산대로78길 137",
+    "lat": 36.0314029894,
+    "lng": 126.9615032843,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/21/3578421_image2_1.jpg",
+    "start": "20250926",
+    "end": "20250927",
+    "scope": "sigungu",
+    "status": "annual"
+   }
+  ]
  },
  {
   "region": "경기도 여주시",
@@ -553,7 +772,41 @@
     "end": null
    }
   ],
-  "festivals": []
+  "stays": [
+   {
+    "title": "썬밸리호텔",
+    "addr": "경기도 여주시 강변유원지길 45 (연양동)",
+    "lat": 37.2931427643,
+    "lng": 127.6610696584,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/86/3562486_image2_1.jpg",
+    "start": null,
+    "end": null
+   }
+  ],
+  "festivals": [
+   {
+    "title": "2025 한글날 문화행사",
+    "addr": "경기도 여주시 세종대왕면 영릉로 269-10",
+    "lat": 37.3048294176,
+    "lng": 127.6128375714,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/27/3540327_image2_1.jpg",
+    "start": "20251009",
+    "end": "20251009",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "북내 금당천 삼색별미축제",
+    "addr": "경기도 여주시 북내면 당우리",
+    "lat": 37.3277002492,
+    "lng": 127.681122407,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/56/3568656_image2_1.jpg",
+    "start": "20250926",
+    "end": "20250927",
+    "scope": "sigungu",
+    "status": "annual"
+   }
+  ]
  },
  {
   "region": "경상남도 진주시",
@@ -692,7 +945,108 @@
     "end": null
    }
   ],
-  "festivals": []
+  "stays": [
+   {
+    "title": "골든비즈니스호텔",
+    "addr": "경상남도 진주시 에나로 101 (충무공동)",
+    "lat": 35.1778370506,
+    "lng": 128.1403742084,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/30/3081230_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "골든튤립 호텔 남강",
+    "addr": "경상남도 진주시 남강로673번길 16 골든튤립에센셜 남강",
+    "lat": 35.1916150997,
+    "lng": 128.0865896708,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/69/2813169_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "달강",
+    "addr": "경상남도 진주시 대평면 호반로 405",
+    "lat": 35.1596670017,
+    "lng": 127.991212766,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/93/3575193_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "솜누스",
+    "addr": "경상남도 진주시 논개길 53",
+    "lat": 35.1909151926,
+    "lng": 128.0873979517,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/33/3546833_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "언덕위에 하얀집",
+    "addr": "경상남도 진주시 대평면 호반로 414-23",
+    "lat": 35.1613168126,
+    "lng": 127.9910016296,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/47/3587547_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "주식회사제이스퀘어호텔",
+    "addr": "경상남도 진주시 솔밭로 107",
+    "lat": 35.1787752354,
+    "lng": 128.1067465759,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/18/2803218_image2_1.jpg",
+    "start": null,
+    "end": null
+   }
+  ],
+  "festivals": [
+   {
+    "title": "진주의 수호자들 - 유등빛을 지켜라",
+    "addr": "경상남도 진주시 남강로 626 (본성동)",
+    "lat": 35.190531773,
+    "lng": 128.080104157,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/88/3542288_image2_1.jpg",
+    "start": "20251005",
+    "end": "20251019",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "2025 코리아드라마페스티벌",
+    "addr": "경상남도 진주시 논개길 103 (옥봉동)",
+    "lat": 35.1899681714,
+    "lng": 128.0926947349,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/72/3536872_image2_1.jpg",
+    "start": "20251004",
+    "end": "20251019",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "2025 진주전통공예비엔날레",
+    "addr": "경상남도 진주시 진주대로879번길 18 (강남동)",
+    "lat": 35.1785527282,
+    "lng": 128.0892925564,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/60/3548860_image2_1.png",
+    "start": "20251001",
+    "end": "20251116",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "프로젝트 유어사이드 in 진주",
+    "addr": "경상남도 진주시 강남동",
+    "lat": 35.1779388961,
+    "lng": 128.0886204093,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/40/3523340_image2_1.png",
+    "start": "20250905",
+    "end": "20250907",
+    "scope": "sigungu",
+    "status": "annual"
+   }
+  ]
  },
  {
   "region": "충청남도 부여군",
@@ -831,7 +1185,57 @@
     "end": null
    }
   ],
-  "festivals": []
+  "stays": [
+   {
+    "title": "부여안방마님",
+    "addr": "충청남도 부여군 규암면 흥수로590번길 17",
+    "lat": 36.2655770389,
+    "lng": 126.8484100237,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/04/2679904_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "달을품은한옥",
+    "addr": "충청남도 부여군 부여읍 월함로 107-1",
+    "lat": 36.2922198057,
+    "lng": 126.9275244464,
+    "img": "",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "롯데리조트 부여",
+    "addr": "충청남도 부여군 규암면 백제문로 400",
+    "lat": 36.3039124464,
+    "lng": 126.9007876454,
+    "img": "",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "서동선화한옥",
+    "addr": "충청남도 부여군 부여읍 월함로 105-1",
+    "lat": 36.2918754037,
+    "lng": 126.9276911069,
+    "img": "",
+    "start": null,
+    "end": null
+   }
+  ],
+  "festivals": [
+   {
+    "title": "국가유산 미디어아트 부여 정림사지",
+    "addr": "충청남도 부여군 부여읍 정림로 83",
+    "lat": 36.279071057,
+    "lng": 126.9128955516,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/27/3563827_image2_1.jpg",
+    "start": "20251002",
+    "end": "20251012",
+    "scope": "sigungu",
+    "status": "annual"
+   }
+  ]
  },
  {
   "region": "충청남도 홍성군",
@@ -970,7 +1374,61 @@
     "end": null
    }
   ],
-  "festivals": []
+  "stays": [
+   {
+    "title": "결성향교",
+    "addr": "충청남도 홍성군 결성면 홍남서로707번길 21-8",
+    "lat": 36.5287943496,
+    "lng": 126.5432499636,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/74/2568074_image2_1.JPG",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "장충영각",
+    "addr": "충청남도 홍성군 구항면 거북로 422-41",
+    "lat": 36.572537726,
+    "lng": 126.6120509347,
+    "img": "",
+    "start": null,
+    "end": null
+   }
+  ],
+  "festivals": [
+   {
+    "title": "홍성 백반 페스타",
+    "addr": "충청남도 홍성군 광천읍 광천1길 22",
+    "lat": 36.5018183007,
+    "lng": 126.6249155367,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/96/3567096_image2_1.jpg",
+    "start": "20251115",
+    "end": "20251116",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "홍성글로벌바비큐페스티벌",
+    "addr": "충청남도 홍성군 홍성읍 아문길 20",
+    "lat": 36.600246495,
+    "lng": 126.6609319005,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/70/3544670_image2_1.jpg",
+    "start": "20251030",
+    "end": "20251102",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "2025 충청남도 드론 페스타",
+    "addr": "충청남도 홍성군 홍북읍 충남대로 21",
+    "lat": 36.6575484446,
+    "lng": 126.6730820546,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/38/3530138_image2_1.jpg",
+    "start": "20250920",
+    "end": "20250920",
+    "scope": "sigungu",
+    "status": "annual"
+   }
+  ]
  },
  {
   "region": "경상북도 구미시",
@@ -1109,7 +1567,57 @@
     "end": null
    }
   ],
-  "festivals": []
+  "stays": [
+   {
+    "title": "구미센츄리호텔",
+    "addr": "경상북도 구미시 3공단1로 296 (임수동)",
+    "lat": 36.1086671428,
+    "lng": 128.4026924803,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/63/3573663_image2_1.JPG",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "라마다 바이 윈덤 구미 호텔",
+    "addr": "경상북도 구미시 인동중앙로3길 41 라마다 구미 호텔",
+    "lat": 36.109917289,
+    "lng": 128.4183521711,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/03/2811903_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "신라불교초전지",
+    "addr": "경상북도 구미시 도개면 도개다곡길 389-46",
+    "lat": 36.2910706657,
+    "lng": 128.3632519698,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/49/2679949_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "YOU & I (유앤아이)(구미 유앤아이펜션)",
+    "addr": "경상북도 구미시 금오산상가길 21-5",
+    "lat": 36.1108680611,
+    "lng": 128.3150918404,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/28/2571128_image2_1.jpg",
+    "start": null,
+    "end": null
+   }
+  ],
+  "festivals": [
+   {
+    "title": "구미산단 페스티벌",
+    "addr": "경상북도 구미시 1공단로 18 (공단동)",
+    "lat": 36.1018394432,
+    "lng": 128.3647571396,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/99/3590399_image2_1.jpg",
+    "start": "20251008",
+    "end": "20251009",
+    "scope": "sigungu",
+    "status": "annual"
+   }
+  ]
  },
  {
   "region": "경상남도 거창군",
@@ -1248,7 +1756,20 @@
     "end": null
    }
   ],
-  "festivals": []
+  "stays": [],
+  "festivals": [
+   {
+    "title": "감악산 꽃별 여행",
+    "addr": "경상남도 거창군 신원면 연수사길 452",
+    "lat": 35.5896644164,
+    "lng": 127.9175273118,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/19/3539719_image2_1.jpg",
+    "start": "20250919",
+    "end": "20251012",
+    "scope": "sigungu",
+    "status": "annual"
+   }
+  ]
  },
  {
   "region": "경상남도 창녕군",
@@ -1387,7 +1908,83 @@
     "end": null
    }
   ],
-  "festivals": []
+  "stays": [
+   {
+    "title": "키즈스테이호텔 인 부곡",
+    "addr": "경상남도 창녕군 온천2길 48",
+    "lat": 35.4396184802,
+    "lng": 128.5901305488,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/48/3349948_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "부곡 로얄관광호텔",
+    "addr": "경상남도 창녕군 부곡면 온천중앙로 3",
+    "lat": 35.4414154223,
+    "lng": 128.5858614292,
+    "img": "",
+    "start": null,
+    "end": null
+   }
+  ],
+  "festivals": [
+   {
+    "title": "사천에어쇼",
+    "addr": "경상남도 사천시 사천읍 정의리",
+    "lat": 35.0911816485,
+    "lng": 128.0699132182,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/49/3566649_image2_1.png",
+    "start": "20261022",
+    "end": "20261025",
+    "scope": "sido",
+    "status": "upcoming"
+   },
+   {
+    "title": "창원산단 문화축제",
+    "addr": "경상남도 창원시 성산구 외동반림로 9 (중앙동)",
+    "lat": 35.2213639824,
+    "lng": 128.6734819584,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/32/3562932_image2_1.png",
+    "start": "20251108",
+    "end": "20251109",
+    "scope": "sido",
+    "status": "annual"
+   },
+   {
+    "title": "하동별맛축제",
+    "addr": "경상남도 하동군 하동읍 비파리",
+    "lat": 35.0594575822,
+    "lng": 127.7625159968,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/08/3559708_image2_1.jpg",
+    "start": "20251107",
+    "end": "20251109",
+    "scope": "sido",
+    "status": "annual"
+   },
+   {
+    "title": "김해분청도자기축제",
+    "addr": "경상남도 김해시 진례면 분청로 17",
+    "lat": 35.2517674455,
+    "lng": 128.7459053654,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/49/3546549_image2_1.jpg",
+    "start": "20251104",
+    "end": "20251109",
+    "scope": "sido",
+    "status": "annual"
+   },
+   {
+    "title": "대장경기록문화축제",
+    "addr": "경상남도 합천군 가야면 가야산로 1160",
+    "lat": 35.7673871185,
+    "lng": 128.1365143052,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/75/3559875_image2_1.JPG",
+    "start": "20251024",
+    "end": "20251102",
+    "scope": "sido",
+    "status": "annual"
+   }
+  ]
  },
  {
   "region": "제주특별자치도 서귀포시",
@@ -1526,7 +2123,119 @@
     "end": null
    }
   ],
-  "festivals": []
+  "stays": [
+   {
+    "title": "노을담은뜨락",
+    "addr": "제주특별자치도 서귀포시 대정읍 노을해안로 416",
+    "lat": 33.2562936895,
+    "lng": 126.1903769911,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/64/3562864_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "롯데호텔 제주",
+    "addr": "제주특별자치도 서귀포시 중문관광로72번길 35",
+    "lat": 33.2487146442,
+    "lng": 126.4105247144,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/46/3538946_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "바다에누워 펜션",
+    "addr": "제주특별자치도 서귀포시 남원읍 위미해안로 60",
+    "lat": 33.2696884696,
+    "lng": 126.6578361411,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/97/3477297_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "발트하우스",
+    "addr": "제주특별자치도 서귀포시 표선면 번영로 3361-26",
+    "lat": 33.3491324273,
+    "lng": 126.8279307185,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/58/3082058_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "보물섬펜션",
+    "addr": "제주특별자치도 서귀포시 성산읍 한도로242번길 10-11",
+    "lat": 33.4664517038,
+    "lng": 126.931705148,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/71/3477371_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "서귀포 귤림성",
+    "addr": "제주특별자치도 서귀포시 일주동로 8941 (호근동)",
+    "lat": 33.2503192271,
+    "lng": 126.5360193536,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/45/3569245_image2_1.jpg",
+    "start": null,
+    "end": null
+   }
+  ],
+  "festivals": [
+   {
+    "title": "원도심 야간여행 ‘섬夜시즌’ 운영",
+    "addr": "제주특별자치도 서귀포시 칠십리로 120-12 (서귀동)",
+    "lat": 33.241942872,
+    "lng": 126.5675084795,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/00/3554700_image2_1.jpg",
+    "start": "20251101",
+    "end": "20251102",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "문화의 달 행사",
+    "addr": "제주특별자치도 서귀포시 남성중로 2-9 (서홍동)",
+    "lat": 33.2438675382,
+    "lng": 126.5598424335,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/69/3562069_image2_1.jpg",
+    "start": "20251017",
+    "end": "20251019",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "쇠소깍축제",
+    "addr": "제주특별자치도 서귀포시 쇠소깍로 151-1 (하효동)",
+    "lat": 33.2505344492,
+    "lng": 126.6215230516,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/80/3358380_image2_1.jpg",
+    "start": "20250920",
+    "end": "20250921",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "서귀포은갈치축제",
+    "addr": "제주특별자치도 서귀포시 칠십리로72번길 18 (서귀동)",
+    "lat": 33.2403346868,
+    "lng": 126.5656503433,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/68/3520768_image2_1.JPG",
+    "start": "20250912",
+    "end": "20250914",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "2025 제주식품대전 with 맥주축제",
+    "addr": "제주특별자치도 서귀포시 중문관광로 93 (색달동)",
+    "lat": 33.2520782258,
+    "lng": 126.4145798438,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/92/3525092_image2_1.jpg",
+    "start": "20250905",
+    "end": "20250907",
+    "scope": "sigungu",
+    "status": "annual"
+   }
+  ]
  },
  {
   "region": "충청남도 논산시",
@@ -1665,6 +2374,78 @@
     "end": null
    }
   ],
-  "festivals": []
+  "stays": [
+   {
+    "title": "논산 명재고택",
+    "addr": "충청남도 논산시 노성면 노성산성길 50",
+    "lat": 36.2818689912,
+    "lng": 127.1312092519,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/55/3036955_image2_1.jpg",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "잉스힐",
+    "addr": "충청남도 논산시 벌곡면 수락계곡2길 63-3",
+    "lat": 36.1554891993,
+    "lng": 127.3012390999,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/41/3569341_image2_1.JPG",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "논산 백일헌 종택",
+    "addr": "충청남도 논산시 상월면 주곡길 45",
+    "lat": 36.2791002222,
+    "lng": 127.1516797155,
+    "img": "",
+    "start": null,
+    "end": null
+   },
+   {
+    "title": "논산문화관광재단(논산한옥마을)",
+    "addr": "충청남도 논산시 시민로 270 (내동)",
+    "lat": 36.1909981956,
+    "lng": 127.0951593442,
+    "img": "",
+    "start": null,
+    "end": null
+   }
+  ],
+  "festivals": [
+   {
+    "title": "논산양촌곶감축제",
+    "addr": "충청남도 논산시 양촌면 양촌리",
+    "lat": 36.129182914,
+    "lng": 127.24692243,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/87/3574987_image2_1.JPG",
+    "start": "20251212",
+    "end": "20251214",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "강경젓갈축제",
+    "addr": "충청남도 논산시 강경읍 금백로 45",
+    "lat": 36.1575977477,
+    "lng": 127.0098123087,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/99/3538099_image2_1.jpg",
+    "start": "20251023",
+    "end": "20251026",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "한국유교문화축전",
+    "addr": "충청남도 논산시 노성면 종학길 10",
+    "lat": 36.2884982085,
+    "lng": 127.0981370354,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/41/3530741_image2_1.jpg",
+    "start": "20250912",
+    "end": "20250914",
+    "scope": "sigungu",
+    "status": "annual"
+   }
+  ]
  }
 ]

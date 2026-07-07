@@ -75,6 +75,7 @@ def fetch_region(sido_s, sigungu):
     spots = pull(contentTypeId=12)   # 관광지
     culture = pull(contentTypeId=14) # 문화시설
     foods = pull(contentTypeId=39)   # 음식점
+    stays = pull(contentTypeId=32)   # 숙박(체류형 코스 야간 스톱·한달살기)
     fests = fetch_festivals(ac, sc)  # 축제/행사(시군구 0건이면 도 단위 폴백)
     def slim(items):
         return [{"title":x.get("title"), "addr":x.get("addr1"),
@@ -85,7 +86,7 @@ def fetch_region(sido_s, sigungu):
                 for x in items]
     return {"sido":sido_s, "sigungu":sigungu, "areaCode":ac, "sigunguCode":sc,
             "spots":slim(spots), "culture":slim(culture),
-            "foods":slim(foods), "festivals":slim(fests)}
+            "foods":slim(foods), "stays":slim(stays), "festivals":slim(fests)}
 
 if __name__ == "__main__":
     if not KEY:

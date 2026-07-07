@@ -1,0 +1,462 @@
+{
+ "level": "sido",
+ "nodes": [
+  {
+   "name": "강원도",
+   "degree": 1.25,
+   "betweenness": 0.1583
+  },
+  {
+   "name": "경기도",
+   "degree": 1.125,
+   "betweenness": 0.0
+  },
+  {
+   "name": "제주특별자치도",
+   "degree": 0.3125,
+   "betweenness": 0.05
+  },
+  {
+   "name": "전라남도",
+   "degree": 1.0625,
+   "betweenness": 0.1875
+  },
+  {
+   "name": "경상북도",
+   "degree": 1.125,
+   "betweenness": 0.0417
+  },
+  {
+   "name": "경상남도",
+   "degree": 1.25,
+   "betweenness": 0.0417
+  },
+  {
+   "name": "전라북도",
+   "degree": 1.1875,
+   "betweenness": 0.2833
+  },
+  {
+   "name": "부산광역시",
+   "degree": 1.0625,
+   "betweenness": 0.2583
+  },
+  {
+   "name": "충청남도",
+   "degree": 1.3125,
+   "betweenness": 0.0
+  },
+  {
+   "name": "울산광역시",
+   "degree": 0.5,
+   "betweenness": 0.0
+  },
+  {
+   "name": "대구광역시",
+   "degree": 0.625,
+   "betweenness": 0.1208
+  },
+  {
+   "name": "광주광역시",
+   "degree": 0.4375,
+   "betweenness": 0.0667
+  },
+  {
+   "name": "세종특별자치시",
+   "degree": 0.4375,
+   "betweenness": 0.0
+  },
+  {
+   "name": "충청북도",
+   "degree": 0.9375,
+   "betweenness": 0.1208
+  },
+  {
+   "name": "대전광역시",
+   "degree": 0.8125,
+   "betweenness": 0.1
+  },
+  {
+   "name": "서울특별시",
+   "degree": 1.0625,
+   "betweenness": 0.2333
+  },
+  {
+   "name": "인천광역시",
+   "degree": 0.5,
+   "betweenness": 0.0
+  }
+ ],
+ "edges": [
+  {
+   "source": "강원도",
+   "target": "경기도",
+   "weight": 606677.4
+  },
+  {
+   "source": "경상남도",
+   "target": "전라남도",
+   "weight": 478740.4
+  },
+  {
+   "source": "전라남도",
+   "target": "전라북도",
+   "weight": 317603.5
+  },
+  {
+   "source": "강원도",
+   "target": "경상남도",
+   "weight": 248713.8
+  },
+  {
+   "source": "경상남도",
+   "target": "경상북도",
+   "weight": 240855.4
+  },
+  {
+   "source": "경기도",
+   "target": "서울특별시",
+   "weight": 216086.3
+  },
+  {
+   "source": "광주광역시",
+   "target": "전라남도",
+   "weight": 207684.7
+  },
+  {
+   "source": "강원도",
+   "target": "경상북도",
+   "weight": 180283.5
+  },
+  {
+   "source": "대전광역시",
+   "target": "충청남도",
+   "weight": 172951.1
+  },
+  {
+   "source": "전라북도",
+   "target": "충청남도",
+   "weight": 172246.2
+  },
+  {
+   "source": "경상북도",
+   "target": "울산광역시",
+   "weight": 163872.1
+  },
+  {
+   "source": "경상남도",
+   "target": "울산광역시",
+   "weight": 163221.2
+  },
+  {
+   "source": "경상북도",
+   "target": "대구광역시",
+   "weight": 146195.6
+  },
+  {
+   "source": "경상남도",
+   "target": "부산광역시",
+   "weight": 140546.6
+  },
+  {
+   "source": "강원도",
+   "target": "서울특별시",
+   "weight": 133191.3
+  },
+  {
+   "source": "세종특별자치시",
+   "target": "충청남도",
+   "weight": 107034.6
+  },
+  {
+   "source": "경기도",
+   "target": "경상남도",
+   "weight": 93088.1
+  },
+  {
+   "source": "강원도",
+   "target": "충청북도",
+   "weight": 92327.6
+  },
+  {
+   "source": "경상북도",
+   "target": "부산광역시",
+   "weight": 89520.0
+  },
+  {
+   "source": "경상북도",
+   "target": "충청북도",
+   "weight": 88956.7
+  },
+  {
+   "source": "경기도",
+   "target": "충청남도",
+   "weight": 85716.2
+  },
+  {
+   "source": "충청남도",
+   "target": "충청북도",
+   "weight": 81823.1
+  },
+  {
+   "source": "경기도",
+   "target": "인천광역시",
+   "weight": 75167.4
+  },
+  {
+   "source": "인천광역시",
+   "target": "충청남도",
+   "weight": 71431.8
+  },
+  {
+   "source": "전라남도",
+   "target": "충청남도",
+   "weight": 63459.4
+  },
+  {
+   "source": "부산광역시",
+   "target": "충청남도",
+   "weight": 53822.8
+  },
+  {
+   "source": "강원도",
+   "target": "부산광역시",
+   "weight": 52118.0
+  },
+  {
+   "source": "부산광역시",
+   "target": "울산광역시",
+   "weight": 45820.8
+  },
+  {
+   "source": "경상남도",
+   "target": "대구광역시",
+   "weight": 44417.2
+  },
+  {
+   "source": "경상남도",
+   "target": "전라북도",
+   "weight": 41576.1
+  },
+  {
+   "source": "경기도",
+   "target": "대전광역시",
+   "weight": 41294.8
+  },
+  {
+   "source": "강원도",
+   "target": "울산광역시",
+   "weight": 40471.9
+  },
+  {
+   "source": "대전광역시",
+   "target": "충청북도",
+   "weight": 40086.1
+  },
+  {
+   "source": "서울특별시",
+   "target": "인천광역시",
+   "weight": 39123.5
+  },
+  {
+   "source": "경상북도",
+   "target": "충청남도",
+   "weight": 35853.6
+  },
+  {
+   "source": "대전광역시",
+   "target": "전라북도",
+   "weight": 34436.0
+  },
+  {
+   "source": "세종특별자치시",
+   "target": "전라북도",
+   "weight": 32007.3
+  },
+  {
+   "source": "경기도",
+   "target": "세종특별자치시",
+   "weight": 30646.1
+  },
+  {
+   "source": "전라남도",
+   "target": "제주특별자치도",
+   "weight": 30567.3
+  },
+  {
+   "source": "서울특별시",
+   "target": "충청남도",
+   "weight": 25795.4
+  },
+  {
+   "source": "경상북도",
+   "target": "전라북도",
+   "weight": 24293.5
+  },
+  {
+   "source": "서울특별시",
+   "target": "전라북도",
+   "weight": 24040.4
+  },
+  {
+   "source": "서울특별시",
+   "target": "제주특별자치도",
+   "weight": 23358.5
+  },
+  {
+   "source": "부산광역시",
+   "target": "인천광역시",
+   "weight": 19133.9
+  },
+  {
+   "source": "경상남도",
+   "target": "제주특별자치도",
+   "weight": 19037.9
+  },
+  {
+   "source": "강원도",
+   "target": "충청남도",
+   "weight": 18444.7
+  },
+  {
+   "source": "광주광역시",
+   "target": "전라북도",
+   "weight": 18108.0
+  },
+  {
+   "source": "경기도",
+   "target": "대구광역시",
+   "weight": 17662.4
+  },
+  {
+   "source": "대전광역시",
+   "target": "서울특별시",
+   "weight": 16421.7
+  },
+  {
+   "source": "세종특별자치시",
+   "target": "충청북도",
+   "weight": 16392.9
+  },
+  {
+   "source": "강원도",
+   "target": "전라남도",
+   "weight": 16272.4
+  },
+  {
+   "source": "경기도",
+   "target": "전라남도",
+   "weight": 16045.1
+  },
+  {
+   "source": "경기도",
+   "target": "전라북도",
+   "weight": 15908.5
+  },
+  {
+   "source": "서울특별시",
+   "target": "충청북도",
+   "weight": 15378.1
+  },
+  {
+   "source": "대전광역시",
+   "target": "전라남도",
+   "weight": 13284.8
+  },
+  {
+   "source": "부산광역시",
+   "target": "전라남도",
+   "weight": 13168.0
+  },
+  {
+   "source": "경기도",
+   "target": "광주광역시",
+   "weight": 12958.1
+  },
+  {
+   "source": "경기도",
+   "target": "충청북도",
+   "weight": 12958.1
+  },
+  {
+   "source": "경상남도",
+   "target": "충청북도",
+   "weight": 11695.5
+  },
+  {
+   "source": "경상북도",
+   "target": "서울특별시",
+   "weight": 10564.2
+  },
+  {
+   "source": "강원도",
+   "target": "전라북도",
+   "weight": 9847.0
+  },
+  {
+   "source": "대전광역시",
+   "target": "세종특별자치시",
+   "weight": 9418.8
+  },
+  {
+   "source": "전라북도",
+   "target": "충청북도",
+   "weight": 9343.0
+  },
+  {
+   "source": "광주광역시",
+   "target": "대구광역시",
+   "weight": 8948.4
+  },
+  {
+   "source": "서울특별시",
+   "target": "세종특별자치시",
+   "weight": 8332.1
+  },
+  {
+   "source": "부산광역시",
+   "target": "서울특별시",
+   "weight": 8114.6
+  },
+  {
+   "source": "대구광역시",
+   "target": "부산광역시",
+   "weight": 6700.7
+  },
+  {
+   "source": "대구광역시",
+   "target": "서울특별시",
+   "weight": 5961.8
+  },
+  {
+   "source": "경상남도",
+   "target": "대전광역시",
+   "weight": 5705.8
+  },
+  {
+   "source": "대구광역시",
+   "target": "충청북도",
+   "weight": 4582.2
+  },
+  {
+   "source": "부산광역시",
+   "target": "전라북도",
+   "weight": 4008.7
+  },
+  {
+   "source": "경상북도",
+   "target": "대전광역시",
+   "weight": 3730.3
+  },
+  {
+   "source": "대구광역시",
+   "target": "대전광역시",
+   "weight": 3606.8
+  },
+  {
+   "source": "광주광역시",
+   "target": "서울특별시",
+   "weight": 1041.2
+  }
+ ]
+}

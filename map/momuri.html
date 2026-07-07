@@ -55,6 +55,8 @@
     .poi-pop .why{ font-size:11.5px; color:#48555b; line-height:1.5; margin-top:6px; background:#f5f8f7; border-radius:7px; padding:7px 8px; }
     .poi-pop .popbtn{ margin-top:9px; width:100%; border:none; background:var(--brand); color:#fff; font-weight:700; font-size:12.5px; padding:9px; border-radius:8px; cursor:pointer; }
     .poi-pop .popbtn:hover{ background:var(--brand-d); }
+    .poi-pop .popbtn2{ margin-top:7px; width:100%; border:1px solid var(--brand); background:#fff; color:var(--brand-d); font-weight:700; font-size:12.5px; padding:9px; border-radius:8px; cursor:pointer; }
+    .poi-pop .popbtn2:hover{ background:#eefaf7; }
     .poi-pop .popmini{ display:block; text-align:center; margin-top:7px; font-size:11.5px; color:var(--muted); text-decoration:none; }
     .poi-pop .popmini:hover{ color:var(--brand-d); }
     .poi-pop .ttl{ font-size:14.5px; font-weight:700; color:var(--ink); line-height:1.3; }
@@ -68,6 +70,7 @@
     <a href="../index.html">홈</a>
     <a href="momuri.html" class="active">숨은 매력지</a>
     <a href="course.html">하루 코스</a>
+    <a href="stay.html">체류 플래너</a>
     <a href="decline-map.html">쇠퇴지수 지도</a>
     <a href="methodology.html">지표 방법론</a>
     <span class="spacer"></span>
@@ -111,6 +114,7 @@
         <div class="addr">${esc(r.theme)} · 쇠퇴지수 ${r.composite} · 문화유산 ${r.heritage}건</div>
         <div class="why">관광은 쇠퇴했지만(방문·재방문·동선 소외) 살릴 자원은 많은데 안 알려진 소도시예요.</div>
         <button class="popbtn" onclick="location.href='course.html?region=${encodeURIComponent(r.sigungu)}'">🗓 하루 코스 계획 보기 →</button>
+        <button class="popbtn2" onclick="location.href='stay.html?region=${encodeURIComponent(r.sigungu)}'">🏡 며칠 머무르기(체류·일자리) →</button>
         <a class="popmini" href="#" onclick="selectRegion(${i});return false;">지도에 관광지 ${spots}·맛집 ${foods} 표시</a>
       </div>`;
     }

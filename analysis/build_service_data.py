@@ -20,8 +20,11 @@ def with_coord(items, k=8):
         except (TypeError, ValueError):
             continue
         if lng and lat:
-            out.append({"title":x["title"], "addr":x["addr"], "lat":lat, "lng":lng,
-                        "img":x["img"], "start":x.get("start"), "end":x.get("end")})
+            item = {"title":x["title"], "addr":x["addr"], "lat":lat, "lng":lng,
+                    "img":x["img"], "start":x.get("start"), "end":x.get("end")}
+            if x.get("scope"): item["scope"] = x["scope"]    # 축제: 'sido'면 인근 축제
+            if x.get("status"): item["status"] = x["status"] # 축제: upcoming|annual(연례)
+            out.append(item)
         if len(out) >= k: break
     return out
 

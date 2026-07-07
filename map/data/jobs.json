@@ -1,0 +1,1076 @@
+{
+ "상주시": {
+  "sido": "경북",
+  "rgncode": "R3021",
+  "deeplink": "https://job.alio.go.kr/recruit.do?pageNo=1&workRegionArr=R3021",
+  "local": [],
+  "sido_jobs": [
+   {
+    "inst": "국립공원공단",
+    "title": "[속리산] 속리산국립공원사무소 기간제(수상안전) 직원 채용",
+    "ncs": "이용.숙박.여행.오락.스포츠",
+    "hire": "비정규직",
+    "rgn": "충북,경북",
+    "recruitSe": "신입+경력",
+    "nope": 4,
+    "bgn": "20260623",
+    "end": "20260707",
+    "url": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019351"
+   },
+   {
+    "inst": "국립공원공단",
+    "title": "[속리산] 속리산국립공원사무소 기간제 국립공원지킴이 선발 공고",
+    "ncs": "이용.숙박.여행.오락.스포츠",
+    "hire": "비정규직",
+    "rgn": "충북,경북",
+    "recruitSe": "신입+경력",
+    "nope": 2,
+    "bgn": "20260623",
+    "end": "20260707",
+    "url": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019349"
+   },
+   {
+    "inst": "한국청소년활동진흥원",
+    "title": "2026년 제2차 한국청소년활동진흥원 직원(일반직, 공무직) 채용 공고",
+    "ncs": "보건.의료,사회복지.종교,이용.숙박.여행.오락.스포츠,음식서비스,건설,기계",
+    "hire": "정규직,무기계약직",
+    "rgn": "강원,충남,전북,전남,경북",
+    "recruitSe": "신입+경력",
+    "nope": 14,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.kywa.or.kr/about/about05_5_view.jsp?bgubun=&currPage=1&searchText=&searchColumn=&searchTextEn=&bgubun=&no=36459"
+   },
+   {
+    "inst": "국립공원공단",
+    "title": "[소백산] 소백산사무소 기간제(수익시설) 직원 채용",
+    "ncs": "경비.청소,이용.숙박.여행.오락.스포츠",
+    "hire": "비정규직",
+    "rgn": "경북",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260703",
+    "end": "20260708",
+    "url": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019432"
+   },
+   {
+    "inst": "한국해양과학기술원",
+    "title": "[제26-01-01호 및 제26-02-02호]한국해양과학기술원 2026년 2차 직원(정규직/무기계약직) 공개채용",
+    "ncs": "법률.경찰.소방.교도.국방,운전.운송,연구",
+    "hire": "정규직,무기계약직",
+    "rgn": "부산,경북,경남",
+    "recruitSe": "신입+경력",
+    "nope": 15,
+    "bgn": "20260623",
+    "end": "20260708",
+    "url": "https://www.kiost.ac.kr/cop/bbs/BBSMSTR_000000000073/selectBoardArticle.do?nttId=25470"
+   },
+   {
+    "inst": "주택관리공단(주)",
+    "title": "채용형 인턴 채용공고(주택관리공단 대구경북지사)",
+    "ncs": "건설,기계,전기.전자,환경.에너지.안전",
+    "hire": "청년인턴(채용형)",
+    "rgn": "대구,경북",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260702",
+    "end": "20260709",
+    "url": "www.kohom.or.kr"
+   }
+  ],
+  "sido_total": 32
+ },
+ "공주시": {
+  "sido": "충남",
+  "rgncode": "R3019",
+  "deeplink": "https://job.alio.go.kr/recruit.do?pageNo=1&workRegionArr=R3019",
+  "local": [],
+  "sido_jobs": [
+   {
+    "inst": "한국농어촌공사",
+    "title": "한국농어촌공사 충남지역본부, 천안지사 계약직(육아휴직 대체인력) 채용 공고",
+    "ncs": "사업관리,경영.회계.사무,농림어업",
+    "hire": "비정규직",
+    "rgn": "충남",
+    "recruitSe": "신입+경력",
+    "nope": 2,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529b9690c0019eecb1194d50e5&page=1&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=8a8bb3529665d7140199501cd3ef6280&searchType=&keyword=&categoryUid1=&categoryUid2=8a8bb3529665d714019951996437"
+   },
+   {
+    "inst": "한국청소년활동진흥원",
+    "title": "2026년 제2차 한국청소년활동진흥원 직원(일반직, 공무직) 채용 공고",
+    "ncs": "보건.의료,사회복지.종교,이용.숙박.여행.오락.스포츠,음식서비스,건설,기계",
+    "hire": "정규직,무기계약직",
+    "rgn": "강원,충남,전북,전남,경북",
+    "recruitSe": "신입+경력",
+    "nope": 14,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.kywa.or.kr/about/about05_5_view.jsp?bgubun=&currPage=1&searchText=&searchColumn=&searchTextEn=&bgubun=&no=36459"
+   },
+   {
+    "inst": "한국농어촌공사",
+    "title": "한국농어촌공사 예산지사 공무직(청소원) 보훈·장애인 제한경쟁 채용공고",
+    "ncs": "경비.청소",
+    "hire": "무기계약직",
+    "rgn": "충남",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529b9690c0019eecad29a64fb6&page=1&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=8a8bb3529665d7140199501cd3ef6280&searchType=&keyword=&categoryUid1=&categoryUid2=8a8bb3529665d714019951996437"
+   },
+   {
+    "inst": "축산물품질평가원",
+    "title": "2026년 상반기 2차 신규직원 체험형 청년인턴(장애) 채용",
+    "ncs": "사업관리,경영.회계.사무,농림어업",
+    "hire": "청년인턴(체험형)",
+    "rgn": "대전,세종,충남",
+    "recruitSe": "신입",
+    "nope": 6,
+    "bgn": "20260623",
+    "end": "20260708",
+    "url": "https://ekape.or.kr/board/view.do?menuId=menu138147&boardNo=845&dmlType=SELECT&pageIndex=1&pageUnit=10&categoryNo=&tabIndex=&searchCondition=SUBJECT&searchKeyword="
+   },
+   {
+    "inst": "한국전력공사",
+    "title": "기간제근로자(대체인력) 채용공고[대전세종충남본부 천안지사, 대덕유성지사]",
+    "ncs": "경영.회계.사무,전기.전자",
+    "hire": "비정규직",
+    "rgn": "대전,충남",
+    "recruitSe": "신입",
+    "nope": 4,
+    "bgn": "20260625",
+    "end": "20260709",
+    "url": "http://recruit.kepco.co.kr/sangsi"
+   },
+   {
+    "inst": "근로복지공단",
+    "title": "[서산지사] 청년(체험형)인턴 채용 공고",
+    "ncs": "경영.회계.사무",
+    "hire": "청년인턴(체험형)",
+    "rgn": "충남",
+    "recruitSe": "신입",
+    "nope": 1,
+    "bgn": "20260629",
+    "end": "20260712",
+    "url": "https://www.comwel.or.kr/recruit/hp/main.do"
+   }
+  ],
+  "sido_total": 13
+ },
+ "익산시": {
+  "sido": "전북",
+  "rgncode": "R3024",
+  "deeplink": "https://job.alio.go.kr/recruit.do?pageNo=1&workRegionArr=R3024",
+  "local": [
+   {
+    "inst": "학교법인한국폴리텍",
+    "title": "한국폴리텍대학 익산캠퍼스 청년인턴(일반) 채용 공고",
+    "ncs": "경영.회계.사무",
+    "hire": "청년인턴(체험형)",
+    "rgn": "전북",
+    "recruitSe": "신입+경력",
+    "nope": 2,
+    "bgn": "20260706",
+    "end": "20260714",
+    "url": "https://kopo.ac.kr/iksan/board.do?menu=3171&mode=view&post=779535"
+   }
+  ],
+  "sido_jobs": [
+   {
+    "inst": "한국청소년활동진흥원",
+    "title": "2026년 제2차 한국청소년활동진흥원 직원(일반직, 공무직) 채용 공고",
+    "ncs": "보건.의료,사회복지.종교,이용.숙박.여행.오락.스포츠,음식서비스,건설,기계",
+    "hire": "정규직,무기계약직",
+    "rgn": "강원,충남,전북,전남,경북",
+    "recruitSe": "신입+경력",
+    "nope": 14,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.kywa.or.kr/about/about05_5_view.jsp?bgubun=&currPage=1&searchText=&searchColumn=&searchTextEn=&bgubun=&no=36459"
+   },
+   {
+    "inst": "국립공원공단",
+    "title": "[덕유산] 덕유산국립공원 여름성수기 한시인력(수익시설) 직원 채용 공고",
+    "ncs": "환경.에너지.안전",
+    "hire": "비정규직",
+    "rgn": "전북",
+    "recruitSe": "신입+경력",
+    "nope": 8,
+    "bgn": "20260706",
+    "end": "20260710",
+    "url": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019437"
+   },
+   {
+    "inst": "국립공원공단",
+    "title": "[변산반도]2026년 변산반도국립공원 기간제(탐방안전_한시인력) 직원 채용공고",
+    "ncs": "환경.에너지.안전",
+    "hire": "비정규직",
+    "rgn": "전북",
+    "recruitSe": "신입+경력",
+    "nope": 2,
+    "bgn": "20260706",
+    "end": "20260710",
+    "url": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019434"
+   },
+   {
+    "inst": "국립공원공단",
+    "title": "[변산반도]2026년 변산반도국립공원 기간제(수익시설_한시인력) 직원 채용공고",
+    "ncs": "환경.에너지.안전",
+    "hire": "비정규직",
+    "rgn": "전북",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260706",
+    "end": "20260710",
+    "url": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019435"
+   },
+   {
+    "inst": "한국보훈복지의료공단",
+    "title": "[전주보훈요양원] 장애인 청년인턴 채용 공고",
+    "ncs": "사회복지.종교",
+    "hire": "청년인턴(체험형)",
+    "rgn": "전북",
+    "recruitSe": "신입",
+    "nope": 3,
+    "bgn": "20260701",
+    "end": "20260713",
+    "url": "https://www.bohun.or.kr/jjcare/na/ntt/selectNttInfo.do?mi=34249&bbsId=1259&bbsSysId=jjcare&nttSn=187016#none"
+   },
+   {
+    "inst": "한국농업기술진흥원",
+    "title": "2026년도 한국농업기술진흥원 제1차 종자사업본부 일반계약직 채용 공고",
+    "ncs": "농림어업",
+    "hire": "비정규직",
+    "rgn": "전북",
+    "recruitSe": "신입+경력",
+    "nope": 10,
+    "bgn": "20260630",
+    "end": "20260714",
+    "url": "https://www.koat.or.kr/board/recruit_info/list.do"
+   }
+  ],
+  "sido_total": 12
+ },
+ "여주시": {
+  "sido": "경기",
+  "rgncode": "R3017",
+  "deeplink": "https://job.alio.go.kr/recruit.do?pageNo=1&workRegionArr=R3017",
+  "local": [],
+  "sido_jobs": [
+   {
+    "inst": "한국장애인고용공단",
+    "title": "[한국장애인고용공단 경기지역본부] 기간제 대체근로자(체험형 청년인턴) 채용 공고",
+    "ncs": "경영.회계.사무,사회복지.종교",
+    "hire": "비정규직,청년인턴(체험형)",
+    "rgn": "경기",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260630",
+    "end": "20260707",
+    "url": "https://www.kead.or.kr/bbs/deptgongji/bbsView.do?pageIndex=1&menuId=MENU0895&bbsCode=deptgongji&bbsCnId=214349"
+   },
+   {
+    "inst": "국민건강보험공단 일산병원",
+    "title": "2026년도 의사직(전문계약직-건강증진센터 문진의) 모집 공고",
+    "ncs": "보건.의료",
+    "hire": "비정규직",
+    "rgn": "경기",
+    "recruitSe": "경력",
+    "nope": 1,
+    "bgn": "20260623",
+    "end": "20260707",
+    "url": "https://nhimc.recruiter.co.kr/appsite/company/index"
+   },
+   {
+    "inst": "한국나노기술원",
+    "title": "2026년 4차 계약직(육아휴직 대체) 채용 공고",
+    "ncs": "경영.회계.사무",
+    "hire": "비정규직",
+    "rgn": "경기",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260701",
+    "end": "20260708",
+    "url": "https://www.kanc.re.kr/gnb04/snb02_02.do?mode=view&cid=5554"
+   },
+   {
+    "inst": "학교법인한국폴리텍",
+    "title": "한국폴리텍대학 반도체융합캠퍼스 업무직(대학운영직_전기원) 채용 공고",
+    "ncs": "전기.전자",
+    "hire": "무기계약직",
+    "rgn": "경기",
+    "recruitSe": "경력",
+    "nope": 1,
+    "bgn": "20260630",
+    "end": "20260708",
+    "url": "https://www.kopo.ac.kr/semi/board.do?menu=3303&mode=view&post=779224"
+   },
+   {
+    "inst": "국립공원공단",
+    "title": "[북한산] 북한산국립공원사무소 기간제(수익시설)직원 채용",
+    "ncs": "이용.숙박.여행.오락.스포츠",
+    "hire": "비정규직",
+    "rgn": "서울,경기",
+    "recruitSe": "신입+경력",
+    "nope": 2,
+    "bgn": "20260623",
+    "end": "20260708",
+    "url": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019348"
+   },
+   {
+    "inst": "한국토지주택공사",
+    "title": "한국토지주택공사 경기북부지역본부 기간제근로자 채용공고('26년 6월)",
+    "ncs": "경영.회계.사무,사회복지.종교,건설",
+    "hire": "비정규직",
+    "rgn": "경기",
+    "recruitSe": "신입+경력",
+    "nope": 8,
+    "bgn": "20260624",
+    "end": "20260708",
+    "url": "https://www.lh.or.kr/board.es?mid=a10602050000&bid=0036&act=view&list_no=732882&tag=&nPage=1"
+   }
+  ],
+  "sido_total": 49
+ },
+ "진주시": {
+  "sido": "경남",
+  "rgncode": "R3022",
+  "deeplink": "https://job.alio.go.kr/recruit.do?pageNo=1&workRegionArr=R3022",
+  "local": [
+   {
+    "inst": "학교법인한국폴리텍",
+    "title": "한국폴리텍대학 진주캠퍼스 청년인턴(일반) 채용 공고",
+    "ncs": "경영.회계.사무",
+    "hire": "청년인턴(체험형)",
+    "rgn": "경남",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260702",
+    "end": "20260709",
+    "url": "https://www.kopo.ac.kr/jinju/board.do?menu=10555&mode=view&post=779308"
+   },
+   {
+    "inst": "한전KDN",
+    "title": "한전KDN(주) 진주지사 배전분야 비정규직 모집공고(재공고)",
+    "ncs": "전기.전자,정보통신",
+    "hire": "비정규직",
+    "rgn": "경남",
+    "recruitSe": "신입+경력",
+    "nope": 2,
+    "bgn": "20260701",
+    "end": "20260713",
+    "url": "없음."
+   },
+   {
+    "inst": "한국교통안전공단",
+    "title": "2026년 제3차 한국교통안전공단 경남본부 기간제근로자 채용공고",
+    "ncs": "기계",
+    "hire": "비정규직,청년인턴(체험형)",
+    "rgn": "경남",
+    "recruitSe": "신입",
+    "nope": 2,
+    "bgn": "20260702",
+    "end": "20260717",
+    "url": "https://kotsa1.career.co.kr/"
+   }
+  ],
+  "sido_jobs": [
+   {
+    "inst": "한국전력공사",
+    "title": "2026년 제2차 장애인 체험형인턴 채용 [경남본부] ",
+    "ncs": "경영.회계.사무",
+    "hire": "청년인턴(체험형)",
+    "rgn": "경남",
+    "recruitSe": "신입",
+    "nope": 6,
+    "bgn": "20260623",
+    "end": "20260707",
+    "url": "http://recruit.kepco.co.kr/sangsi"
+   },
+   {
+    "inst": "근로복지공단",
+    "title": "[창원지사] 기간제(사무원) 채용 공고",
+    "ncs": "경영.회계.사무",
+    "hire": "비정규직",
+    "rgn": "경남",
+    "recruitSe": "신입",
+    "nope": 1,
+    "bgn": "20260701",
+    "end": "20260708",
+    "url": "https://www.comwel.or.kr/recruit/hp/main.do"
+   },
+   {
+    "inst": "한국해양과학기술원",
+    "title": "[제26-01-01호 및 제26-02-02호]한국해양과학기술원 2026년 2차 직원(정규직/무기계약직) 공개채용",
+    "ncs": "법률.경찰.소방.교도.국방,운전.운송,연구",
+    "hire": "정규직,무기계약직",
+    "rgn": "부산,경북,경남",
+    "recruitSe": "신입+경력",
+    "nope": 15,
+    "bgn": "20260623",
+    "end": "20260708",
+    "url": "https://www.kiost.ac.kr/cop/bbs/BBSMSTR_000000000073/selectBoardArticle.do?nttId=25470"
+   },
+   {
+    "inst": "한국장애인고용공단",
+    "title": "[한국장애인고용공단 경남서부지사] 기간제 근로자 채용 공고",
+    "ncs": "사회복지.종교",
+    "hire": "비정규직,청년인턴(체험형)",
+    "rgn": "경남",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260702",
+    "end": "20260709",
+    "url": "https://www.kead.or.kr/bbs/deptgongji/bbsPage.do?menuId=MENU0895"
+   },
+   {
+    "inst": "한국장애인고용공단",
+    "title": "[한국장애인고용공단 경남동부지사] 기간제 근로자 채용 공고",
+    "ncs": "경영.회계.사무,사회복지.종교",
+    "hire": "비정규직,청년인턴(체험형)",
+    "rgn": "경남",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260702",
+    "end": "20260709",
+    "url": "https://www.kead.or.kr/bbs/deptgongji/bbsPage.do?menuId=MENU0895"
+   },
+   {
+    "inst": "학교법인한국폴리텍",
+    "title": "한국폴리텍대학 창원캠퍼스 무기계약직원(조리원) 채용 공고",
+    "ncs": "음식서비스",
+    "hire": "무기계약직",
+    "rgn": "경남",
+    "recruitSe": "신입+경력",
+    "nope": 3,
+    "bgn": "20260702",
+    "end": "20260709",
+    "url": "https://www.kopo.ac.kr/changwon/board.do?menu=10551&mode=view&post=779298"
+   }
+  ],
+  "sido_total": 39
+ },
+ "부여군": {
+  "sido": "충남",
+  "rgncode": "R3019",
+  "deeplink": "https://job.alio.go.kr/recruit.do?pageNo=1&workRegionArr=R3019",
+  "local": [
+   {
+    "inst": "한국중부발전(주)",
+    "title": "2026년도 제2차 4직급 신입직원 채용공고",
+    "ncs": "기계,전기.전자,환경.에너지.안전",
+    "hire": "정규직",
+    "rgn": "서울,인천,세종,충남,경남,제주",
+    "recruitSe": "신입",
+    "nope": 98,
+    "bgn": "20260707",
+    "end": "20260722",
+    "url": "https://www.komipo.co.kr"
+   }
+  ],
+  "sido_jobs": [
+   {
+    "inst": "한국농어촌공사",
+    "title": "한국농어촌공사 충남지역본부, 천안지사 계약직(육아휴직 대체인력) 채용 공고",
+    "ncs": "사업관리,경영.회계.사무,농림어업",
+    "hire": "비정규직",
+    "rgn": "충남",
+    "recruitSe": "신입+경력",
+    "nope": 2,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529b9690c0019eecb1194d50e5&page=1&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=8a8bb3529665d7140199501cd3ef6280&searchType=&keyword=&categoryUid1=&categoryUid2=8a8bb3529665d714019951996437"
+   },
+   {
+    "inst": "한국청소년활동진흥원",
+    "title": "2026년 제2차 한국청소년활동진흥원 직원(일반직, 공무직) 채용 공고",
+    "ncs": "보건.의료,사회복지.종교,이용.숙박.여행.오락.스포츠,음식서비스,건설,기계",
+    "hire": "정규직,무기계약직",
+    "rgn": "강원,충남,전북,전남,경북",
+    "recruitSe": "신입+경력",
+    "nope": 14,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.kywa.or.kr/about/about05_5_view.jsp?bgubun=&currPage=1&searchText=&searchColumn=&searchTextEn=&bgubun=&no=36459"
+   },
+   {
+    "inst": "한국농어촌공사",
+    "title": "한국농어촌공사 예산지사 공무직(청소원) 보훈·장애인 제한경쟁 채용공고",
+    "ncs": "경비.청소",
+    "hire": "무기계약직",
+    "rgn": "충남",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529b9690c0019eecad29a64fb6&page=1&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=8a8bb3529665d7140199501cd3ef6280&searchType=&keyword=&categoryUid1=&categoryUid2=8a8bb3529665d714019951996437"
+   },
+   {
+    "inst": "축산물품질평가원",
+    "title": "2026년 상반기 2차 신규직원 체험형 청년인턴(장애) 채용",
+    "ncs": "사업관리,경영.회계.사무,농림어업",
+    "hire": "청년인턴(체험형)",
+    "rgn": "대전,세종,충남",
+    "recruitSe": "신입",
+    "nope": 6,
+    "bgn": "20260623",
+    "end": "20260708",
+    "url": "https://ekape.or.kr/board/view.do?menuId=menu138147&boardNo=845&dmlType=SELECT&pageIndex=1&pageUnit=10&categoryNo=&tabIndex=&searchCondition=SUBJECT&searchKeyword="
+   },
+   {
+    "inst": "한국전력공사",
+    "title": "기간제근로자(대체인력) 채용공고[대전세종충남본부 천안지사, 대덕유성지사]",
+    "ncs": "경영.회계.사무,전기.전자",
+    "hire": "비정규직",
+    "rgn": "대전,충남",
+    "recruitSe": "신입",
+    "nope": 4,
+    "bgn": "20260625",
+    "end": "20260709",
+    "url": "http://recruit.kepco.co.kr/sangsi"
+   },
+   {
+    "inst": "근로복지공단",
+    "title": "[서산지사] 청년(체험형)인턴 채용 공고",
+    "ncs": "경영.회계.사무",
+    "hire": "청년인턴(체험형)",
+    "rgn": "충남",
+    "recruitSe": "신입",
+    "nope": 1,
+    "bgn": "20260629",
+    "end": "20260712",
+    "url": "https://www.comwel.or.kr/recruit/hp/main.do"
+   }
+  ],
+  "sido_total": 13
+ },
+ "홍성군": {
+  "sido": "충남",
+  "rgncode": "R3019",
+  "deeplink": "https://job.alio.go.kr/recruit.do?pageNo=1&workRegionArr=R3019",
+  "local": [
+   {
+    "inst": "한국수자원공사",
+    "title": "[한국수자원공사] 금강유역협력단 홍성현대화사업팀 특수직(기술관리_건설사업) 채용 공고",
+    "ncs": "사업관리,건설,기계,전기.전자,정보통신,환경.에너지.안전",
+    "hire": "비정규직",
+    "rgn": "충남",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260706",
+    "end": "20260720",
+    "url": "https://k-water.recruiter.co.kr/"
+   }
+  ],
+  "sido_jobs": [
+   {
+    "inst": "한국농어촌공사",
+    "title": "한국농어촌공사 충남지역본부, 천안지사 계약직(육아휴직 대체인력) 채용 공고",
+    "ncs": "사업관리,경영.회계.사무,농림어업",
+    "hire": "비정규직",
+    "rgn": "충남",
+    "recruitSe": "신입+경력",
+    "nope": 2,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529b9690c0019eecb1194d50e5&page=1&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=8a8bb3529665d7140199501cd3ef6280&searchType=&keyword=&categoryUid1=&categoryUid2=8a8bb3529665d714019951996437"
+   },
+   {
+    "inst": "한국청소년활동진흥원",
+    "title": "2026년 제2차 한국청소년활동진흥원 직원(일반직, 공무직) 채용 공고",
+    "ncs": "보건.의료,사회복지.종교,이용.숙박.여행.오락.스포츠,음식서비스,건설,기계",
+    "hire": "정규직,무기계약직",
+    "rgn": "강원,충남,전북,전남,경북",
+    "recruitSe": "신입+경력",
+    "nope": 14,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.kywa.or.kr/about/about05_5_view.jsp?bgubun=&currPage=1&searchText=&searchColumn=&searchTextEn=&bgubun=&no=36459"
+   },
+   {
+    "inst": "한국농어촌공사",
+    "title": "한국농어촌공사 예산지사 공무직(청소원) 보훈·장애인 제한경쟁 채용공고",
+    "ncs": "경비.청소",
+    "hire": "무기계약직",
+    "rgn": "충남",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529b9690c0019eecad29a64fb6&page=1&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=8a8bb3529665d7140199501cd3ef6280&searchType=&keyword=&categoryUid1=&categoryUid2=8a8bb3529665d714019951996437"
+   },
+   {
+    "inst": "축산물품질평가원",
+    "title": "2026년 상반기 2차 신규직원 체험형 청년인턴(장애) 채용",
+    "ncs": "사업관리,경영.회계.사무,농림어업",
+    "hire": "청년인턴(체험형)",
+    "rgn": "대전,세종,충남",
+    "recruitSe": "신입",
+    "nope": 6,
+    "bgn": "20260623",
+    "end": "20260708",
+    "url": "https://ekape.or.kr/board/view.do?menuId=menu138147&boardNo=845&dmlType=SELECT&pageIndex=1&pageUnit=10&categoryNo=&tabIndex=&searchCondition=SUBJECT&searchKeyword="
+   },
+   {
+    "inst": "한국전력공사",
+    "title": "기간제근로자(대체인력) 채용공고[대전세종충남본부 천안지사, 대덕유성지사]",
+    "ncs": "경영.회계.사무,전기.전자",
+    "hire": "비정규직",
+    "rgn": "대전,충남",
+    "recruitSe": "신입",
+    "nope": 4,
+    "bgn": "20260625",
+    "end": "20260709",
+    "url": "http://recruit.kepco.co.kr/sangsi"
+   },
+   {
+    "inst": "근로복지공단",
+    "title": "[서산지사] 청년(체험형)인턴 채용 공고",
+    "ncs": "경영.회계.사무",
+    "hire": "청년인턴(체험형)",
+    "rgn": "충남",
+    "recruitSe": "신입",
+    "nope": 1,
+    "bgn": "20260629",
+    "end": "20260712",
+    "url": "https://www.comwel.or.kr/recruit/hp/main.do"
+   }
+  ],
+  "sido_total": 13
+ },
+ "구미시": {
+  "sido": "경북",
+  "rgncode": "R3021",
+  "deeplink": "https://job.alio.go.kr/recruit.do?pageNo=1&workRegionArr=R3021",
+  "local": [
+   {
+    "inst": "한국수자원공사",
+    "title": "[한국수자원공사] 구미권지사 실무직(기술관리_설비운영(배출수처리시설)) 채용 공고",
+    "ncs": "기계,전기.전자,정보통신,환경.에너지.안전",
+    "hire": "무기계약직",
+    "rgn": "경북",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260701",
+    "end": "20260715",
+    "url": "https://k-water.recruiter.co.kr"
+   }
+  ],
+  "sido_jobs": [
+   {
+    "inst": "국립공원공단",
+    "title": "[속리산] 속리산국립공원사무소 기간제(수상안전) 직원 채용",
+    "ncs": "이용.숙박.여행.오락.스포츠",
+    "hire": "비정규직",
+    "rgn": "충북,경북",
+    "recruitSe": "신입+경력",
+    "nope": 4,
+    "bgn": "20260623",
+    "end": "20260707",
+    "url": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019351"
+   },
+   {
+    "inst": "국립공원공단",
+    "title": "[속리산] 속리산국립공원사무소 기간제 국립공원지킴이 선발 공고",
+    "ncs": "이용.숙박.여행.오락.스포츠",
+    "hire": "비정규직",
+    "rgn": "충북,경북",
+    "recruitSe": "신입+경력",
+    "nope": 2,
+    "bgn": "20260623",
+    "end": "20260707",
+    "url": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019349"
+   },
+   {
+    "inst": "한국청소년활동진흥원",
+    "title": "2026년 제2차 한국청소년활동진흥원 직원(일반직, 공무직) 채용 공고",
+    "ncs": "보건.의료,사회복지.종교,이용.숙박.여행.오락.스포츠,음식서비스,건설,기계",
+    "hire": "정규직,무기계약직",
+    "rgn": "강원,충남,전북,전남,경북",
+    "recruitSe": "신입+경력",
+    "nope": 14,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.kywa.or.kr/about/about05_5_view.jsp?bgubun=&currPage=1&searchText=&searchColumn=&searchTextEn=&bgubun=&no=36459"
+   },
+   {
+    "inst": "국립공원공단",
+    "title": "[소백산] 소백산사무소 기간제(수익시설) 직원 채용",
+    "ncs": "경비.청소,이용.숙박.여행.오락.스포츠",
+    "hire": "비정규직",
+    "rgn": "경북",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260703",
+    "end": "20260708",
+    "url": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019432"
+   },
+   {
+    "inst": "한국해양과학기술원",
+    "title": "[제26-01-01호 및 제26-02-02호]한국해양과학기술원 2026년 2차 직원(정규직/무기계약직) 공개채용",
+    "ncs": "법률.경찰.소방.교도.국방,운전.운송,연구",
+    "hire": "정규직,무기계약직",
+    "rgn": "부산,경북,경남",
+    "recruitSe": "신입+경력",
+    "nope": 15,
+    "bgn": "20260623",
+    "end": "20260708",
+    "url": "https://www.kiost.ac.kr/cop/bbs/BBSMSTR_000000000073/selectBoardArticle.do?nttId=25470"
+   },
+   {
+    "inst": "주택관리공단(주)",
+    "title": "채용형 인턴 채용공고(주택관리공단 대구경북지사)",
+    "ncs": "건설,기계,전기.전자,환경.에너지.안전",
+    "hire": "청년인턴(채용형)",
+    "rgn": "대구,경북",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260702",
+    "end": "20260709",
+    "url": "www.kohom.or.kr"
+   }
+  ],
+  "sido_total": 32
+ },
+ "거창군": {
+  "sido": "경남",
+  "rgncode": "R3022",
+  "deeplink": "https://job.alio.go.kr/recruit.do?pageNo=1&workRegionArr=R3022",
+  "local": [],
+  "sido_jobs": [
+   {
+    "inst": "한국전력공사",
+    "title": "2026년 제2차 장애인 체험형인턴 채용 [경남본부] ",
+    "ncs": "경영.회계.사무",
+    "hire": "청년인턴(체험형)",
+    "rgn": "경남",
+    "recruitSe": "신입",
+    "nope": 6,
+    "bgn": "20260623",
+    "end": "20260707",
+    "url": "http://recruit.kepco.co.kr/sangsi"
+   },
+   {
+    "inst": "근로복지공단",
+    "title": "[창원지사] 기간제(사무원) 채용 공고",
+    "ncs": "경영.회계.사무",
+    "hire": "비정규직",
+    "rgn": "경남",
+    "recruitSe": "신입",
+    "nope": 1,
+    "bgn": "20260701",
+    "end": "20260708",
+    "url": "https://www.comwel.or.kr/recruit/hp/main.do"
+   },
+   {
+    "inst": "한국해양과학기술원",
+    "title": "[제26-01-01호 및 제26-02-02호]한국해양과학기술원 2026년 2차 직원(정규직/무기계약직) 공개채용",
+    "ncs": "법률.경찰.소방.교도.국방,운전.운송,연구",
+    "hire": "정규직,무기계약직",
+    "rgn": "부산,경북,경남",
+    "recruitSe": "신입+경력",
+    "nope": 15,
+    "bgn": "20260623",
+    "end": "20260708",
+    "url": "https://www.kiost.ac.kr/cop/bbs/BBSMSTR_000000000073/selectBoardArticle.do?nttId=25470"
+   },
+   {
+    "inst": "한국장애인고용공단",
+    "title": "[한국장애인고용공단 경남서부지사] 기간제 근로자 채용 공고",
+    "ncs": "사회복지.종교",
+    "hire": "비정규직,청년인턴(체험형)",
+    "rgn": "경남",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260702",
+    "end": "20260709",
+    "url": "https://www.kead.or.kr/bbs/deptgongji/bbsPage.do?menuId=MENU0895"
+   },
+   {
+    "inst": "한국장애인고용공단",
+    "title": "[한국장애인고용공단 경남동부지사] 기간제 근로자 채용 공고",
+    "ncs": "경영.회계.사무,사회복지.종교",
+    "hire": "비정규직,청년인턴(체험형)",
+    "rgn": "경남",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260702",
+    "end": "20260709",
+    "url": "https://www.kead.or.kr/bbs/deptgongji/bbsPage.do?menuId=MENU0895"
+   },
+   {
+    "inst": "학교법인한국폴리텍",
+    "title": "한국폴리텍대학 진주캠퍼스 청년인턴(일반) 채용 공고",
+    "ncs": "경영.회계.사무",
+    "hire": "청년인턴(체험형)",
+    "rgn": "경남",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260702",
+    "end": "20260709",
+    "url": "https://www.kopo.ac.kr/jinju/board.do?menu=10555&mode=view&post=779308"
+   }
+  ],
+  "sido_total": 39
+ },
+ "창녕군": {
+  "sido": "경남",
+  "rgncode": "R3022",
+  "deeplink": "https://job.alio.go.kr/recruit.do?pageNo=1&workRegionArr=R3022",
+  "local": [],
+  "sido_jobs": [
+   {
+    "inst": "한국전력공사",
+    "title": "2026년 제2차 장애인 체험형인턴 채용 [경남본부] ",
+    "ncs": "경영.회계.사무",
+    "hire": "청년인턴(체험형)",
+    "rgn": "경남",
+    "recruitSe": "신입",
+    "nope": 6,
+    "bgn": "20260623",
+    "end": "20260707",
+    "url": "http://recruit.kepco.co.kr/sangsi"
+   },
+   {
+    "inst": "근로복지공단",
+    "title": "[창원지사] 기간제(사무원) 채용 공고",
+    "ncs": "경영.회계.사무",
+    "hire": "비정규직",
+    "rgn": "경남",
+    "recruitSe": "신입",
+    "nope": 1,
+    "bgn": "20260701",
+    "end": "20260708",
+    "url": "https://www.comwel.or.kr/recruit/hp/main.do"
+   },
+   {
+    "inst": "한국해양과학기술원",
+    "title": "[제26-01-01호 및 제26-02-02호]한국해양과학기술원 2026년 2차 직원(정규직/무기계약직) 공개채용",
+    "ncs": "법률.경찰.소방.교도.국방,운전.운송,연구",
+    "hire": "정규직,무기계약직",
+    "rgn": "부산,경북,경남",
+    "recruitSe": "신입+경력",
+    "nope": 15,
+    "bgn": "20260623",
+    "end": "20260708",
+    "url": "https://www.kiost.ac.kr/cop/bbs/BBSMSTR_000000000073/selectBoardArticle.do?nttId=25470"
+   },
+   {
+    "inst": "한국장애인고용공단",
+    "title": "[한국장애인고용공단 경남서부지사] 기간제 근로자 채용 공고",
+    "ncs": "사회복지.종교",
+    "hire": "비정규직,청년인턴(체험형)",
+    "rgn": "경남",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260702",
+    "end": "20260709",
+    "url": "https://www.kead.or.kr/bbs/deptgongji/bbsPage.do?menuId=MENU0895"
+   },
+   {
+    "inst": "한국장애인고용공단",
+    "title": "[한국장애인고용공단 경남동부지사] 기간제 근로자 채용 공고",
+    "ncs": "경영.회계.사무,사회복지.종교",
+    "hire": "비정규직,청년인턴(체험형)",
+    "rgn": "경남",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260702",
+    "end": "20260709",
+    "url": "https://www.kead.or.kr/bbs/deptgongji/bbsPage.do?menuId=MENU0895"
+   },
+   {
+    "inst": "학교법인한국폴리텍",
+    "title": "한국폴리텍대학 진주캠퍼스 청년인턴(일반) 채용 공고",
+    "ncs": "경영.회계.사무",
+    "hire": "청년인턴(체험형)",
+    "rgn": "경남",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260702",
+    "end": "20260709",
+    "url": "https://www.kopo.ac.kr/jinju/board.do?menu=10555&mode=view&post=779308"
+   }
+  ],
+  "sido_total": 39
+ },
+ "서귀포시": {
+  "sido": "제주",
+  "rgncode": "R3025",
+  "deeplink": "https://job.alio.go.kr/recruit.do?pageNo=1&workRegionArr=R3025",
+  "local": [
+   {
+    "inst": "한국수자원공사",
+    "title": "[한국수자원공사] 제주지역협력본부 특수직(건설사업_기술관리_서귀포시 동지역) 채용 공고",
+    "ncs": "사업관리,건설,기계,전기.전자,정보통신,환경.에너지.안전",
+    "hire": "비정규직",
+    "rgn": "제주",
+    "recruitSe": "신입+경력",
+    "nope": 3,
+    "bgn": "20260706",
+    "end": "20260720",
+    "url": "https://k-water.recruiter.co.kr"
+   }
+  ],
+  "sido_jobs": [
+   {
+    "inst": "한국마약퇴치운동본부",
+    "title": "한국마약퇴치운동본부 2026년 제3차 채용공고",
+    "ncs": "사업관리,경영.회계.사무,교육.자연.사회과학,사회복지.종교",
+    "hire": "정규직,비정규직,청년인턴(체험형)",
+    "rgn": "서울,부산,대구,광주,울산,제주",
+    "recruitSe": "신입+경력",
+    "nope": 18,
+    "bgn": "20260624",
+    "end": "20260708",
+    "url": "https://drugfree.careeron.co.kr"
+   },
+   {
+    "inst": "한국교통안전공단",
+    "title": "2026년 제3차 한국교통안전공단 제주본부 기간제근로자 채용공고",
+    "ncs": "경영.회계.사무",
+    "hire": "청년인턴(체험형)",
+    "rgn": "제주",
+    "recruitSe": "신입",
+    "nope": 1,
+    "bgn": "20260702",
+    "end": "20260717",
+    "url": "https://kotsa1.career.co.kr/"
+   },
+   {
+    "inst": "한국수자원공사",
+    "title": "[한국수자원공사] 제주지역협력본부 특수직(사무관리_서무보조) 채용 공고",
+    "ncs": "경영.회계.사무",
+    "hire": "비정규직",
+    "rgn": "제주",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260706",
+    "end": "20260720",
+    "url": "https://k-water.recruiter.co.kr"
+   },
+   {
+    "inst": "한국수자원공사",
+    "title": "[한국수자원공사] 제주지역협력본부 특수직(건설사업_사무관리_동지역 제주시) 채용 공고",
+    "ncs": "경영.회계.사무",
+    "hire": "비정규직",
+    "rgn": "제주",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260706",
+    "end": "20260720",
+    "url": "https://k-water.recruiter.co.kr"
+   },
+   {
+    "inst": "한국수자원공사",
+    "title": "[한국수자원공사] 제주지역협력본부 특수직(건설사업_기술관리_한한대안) 채용 공고",
+    "ncs": "사업관리,건설,기계,전기.전자,정보통신,환경.에너지.안전",
+    "hire": "비정규직",
+    "rgn": "제주",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260706",
+    "end": "20260720",
+    "url": "https://k-water.recruiter.co.kr"
+   },
+   {
+    "inst": "한국수자원공사",
+    "title": "[한국수자원공사] 제주지역협력본부 특수직(건설사업_기술관리_사라) 채용 공고",
+    "ncs": "사업관리,건설,기계,전기.전자,정보통신,환경.에너지.안전",
+    "hire": "비정규직",
+    "rgn": "제주",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260706",
+    "end": "20260720",
+    "url": "https://k-water.recruiter.co.kr"
+   }
+  ],
+  "sido_total": 15
+ },
+ "논산시": {
+  "sido": "충남",
+  "rgncode": "R3019",
+  "deeplink": "https://job.alio.go.kr/recruit.do?pageNo=1&workRegionArr=R3019",
+  "local": [],
+  "sido_jobs": [
+   {
+    "inst": "한국농어촌공사",
+    "title": "한국농어촌공사 충남지역본부, 천안지사 계약직(육아휴직 대체인력) 채용 공고",
+    "ncs": "사업관리,경영.회계.사무,농림어업",
+    "hire": "비정규직",
+    "rgn": "충남",
+    "recruitSe": "신입+경력",
+    "nope": 2,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529b9690c0019eecb1194d50e5&page=1&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=8a8bb3529665d7140199501cd3ef6280&searchType=&keyword=&categoryUid1=&categoryUid2=8a8bb3529665d714019951996437"
+   },
+   {
+    "inst": "한국청소년활동진흥원",
+    "title": "2026년 제2차 한국청소년활동진흥원 직원(일반직, 공무직) 채용 공고",
+    "ncs": "보건.의료,사회복지.종교,이용.숙박.여행.오락.스포츠,음식서비스,건설,기계",
+    "hire": "정규직,무기계약직",
+    "rgn": "강원,충남,전북,전남,경북",
+    "recruitSe": "신입+경력",
+    "nope": 14,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.kywa.or.kr/about/about05_5_view.jsp?bgubun=&currPage=1&searchText=&searchColumn=&searchTextEn=&bgubun=&no=36459"
+   },
+   {
+    "inst": "한국농어촌공사",
+    "title": "한국농어촌공사 예산지사 공무직(청소원) 보훈·장애인 제한경쟁 채용공고",
+    "ncs": "경비.청소",
+    "hire": "무기계약직",
+    "rgn": "충남",
+    "recruitSe": "신입+경력",
+    "nope": 1,
+    "bgn": "20260622",
+    "end": "20260707",
+    "url": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529b9690c0019eecad29a64fb6&page=1&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=8a8bb3529665d7140199501cd3ef6280&searchType=&keyword=&categoryUid1=&categoryUid2=8a8bb3529665d714019951996437"
+   },
+   {
+    "inst": "축산물품질평가원",
+    "title": "2026년 상반기 2차 신규직원 체험형 청년인턴(장애) 채용",
+    "ncs": "사업관리,경영.회계.사무,농림어업",
+    "hire": "청년인턴(체험형)",
+    "rgn": "대전,세종,충남",
+    "recruitSe": "신입",
+    "nope": 6,
+    "bgn": "20260623",
+    "end": "20260708",
+    "url": "https://ekape.or.kr/board/view.do?menuId=menu138147&boardNo=845&dmlType=SELECT&pageIndex=1&pageUnit=10&categoryNo=&tabIndex=&searchCondition=SUBJECT&searchKeyword="
+   },
+   {
+    "inst": "한국전력공사",
+    "title": "기간제근로자(대체인력) 채용공고[대전세종충남본부 천안지사, 대덕유성지사]",
+    "ncs": "경영.회계.사무,전기.전자",
+    "hire": "비정규직",
+    "rgn": "대전,충남",
+    "recruitSe": "신입",
+    "nope": 4,
+    "bgn": "20260625",
+    "end": "20260709",
+    "url": "http://recruit.kepco.co.kr/sangsi"
+   },
+   {
+    "inst": "근로복지공단",
+    "title": "[서산지사] 청년(체험형)인턴 채용 공고",
+    "ncs": "경영.회계.사무",
+    "hire": "청년인턴(체험형)",
+    "rgn": "충남",
+    "recruitSe": "신입",
+    "nope": 1,
+    "bgn": "20260629",
+    "end": "20260712",
+    "url": "https://www.comwel.or.kr/recruit/hp/main.do"
+   }
+  ],
+  "sido_total": 13
+ }
+}

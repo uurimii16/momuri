@@ -15,3 +15,10 @@ map/data/sigungu.geojson
 
 # ODsay 키(로컬 전용, 커밋 금지)
 analysis/.odsay_key.local
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example

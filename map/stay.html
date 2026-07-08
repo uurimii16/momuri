@@ -107,6 +107,27 @@
     .story .kpi div{ flex:1; background:rgba(255,255,255,.14); border-radius:9px; padding:8px 6px; text-align:center; font-size:10.5px; }
     .story .kpi b{ display:block; font-size:15px; color:#fff; margin-top:2px; }
     .nm{ width:28px; height:28px; border-radius:50%; color:#fff; font-weight:800; font-size:13px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 8px rgba(0,0,0,.35); border:2px solid #fff; }
+    /* 한 달 살기 · 주차 뷰 */
+    .wtabs{ display:flex; gap:6px; margin:12px 0 12px; flex-wrap:wrap; }
+    .wtabs button{ border:1px solid var(--line); background:#fff; padding:8px 12px; border-radius:20px; font-size:12.5px; font-weight:700; color:var(--muted); cursor:pointer; }
+    .wtabs button.on{ background:var(--brand); color:#fff; border-color:var(--brand); }
+    .wk-head{ font-size:15px; font-weight:800; }
+    .wk-desc{ font-size:12px; color:var(--muted); line-height:1.5; margin:2px 0 10px; }
+    .cal{ display:flex; gap:4px; margin-bottom:8px; }
+    .cal div{ flex:1; text-align:center; background:var(--soft); border-radius:8px; padding:6px 2px; font-size:10px; color:var(--muted); }
+    .cal div b{ display:block; font-size:15px; margin-top:2px; }
+    .cal div.wknd{ background:#eef6f3; color:var(--brand-d); }
+    .rhythm{ font-size:11.5px; color:#5a666c; background:#f5f8f7; border-radius:8px; padding:8px 10px; margin-bottom:12px; line-height:1.5; }
+    .picks{ display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+    .pick{ border:1px solid var(--line); border-radius:10px; overflow:hidden; cursor:pointer; background:#fff; transition:.12s; }
+    .pick:hover{ border-color:var(--brand); box-shadow:0 3px 12px rgba(20,184,166,.16); }
+    .pick img{ width:100%; height:76px; object-fit:cover; background:#e6ebe9; display:block; }
+    .pick .pb{ padding:7px 8px 9px; }
+    .pick .kd{ display:inline-block; font-size:9.5px; font-weight:800; color:#fff; border-radius:20px; padding:1px 7px; }
+    .pick .pt{ font-size:12px; font-weight:700; margin-top:5px; line-height:1.3; }
+    .cost .row{ display:flex; justify-content:space-between; align-items:center; font-size:12.5px; padding:6px 0; border-bottom:1px dashed #eee; }
+    .cost .row b{ font-variant-numeric:tabular-nums; }
+    .cost .row.tot{ border-bottom:none; font-weight:800; color:var(--brand-d); font-size:14.5px; padding-top:9px; }
     @media(max-width:820px){ #side{ width:340px; } }
   </style>
 </head>
@@ -148,6 +169,7 @@
       <div id="timeline"></div>
 
       <div class="sec month" id="monthSec"></div>
+      <div class="sec" id="settleSec"></div>
       <div class="sec" id="jobsSec"></div>
       <div class="sec" id="staySec"></div>
       <div class="sec story" id="storySec"></div>
@@ -158,7 +180,7 @@
   <script>
     const COLOR = { '명소':'#2e79c4', '맛집':'#f59e0b', '숙박':'#7c5cff' };
     const START = 9*60 + 30;
-    let map, courses = [], jobs = {}, regions = [], cur = 0, dayIdx = 0, period = 30, mode = 'car', markers = [];
+    let map, courses = [], jobs = {}, regions = [], cur = 0, dayIdx = 0, weekIdx = 0, weeks = [], period = 30, mode = 'car', markers = [];
 
     const fmt = m => `${String(Math.floor(m/60)%24).padStart(2,'0')}:${String(m%60).padStart(2,'0')}`;
     const esc = s => String(s ?? '').replace(/</g,'&lt;').replace(/"/g,'&quot;');
@@ -171,7 +193,7 @@
       [courses, jobs, regions] = await Promise.all([
         fetch('data/courses.json?v=3').then(r=>r.json()),
         fetch('data/jobs.json?v=1').then(r=>r.json()).catch(()=>({})),
-        fetch('data/momuri.json?v=2').then(r=>r.json()).catch(()=>([])),
+        fetch('data/momuri.json?v=3').then(r=>r.json()).catch(()=>([])),
       ]);
       const want = qparam('region');
       const idx = courses.findIndex(c => c.sigungu === want || c.region === want);
@@ -183,7 +205,7 @@
       document.querySelectorAll('#period button').forEach(b => b.onclick = () => {
         period = +b.dataset.d;
         document.querySelectorAll('#period button').forEach(x=>x.classList.toggle('on', x===b));
-        dayIdx = 0; render();
+        dayIdx = 0; weekIdx = 0; render();
       });
       document.querySelectorAll('#modes button').forEach(b => b.onclick = () => {
         mode = b.dataset.m;
@@ -223,59 +245,158 @@
       const region = regions.find(r => r.sigungu === c.sigungu) || {};
       const job = jobs[c.sigungu] || null;
 
-      // 요약(선택 모드 기준)
-      const stayNights = period===30 ? '한 달+' : (nd-1)+'박';
-      const moveTot = c.days.slice(0,nd).reduce((s,d)=>s+moveMinOf(d),0);
-      const moveIcon = mode==='transit' ? '🚌' : '🚗';
-      document.getElementById('summary').innerHTML =
-        `<div>체류<b>${stayNights}</b></div>`+
-        `<div>코스<b>${nd}일</b></div>`+
-        `<div>이동 총<b>${moveIcon}${moveTot}분</b></div>`;
+      const isMonth = period === 30;
 
-      // 대중교통 미제공 배너
-      const day0 = c.days[dayIdx];
-      const anyTransit = day0.legs.some(l=>l.transit) || (day0.to_night && day0.to_night.transit);
+      // 요약
+      if(isMonth){
+        weeks = buildWeeks(region);
+        const nPick = weeks.reduce((s,w)=>s+w.picks.length,0);
+        document.getElementById('summary').innerHTML =
+          `<div>체류<b>한 달+</b></div><div>추천 장소<b>${nPick}곳</b></div><div>월 예상<b>~${estCost().total}만</b></div>`;
+      } else {
+        const moveTot = c.days.slice(0,nd).reduce((s,d)=>s+moveMinOf(d),0);
+        const moveIcon = mode==='transit' ? '🚌' : '🚗';
+        document.getElementById('summary').innerHTML =
+          `<div>체류<b>${nd-1}박</b></div><div>코스<b>${nd}일</b></div><div>이동 총<b>${moveIcon}${moveTot}분</b></div>`;
+      }
+
+      // 단기(일정)용 UI ↔ 한달(주차)용 UI 전환
+      document.getElementById('modes').style.display    = isMonth ? 'none' : 'flex';
+      document.getElementById('daytabs').style.display  = isMonth ? 'none' : 'flex';
+      document.getElementById('timeline').style.display = isMonth ? 'none' : 'block';
+      document.getElementById('settleSec').style.display = isMonth ? '' : 'none';
       const banner = document.getElementById('banner');
-      if(mode==='transit' && !c.has_transit){
-        banner.style.display='block';
-        banner.innerHTML = anyTransit
-          ? '일부 구간만 대중교통 경로가 있어, 없는 구간은 <b>자동차 기준(🚗 자동차 권장)</b>으로 표시합니다.'
-          : '🚗 <b>자동차 권장</b> — 이 지역은 대중교통 노선이 드물어 자동차 기준으로 안내합니다.';
-      } else banner.style.display='none';
 
-      // Day 탭
-      const dt = document.getElementById('daytabs');
-      dt.innerHTML = c.days.slice(0,nd).map((d,i)=>
-        `<button class="${i===dayIdx?'on':''}" data-i="${i}">Day ${d.day}</button>`).join('')
-        + (period===30 ? `<button style="cursor:default;color:#9aa4aa;border-style:dashed">…이후 반복+정착</button>` : '');
-      dt.querySelectorAll('button[data-i]').forEach(b=> b.onclick=()=>{ dayIdx=+b.dataset.i; render(); });
-
-      renderTimeline(c.days[dayIdx]);
-      renderMonth(c, region);
+      if(isMonth){
+        banner.style.display='none';
+        if(weekIdx >= weeks.length) weekIdx = 0;
+        renderMonthMode(c, region);
+        renderSettle(c, region);
+        drawWeekMap(weeks[weekIdx]);
+      } else {
+        document.getElementById('monthSec').style.display='none';
+        // 대중교통 미제공 배너
+        const day0 = c.days[dayIdx];
+        const anyTransit = day0.legs.some(l=>l.transit) || (day0.to_night && day0.to_night.transit);
+        if(mode==='transit' && !c.has_transit){
+          banner.style.display='block';
+          banner.innerHTML = anyTransit
+            ? '일부 구간만 대중교통 경로가 있어, 없는 구간은 <b>자동차 기준(🚗 자동차 권장)</b>으로 표시합니다.'
+            : '🚗 <b>자동차 권장</b> — 이 지역은 대중교통 노선이 드물어 자동차 기준으로 안내합니다.';
+        } else banner.style.display='none';
+        // Day 탭
+        const dt = document.getElementById('daytabs');
+        dt.innerHTML = c.days.slice(0,nd).map((d,i)=>
+          `<button class="${i===dayIdx?'on':''}" data-i="${i}">Day ${d.day}</button>`).join('');
+        dt.querySelectorAll('button[data-i]').forEach(b=> b.onclick=()=>{ dayIdx=+b.dataset.i; render(); });
+        renderTimeline(c.days[dayIdx]);
+        drawMap(c.days[dayIdx]);
+      }
       renderJobs(job, c, region);
       renderStays(region);
       renderStory(c, region, nd);
-      drawMap(c.days[dayIdx]);
     }
 
-    function renderMonth(c, region){
+    // ── 한 달 살기: 주차별 실제 장소 배정 ──
+    const KCOL  = { '관광':'#2e79c4','맛집':'#f59e0b','카페':'#e0561a','문화':'#7c5cff','시장':'#14b8a6','체험':'#2fae8f','축제':'#d9534f','숙소':'#7c5cff' };
+    const KICON = { '관광':'📍','맛집':'🍽','카페':'☕','문화':'🏛','시장':'🛍','체험':'⛰','축제':'🎉','숙소':'🏠' };
+    const take = (arr,a,b)=> (arr||[]).slice(a,b);
+    const W = (kind,x)=> ({ kind, title:x.title, addr:x.addr, img:x.img, lat:x.lat, lng:x.lng });
+
+    function buildWeeks(r){
+      const S=r.spots,F=r.foods,C=r.cafes,U=r.culture,SH=r.shopping,L=r.leports,FE=r.festivals,ST=r.stays;
+      return [
+        { theme:'둘러보기', icon:'🗺', desc:'대표 명소·문화유산을 순회하며 지역의 큰 그림을 익히는 주.',
+          rhythm:'평일 오전 워케이션 · 오후 대표 명소 / 주말 종일 탐방',
+          picks:[...take(S,0,4).map(x=>W('관광',x)), ...take(U,0,1).map(x=>W('문화',x)), ...take(FE,0,1).map(x=>W('축제',x))] },
+        { theme:'로컬 깊이', icon:'🏘', desc:'전통시장·카페·골목 맛집으로 관광객에서 생활자로 스며드는 주.',
+          rhythm:'평일 단골 카페 워케이션·시장 장보기 / 주말 골목·문화 탐방',
+          picks:[...take(SH,0,2).map(x=>W('시장',x)), ...take(C,0,2).map(x=>W('카페',x)), ...take(F,0,2).map(x=>W('맛집',x)), ...take(U,1,2).map(x=>W('문화',x))] },
+        { theme:'워케이션·관계', icon:'💻', desc:'작업 거점에서 일하며 체험·이벤트로 지역과 연결되는 주.',
+          rhythm:'평일 카페·코워킹 워케이션 / 주말 체험·레포츠·이벤트',
+          picks:[...take(C,2,4).map(x=>W('카페',x)), ...take(L,0,3).map(x=>W('체험',x)), ...take(S,4,6).map(x=>W('관광',x))] },
+        { theme:'정착 준비', icon:'🔑', desc:'장기 숙소·로컬 일자리를 확정하고 다음 달을 잇는 기반을 만드는 주.',
+          rhythm:'평일 일자리 탐색·전입 행정 / 주말 장기 숙소 답사·이웃 인사',
+          picks:[...take(ST,0,2).map(x=>W('숙소',x)), ...take(F,2,4).map(x=>W('맛집',x)), ...take(SH,2,3).map(x=>W('시장',x))] },
+      ];
+    }
+
+    function calHTML(){
+      const days=['월','화','수','목','금','토','일'];
+      return `<div class="cal">${days.map((d,i)=>{
+        const wknd=i>=5, ic=i<5?'💻':(i===5?'🚶':'☕');
+        return `<div class="${wknd?'wknd':''}">${d}<b>${ic}</b></div>`;}).join('')}</div>`;
+    }
+
+    function renderMonthMode(c, region){
       const sec = document.getElementById('monthSec');
-      if(period !== 30){ sec.style.display='none'; return; }
       sec.style.display='';
-      const nm = esc(c.region.split(' ').pop());
-      const q = encodeURIComponent(c.region.split(' ').pop() + ' 한달살기');
-      const kto = encodeURIComponent(c.region.split(' ').pop());
-      sec.innerHTML = `<h3>🗓 한 달 살기 로드맵</h3>
-        <div class="hint">데모 3일 코스를 씨앗으로, 한 달을 주차별 리듬으로 설계했어요. <b>관광 → 로컬 → 관계 → 정착</b>으로 갈수록 생활인구에 가까워집니다.</div>
-        <div class="wk"><div class="n">1주차</div><div><div class="t">둘러보기</div><div class="d">대표 명소·문화유산 순회(위 3일 코스). 지역의 큰 그림을 익히는 주.</div></div></div>
-        <div class="wk"><div class="n">2주차</div><div><div class="t">로컬 깊이</div><div class="d">단골 맛집·전통시장·카페, 문화유산 심화 탐방. 관광객에서 생활자로.</div></div></div>
-        <div class="wk"><div class="n">3주차</div><div><div class="t">관계 맺기</div><div class="d">워케이션 거점에서 일하며 지역 모임·로컬 커뮤니티와 연결.</div></div></div>
-        <div class="wk"><div class="n">4주차</div><div><div class="t">정착 준비</div><div class="d">장기 숙소·로컬 일자리 확정, 전입 등 행정. 다음 달을 이어갈 기반 만들기.</div></div></div>
-        <div class="settle">
-          <a href="https://search.naver.com/search.naver?query=${q}" target="_blank" rel="noopener">🏘 ${nm} 한달살기 프로그램</a>
-          <a href="https://korean.visitkorea.or.kr/search/search_list.do?keyword=${kto}" target="_blank" rel="noopener">🧭 구석구석 지역정보</a>
+      const w = weeks[weekIdx];
+      const tabs = weeks.map((wk,i)=>`<button class="${i===weekIdx?'on':''}" data-w="${i}">${i+1}주 ${wk.icon}</button>`).join('');
+      const picks = w.picks.length ? w.picks.map((p,i)=>`
+        <div class="pick" data-i="${i}">
+          ${p.img?`<img src="${esc(p.img)}" onerror="this.style.display='none'">`:''}
+          <div class="pb"><span class="kd" style="background:${KCOL[p.kind]||'#888'}">${KICON[p.kind]||''} ${p.kind}</span>
+          <div class="pt">${esc(p.title)}</div></div>
+        </div>`).join('') : '<div class="hint">이 주에 해당하는 카테고리 데이터가 이 지역엔 적어요. 다른 주를 참고하세요.</div>';
+      sec.innerHTML = `<h3>🗓 한 달 살기 · 주차별 리듬</h3>
+        <div class="hint">TourAPI 실제 장소를 <b>관광 → 로컬 → 워케이션 → 정착</b> 흐름으로 4주에 배분했어요. 주를 눌러보세요(지도도 바뀌어요).</div>
+        <div class="wtabs">${tabs}</div>
+        <div class="wk-head">${w.icon} ${w.theme}</div>
+        <div class="wk-desc">${w.desc}</div>
+        ${calHTML()}
+        <div class="rhythm">🔁 <b>이번 주 리듬</b> · ${w.rhythm}</div>
+        <div class="picks">${picks}</div>`;
+      sec.querySelectorAll('.wtabs button').forEach(b=> b.onclick=()=>{ weekIdx=+b.dataset.w; render(); });
+      sec.querySelectorAll('.pick').forEach(el=> el.onclick=()=>{
+        const p = w.picks[+el.dataset.i];
+        if(p && p.lat && p.lng) map.flyTo({ center:[p.lng,p.lat], zoom:14, duration:700 });
+      });
+    }
+
+    function estCost(){ const stay=55, food=45, transit=10, etc=15; return { stay, food, transit, etc, total:stay+food+transit+etc }; }
+
+    function renderSettle(c, region){
+      const sec = document.getElementById('settleSec');
+      const nm = c.region.split(' ').pop();
+      const k = estCost();
+      const nmap = q => `https://map.naver.com/v5/search/${encodeURIComponent(nm+' '+q)}`;
+      sec.innerHTML = `<h3>🧾 정착 대시보드</h3>
+        <div class="hint">한 달 이상 머물 때 필요한 <b>비용·행정·생활 인프라</b>를 한눈에. (1인 기준 추정)</div>
+        <div class="cost">
+          <div class="row"><span>장기 숙소(게하·원룸)</span><b>~${k.stay}만</b></div>
+          <div class="row"><span>식비(1일 1.5만)</span><b>~${k.food}만</b></div>
+          <div class="row"><span>교통</span><b>~${k.transit}만</b></div>
+          <div class="row"><span>여가·기타</span><b>~${k.etc}만</b></div>
+          <div class="row tot"><span>월 예상 합계</span><b>~${k.total}만원</b></div>
         </div>
-        <div class="hint" style="margin-top:10px;font-size:10.5px">※ 장기 숙소는 아래 <b>🏡 장기 숙소</b>, 일자리는 <b>💼 로컬 일자리</b> 섹션을 함께 보세요.</div>`;
+        <div class="hint" style="margin-top:6px;font-size:10.5px">※ 지역·숙소 유형·계절에 따라 달라지는 추정치예요.</div>
+        <div class="settle" style="margin-top:12px">
+          <a href="https://search.naver.com/search.naver?query=${encodeURIComponent(nm+' 한달살기')}" target="_blank" rel="noopener">🏘 ${esc(nm)} 한달살기 프로그램</a>
+          <a href="${nmap('주민센터')}" target="_blank" rel="noopener">🏛 전입·주민센터</a>
+          <a href="${nmap('마트')}" target="_blank" rel="noopener">🛒 생활 마트</a>
+          <a href="${nmap('병원')}" target="_blank" rel="noopener">🏥 병원·의료</a>
+        </div>
+        <div class="hint" style="margin-top:10px;font-size:10.5px">※ 로컬 일자리는 아래 <b>💼</b>, 장기 숙소는 <b>🏡</b> 섹션을 함께 보세요.</div>`;
+    }
+
+    function drawWeekMap(w){
+      markers.forEach(m=>m.remove()); markers=[];
+      if(map.getSource('route')){ try{ map.getSource('route').setData({ type:'Feature', geometry:{ type:'LineString', coordinates:[] }}); }catch(e){} }
+      const pts=[];
+      (w.picks||[]).forEach(p=>{
+        if(!p.lat || !p.lng) return;
+        const el=document.createElement('div'); el.className='nm'; el.style.background=KCOL[p.kind]||'#888'; el.style.fontSize='13px';
+        el.textContent = KICON[p.kind]||'📍';
+        markers.push(new routogl.Marker({ element:el }).setLngLat([p.lng,p.lat])
+          .setPopup(new routogl.Popup({ offset:18 }).setHTML(`<div style="font-size:13px;font-weight:700">${esc(p.title)}</div><div style="font-size:11px;color:#7a848a">${esc(p.kind)}</div>`))
+          .addTo(map));
+        pts.push([p.lng,p.lat]);
+      });
+      if(pts.length){
+        const lngs=pts.map(p=>p[0]), lats=pts.map(p=>p[1]);
+        map.fitBounds([[Math.min(...lngs),Math.min(...lats)],[Math.max(...lngs),Math.max(...lats)]], { padding:70, duration:800, maxZoom:13 });
+      }
     }
 
     function renderTimeline(day){

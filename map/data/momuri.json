@@ -13,8 +13,8 @@
    "attract": 4.2,
    "connect": 1.3
   },
-  "lat": 36.456344,
-  "lng": 128.146487,
+  "lat": 36.439007,
+  "lng": 128.138726,
   "spots": [
    {
     "title": "견훤산성",
@@ -22,8 +22,7 @@
     "lat": 36.5756268834,
     "lng": 127.8993602813,
     "img": "http://tong.visitkorea.or.kr/cms/resource/63/3031063_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010200"
    },
    {
     "title": "경북 상주 함창·이안·공검면 [슬로시티]",
@@ -31,8 +30,7 @@
     "lat": 36.570190974,
     "lng": 128.1794354346,
     "img": "http://tong.visitkorea.or.kr/cms/resource/12/3042612_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010600"
    },
    {
     "title": "낙동강 경천대(경천대 전망대)",
@@ -40,8 +38,7 @@
     "lat": 36.4582827307,
     "lng": 128.2440300692,
     "img": "http://tong.visitkorea.or.kr/cms/resource/90/3082790_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "낙암서원",
@@ -49,8 +46,7 @@
     "lat": 36.4104275695,
     "lng": 128.2704624024,
     "img": "http://tong.visitkorea.or.kr/cms/resource/37/3403637_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "노음산(노악산)",
@@ -58,8 +54,7 @@
     "lat": 36.4389461205,
     "lng": 128.0967215065,
     "img": "http://tong.visitkorea.or.kr/cms/resource/97/3579397_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01010400"
    },
    {
     "title": "도남서원",
@@ -67,8 +62,7 @@
     "lat": 36.4396989342,
     "lng": 128.254493552,
     "img": "http://tong.visitkorea.or.kr/cms/resource/56/3031056_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "도안서원",
@@ -76,8 +70,7 @@
     "lat": 36.4153633693,
     "lng": 127.9811630177,
     "img": "http://tong.visitkorea.or.kr/cms/resource/67/3403667_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "동해사(상주)",
@@ -85,8 +78,103 @@
     "lat": 36.4052267611,
     "lng": 128.1943109883,
     "img": "http://tong.visitkorea.or.kr/cms/resource/25/3413925_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010800"
+   },
+   {
+    "title": "북장사(상주)",
+    "addr": "경상북도 상주시 내서면 북장1길 317",
+    "lat": 36.4377987304,
+    "lng": 128.0804007707,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/29/3552129_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "상락사(상주)",
+    "addr": "경상북도 상주시 서성4길 19 (서성동)",
+    "lat": 36.4180746711,
+    "lng": 128.1603803131,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/86/3552086_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "상주 금흔리 이부곡 토성",
+    "addr": "경상북도 상주시 사벌국면 금흔리",
+    "lat": 36.44204518,
+    "lng": 128.2160219089,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/15/3410715_image2_1.jpg",
+    "cat3": "A02010200"
+   },
+   {
+    "title": "상주 승곡리 추원당",
+    "addr": "경상북도 상주시 낙동면 양진당길 59-15",
+    "lat": 36.3661762926,
+    "lng": 128.2286868075,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/16/3410616_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "상주 양진당",
+    "addr": "경상북도 상주시 낙동면 양진당길 27-4",
+    "lat": 36.3641904147,
+    "lng": 128.2290173891,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/42/3538842_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "상주 오작당",
+    "addr": "경상북도 상주시 낙동면 선상서로 1975",
+    "lat": 36.3604352438,
+    "lng": 128.2266538163,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/58/3538858_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "상주 옥동서원",
+    "addr": "경상북도 상주시 모동면 수봉2길 29",
+    "lat": 36.2897853184,
+    "lng": 127.9415644778,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/17/3539017_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "상주 임란북천전적지",
+    "addr": "경상북도 상주시 경상대로 3123",
+    "lat": 36.4255569754,
+    "lng": 128.1508476184,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/19/3538819_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "상주 증촌리 석조여래입상",
+    "addr": "경상북도 상주시 함창읍 증촌2길 10-13",
+    "lat": 36.5681188462,
+    "lng": 128.1716945166,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/29/3400429_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "상주 허씨비단직물",
+    "addr": "경상북도 상주시 함창읍 어풍로 19",
+    "lat": 36.566516434,
+    "lng": 128.1815909018,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/95/3436895_image2_1.JPG",
+    "cat3": "A02040800"
+   },
+   {
+    "title": "상주곶감공원",
+    "addr": "경상북도 상주시 외남면 곶감공원길 59-12",
+    "lat": 36.3753812685,
+    "lng": 128.1028810725,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/30/3510430_image2_1.jpg",
+    "cat3": "A02020700"
+   },
+   {
+    "title": "상주동학교당",
+    "addr": "경상북도 상주시 은척면 우기1길 64",
+    "lat": 36.5398172632,
+    "lng": 128.0606246663,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/61/3410861_image2_1.jpg",
+    "cat3": "A02010900"
    }
   ],
   "foods": [
@@ -96,17 +184,7 @@
     "lat": 36.4145917598,
     "lng": 128.1617247358,
     "img": "http://tong.visitkorea.or.kr/cms/resource/43/2831643_image2_1.jpg",
-    "start": null,
-    "end": null
-   },
-   {
-    "title": "구프커피",
-    "addr": "경상북도 상주시 개운2길 19-12",
-    "lat": 36.4036010591,
-    "lng": 128.1459764469,
-    "img": "http://tong.visitkorea.or.kr/cms/resource/59/2831659_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "남산가든",
@@ -114,8 +192,7 @@
     "lat": 36.407959027,
     "lng": 128.1531756833,
     "img": "http://tong.visitkorea.or.kr/cms/resource/74/2831674_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "루안",
@@ -123,8 +200,81 @@
     "lat": 36.4159970795,
     "lng": 128.1575917316,
     "img": "http://tong.visitkorea.or.kr/cms/resource/90/2831690_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020400"
+   },
+   {
+    "title": "상주주막",
+    "addr": "경상북도 상주시 중동면 갱다불길 147",
+    "lat": 36.4461955968,
+    "lng": 128.2643397144,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/21/2900721_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "성수식당",
+    "addr": "경상북도 상주시 화령남6길 17",
+    "lat": 36.4450649948,
+    "lng": 127.9517203695,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/11/2831711_image2_1.jpg",
+    "cat3": "A05020400"
+   },
+   {
+    "title": "수라간",
+    "addr": "경상북도 상주시 상서문3길 119",
+    "lat": 36.4144444876,
+    "lng": 128.1580667327,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/42/2831742_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "청자",
+    "addr": "경상북도 상주시 북상주로 539-5",
+    "lat": 36.4748489438,
+    "lng": 128.1713055206,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/54/2831754_image2_1.jpg",
+    "cat3": "A05020400"
+   },
+   {
+    "title": "개운궁",
+    "addr": "경상북도 상주시 경상대로 2882 (개운동)",
+    "lat": 36.4048287656,
+    "lng": 128.1497288558,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "묘봉두부마을",
+    "addr": "경상북도 상주시 화북면 속리산로 2348",
+    "lat": 36.5952397686,
+    "lng": 127.8150311601,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "상주청정한우",
+    "addr": "경상북도 상주시 낙동면 영남제일로 52-5",
+    "lat": 36.360297713,
+    "lng": 128.2995667846,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "지천식당",
+    "addr": "경상북도 상주시 남상주로 1460",
+    "lat": 36.3621002753,
+    "lng": 128.1479107714,
+    "img": "",
+    "cat3": "A05020100"
+   }
+  ],
+  "cafes": [
+   {
+    "title": "구프커피",
+    "addr": "경상북도 상주시 개운2길 19-12",
+    "lat": 36.4036010591,
+    "lng": 128.1459764469,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/59/2831659_image2_1.jpg",
+    "cat3": "A05020900"
    },
    {
     "title": "명주정원",
@@ -132,8 +282,189 @@
     "lat": 36.5765649953,
     "lng": 128.1658864619,
     "img": "http://tong.visitkorea.or.kr/cms/resource/02/2831702_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020900"
+   },
+   {
+    "title": "상주공간",
+    "addr": "경상북도 상주시 남성2길 22 (남성동)",
+    "lat": 36.4086534908,
+    "lng": 128.1585501851,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/06/3551106_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "소레다",
+    "addr": "경상북도 상주시 봉양2길 8-7",
+    "lat": 36.4203327117,
+    "lng": 128.1584720864,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/28/2831728_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "카페둥시",
+    "addr": "경상북도 상주시 자산길 28-24",
+    "lat": 36.4237376976,
+    "lng": 128.1486145351,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/68/2831768_image2_1.jpg",
+    "cat3": "A05020900"
+   }
+  ],
+  "culture": [
+   {
+    "title": "국립낙동강생물자원관",
+    "addr": "경상북도 상주시 도남2길 137 (도남동)",
+    "lat": 36.4458843813,
+    "lng": 128.2567987281,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/37/3573537_image2_1.JPG",
+    "cat3": "A02060300"
+   },
+   {
+    "title": "낙동강역사이야기관",
+    "addr": "경상북도 상주시 낙동면 낙동1길 116",
+    "lat": 36.366427739,
+    "lng": 128.3087602398,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/70/3579370_image2_1.jpg",
+    "cat3": "A02060300"
+   },
+   {
+    "title": "상주 자전거박물관",
+    "addr": "경상북도 상주시 용마로 415 (도남동)",
+    "lat": 36.4532751731,
+    "lng": 128.2550847823,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/93/2492593_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "상주문화원",
+    "addr": "경상북도 상주시 상산로 235",
+    "lat": 36.4119142407,
+    "lng": 128.1591528182,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/21/3353421_image2_1.JPG",
+    "cat3": "A02060700"
+   },
+   {
+    "title": "효자 정재수 기념관",
+    "addr": "경상북도 상주시 화서면 효자로 201",
+    "lat": 36.4164010793,
+    "lng": 127.9228848506,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/79/3031079_image2_1.jpg",
+    "cat3": "A02060200"
+   }
+  ],
+  "shopping": [
+   {
+    "title": "상주곶감유통센터 상주곶감직판장",
+    "addr": "경상북도 상주시 영남제일로 1154",
+    "lat": 36.4161036345,
+    "lng": 128.2126257201,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/83/3039083_image2_1.jpg",
+    "cat3": "A04010900"
+   },
+   {
+    "title": "함창전통시장",
+    "addr": "경상북도 상주시 함창읍 함창시장3길 46",
+    "lat": 36.5674524017,
+    "lng": 128.1796327166,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/33/3590933_image2_1.jpg",
+    "cat3": "A04010100"
+   },
+   {
+    "title": "화령시장",
+    "addr": "경상북도 상주시 화서면 화령남6길 7",
+    "lat": 36.4447955632,
+    "lng": 127.9507232436,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/37/3567437_image2_1.jpg",
+    "cat3": "A04010100"
+   },
+   {
+    "title": "상주장 / 상주중앙시장 (2, 7일)",
+    "addr": "경상북도 상주시 중앙시장길 1-7",
+    "lat": 36.4132196925,
+    "lng": 128.1616081186,
+    "img": "",
+    "cat3": "A04010100"
+   }
+  ],
+  "leports": [
+   {
+    "title": "맑은개울캠핑장",
+    "addr": "경상북도 상주시 화서면 하송3길 178-5",
+    "lat": 36.4860604386,
+    "lng": 127.9588602538,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/71/2747571_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "문장대오토캠핑장",
+    "addr": "경상북도 상주시 화북면 문장로 1506-16",
+    "lat": 36.5442225892,
+    "lng": 127.9237312058,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/37/2729037_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "상주 감꽃마을 서울시캠핑장",
+    "addr": "경상북도 상주시 낙동면 선상서로 1587",
+    "lat": 36.3301606768,
+    "lng": 128.2135030566,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/72/2763372_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "상주보오토캠핑장",
+    "addr": "경상북도 상주시 용마로 164-34 (도남동)",
+    "lat": 19.69442748,
+    "lng": 117.9925662504,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/86/2728386_image2_1.JPG",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "상주보캠프존휴",
+    "addr": "경상북도 상주시 용마로 469-10",
+    "lat": 36.4555248497,
+    "lng": 128.2514739289,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/92/2728292_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "상주우산오토캠핑장",
+    "addr": "경상북도 상주시 외서면 채릉산로 752",
+    "lat": 36.4723611782,
+    "lng": 128.0656538924,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/13/2728313_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "성주봉자연휴양림 야영장",
+    "addr": "경상북도 상주시 은척면 성주봉로 3",
+    "lat": 36.5336453831,
+    "lng": 128.040779388,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/75/2743575_image2_1.JPG",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "속리산사계절캠핑장",
+    "addr": "경상북도 상주시 화북면 중벌2길 18-61",
+    "lat": 36.600722922,
+    "lng": 127.8396482499,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/79/2743479_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "속리산시어동캠핑장",
+    "addr": "경상북도 상주시 화북면 문장대2길 50",
+    "lat": 36.5703692612,
+    "lng": 127.9053487824,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/54/2909354_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "청화산 늘재방면",
+    "addr": "경상북도 상주시 화북면 문장로 2096-5",
+    "lat": 36.5922445153,
+    "lng": 127.9043065956,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/71/2756771_image2_1.jpg",
+    "cat3": "A03022700"
    }
   ],
   "stays": [],
@@ -144,6 +475,8 @@
     "lat": 36.0800254208,
     "lng": 129.4107100131,
     "img": "http://tong.visitkorea.or.kr/cms/resource/61/3567661_image2_1.jpg",
+    "cat3": "A02081300",
+    "tel": "053-214-7124",
     "start": "20251207",
     "end": "20251207",
     "scope": "sido",
@@ -155,6 +488,8 @@
     "lat": 36.0065133515,
     "lng": 129.3615414552,
     "img": "http://tong.visitkorea.or.kr/cms/resource/22/3567122_image2_1.jpg",
+    "cat3": "A02081300",
+    "tel": "1688-5368",
     "start": "20251121",
     "end": "20251122",
     "scope": "sido",
@@ -166,6 +501,8 @@
     "lat": 37.0571311575,
     "lng": 129.4250268958,
     "img": "http://tong.visitkorea.or.kr/cms/resource/82/3563382_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "054-789-5485~7",
     "start": "20251107",
     "end": "20251109",
     "scope": "sido",
@@ -177,6 +514,8 @@
     "lat": 35.8339676142,
     "lng": 129.2911192494,
     "img": "http://tong.visitkorea.or.kr/cms/resource/40/3553940_image2_1.jpg",
+    "cat3": "A02080500",
+    "tel": "02-398-7936",
     "start": "20251027",
     "end": "20251130",
     "scope": "sido",
@@ -188,8 +527,23 @@
     "lat": 36.0486865532,
     "lng": 129.3716421277,
     "img": "http://tong.visitkorea.or.kr/cms/resource/03/3547903_image2_1.jpg",
+    "cat3": "A02080500",
+    "tel": "054-289-7854",
     "start": "20251025",
     "end": "20251109",
+    "scope": "sido",
+    "status": "annual"
+   },
+   {
+    "title": "문경사과축제",
+    "addr": "경상북도 문경시 문경읍 새재로 932",
+    "lat": 36.761650493,
+    "lng": 128.0770113639,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/23/3531723_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "054-571-7677",
+    "start": "20251018",
+    "end": "20251026",
     "scope": "sido",
     "status": "annual"
    }
@@ -210,8 +564,8 @@
    "attract": 1.3,
    "connect": -0.4
   },
-  "lat": 36.486821,
-  "lng": 127.134142,
+  "lat": 36.457079,
+  "lng": 127.139938,
   "spots": [
    {
     "title": "갑사",
@@ -219,8 +573,7 @@
     "lat": 36.3650187978,
     "lng": 127.1875769727,
     "img": "http://tong.visitkorea.or.kr/cms/resource/19/3533519_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010800"
    },
    {
     "title": "계룡산상신농촌체험휴양마을",
@@ -228,8 +581,7 @@
     "lat": 36.3847448812,
     "lng": 127.21959024,
     "img": "http://tong.visitkorea.or.kr/cms/resource/63/3355563_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02030100"
    },
    {
     "title": "고로서원",
@@ -237,8 +589,7 @@
     "lat": 36.5109630539,
     "lng": 127.0224573019,
     "img": "http://tong.visitkorea.or.kr/cms/resource/00/3334100_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "곰나루국민관광단지",
@@ -246,8 +597,7 @@
     "lat": 36.4702692908,
     "lng": 127.1117170502,
     "img": "http://tong.visitkorea.or.kr/cms/resource/26/3534726_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02020200"
    },
    {
     "title": "공산성연지",
@@ -255,8 +605,7 @@
     "lat": 36.4639480871,
     "lng": 127.1284157218,
     "img": "http://tong.visitkorea.or.kr/cms/resource/15/2916015_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "공주 갑사 철당간",
@@ -264,8 +613,7 @@
     "lat": 36.3647465688,
     "lng": 127.1854160623,
     "img": "http://tong.visitkorea.or.kr/cms/resource/99/3560499_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010800"
    },
    {
     "title": "공주 고마나루",
@@ -273,8 +621,7 @@
     "lat": 36.4687082638,
     "lng": 127.1063453516,
     "img": "http://tong.visitkorea.or.kr/cms/resource/38/3534838_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02020700"
    },
    {
     "title": "공주 우금치 전적",
@@ -282,8 +629,103 @@
     "lat": 37.0000500157,
     "lng": 127.1119164418,
     "img": "http://tong.visitkorea.or.kr/cms/resource/21/3334021_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
+   },
+   {
+    "title": "공주 원골마을",
+    "addr": "충청남도 공주시 신풍면 원골예술길 89",
+    "lat": 36.5276461638,
+    "lng": 126.9604874236,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/85/3534885_image2_1.jpg",
+    "cat3": "A02030100"
+   },
+   {
+    "title": "공주 정지산 유적",
+    "addr": "충청남도 공주시 금성동",
+    "lat": 36.4695139254,
+    "lng": 127.1175998755,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/79/2734979_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "공주 중동성당",
+    "addr": "충청남도 공주시 성당길 6",
+    "lat": 36.4551824131,
+    "lng": 127.1277076887,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/04/3338804_image2_1.jpg",
+    "cat3": "A02010900"
+   },
+   {
+    "title": "공주 중학동 구 선교사 가옥",
+    "addr": "충청남도 공주시 쪽지골길 18-13",
+    "lat": 36.449491377,
+    "lng": 127.1264579543,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/13/3536313_image2_1.jpg",
+    "cat3": "A02010400"
+   },
+   {
+    "title": "공주 환경성 건강 센터",
+    "addr": "충청남도 공주시 수원지공원길 131-21 (금학동)",
+    "lat": 36.4304352185,
+    "lng": 127.1259251817,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/36/3038536_image2_1.jpg",
+    "cat3": "A02020500"
+   },
+   {
+    "title": "공주 황새바위 순교성지",
+    "addr": "충청남도 공주시 왕릉로 118 (금성동)",
+    "lat": 36.4639646057,
+    "lng": 127.1200886904,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/84/3390284_image2_1.JPG",
+    "cat3": "A02010900"
+   },
+   {
+    "title": "공주상신리 당간지주",
+    "addr": "충청남도 공주시 반포면",
+    "lat": 36.3844532202,
+    "lng": 127.2180070562,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/21/3355621_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "공주서혈사지",
+    "addr": "충청남도 공주시 시어골2길 96-44 (웅진동)",
+    "lat": 36.4434028916,
+    "lng": 127.1097151753,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/66/3337966_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "공주시 안전체험공원",
+    "addr": "충청남도 공주시 월미동길 219 (월미동)",
+    "lat": 36.4945079541,
+    "lng": 127.0990314234,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/15/2737215_image2_1.jpg",
+    "cat3": "A02020600"
+   },
+   {
+    "title": "공주치즈스쿨",
+    "addr": "충청남도 공주시 신풍면 심방울2길 37-4",
+    "lat": 36.5198051423,
+    "lng": 126.9459000567,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/10/3393410_image2_1.JPG",
+    "cat3": "A02030400"
+   },
+   {
+    "title": "공주향교",
+    "addr": "충청남도 공주시 향교1길 26",
+    "lat": 36.4583568588,
+    "lng": 127.1168863516,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/53/3355653_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "금강아트센터",
+    "addr": "충청남도 공주시 반포면 왕흥장악로 837",
+    "lat": 36.4289311787,
+    "lng": 127.2021461657,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/73/3396473_image2_1.JPG",
+    "cat3": "A02030400"
    }
   ],
   "foods": [
@@ -293,8 +735,7 @@
     "lat": 36.4650256418,
     "lng": 127.1227467571,
     "img": "http://tong.visitkorea.or.kr/cms/resource/81/3057481_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "고창애풍천장어",
@@ -302,8 +743,7 @@
     "lat": 36.4508112728,
     "lng": 127.1606770704,
     "img": "http://tong.visitkorea.or.kr/cms/resource/16/2876316_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "곰골식당",
@@ -311,8 +751,7 @@
     "lat": 36.4518298957,
     "lng": 127.1206250807,
     "img": "http://tong.visitkorea.or.kr/cms/resource/39/2736839_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "곰선생동태씨",
@@ -320,17 +759,359 @@
     "lat": 36.4674173959,
     "lng": 127.1432726278,
     "img": "http://tong.visitkorea.or.kr/cms/resource/18/2876718_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
+   {
+    "title": "까우",
+    "addr": "충청남도 공주시 번영3로 58",
+    "lat": 36.4717723292,
+    "lng": 127.1363064692,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/60/2929560_image2_1.jpg",
+    "cat3": "A05020200"
+   },
+   {
+    "title": "늘푸른솔",
+    "addr": "충청남도 공주시 사곡면 정안마곡사로 1198",
+    "lat": 36.5868686545,
+    "lng": 127.0467475146,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/10/1946210_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "대부곱창",
+    "addr": "충청남도 공주시 번영2로 54-21",
+    "lat": 36.4723722559,
+    "lng": 127.1360536979,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/46/2929746_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "도덕봉가든",
+    "addr": "충청남도 공주시 반포면 동학사1로 159",
+    "lat": 36.3601315716,
+    "lng": 127.2501520559,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/17/2929817_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "돈금정",
+    "addr": "충청남도 공주시 계룡대로 1370",
+    "lat": 36.3578457817,
+    "lng": 127.2535157052,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/91/2929891_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "동학사농원",
+    "addr": "충청남도 공주시 동학사2로 46",
+    "lat": 36.3584817191,
+    "lng": 127.2478189764,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/66/2876866_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "동해원",
+    "addr": "충청남도 공주시 납다리길 22 (소학동)",
+    "lat": 36.4503194384,
+    "lng": 127.1479643356,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/86/2796986_image2_1.jpg",
+    "cat3": "A05020400"
+   },
+   {
+    "title": "라루체",
+    "addr": "충청남도 공주시 반포면 계룡대로 1392",
+    "lat": 36.3597705463,
+    "lng": 127.2526573968,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/10/2735110_image2_1.jpg",
+    "cat3": "A05020200"
+   },
+   {
+    "title": "마세오른",
+    "addr": "충청남도 공주시 반포면 정광터1길 98-20",
+    "lat": 36.4032568837,
+    "lng": 127.2328413307,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/23/2767123_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "밥꽃하나피었네",
+    "addr": "충청남도 공주시 계룡면 신원사로 502",
+    "lat": 36.3325778994,
+    "lng": 127.1780314776,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/24/2013724_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "북경탕수육",
+    "addr": "충청남도 공주시 중동1길 5-18",
+    "lat": 36.4551490368,
+    "lng": 127.1250468167,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/27/2876927_image2_1.jpg",
+    "cat3": "A05020400"
+   }
+  ],
+  "cafes": [
    {
     "title": "공다방",
     "addr": "충청남도 공주시 백미고을길 5-3",
     "lat": 36.4651450786,
     "lng": 127.1230828345,
     "img": "http://tong.visitkorea.or.kr/cms/resource/46/2876746_image2_1.png",
-    "start": null,
-    "end": null
+    "cat3": "A05020900"
+   },
+   {
+    "title": "그루잠",
+    "addr": "충청남도 공주시 수실1길 82",
+    "lat": 36.4035655725,
+    "lng": 127.2549671177,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/27/2876827_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "로컬커피",
+    "addr": "충청남도 공주시 용당길 55-7",
+    "lat": 36.4587012885,
+    "lng": 127.1182945492,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/91/2876891_image2_1.png",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "롱디커피",
+    "addr": "충청남도 공주시 금벽로 1071",
+    "lat": 36.4439377048,
+    "lng": 127.1972045365,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/65/2834365_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "베이커리 밤마을",
+    "addr": "충청남도 공주시 백미고을길 5-13",
+    "lat": 36.4646256912,
+    "lng": 127.1229245295,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/75/2834375_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "숲너울",
+    "addr": "충청남도 공주시 유구읍 문금길 413",
+    "lat": 36.6460612569,
+    "lng": 127.0128684044,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/79/2795479_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "숲카페",
+    "addr": "충청남도 공주시 동학사1로 256-26",
+    "lat": 36.3598397118,
+    "lng": 127.2373004369,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/62/2876962_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "어썸845",
+    "addr": "충청남도 공주시 동학사1로 209-8",
+    "lat": 36.3594315497,
+    "lng": 127.2443775913,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/96/2876996_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "에어산",
+    "addr": "충청남도 공주시 임금봉길 88-27",
+    "lat": 36.3662197871,
+    "lng": 127.251482328,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/93/2834393_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "온더기와",
+    "addr": "충청남도 공주시 밀목재길 27-14",
+    "lat": 36.3406670729,
+    "lng": 127.2467584396,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/46/2877046_image2_1.jpg",
+    "cat3": "A05020900"
+   }
+  ],
+  "culture": [
+   {
+    "title": "가가책방",
+    "addr": "충청남도 공주시 당간지주길 10 (반죽동)",
+    "lat": 36.4521187744,
+    "lng": 127.121974952,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/06/3564906_image2_1.jpg",
+    "cat3": "A02061000"
+   },
+   {
+    "title": "공주문예회관",
+    "addr": "충청남도 공주시 고마나루길 5",
+    "lat": 36.4601871137,
+    "lng": 127.1117228761,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/53/3338753_image2_1.jpg",
+    "cat3": "A02060600"
+   },
+   {
+    "title": "공주민속극박물관",
+    "addr": "충청남도 공주시 의당면 돌모루2길 17-15",
+    "lat": 36.5022801508,
+    "lng": 127.1481684687,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/92/3338692_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "구 공주읍사무소 (공주역사영상관)",
+    "addr": "충청남도 공주시 우체국길 8 (반죽동)",
+    "lat": 36.4544740602,
+    "lng": 127.1219721109,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/06/3390706_image2_1.JPG",
+    "cat3": "A02060300"
+   },
+   {
+    "title": "국립공주박물관",
+    "addr": "충청남도 공주시 관광단지길 34 (웅진동)",
+    "lat": 36.4665696863,
+    "lng": 127.1100589651,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/33/3534933_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "도령서당",
+    "addr": "충청남도 공주시 의당면 서당길 144-13",
+    "lat": 36.5559460907,
+    "lng": 127.1411398684,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/10/3390310_image2_1.JPG",
+    "cat3": "A02061400"
+   },
+   {
+    "title": "박동진 판소리전수관",
+    "addr": "충청남도 공주시 무릉중말길 22-14",
+    "lat": 36.4581967182,
+    "lng": 127.1709398394,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/73/3355673_image2_1.jpg",
+    "cat3": "A02061100"
+   },
+   {
+    "title": "임립미술관",
+    "addr": "충청남도 공주시 계룡면 봉곡길 77-13",
+    "lat": 36.3964282617,
+    "lng": 127.1405442311,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/70/3334170_image2_1.jpg",
+    "cat3": "A02060500"
+   },
+   {
+    "title": "지당자연사박물관",
+    "addr": "충청남도 공주시 탄천면 광명리",
+    "lat": 36.3247463012,
+    "lng": 127.06751381,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/89/3355689_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "한국문화연수원",
+    "addr": "충청남도 공주시 사곡면 마곡사로 1065",
+    "lat": 36.5662981517,
+    "lng": 127.0101319181,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/55/3338555_image2_1.JPG",
+    "cat3": "A02060700"
+   },
+   {
+    "title": "한국자연사박물관",
+    "addr": "충청남도 공주시 반포면 임금봉길 49-25",
+    "lat": 36.3664029859,
+    "lng": 127.245055121,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/32/3390232_image2_1.JPG",
+    "cat3": "A02060100"
+   }
+  ],
+  "shopping": [
+   {
+    "title": "공주산성시장",
+    "addr": "충청남도 공주시 용당길 22 (산성동)",
+    "lat": 36.4588624574,
+    "lng": 127.1226274895,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/15/3534915_image2_1.jpg",
+    "cat3": "A04010200"
+   }
+  ],
+  "leports": [
+   {
+    "title": "계룡산글램핑",
+    "addr": "충청남도 공주시 반포면 계룡대로 1352",
+    "lat": 36.356065429,
+    "lng": 127.2534796456,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/60/3396460_image2_1.JPG",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "계룡산동학사자동차야영장",
+    "addr": "충청남도 공주시 반포면 동학사2로 115-16",
+    "lat": 36.3577678025,
+    "lng": 127.2416084404,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/98/2738998_image2_1.JPG",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "계룡저수지",
+    "addr": "충청남도 공주시 계룡면 하대리",
+    "lat": 36.3580467675,
+    "lng": 127.1531163587,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/13/3396413_image2_1.jpg",
+    "cat3": "A03030500"
+   },
+   {
+    "title": "공주계곡캠핑장",
+    "addr": "충청남도 공주시 사곡면 운정길 20",
+    "lat": 36.5578604104,
+    "lng": 127.0203201192,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/44/2727044_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "공주북캠프",
+    "addr": "충청남도 공주시 신풍면 영정길 155-3",
+    "lat": 36.5146648607,
+    "lng": 126.9913127791,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/12/3587712_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "그리심 글램핑장",
+    "addr": "충청남도 공주시 정안면 어물길 395",
+    "lat": 36.5891979467,
+    "lng": 127.1478078106,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/16/2908816_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "금계캠핑장",
+    "addr": "충청남도 공주시 유구읍 문금길 86",
+    "lat": 36.6376533756,
+    "lng": 126.9836212651,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/10/2908810_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "녹수원글램핑",
+    "addr": "충청남도 공주시 유구읍 덕곡리",
+    "lat": 36.6286486142,
+    "lng": 126.969914409,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/97/2728697_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "베스트필드 글램핑",
+    "addr": "충청남도 공주시 반포면 동학사1로 65",
+    "lat": 36.3662115657,
+    "lng": 127.2577456561,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/58/2765058_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "사계절캠핑장",
+    "addr": "충청남도 공주시 유구읍 무드리길 64",
+    "lat": 36.6388029702,
+    "lng": 126.9680587463,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/30/2727730_image2_1.jpg",
+    "cat3": "A03021700"
    }
   ],
   "stays": [
@@ -340,8 +1121,7 @@
     "lat": 36.4508188891,
     "lng": 127.120030717,
     "img": "http://tong.visitkorea.or.kr/cms/resource/81/2707581_image2_1.jpeg",
-    "start": null,
-    "end": null
+    "cat3": "B02011600"
    },
    {
     "title": "호스텔정중동",
@@ -349,8 +1129,7 @@
     "lat": 36.4530798041,
     "lng": 127.1235942252,
     "img": "http://tong.visitkorea.or.kr/cms/resource/39/3545039_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010700"
    },
    {
     "title": "공주공산성게스트 하우스",
@@ -358,8 +1137,7 @@
     "lat": 36.4651700701,
     "lng": 127.1227634182,
     "img": "",
-    "start": null,
-    "end": null
+    "cat3": "B02011600"
    },
    {
     "title": "굿모닝 관광펜션",
@@ -367,8 +1145,7 @@
     "lat": 36.5306302273,
     "lng": 127.0216901749,
     "img": "",
-    "start": null,
-    "end": null
+    "cat3": "B02010700"
    },
    {
     "title": "담담",
@@ -376,8 +1153,7 @@
     "lat": 36.453646376,
     "lng": 127.1218999174,
     "img": "",
-    "start": null,
-    "end": null
+    "cat3": "B02011600"
    },
    {
     "title": "청담",
@@ -385,8 +1161,23 @@
     "lat": 36.4558738758,
     "lng": 127.1206083067,
     "img": "",
-    "start": null,
-    "end": null
+    "cat3": "B02011600"
+   },
+   {
+    "title": "혜간헌",
+    "addr": "충청남도 공주시 송산리길 38-5",
+    "lat": 36.4622813968,
+    "lng": 127.1162168613,
+    "img": "",
+    "cat3": "B02011600"
+   },
+   {
+    "title": "황토한옥고마",
+    "addr": "충청남도 공주시 미나리1길 18-4",
+    "lat": 36.4614454902,
+    "lng": 127.122366332,
+    "img": "",
+    "cat3": "B02011600"
    }
   ],
   "festivals": [
@@ -396,6 +1187,8 @@
     "lat": 36.4522271167,
     "lng": 127.1231998391,
     "img": "http://tong.visitkorea.or.kr/cms/resource/79/3524279_image2_1.png",
+    "cat3": "A02081300",
+    "tel": "041-852-1321",
     "start": "20250919",
     "end": "20250920",
     "scope": "sigungu",
@@ -418,8 +1211,8 @@
    "attract": 4.2,
    "connect": 0.8
   },
-  "lat": 36.008595,
-  "lng": 126.99877,
+  "lat": 36.009357,
+  "lng": 126.994195,
   "spots": [
    {
     "title": "고스락",
@@ -427,8 +1220,7 @@
     "lat": 36.0459040975,
     "lng": 126.9606807544,
     "img": "http://tong.visitkorea.or.kr/cms/resource/35/3086435_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02030400"
    },
    {
     "title": "공룡테마공원 (다이노 키즈월드)",
@@ -436,8 +1228,7 @@
     "lat": 35.9907045238,
     "lng": 127.102605645,
     "img": "http://tong.visitkorea.or.kr/cms/resource/09/3369909_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02020600"
    },
    {
     "title": "금마저수지",
@@ -445,8 +1236,7 @@
     "lat": 36.001824683,
     "lng": 127.0568399915,
     "img": "http://tong.visitkorea.or.kr/cms/resource/68/3360768_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A01011800"
    },
    {
     "title": "나바위 성당",
@@ -454,8 +1244,7 @@
     "lat": 36.1382803303,
     "lng": 126.999427637,
     "img": "http://tong.visitkorea.or.kr/cms/resource/37/2643537_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010900"
    },
    {
     "title": "남궁찬묘석상",
@@ -463,8 +1252,7 @@
     "lat": 36.0908455865,
     "lng": 126.9259382367,
     "img": "http://tong.visitkorea.or.kr/cms/resource/69/3564069_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "남원사(익산)",
@@ -472,8 +1260,7 @@
     "lat": 36.0557273173,
     "lng": 127.0827695904,
     "img": "http://tong.visitkorea.or.kr/cms/resource/46/3564246_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010800"
    },
    {
     "title": "남중동 오층 석탑",
@@ -481,8 +1268,7 @@
     "lat": 35.9454598536,
     "lng": 126.9521452572,
     "img": "http://tong.visitkorea.or.kr/cms/resource/35/3369935_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02050200"
    },
    {
     "title": "달빛소리 수목원",
@@ -490,8 +1276,103 @@
     "lat": 35.9398452252,
     "lng": 127.0330409637,
     "img": "http://tong.visitkorea.or.kr/cms/resource/66/3576166_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01010700"
+   },
+   {
+    "title": "두동교회 구본당",
+    "addr": "전북특별자치도 익산시 성당면 두동길 17-1",
+    "lat": 36.1035690486,
+    "lng": 126.9210522283,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/84/3564284_image2_1.jpg",
+    "cat3": "A02010900"
+   },
+   {
+    "title": "두동편백나무숲",
+    "addr": "전북특별자치도 익산시 성당면 두동길 15",
+    "lat": 36.1037856971,
+    "lng": 126.9214355215,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/91/3564291_image2_1.jpg",
+    "cat3": "A01010400"
+   },
+   {
+    "title": "두여 정보화마을",
+    "addr": "전북특별자치도 익산시 여산면 용기길 66",
+    "lat": 36.0767941127,
+    "lng": 127.0687202889,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/51/3369851_image2_1.JPG",
+    "cat3": "A02030100"
+   },
+   {
+    "title": "만경강",
+    "addr": "전북특별자치도 익산시 춘포면 천동리",
+    "lat": 35.8935110792,
+    "lng": 127.001997721,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/96/3564396_image2_1.jpg",
+    "cat3": "A01011800"
+   },
+   {
+    "title": "망모당",
+    "addr": "전북특별자치도 익산시 왕궁면 장중길 105-8",
+    "lat": 35.9687652133,
+    "lng": 127.0942930747,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/61/3587861_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "미륵사지 석등하대석",
+    "addr": "전북특별자치도 익산시 금마면 기양리 미륵사지내",
+    "lat": 36.0111259369,
+    "lng": 127.0301643512,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/70/3563870_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "바람개비 마을",
+    "addr": "전북특별자치도 익산시 성당면 성당로 762",
+    "lat": 36.1307381717,
+    "lng": 126.921387595,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/13/3360813_image2_1.JPG",
+    "cat3": "A02020600"
+   },
+   {
+    "title": "배산체육공원",
+    "addr": "전북특별자치도 익산시 동서로 21 (현영동)",
+    "lat": 35.9597552297,
+    "lng": 126.9396348894,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/65/3065065_image2_1.JPG",
+    "cat3": "A02020700"
+   },
+   {
+    "title": "백산서원(익산)",
+    "addr": "전북특별자치도 익산시 동서로3길 15",
+    "lat": 35.9600303126,
+    "lng": 126.9462592914,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/64/3360964_image2_1.JPG",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "백운사(익산)",
+    "addr": "전북특별자치도 익산시 여산면 천호산길 155-23",
+    "lat": 36.0434182993,
+    "lng": 127.1223247173,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/96/3369896_image2_1.JPG",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "백제도예원",
+    "addr": "전북특별자치도 익산시 하나로 685 (임상동)",
+    "lat": 35.9815728503,
+    "lng": 126.9780808872,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/51/3573551_image2_1.jpg",
+    "cat3": "A02030400"
+   },
+   {
+    "title": "백지사터",
+    "addr": "전북특별자치도 익산시 여산면 여산리",
+    "lat": 36.0590436515,
+    "lng": 127.0854164888,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/33/3564133_image2_1.jpg",
+    "cat3": "A02010900"
    }
   ],
   "foods": [
@@ -501,8 +1382,7 @@
     "lat": 35.9641352294,
     "lng": 126.9363933977,
     "img": "http://tong.visitkorea.or.kr/cms/resource/78/2851278_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "뚜부카페",
@@ -510,17 +1390,7 @@
     "lat": 35.9980946376,
     "lng": 127.0617285428,
     "img": "http://tong.visitkorea.or.kr/cms/resource/76/3580876_image2_1.jpg",
-    "start": null,
-    "end": null
-   },
-   {
-    "title": "메이드인헤븐",
-    "addr": "전북특별자치도 익산시 하나로 864-22",
-    "lat": 35.9978460077,
-    "lng": 126.9788637244,
-    "img": "http://tong.visitkorea.or.kr/cms/resource/18/2850818_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "삼일식당",
@@ -528,8 +1398,7 @@
     "lat": 35.9371107392,
     "lng": 126.9483152612,
     "img": "http://tong.visitkorea.or.kr/cms/resource/14/3580814_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "시장비빔밥",
@@ -537,8 +1406,287 @@
     "lat": 36.0059611671,
     "lng": 126.9452665117,
     "img": "http://tong.visitkorea.or.kr/cms/resource/86/2837886_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
+   },
+   {
+    "title": "원조미륵산순두부",
+    "addr": "전북특별자치도 익산시 금마면 미륵사지로 397",
+    "lat": 36.0116063357,
+    "lng": 127.0242981949,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/88/2796188_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "익산돈가스",
+    "addr": "전북특별자치도 익산시 미륵사지로 220",
+    "lat": 36.0044852355,
+    "lng": 127.0421578985,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/05/2855405_image2_1.jpg",
+    "cat3": "A05020300"
+   },
+   {
+    "title": "종가집",
+    "addr": "전북특별자치도 익산시 동서로 477 종가집",
+    "lat": 35.9521263418,
+    "lng": 126.9858170778,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/18/2855418_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "[백년가게]무진장갈비촌",
+    "addr": "전북특별자치도 익산시 선화로31길 58",
+    "lat": 35.9506148877,
+    "lng": 126.9560281092,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/81/3580881_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "[백년가게]진미식당",
+    "addr": "전북특별자치도 익산시 황등면 황등로 158",
+    "lat": 36.0059389404,
+    "lng": 126.9448582161,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/79/2607979_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "굴딴지",
+    "addr": "전북특별자치도 익산시 평동로 764",
+    "lat": 35.9273759846,
+    "lng": 126.962617017,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "다미일식",
+    "addr": "전북특별자치도 익산시 무왕로23길 5",
+    "lat": 35.9600227082,
+    "lng": 126.9884138618,
+    "img": "",
+    "cat3": "A05020300"
+   },
+   {
+    "title": "동보성",
+    "addr": "전북특별자치도 익산시 하나로 437 (영등동)",
+    "lat": 35.9594643123,
+    "lng": 126.9810839747,
+    "img": "",
+    "cat3": "A05020400"
+   },
+   {
+    "title": "물머리집",
+    "addr": "전북특별자치도 익산시 금마면 고도1길 56-5",
+    "lat": 35.997777868,
+    "lng": 127.0537070445,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "산정호수가든",
+    "addr": "전북특별자치도 익산시 웅포면 백제로 476-6",
+    "lat": 36.081524127,
+    "lng": 126.9084622659,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "샘골가든",
+    "addr": "전북특별자치도 익산시 함라면 백제로 622-6",
+    "lat": 36.0705393568,
+    "lng": 126.9134621069,
+    "img": "",
+    "cat3": "A05020100"
+   }
+  ],
+  "cafes": [
+   {
+    "title": "메이드인헤븐",
+    "addr": "전북특별자치도 익산시 하나로 864-22",
+    "lat": 35.9978460077,
+    "lng": 126.9788637244,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/18/2850818_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "카페 덕기",
+    "addr": "전북특별자치도 익산시 덕기1길 104 (덕기동)",
+    "lat": 35.971214088,
+    "lng": 127.045522361,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/35/3041435_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "카페 라이즈",
+    "addr": "전북특별자치도 익산시 서동로27길 84",
+    "lat": 35.9484824294,
+    "lng": 126.9925415727,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/79/2837379_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "풍성제과",
+    "addr": "전북특별자치도 익산시 서동로 103 풍성제과마동지점",
+    "lat": 35.9344001854,
+    "lng": 126.962686272,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/52/2839252_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "함라정원",
+    "addr": "전북특별자치도 익산시 함라면 신대진등길 91",
+    "lat": 36.0496889526,
+    "lng": 126.9130126938,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/30/2783630_image2_1.jpg",
+    "cat3": "A05020900"
+   }
+  ],
+  "culture": [
+   {
+    "title": "가람문학관",
+    "addr": "전북특별자치도 익산시 가람1길 76 가람문학관",
+    "lat": 36.0353602265,
+    "lng": 127.0844949735,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/62/2994662_image2_1.jpg",
+    "cat3": "A02060200"
+   },
+   {
+    "title": "마동도서관",
+    "addr": "전북특별자치도 익산시 선화1로 99 (마동)",
+    "lat": 35.9398413415,
+    "lng": 126.9690550056,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/34/3573534_image2_1.jpg",
+    "cat3": "A02060900"
+   },
+   {
+    "title": "마한박물관",
+    "addr": "전북특별자치도 익산시 금마면 고도9길 41-14",
+    "lat": 36.0019413977,
+    "lng": 127.0604063368,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/08/3573508_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "보석박물관",
+    "addr": "전북특별자치도 익산시 왕궁면 호반로 8",
+    "lat": 35.9907045238,
+    "lng": 127.102605645,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/06/1908906_image2_1.JPG",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "원광대학교 박물관",
+    "addr": "전북특별자치도 익산시 익산대로 460",
+    "lat": 35.967818477,
+    "lng": 126.9557276866,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/24/3573724_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "원불교역사박물관",
+    "addr": "전북특별자치도 익산시 익산대로 501",
+    "lat": 35.9744537602,
+    "lng": 126.9516167691,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/36/3361036_image2_1.JPG",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "익산국악원",
+    "addr": "전북특별자치도 익산시 평동로9길 66-3 (갈산동)",
+    "lat": 35.9375163034,
+    "lng": 126.9514983,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/96/3371696_image2_1.JPG",
+    "cat3": "A02061100"
+   },
+   {
+    "title": "익산문화원",
+    "addr": "전북특별자치도 익산시 선화로 529",
+    "lat": 35.9484962424,
+    "lng": 126.9882586217,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/29/3576129_image2_1.jpg",
+    "cat3": "A02060700"
+   }
+  ],
+  "shopping": [
+   {
+    "title": "금마시장",
+    "addr": "전북특별자치도 익산시 금마면 고도길 58",
+    "lat": 35.9923590377,
+    "lng": 127.0535210924,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/41/3585541_image2_1.jpg",
+    "cat3": "A04010100"
+   },
+   {
+    "title": "여산장(1, 6일)",
+    "addr": "전북특별자치도 익산시 여산면 서촌2길 21",
+    "lat": 36.0587214304,
+    "lng": 127.0833694578,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/32/1976632_image2_1.jpg",
+    "cat3": "A04010100"
+   },
+   {
+    "title": "익산 중앙시장",
+    "addr": "전북특별자치도 익산시 중앙로3길 27",
+    "lat": 35.9421046392,
+    "lng": 126.9497483364,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/68/2796768_image2_1.jpg",
+    "cat3": "A04010200"
+   },
+   {
+    "title": "주얼팰리스",
+    "addr": "전북특별자치도 익산시 왕궁면 호반로 8",
+    "lat": 35.9911739189,
+    "lng": 127.1028389452,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/96/3562596_image2_1.jpg",
+    "cat3": "A04010600"
+   },
+   {
+    "title": "함열시장",
+    "addr": "전북특별자치도 익산시 함열읍 와리2길 8",
+    "lat": 36.0808611801,
+    "lng": 126.9585216969,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/73/3585473_image2_1.jpg",
+    "cat3": "A04010100"
+   }
+  ],
+  "leports": [
+   {
+    "title": "백제캠핑장",
+    "addr": "전북특별자치도 익산시 금마면 도천길 131-20",
+    "lat": 36.0125594777,
+    "lng": 127.0515818454,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/99/2735899_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "성당포구금강체험관야영장",
+    "addr": "전북특별자치도 익산시 성당면 성당로 762",
+    "lat": 36.1312880978,
+    "lng": 126.9207570818,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/53/2750053_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "익산시 국민생활관",
+    "addr": "전북특별자치도 익산시 선화로 255",
+    "lat": 35.9455016216,
+    "lng": 126.9583308152,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/08/3061408_image2_1.jpg",
+    "cat3": "A03020200"
+   },
+   {
+    "title": "익산시여성회관",
+    "addr": "전북특별자치도 익산시 배산로 193-9 (모현동2가)",
+    "lat": 35.9550085798,
+    "lng": 126.9414376306,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/40/3576140_image2_1.jpg",
+    "cat3": "A03020200"
+   },
+   {
+    "title": "[익산 둘레길] 함라산길",
+    "addr": "전북특별자치도 익산시 함라면 수동길 8",
+    "lat": 36.0610737223,
+    "lng": 126.9106487184,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/58/3578358_image2_1.jpg",
+    "cat3": "A03022700"
    }
   ],
   "stays": [
@@ -548,8 +1696,7 @@
     "lat": 35.9963447951,
     "lng": 127.059295472,
     "img": "http://tong.visitkorea.or.kr/cms/resource/67/2573367_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02011600"
    },
    {
     "title": "익산유스호스텔",
@@ -557,8 +1704,7 @@
     "lat": 35.9658466444,
     "lng": 126.9653018835,
     "img": "http://tong.visitkorea.or.kr/cms/resource/20/3592120_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010600"
    },
    {
     "title": "미륵산자연학교",
@@ -566,8 +1712,7 @@
     "lat": 36.0322899906,
     "lng": 127.0187537023,
     "img": "",
-    "start": null,
-    "end": null
+    "cat3": "B02010700"
    },
    {
     "title": "함라한옥체험단지",
@@ -575,8 +1720,7 @@
     "lat": 36.0627735156,
     "lng": 126.9098737429,
     "img": "",
-    "start": null,
-    "end": null
+    "cat3": "B02011600"
    }
   ],
   "festivals": [
@@ -586,6 +1730,8 @@
     "lat": 35.9670185276,
     "lng": 126.9533945826,
     "img": "http://tong.visitkorea.or.kr/cms/resource/96/3565396_image2_1.png",
+    "cat3": "A02081300",
+    "tel": "063-252-0048",
     "start": "20251120",
     "end": "20251122",
     "scope": "sigungu",
@@ -597,6 +1743,8 @@
     "lat": 35.9335834631,
     "lng": 126.9541092806,
     "img": "http://tong.visitkorea.or.kr/cms/resource/91/3536391_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "070-4116-7828",
     "start": "20251101",
     "end": "20251102",
     "scope": "sigungu",
@@ -608,6 +1756,8 @@
     "lat": 35.9492655338,
     "lng": 126.9844672731,
     "img": "http://tong.visitkorea.or.kr/cms/resource/75/3542875_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "063-859-4977",
     "start": "20251024",
     "end": "20251102",
     "scope": "sigungu",
@@ -619,6 +1769,8 @@
     "lat": 36.0006415547,
     "lng": 127.0609146595,
     "img": "http://tong.visitkorea.or.kr/cms/resource/13/3546713_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "1577-0072 익산시 민원콜센터",
     "start": "20251003",
     "end": "20251005",
     "scope": "sigungu",
@@ -630,8 +1782,23 @@
     "lat": 36.0314029894,
     "lng": 126.9615032843,
     "img": "http://tong.visitkorea.or.kr/cms/resource/21/3578421_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "02-574-1753",
     "start": "20250926",
     "end": "20250927",
+    "scope": "sigungu",
+    "status": "annual"
+   },
+   {
+    "title": "전북특별자치도 청년축제",
+    "addr": "전북특별자치도 익산시 하나로 322 (어양동)",
+    "lat": 35.9492655338,
+    "lng": 126.9844672731,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/88/3547488_image2_1.JPG",
+    "cat3": "A02070200",
+    "tel": "063-227-2030",
+    "start": "20250919",
+    "end": "20250920",
     "scope": "sigungu",
     "status": "annual"
    }
@@ -652,8 +1819,8 @@
    "attract": 1.0,
    "connect": 0.3
   },
-  "lat": 37.290353,
-  "lng": 127.590944,
+  "lat": 37.300896,
+  "lng": 127.615978,
   "spots": [
    {
     "title": "가남체육공원",
@@ -661,8 +1828,7 @@
     "lat": 37.2017093544,
     "lng": 127.5349142281,
     "img": "http://tong.visitkorea.or.kr/cms/resource/71/2777971_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02020700"
    },
    {
     "title": "강한사",
@@ -670,8 +1836,7 @@
     "lat": 37.2991248935,
     "lng": 127.6331386778,
     "img": "http://tong.visitkorea.or.kr/cms/resource/15/3060415_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "금은모래강변공원",
@@ -679,8 +1844,7 @@
     "lat": 37.2895100517,
     "lng": 127.6720298839,
     "img": "http://tong.visitkorea.or.kr/cms/resource/63/3540463_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02020700"
    },
    {
     "title": "기천서원지",
@@ -688,8 +1852,7 @@
     "lat": 37.3926482918,
     "lng": 127.5297120148,
     "img": "http://tong.visitkorea.or.kr/cms/resource/14/3040614_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "당남리섬",
@@ -697,8 +1860,7 @@
     "lat": 37.3947510587,
     "lng": 127.5424191369,
     "img": "http://tong.visitkorea.or.kr/cms/resource/61/3540461_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01011300"
    },
    {
     "title": "당남지구공원",
@@ -706,8 +1868,7 @@
     "lat": 37.3936374068,
     "lng": 127.5483019696,
     "img": "http://tong.visitkorea.or.kr/cms/resource/24/3587224_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02020700"
    },
    {
     "title": "대법사(여주)",
@@ -715,8 +1876,7 @@
     "lat": 37.2285297562,
     "lng": 127.6048821432,
     "img": "http://tong.visitkorea.or.kr/cms/resource/10/3060410_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010800"
    },
    {
     "title": "루덴시아",
@@ -724,8 +1884,103 @@
     "lat": 37.4014793559,
     "lng": 127.461481831,
     "img": "http://tong.visitkorea.or.kr/cms/resource/86/3038386_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02020600"
+   },
+   {
+    "title": "매산서원",
+    "addr": "경기도 여주시 능서면 능서로 94-8",
+    "lat": 37.306406346,
+    "lng": 127.5764019316,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/82/3382182_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "봉서정",
+    "addr": "경기도 여주시 금사면 이포리",
+    "lat": 37.3986531905,
+    "lng": 127.5318172071,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/25/3060425_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "북내체육공원",
+    "addr": "경기도 여주시 북내면 금당로 260-3",
+    "lat": 37.3364519509,
+    "lng": 127.6776419141,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/46/3002846_image2_1.JPG",
+    "cat3": "A02020700"
+   },
+   {
+    "title": "사슴마을",
+    "addr": "경기도 여주시 금사면 장흥로 94",
+    "lat": 37.3754853622,
+    "lng": 127.4734537141,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/63/3382163_image2_1.jpg",
+    "cat3": "A02030100"
+   },
+   {
+    "title": "신륵사관광지",
+    "addr": "경기도 여주시 신륵사길 73 (천송동)",
+    "lat": 37.2972478204,
+    "lng": 127.6596974425,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/35/3078435_image2_1.jpg",
+    "cat3": "A02020200"
+   },
+   {
+    "title": "양섬",
+    "addr": "경기도 여주시 여주북로 238 (하동)",
+    "lat": 37.3054405896,
+    "lng": 127.6200230151,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/43/3539743_image2_1.jpg",
+    "cat3": "A01011300"
+   },
+   {
+    "title": "여주 고달사지",
+    "addr": "경기도 여주시 북내면 상교리",
+    "lat": 37.3931533064,
+    "lng": 127.6548201195,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/17/3079017_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "여주 늘향골마을",
+    "addr": "경기도 여주시 점동면 도리길 152",
+    "lat": 37.2234960729,
+    "lng": 127.7056981853,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/21/3382221_image2_1.jpg",
+    "cat3": "A02030100"
+   },
+   {
+    "title": "여주 서화마을",
+    "addr": "경기도 여주시 북내면 서원2길 40",
+    "lat": 37.3995700166,
+    "lng": 127.6975438463,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/03/3382203_image2_1.jpg",
+    "cat3": "A02030100"
+   },
+   {
+    "title": "여주 양화나루",
+    "addr": "경기도 여주시 세종대왕면 내양리",
+    "lat": 37.3541507621,
+    "lng": 127.573017534,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/65/3060365_image2_1.jpg",
+    "cat3": "A01011800"
+   },
+   {
+    "title": "여주 오감도토리마을",
+    "addr": "경기도 여주시 강천면 강천로 776",
+    "lat": 37.2676684694,
+    "lng": 127.6904371833,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/03/3382103_image2_1.jpg",
+    "cat3": "A02030100"
+   },
+   {
+    "title": "여주 이포나루",
+    "addr": "경기도 여주시 금사면 이포로 39",
+    "lat": 37.4013473811,
+    "lng": 127.5349807321,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/62/3060362_image2_1.jpg",
+    "cat3": "A01011800"
    }
   ],
   "foods": [
@@ -735,8 +1990,7 @@
     "lat": 37.2051837464,
     "lng": 127.6756069815,
     "img": "http://tong.visitkorea.or.kr/cms/resource/93/2768293_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "감성식탁",
@@ -744,8 +1998,7 @@
     "lat": 37.289109595,
     "lng": 127.6446101509,
     "img": "http://tong.visitkorea.or.kr/cms/resource/38/2781838_image2_1.jpeg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "강천 매운탕",
@@ -753,8 +2006,7 @@
     "lat": 37.234747611,
     "lng": 127.7089503462,
     "img": "http://tong.visitkorea.or.kr/cms/resource/34/2863334_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "경기순대국",
@@ -762,8 +2014,7 @@
     "lat": 37.2223157471,
     "lng": 127.5590309069,
     "img": "http://tong.visitkorea.or.kr/cms/resource/24/2845924_image2_1.jpeg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "국민해장국",
@@ -771,8 +2022,279 @@
     "lat": 37.2218437285,
     "lng": 127.567196849,
     "img": "http://tong.visitkorea.or.kr/cms/resource/08/2862708_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
+   },
+   {
+    "title": "그늘집",
+    "addr": "경기도 여주시 가남읍 본두3길 91",
+    "lat": 37.2399252794,
+    "lng": 127.5839725949,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/11/2760111_image2_1.jpeg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "길조식당",
+    "addr": "경기도 여주시 당전로 5",
+    "lat": 37.3276391543,
+    "lng": 127.6816362515,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/38/2862738_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "남도밥상",
+    "addr": "경기도 여주시 장여로 1626 (삼교동)",
+    "lat": 37.2423207081,
+    "lng": 127.6528940786,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/16/2768316_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "남여주배추된장국",
+    "addr": "경기도 여주시 가남읍 가남로 151",
+    "lat": 37.223277005,
+    "lng": 127.5731546031,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/75/2781875_image2_1.jpeg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "대신식당",
+    "addr": "경기도 여주시 명품로 112",
+    "lat": 37.250724999,
+    "lng": 127.6368230673,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/09/2873209_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "도깨비정원",
+    "addr": "경기도 여주시 강천면 부평로 407",
+    "lat": 37.2882141906,
+    "lng": 127.7379184147,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/13/2863313_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "동네막국수",
+    "addr": "경기도 여주시 현암3길 28 (현암동)",
+    "lat": 37.3099793385,
+    "lng": 127.6410015435,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/61/2893261_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "두부고을해마루",
+    "addr": "경기도 여주시 북내면 당전로 113",
+    "lat": 37.3321249045,
+    "lng": 127.6901936817,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/47/2834447_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "들꽃가든 한정식",
+    "addr": "경기도 여주시 강천면 부평로 283",
+    "lat": 37.2776404544,
+    "lng": 127.7402268443,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/72/2840772_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "만우 정육점 식당",
+    "addr": "경기도 여주시 가남읍 태평로 68",
+    "lat": 37.2058534785,
+    "lng": 127.5436022147,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/42/2768342_image2_1.jpg",
+    "cat3": "A05020100"
+   }
+  ],
+  "cafes": [
+   {
+    "title": "로프",
+    "addr": "경기도 여주시 가남읍 가남로 270-6",
+    "lat": 37.2149753386,
+    "lng": 127.5815263063,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/64/2873164_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "메이킷 커피",
+    "addr": "경기도 여주시 산북면 주어로 122-1",
+    "lat": 37.411494346,
+    "lng": 127.4331313363,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/71/2893271_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "무이숲",
+    "addr": "경기도 여주시 도예로 247",
+    "lat": 37.3190008219,
+    "lng": 127.6575470116,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/21/2873121_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "바하리야",
+    "addr": "경기도 여주시 점봉길 43 (점봉동)",
+    "lat": 37.2510334384,
+    "lng": 127.6446084666,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/52/2863752_image2_1.jpeg",
+    "cat3": "A05020900"
+   }
+  ],
+  "culture": [
+   {
+    "title": "목아박물관",
+    "addr": "경기도 여주시 강천면 이문안길 21",
+    "lat": 37.2878049845,
+    "lng": 127.6878868338,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/03/3540503_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "세종대왕 역사문화관",
+    "addr": "경기도 여주시 능서면 영릉로 269-10",
+    "lat": 37.304984928,
+    "lng": 127.6113515895,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/17/3573817_image2_1.jpg",
+    "cat3": "A02060300"
+   },
+   {
+    "title": "여성생활사박물관",
+    "addr": "경기도 여주시 강천면 강천로 324-20",
+    "lat": 37.2433716017,
+    "lng": 127.7082029441,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/36/3563636_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "여주대신도서관",
+    "addr": "경기도 여주시 대신면 율촌1길 12-10",
+    "lat": 37.3715211845,
+    "lng": 127.5844771087,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/15/3454515_image2_1.jpg",
+    "cat3": "A02060900"
+   },
+   {
+    "title": "여주문화원",
+    "addr": "경기도 여주시 신륵사길 6-6 (천송동)",
+    "lat": 37.3002362289,
+    "lng": 127.6523702412,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/42/3048042_image2_1.jpg",
+    "cat3": "A02060700"
+   },
+   {
+    "title": "여주미술관",
+    "addr": "경기도 여주시 세종로 394-36",
+    "lat": 37.264845597,
+    "lng": 127.6372142937,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/84/2765684_image2_1.jpeg",
+    "cat3": "A02060500"
+   },
+   {
+    "title": "여주시립폰박물관",
+    "addr": "경기도 여주시 강변유원지길 105 (연양동)",
+    "lat": 37.2933622985,
+    "lng": 127.6673579734,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/27/3541727_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "금사도서관",
+    "addr": "경기도 여주시 흥천면 이여로 1278-2",
+    "lat": 37.3884072056,
+    "lng": 127.5345978054,
+    "img": "",
+    "cat3": "A02060900"
+   }
+  ],
+  "shopping": [
+   {
+    "title": "여주장 (5, 10일)",
+    "addr": "경기도 여주시 여흥로11번길 53",
+    "lat": 37.2991804007,
+    "lng": 127.6308388846,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/14/3382214_image2_1.jpg",
+    "cat3": "A04010100"
+   }
+  ],
+  "leports": [
+   {
+    "title": "금은모래캠핑장",
+    "addr": "경기도 여주시 강변유원지길 105 (연양동)",
+    "lat": 37.2933622985,
+    "lng": 127.6673579734,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/19/2736019_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "남여주GC(남여주골프클럽)",
+    "addr": "경기도 여주시 가여로 532 (하거동)",
+    "lat": 37.22829692,
+    "lng": 127.630621492,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/51/2764951_image2_1.jpeg",
+    "cat3": "A03020700"
+   },
+   {
+    "title": "도리수상레저",
+    "addr": "경기도 여주시 점동면 도리",
+    "lat": 37.2283511106,
+    "lng": 127.7080200588,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/88/2781888_image2_1.jpeg",
+    "cat3": "A03030100"
+   },
+   {
+    "title": "두리캠핑장",
+    "addr": "경기도 여주시 흥천면 이여로 778-10",
+    "lat": 37.3543911948,
+    "lng": 127.5070596079,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/14/2798114_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "블루마린 오토캠핑장",
+    "addr": "경기도 여주시 세종대왕면 중부대로 2545-74",
+    "lat": 37.3022652608,
+    "lng": 127.5819959889,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/55/2727655_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "빅토리아 골프클럽",
+    "addr": "경기도 여주시 가남읍 송삼로 191",
+    "lat": 37.1790665545,
+    "lng": 127.6339448215,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/64/2760164_image2_1.jpeg",
+    "cat3": "A03020700"
+   },
+   {
+    "title": "소피아그린 컨트리클럽",
+    "addr": "경기도 여주시 점동면 소피아그린길 84",
+    "lat": 37.1718214043,
+    "lng": 127.70146116,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/62/2765762_image2_1.jpeg",
+    "cat3": "A03020700"
+   },
+   {
+    "title": "썬밸리워터파크",
+    "addr": "경기도 여주시 강변유원지길 45 (연양동)",
+    "lat": 37.2931427643,
+    "lng": 127.6610696584,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/27/2766827_image2_1.jpg",
+    "cat3": "A03030700"
+   },
+   {
+    "title": "아리지CC",
+    "addr": "경기도 여주시 가남읍 아리지그린길 68",
+    "lat": 37.214525609,
+    "lng": 127.5934724628,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/29/2765729_image2_1.jpeg",
+    "cat3": "A03020700"
+   },
+   {
+    "title": "어우실낚시터",
+    "addr": "경기도 여주시 점동면 어우실길 65",
+    "lat": 37.1519867855,
+    "lng": 127.6579600946,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/42/2766842_image2_1.jpg",
+    "cat3": "A03030500"
    }
   ],
   "stays": [
@@ -782,8 +2304,7 @@
     "lat": 37.2931427643,
     "lng": 127.6610696584,
     "img": "http://tong.visitkorea.or.kr/cms/resource/86/3562486_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010100"
    }
   ],
   "festivals": [
@@ -793,6 +2314,8 @@
     "lat": 37.3048294176,
     "lng": 127.6128375714,
     "img": "http://tong.visitkorea.or.kr/cms/resource/27/3540327_image2_1.jpg",
+    "cat3": "A02081300",
+    "tel": "031-881-9692, 9740",
     "start": "20251009",
     "end": "20251009",
     "scope": "sigungu",
@@ -804,6 +2327,8 @@
     "lat": 37.3277002492,
     "lng": 127.681122407,
     "img": "http://tong.visitkorea.or.kr/cms/resource/56/3568656_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "031-887-3483",
     "start": "20250926",
     "end": "20250927",
     "scope": "sigungu",
@@ -826,8 +2351,8 @@
    "attract": 0.4,
    "connect": 0.3
   },
-  "lat": 35.191639,
-  "lng": 128.13394,
+  "lat": 35.184166,
+  "lng": 128.120755,
   "spots": [
    {
     "title": "가뫼골마을",
@@ -835,8 +2360,7 @@
     "lat": 35.258656593,
     "lng": 128.0324121006,
     "img": "http://tong.visitkorea.or.kr/cms/resource/69/3538169_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02030100"
    },
    {
     "title": "가호서원",
@@ -844,8 +2368,7 @@
     "lat": 35.1664473205,
     "lng": 128.3325771223,
     "img": "http://tong.visitkorea.or.kr/cms/resource/23/3040823_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "경상남도수목원",
@@ -853,8 +2376,7 @@
     "lat": 35.1627970884,
     "lng": 128.2967442443,
     "img": "http://tong.visitkorea.or.kr/cms/resource/56/3538856_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01010700"
    },
    {
     "title": "광제서원",
@@ -862,8 +2384,7 @@
     "lat": 35.275407461,
     "lng": 128.0310951072,
     "img": "http://tong.visitkorea.or.kr/cms/resource/50/3349350_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "금호못유원지",
@@ -871,8 +2392,7 @@
     "lat": 35.2144859553,
     "lng": 128.1543220165,
     "img": "http://tong.visitkorea.or.kr/cms/resource/83/3349383_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02020700"
    },
    {
     "title": "금호지",
@@ -880,8 +2400,7 @@
     "lat": 35.2076617092,
     "lng": 128.15355282,
     "img": "http://tong.visitkorea.or.kr/cms/resource/60/3451260_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01011800"
    },
    {
     "title": "남가람공원",
@@ -889,8 +2408,7 @@
     "lat": 35.1872460687,
     "lng": 128.0821985047,
     "img": "http://tong.visitkorea.or.kr/cms/resource/41/2894541_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02020700"
    },
    {
     "title": "남강댐 노을공원",
@@ -898,28 +2416,235 @@
     "lat": 35.1612758486,
     "lng": 128.0304287282,
     "img": "http://tong.visitkorea.or.kr/cms/resource/41/3377041_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02020700"
+   },
+   {
+    "title": "남강댐 물 문화관",
+    "addr": "경상남도 진주시 내동면 삼계로 455-46",
+    "lat": 35.1625312622,
+    "lng": 128.0303759225,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/87/3375387_image2_1.JPG",
+    "cat3": "A02040800"
+   },
+   {
+    "title": "남악서원",
+    "addr": "경상남도 진주시 금곡면 죽곡길 102",
+    "lat": 35.0763157913,
+    "lng": 128.1779263737,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/22/3040222_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "대각서원",
+    "addr": "경상남도 진주시 수곡면 대각길 104-21",
+    "lat": 35.2234863916,
+    "lng": 127.9229670818,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/86/3050086_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "두방사(두방암)",
+    "addr": "경상남도 진주시 문산읍 동부로781번길 267",
+    "lat": 35.1881173659,
+    "lng": 128.1917472121,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/05/3040805_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "물초울공원",
+    "addr": "경상남도 진주시 충무공동 183",
+    "lat": 35.1829948991,
+    "lng": 128.1457513788,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/51/2894551_image2_1.jpg",
+    "cat3": "A01010500"
+   },
+   {
+    "title": "밀알영농조합",
+    "addr": "경상남도 진주시 죽곡길 7",
+    "lat": 35.0817097701,
+    "lng": 128.1857894328,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/70/2817570_image2_1.JPG",
+    "cat3": "A02030400"
+   },
+   {
+    "title": "성전암(진주)",
+    "addr": "경상남도 진주시 이반성면 장안로65번길 291",
+    "lat": 35.2077902373,
+    "lng": 128.3514577019,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/15/3040315_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "연화사(진주)",
+    "addr": "경상남도 진주시 향교로42번길 13",
+    "lat": 35.1977755387,
+    "lng": 128.0877588505,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/32/3040432_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "운강서원",
+    "addr": "경상남도 진주시 금곡면 금곡로 197-24",
+    "lat": 35.1258662348,
+    "lng": 128.2033395096,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/99/3348399_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "응석사(진주)",
+    "addr": "경상남도 진주시 집현면 응석로 435",
+    "lat": 35.2967611018,
+    "lng": 128.0586698982,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/56/3040456_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "의곡사(진주)",
+    "addr": "경상남도 진주시 의곡길 72",
+    "lat": 35.2040247229,
+    "lng": 128.0814036874,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/55/3040855_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "정글어드벤처",
+    "addr": "경상남도 진주시 판문로 155",
+    "lat": 35.1810488016,
+    "lng": 128.0404245533,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/90/3538190_image2_1.jpg",
+    "cat3": "A02030400"
    }
   ],
   "foods": [
-   {
-    "title": "그라운드헤븐",
-    "addr": "경상남도 진주시 대신로 626-13",
-    "lat": 35.2157211927,
-    "lng": 128.1130728231,
-    "img": "http://tong.visitkorea.or.kr/cms/resource/41/2833041_image2_1.png",
-    "start": null,
-    "end": null
-   },
    {
     "title": "남매식당 ／ NMSD",
     "addr": "경상남도 진주시 영천강로119번길 27-47",
     "lat": 35.1725181495,
     "lng": 128.1373135059,
     "img": "http://tong.visitkorea.or.kr/cms/resource/73/2864773_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020200"
+   },
+   {
+    "title": "안의갈비탕",
+    "addr": "경상남도 진주시 비봉로 6-2",
+    "lat": 35.191303945,
+    "lng": 128.0821511796,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/68/2843668_image2_1.JPG",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "어사랑 생선구이",
+    "addr": "경상남도 진주시 문산읍 동부로 743",
+    "lat": 35.171219059,
+    "lng": 128.1801736738,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/21/3455021_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "진주냉면산홍 본점",
+    "addr": "경상남도 진주시 금산면 금산로 62",
+    "lat": 35.2141385775,
+    "lng": 128.1434063158,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/75/2784475_image2_1.JPG",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "진주통닭",
+    "addr": "경상남도 진주시 남강로29번길 15-20 (평거동)",
+    "lat": 35.1661171911,
+    "lng": 128.0428525113,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/99/3069899_image2_1.JPG",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "참진주면옥&금돼지집",
+    "addr": "경상남도 진주시 초북로20번길 8 (초전동)",
+    "lat": 35.2127243126,
+    "lng": 128.1133645432,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/46/3496346_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "천수식당",
+    "addr": "경상남도 진주시 향교로8번길 3",
+    "lat": 35.1972588581,
+    "lng": 128.0837147743,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/65/2894265_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "하동복집",
+    "addr": "경상남도 진주시 진양호로 553",
+    "lat": 35.1937509594,
+    "lng": 128.0859535595,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/76/3563876_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "한우지예",
+    "addr": "경상남도 진주시 월아산로 1089-7",
+    "lat": 35.1678496679,
+    "lng": 128.1619198063,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/64/2851764_image2_1.JPG",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "홍제원 진주점",
+    "addr": "경상남도 진주시 남강로 1171",
+    "lat": 35.1690210121,
+    "lng": 128.1199734512,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/90/2864690_image2_1.JPG",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "화개마을",
+    "addr": "경상남도 진주시 진주대로 358-10",
+    "lat": 35.1416904188,
+    "lng": 128.1013063629,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/73/2837673_image2_1.JPG",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "화원삼계탕",
+    "addr": "경상남도 진주시 정촌면 화원길 7-13",
+    "lat": 35.1356659817,
+    "lng": 128.0948543094,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/96/2914696_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "황포냉면",
+    "addr": "경상남도 진주시 호탄길34번길 10",
+    "lat": 35.1643103826,
+    "lng": 128.1173182527,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/32/2843632_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "[백년가게]중앙집",
+    "addr": "경상남도 진주시 남강로673번길 6",
+    "lat": 35.1917400689,
+    "lng": 128.0856369738,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/92/2609192_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "[백년가게]하동집",
+    "addr": "경상남도 진주시 진양호로 553",
+    "lat": 35.1941120223,
+    "lng": 128.0855369198,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/78/2629978_image2_1.JPG",
+    "cat3": "A05020100"
+   }
+  ],
+  "cafes": [
+   {
+    "title": "그라운드헤븐",
+    "addr": "경상남도 진주시 대신로 626-13",
+    "lat": 35.2157211927,
+    "lng": 128.1130728231,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/41/2833041_image2_1.png",
+    "cat3": "A05020900"
    },
    {
     "title": "라브리애",
@@ -927,8 +2652,7 @@
     "lat": 35.1971658639,
     "lng": 128.1645965743,
     "img": "http://tong.visitkorea.or.kr/cms/resource/31/2864731_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A05020900"
    },
    {
     "title": "로스팅웨어",
@@ -936,8 +2660,7 @@
     "lat": 35.1574195078,
     "lng": 128.1182655736,
     "img": "http://tong.visitkorea.or.kr/cms/resource/12/2843612_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A05020900"
    },
    {
     "title": "로터스 커피앤 베이커리",
@@ -945,8 +2668,229 @@
     "lat": 35.1145044663,
     "lng": 128.0946354403,
     "img": "http://tong.visitkorea.or.kr/cms/resource/71/2833271_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A05020900"
+   },
+   {
+    "title": "망경 마롱",
+    "addr": "경상남도 진주시 천수로 190-3",
+    "lat": 35.1814273048,
+    "lng": 128.0836818613,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/99/2613999_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "메종B 커피&베이커리",
+    "addr": "경상남도 진주시 판문로 78-11",
+    "lat": 35.1744912749,
+    "lng": 128.0442993862,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/92/2833292_image2_1.png",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "소담원",
+    "addr": "경상남도 진주시 신율길 210-62",
+    "lat": 35.1416232278,
+    "lng": 128.0713367688,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/79/2851779_image2_1.JPG",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "수복빵집",
+    "addr": "경상남도 진주시 진주대로1088번길 8 (평안동)",
+    "lat": 35.1966755919,
+    "lng": 128.0837758955,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/66/2894166_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "스텝온더그라운드",
+    "addr": "경상남도 진주시 진주대로1808번길 94",
+    "lat": 35.2335287208,
+    "lng": 128.0242384815,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/25/2833325_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "아오라",
+    "addr": "경상남도 진주시 망경로 17",
+    "lat": 35.167136955,
+    "lng": 128.0673531138,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/29/2846129_image2_1.JPG",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "이늘카페",
+    "addr": "경상남도 진주시 금산순환로402번길 11",
+    "lat": 35.2299232694,
+    "lng": 128.1633597038,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/36/2894236_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "카페 뮈렌",
+    "addr": "경상남도 진주시 망경로297번길 8",
+    "lat": 35.1860240505,
+    "lng": 128.0859704283,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/51/2843651_image2_1.JPG",
+    "cat3": "A05020900"
+   }
+  ],
+  "culture": [
+   {
+    "title": "경상남도교육청 과학교육원",
+    "addr": "경상남도 진주시 진성면 진의로 178-35",
+    "lat": 35.2015359136,
+    "lng": 128.2260244086,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/34/3538234_image2_1.jpg",
+    "cat3": "A02060300"
+   },
+   {
+    "title": "국립진주박물관",
+    "addr": "경상남도 진주시 남강로 626-35",
+    "lat": 35.1889652253,
+    "lng": 128.0768878142,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/08/3557008_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "남가람박물관",
+    "addr": "경상남도 진주시 내동면 칠봉산길 190",
+    "lat": 35.1526244749,
+    "lng": 128.0547851528,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/59/2799259_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "산림바이오소재연구소",
+    "addr": "경상남도 진주시 진주대로 672 (가좌동)",
+    "lat": 35.1665599239,
+    "lng": 128.1057080996,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/48/3040248_image2_1.jpg",
+    "cat3": "A02060300"
+   },
+   {
+    "title": "진주목공예전수관",
+    "addr": "경상남도 진주시 명석면 광제산로 367",
+    "lat": 35.2470636202,
+    "lng": 128.0418115809,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/72/2796572_image2_1.jpg",
+    "cat3": "A02061100"
+   },
+   {
+    "title": "진주시립이성자미술관",
+    "addr": "경상남도 진주시 에나로128번길 14 (충무공동)",
+    "lat": 35.1758484273,
+    "lng": 128.1427629401,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/65/3540965_image2_1.jpg",
+    "cat3": "A02060500"
+   },
+   {
+    "title": "진주어린이박물관",
+    "addr": "경상남도 진주시 망경로224번길 40 (망경동)",
+    "lat": 35.1811633594,
+    "lng": 128.078840626,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/04/2796604_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "진주익룡발자국전시관",
+    "addr": "경상남도 진주시 영천강로68번길 22",
+    "lat": 35.1687297283,
+    "lng": 128.1396384019,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/03/2746303_image2_1.JPG",
+    "cat3": "A02060300"
+   },
+   {
+    "title": "진주청동기문화박물관",
+    "addr": "경상남도 진주시 대평면 호반로 1353",
+    "lat": 35.2253035571,
+    "lng": 127.9627302091,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/29/3538929_image2_1.jpg",
+    "cat3": "A02060100"
+   }
+  ],
+  "shopping": [
+   {
+    "title": "실키안",
+    "addr": "경상남도 진주시 문산읍 월아산로996번길 22",
+    "lat": 35.1598839844,
+    "lng": 128.1668529177,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/10/3040510_image2_1.jpg",
+    "cat3": "A04010700"
+   },
+   {
+    "title": "이현종합시장",
+    "addr": "경상남도 진주시 신안로 165 (이현동)",
+    "lat": 35.1920313565,
+    "lng": 128.0661553411,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/87/2799287_image2_1.JPG",
+    "cat3": "A04010200"
+   },
+   {
+    "title": "자유시장 (진주)",
+    "addr": "경상남도 진주시 도동천로 93 (상대동)",
+    "lat": 35.18015014,
+    "lng": 128.1100629152,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/98/2799298_image2_1.JPG",
+    "cat3": "A04010200"
+   },
+   {
+    "title": "진주 문산장 (4, 9일)",
+    "addr": "경상남도 진주시 문산읍 소문길 68",
+    "lat": 35.1705439351,
+    "lng": 128.1689663396,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/68/3077368_image2_1.jpg",
+    "cat3": "A04010100"
+   },
+   {
+    "title": "진주농산물도매시장",
+    "addr": "경상남도 진주시 남강로 1689 (초전동)",
+    "lat": 35.2114746624,
+    "lng": 128.1251163238,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/24/2796524_image2_1.JPG",
+    "cat3": "A04010200"
+   }
+  ],
+  "leports": [
+   {
+    "title": "가좌산대나무숲길",
+    "addr": "경상남도 진주시 진주대로629번길 15-32 (가좌동)",
+    "lat": 35.161457666,
+    "lng": 128.1027001644,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/36/2792436_image2_1.jpg",
+    "cat3": "A03022700"
+   },
+   {
+    "title": "제이원빌리지",
+    "addr": "경상남도 진주시 내동면 내축로563번길 27-3",
+    "lat": 35.1313817535,
+    "lng": 128.0172278923,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/81/2730981_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "진주 레일바이크",
+    "addr": "경상남도 진주시 내동면 망경로 13",
+    "lat": 35.1663425993,
+    "lng": 128.0672698087,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/93/3589493_image2_1.jpg",
+    "cat3": "A03022700"
+   },
+   {
+    "title": "진주 소힘겨루기 경기장",
+    "addr": "경상남도 진주시 판문오동길 100",
+    "lat": 35.1760132613,
+    "lng": 128.0406607768,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/81/3492781_image2_1.JPG",
+    "cat3": "A03020300"
+   },
+   {
+    "title": "키튼드림센터",
+    "addr": "경상남도 진주시 서장대로61번길 11",
+    "lat": 35.1875370548,
+    "lng": 128.0457044756,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/27/2864127_image2_1.jpg",
+    "cat3": "A03030700"
    }
   ],
   "stays": [
@@ -956,8 +2900,7 @@
     "lat": 35.1778370506,
     "lng": 128.1403742084,
     "img": "http://tong.visitkorea.or.kr/cms/resource/30/3081230_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010100"
    },
    {
     "title": "골든튤립 호텔 남강",
@@ -965,8 +2908,7 @@
     "lat": 35.1916150997,
     "lng": 128.0865896708,
     "img": "http://tong.visitkorea.or.kr/cms/resource/69/2813169_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010100"
    },
    {
     "title": "달강",
@@ -974,8 +2916,7 @@
     "lat": 35.1596670017,
     "lng": 127.991212766,
     "img": "http://tong.visitkorea.or.kr/cms/resource/93/3575193_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010700"
    },
    {
     "title": "솜누스",
@@ -983,8 +2924,7 @@
     "lat": 35.1909151926,
     "lng": 128.0873979517,
     "img": "http://tong.visitkorea.or.kr/cms/resource/33/3546833_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010900"
    },
    {
     "title": "언덕위에 하얀집",
@@ -992,8 +2932,7 @@
     "lat": 35.1613168126,
     "lng": 127.9910016296,
     "img": "http://tong.visitkorea.or.kr/cms/resource/47/3587547_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010700"
    },
    {
     "title": "주식회사제이스퀘어호텔",
@@ -1001,8 +2940,39 @@
     "lat": 35.1787752354,
     "lng": 128.1067465759,
     "img": "http://tong.visitkorea.or.kr/cms/resource/18/2803218_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010100"
+   },
+   {
+    "title": "나인호텔",
+    "addr": "경상남도 진주시 남강로 629-5 (본성동)",
+    "lat": 35.1910400513,
+    "lng": 128.0802235776,
+    "img": "",
+    "cat3": "B02010100"
+   },
+   {
+    "title": "뉴그랜드호텔",
+    "addr": "경상남도 진주시 에나로 97 (충무공동)",
+    "lat": 35.1778203786,
+    "lng": 128.1399936864,
+    "img": "",
+    "cat3": "B02010100"
+   },
+   {
+    "title": "브라운도트호텔 진주충무공점",
+    "addr": "경상남도 진주시 에나로 103-9 (충무공동)",
+    "lat": 35.1786230714,
+    "lng": 128.1402686411,
+    "img": "",
+    "cat3": "B02010100"
+   },
+   {
+    "title": "GuestH(진주게스트하우스_GuestH)",
+    "addr": "경상남도 진주시 모덕로64번길 9",
+    "lat": 35.1842384302,
+    "lng": 128.102288489,
+    "img": "",
+    "cat3": "B02011100"
    }
   ],
   "festivals": [
@@ -1012,6 +2982,8 @@
     "lat": 35.190531773,
     "lng": 128.080104157,
     "img": "http://tong.visitkorea.or.kr/cms/resource/88/3542288_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "010-4123-7112",
     "start": "20251005",
     "end": "20251019",
     "scope": "sigungu",
@@ -1023,6 +2995,8 @@
     "lat": 35.1899681714,
     "lng": 128.0926947349,
     "img": "http://tong.visitkorea.or.kr/cms/resource/72/3536872_image2_1.jpg",
+    "cat3": "A02081300",
+    "tel": "홈페이지 참조",
     "start": "20251004",
     "end": "20251019",
     "scope": "sigungu",
@@ -1034,6 +3008,8 @@
     "lat": 35.1785527282,
     "lng": 128.0892925564,
     "img": "http://tong.visitkorea.or.kr/cms/resource/60/3548860_image2_1.png",
+    "cat3": "A02081300",
+    "tel": "055-749-8707",
     "start": "20251001",
     "end": "20251116",
     "scope": "sigungu",
@@ -1045,13 +3021,15 @@
     "lat": 35.1779388961,
     "lng": 128.0886204093,
     "img": "http://tong.visitkorea.or.kr/cms/resource/40/3523340_image2_1.png",
+    "cat3": "A02081300",
+    "tel": "055-795-3246",
     "start": "20250905",
     "end": "20250907",
     "scope": "sigungu",
     "status": "annual"
    }
   ],
-  "heritage_mapped": 121
+  "heritage_mapped": 120
  },
  {
   "region": "충청남도 부여군",
@@ -1067,8 +3045,8 @@
    "attract": 1.0,
    "connect": -0.7
   },
-  "lat": 36.280142,
-  "lng": 126.902045,
+  "lat": 36.279847,
+  "lng": 126.875467,
   "spots": [
    {
     "title": "가림상회",
@@ -1076,8 +3054,7 @@
     "lat": 36.1899003585,
     "lng": 126.8928691464,
     "img": "http://tong.visitkorea.or.kr/cms/resource/19/3305119_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02030400"
    },
    {
     "title": "간곡서원",
@@ -1085,8 +3062,7 @@
     "lat": 36.1825403583,
     "lng": 126.90839295,
     "img": "http://tong.visitkorea.or.kr/cms/resource/69/3339469_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "거전마을",
@@ -1094,8 +3070,7 @@
     "lat": 36.3597300019,
     "lng": 126.8403693657,
     "img": "http://tong.visitkorea.or.kr/cms/resource/41/3540241_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02030100"
    },
    {
     "title": "고란약수",
@@ -1103,8 +3078,7 @@
     "lat": 36.2927361764,
     "lng": 126.9138867671,
     "img": "http://tong.visitkorea.or.kr/cms/resource/71/3540271_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02010800"
    },
    {
     "title": "구드래조각공원",
@@ -1112,8 +3086,7 @@
     "lat": 36.2872339058,
     "lng": 126.9068264344,
     "img": "http://tong.visitkorea.or.kr/cms/resource/97/3568197_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02020700"
    },
    {
     "title": "금강 문화관",
@@ -1121,8 +3094,7 @@
     "lat": 36.317164399,
     "lng": 126.9405948347,
     "img": "http://tong.visitkorea.or.kr/cms/resource/55/3568155_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02040800"
    },
    {
     "title": "낙화암",
@@ -1130,8 +3102,7 @@
     "lat": 36.2920445455,
     "lng": 126.9114147845,
     "img": "http://tong.visitkorea.or.kr/cms/resource/72/3335172_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "대조사(부여)",
@@ -1139,28 +3110,113 @@
     "lat": 36.1907920635,
     "lng": 126.9009683972,
     "img": "http://tong.visitkorea.or.kr/cms/resource/70/3565170_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010800"
+   },
+   {
+    "title": "도강영당",
+    "addr": "충청남도 부여군 부여읍 부소로 15",
+    "lat": 36.2852231283,
+    "lng": 126.9127481788,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/86/3348786_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "동곡서원",
+    "addr": "충청남도 부여군 세도면 동사리",
+    "lat": 36.1788439002,
+    "lng": 126.9281135038,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/03/3336403_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "동절사",
+    "addr": "충청남도 부여군 남면 내곡리",
+    "lat": 36.2082465494,
+    "lng": 126.7939136421,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/56/3356256_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "만수산자연휴양림",
+    "addr": "충청남도 부여군 외산면 휴양로 107",
+    "lat": 36.3385857609,
+    "lng": 126.7119564584,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/32/3336432_image2_1.jpg",
+    "cat3": "A01010600"
+   },
+   {
+    "title": "무량사(부여)",
+    "addr": "충청남도 부여군 무량로 203",
+    "lat": 36.3164935289,
+    "lng": 126.693361488,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/55/3560455_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "무진암(부여)",
+    "addr": "충청남도 부여군 외산면 무량로 181-17",
+    "lat": 36.3141437913,
+    "lng": 126.6929421434,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/08/3565008_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "미암사",
+    "addr": "충청남도 부여군 내산면 성충로미암길 128",
+    "lat": 36.2793268475,
+    "lng": 126.7677057906,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/17/3540317_image2_1.JPG",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "백마강",
+    "addr": "충청남도 부여군 규암면 백제문로 553",
+    "lat": 36.3065679796,
+    "lng": 126.9170000097,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/17/3568217_image2_1.jpg",
+    "cat3": "A01011800"
+   },
+   {
+    "title": "백제 오천결사대 충혼탑",
+    "addr": "충청남도 부여군 부여읍 동남리",
+    "lat": 36.2699442865,
+    "lng": 126.9107265429,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/79/3348679_image2_1.jpg",
+    "cat3": "A02050200"
+   },
+   {
+    "title": "부산각서석",
+    "addr": "충청남도 부여군 규암면 신리",
+    "lat": 36.2854449805,
+    "lng": 126.8929138404,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/80/3348980_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "부산서원",
+    "addr": "충청남도 부여군 규암면 진변로136번길 11-5",
+    "lat": 36.2844951021,
+    "lng": 126.8936832412,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/91/3356291_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "부여 군수리 사지",
+    "addr": "충청남도 부여군 부여읍 군수리",
+    "lat": 36.2691443565,
+    "lng": 126.9095127843,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/22/3336422_image2_1.jpg",
+    "cat3": "A02010700"
    }
   ],
   "foods": [
-   {
-    "title": "높은댕이",
-    "addr": "충청남도 부여군 삼충로 325-34",
-    "lat": 36.3113208683,
-    "lng": 126.9546520624,
-    "img": "http://tong.visitkorea.or.kr/cms/resource/72/2832872_image2_1.jpg",
-    "start": null,
-    "end": null
-   },
    {
     "title": "루디꼬",
     "addr": "충청남도 부여군 성왕로 324",
     "lat": 36.2835318361,
     "lng": 126.9231584018,
     "img": "http://tong.visitkorea.or.kr/cms/resource/88/2832888_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020200"
    },
    {
     "title": "메밀꽃필무렵",
@@ -1168,17 +3224,7 @@
     "lat": 36.2911587376,
     "lng": 126.9230026581,
     "img": "http://tong.visitkorea.or.kr/cms/resource/75/2926975_image2_1.jpg",
-    "start": null,
-    "end": null
-   },
-   {
-    "title": "무드빌리지",
-    "addr": "충청남도 부여군 뒷개로27번길 10-1",
-    "lat": 36.2929057858,
-    "lng": 126.9245163652,
-    "img": "http://tong.visitkorea.or.kr/cms/resource/36/3574436_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "백마가든",
@@ -1186,8 +3232,271 @@
     "lat": 36.3507884175,
     "lng": 126.7859272694,
     "img": "http://tong.visitkorea.or.kr/cms/resource/17/2913417_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
+   },
+   {
+    "title": "서동한우 본점",
+    "addr": "충청남도 부여군 성왕로 256",
+    "lat": 36.2830206494,
+    "lng": 126.9154452179,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/93/2926993_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "소담돈까스",
+    "addr": "충청남도 부여군 성충로미암길 8",
+    "lat": 36.2853234158,
+    "lng": 126.7696221272,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/77/2832977_image2_1.jpg",
+    "cat3": "A05020200"
+   },
+   {
+    "title": "엄가네곰탕",
+    "addr": "충청남도 부여군 나루터로 21-4",
+    "lat": 36.2845953771,
+    "lng": 126.9101762043,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/84/2877384_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "이민물장어 하우스",
+    "addr": "충청남도 부여군 규암면 백제문로304번길 59-2",
+    "lat": 36.3017931464,
+    "lng": 126.8951021003,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/66/3589966_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "하늘채 황금수라",
+    "addr": "충청남도 부여군 부여읍 계백로 373",
+    "lat": 36.2802321267,
+    "lng": 126.9181589375,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/39/2800539_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "구드래 한우타운",
+    "addr": "충청남도 부여군 부여읍 나루터로 25",
+    "lat": 36.2848870071,
+    "lng": 126.910001212,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "구드래황토정",
+    "addr": "충청남도 부여군 규암면 백제문로 30",
+    "lat": 36.2788622785,
+    "lng": 126.8858702022,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "백제고을 누룽지백숙",
+    "addr": "충청남도 부여군 부여읍 정림로 96",
+    "lat": 36.2781184511,
+    "lng": 126.9165174739,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "백제궁 수라간",
+    "addr": "충청남도 부여군 규암면 백제문로 555",
+    "lat": 36.3064541159,
+    "lng": 126.9176971723,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "백제의집",
+    "addr": "충청남도 부여군 부여읍 성왕로 248",
+    "lat": 36.2830373016,
+    "lng": 126.9147563903,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "연꽃이야기",
+    "addr": "충청남도 부여군 부여읍 성왕로 22",
+    "lat": 36.2687637933,
+    "lng": 126.9065463936,
+    "img": "",
+    "cat3": "A05020700"
+   },
+   {
+    "title": "향우정",
+    "addr": "충청남도 부여군 부여읍 나루터로 33",
+    "lat": 36.2854785973,
+    "lng": 126.9094790206,
+    "img": "",
+    "cat3": "A05020100"
+   }
+  ],
+  "cafes": [
+   {
+    "title": "높은댕이",
+    "addr": "충청남도 부여군 삼충로 325-34",
+    "lat": 36.3113208683,
+    "lng": 126.9546520624,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/72/2832872_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "무드빌리지",
+    "addr": "충청남도 부여군 뒷개로27번길 10-1",
+    "lat": 36.2929057858,
+    "lng": 126.9245163652,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/36/3574436_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "비비비",
+    "addr": "충청남도 부여군 삼충로 99",
+    "lat": 36.2954280769,
+    "lng": 126.9450838984,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/40/2832940_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "수북로1945",
+    "addr": "충청남도 부여군 규암면 수북로41번길 11-50",
+    "lat": 36.2722963914,
+    "lng": 126.8874757872,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/20/2820620_image2_1.JPG",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "합송리994",
+    "addr": "충청남도 부여군 규암면 흥수로 581-6",
+    "lat": 36.2664324759,
+    "lng": 126.8471906661,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/41/2792441_image2_1.jpg",
+    "cat3": "A05020900"
+   }
+  ],
+  "culture": [
+   {
+    "title": "국립부여박물관",
+    "addr": "충청남도 부여군 부여읍 금성로 5",
+    "lat": 36.2763825813,
+    "lng": 126.9189645227,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/59/3544159_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "백제원(부여)",
+    "addr": "충청남도 부여군 규암면 백제문로 553",
+    "lat": 36.3064874337,
+    "lng": 126.9170222321,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/60/3348760_image2_1.jpg",
+    "cat3": "A02060100"
+   }
+  ],
+  "shopping": [
+   {
+    "title": "부여 중앙시장",
+    "addr": "충청남도 부여군 부여읍 중앙로 15",
+    "lat": 36.2808402864,
+    "lng": 126.9121900121,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/24/3038924_image2_1.JPG",
+    "cat3": "A04010200"
+   },
+   {
+    "title": "부여장 (5, 10일)",
+    "addr": "충청남도 부여군 부여읍 성왕로173번길 12",
+    "lat": 36.2814762458,
+    "lng": 126.9076348477,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/57/1963357_image2_1.jpg",
+    "cat3": "A04010100"
+   },
+   {
+    "title": "만세장터 봉사회",
+    "addr": "충청남도 부여군 임천면 성흥로88번길 10",
+    "lat": 36.1898670059,
+    "lng": 126.8915331555,
+    "img": "",
+    "cat3": "A04010900"
+   }
+  ],
+  "leports": [
+   {
+    "title": "교육가족체험장",
+    "addr": "충청남도 부여군 인세로 40-3",
+    "lat": 36.1671071219,
+    "lng": 126.9723876282,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/34/2908534_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "굿뜨래웰빙마을",
+    "addr": "충청남도 부여군 부여읍 가탑로 75",
+    "lat": 36.2756162041,
+    "lng": 126.9305773912,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/19/2749819_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "내안의숲오토캠핑장",
+    "addr": "충청남도 부여군 옥산면 내대리",
+    "lat": 36.1851455712,
+    "lng": 126.7449130848,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/90/2728790_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "느루캠핑장",
+    "addr": "충청남도 부여군 장암면 장암로 67-28",
+    "lat": 36.2382252933,
+    "lng": 126.8875683461,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/84/2908484_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "반산저수지",
+    "addr": "충청남도 부여군 규암면 호반로",
+    "lat": 36.2775061491,
+    "lng": 126.8438184541,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/40/3038940_image2_1.JPG",
+    "cat3": "A03030500"
+   },
+   {
+    "title": "백마강레저파크",
+    "addr": "충청남도 부여군 규암면 왕흥로 424",
+    "lat": 36.3011741256,
+    "lng": 126.9154586243,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/84/3112484_image2_1.jpg",
+    "cat3": "A03030100"
+   },
+   {
+    "title": "백마강레져",
+    "addr": "충청남도 부여군 부여읍 정동리",
+    "lat": 36.3149451181,
+    "lng": 126.9354148023,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/94/2799994_image2_1.jpg",
+    "cat3": "A03022100"
+   },
+   {
+    "title": "백제CC",
+    "addr": "충청남도 부여군 은산면 충절로 3734-82",
+    "lat": 36.3475860889,
+    "lng": 126.7907074806,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/25/2770425_image2_1.jpg",
+    "cat3": "A03020700"
+   },
+   {
+    "title": "복금저수지",
+    "addr": "충청남도 부여군 충화면 가림로",
+    "lat": 36.1837029557,
+    "lng": 126.8414433603,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/75/3341075_image2_1.JPG",
+    "cat3": "A03030500"
+   },
+   {
+    "title": "부여 산직지",
+    "addr": "충청남도 부여군 초촌면 선사로 286",
+    "lat": 36.2610392408,
+    "lng": 127.0410317702,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/25/3568125_image2_1.jpg",
+    "cat3": "A03030500"
    }
   ],
   "stays": [
@@ -1197,8 +3506,7 @@
     "lat": 36.2655770389,
     "lng": 126.8484100237,
     "img": "http://tong.visitkorea.or.kr/cms/resource/04/2679904_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02011600"
    },
    {
     "title": "달을품은한옥",
@@ -1206,8 +3514,7 @@
     "lat": 36.2922198057,
     "lng": 126.9275244464,
     "img": "",
-    "start": null,
-    "end": null
+    "cat3": "B02011600"
    },
    {
     "title": "롯데리조트 부여",
@@ -1215,8 +3522,7 @@
     "lat": 36.3039124464,
     "lng": 126.9007876454,
     "img": "",
-    "start": null,
-    "end": null
+    "cat3": "B02010100"
    },
    {
     "title": "서동선화한옥",
@@ -1224,8 +3530,7 @@
     "lat": 36.2918754037,
     "lng": 126.9276911069,
     "img": "",
-    "start": null,
-    "end": null
+    "cat3": "B02011600"
    }
   ],
   "festivals": [
@@ -1235,6 +3540,8 @@
     "lat": 36.279071057,
     "lng": 126.9128955516,
     "img": "http://tong.visitkorea.or.kr/cms/resource/27/3563827_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "041-837-1722",
     "start": "20251002",
     "end": "20251012",
     "scope": "sigungu",
@@ -1257,8 +3564,8 @@
    "attract": 3.6,
    "connect": 0.1
   },
-  "lat": 36.545491,
-  "lng": 126.594435,
+  "lat": 36.572868,
+  "lng": 126.604679,
   "spots": [
    {
     "title": "결성동헌",
@@ -1266,8 +3573,7 @@
     "lat": 36.5240393726,
     "lng": 126.5451110316,
     "img": "http://tong.visitkorea.or.kr/cms/resource/51/3357051_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010100"
    },
    {
     "title": "결성향교",
@@ -1275,8 +3581,7 @@
     "lat": 36.5289137789,
     "lng": 126.5431610786,
     "img": "http://tong.visitkorea.or.kr/cms/resource/75/3357075_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "광경사지 석불좌상",
@@ -1284,8 +3589,7 @@
     "lat": 36.6141868795,
     "lng": 126.6795242974,
     "img": "http://tong.visitkorea.or.kr/cms/resource/12/3081012_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "광천생활체육공원",
@@ -1293,8 +3597,7 @@
     "lat": 36.5073484031,
     "lng": 126.6354866605,
     "img": "http://tong.visitkorea.or.kr/cms/resource/27/3065227_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02020700"
    },
    {
     "title": "광천토굴새우젓단지",
@@ -1302,8 +3605,7 @@
     "lat": 36.4852533774,
     "lng": 126.6156112576,
     "img": "http://tong.visitkorea.or.kr/cms/resource/53/3034653_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02030400"
    },
    {
     "title": "구절암(홍성)",
@@ -1311,8 +3613,7 @@
     "lat": 36.569193902,
     "lng": 126.6257414558,
     "img": "http://tong.visitkorea.or.kr/cms/resource/58/3079458_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010800"
    },
    {
     "title": "궁리포구",
@@ -1320,8 +3621,7 @@
     "lat": 36.5884471203,
     "lng": 126.4572117089,
     "img": "http://tong.visitkorea.or.kr/cms/resource/79/3357079_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01011400"
    },
    {
     "title": "그림같은수목원",
@@ -1329,8 +3629,103 @@
     "lat": 36.5198135343,
     "lng": 126.6295285338,
     "img": "http://tong.visitkorea.or.kr/cms/resource/61/2770761_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01010700"
+   },
+   {
+    "title": "남당 노을 전망대",
+    "addr": "충청남도 홍성군 서부면 남당리",
+    "lat": 36.5435968637,
+    "lng": 126.4652510537,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/16/3449016_image2_1.jpg",
+    "cat3": "A02050600"
+   },
+   {
+    "title": "남당항어촌마을",
+    "addr": "충청남도 홍성군 서부면 남당리",
+    "lat": 36.5481408258,
+    "lng": 126.4676007221,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/19/3338019_image2_1.jpg",
+    "cat3": "A02030100"
+   },
+   {
+    "title": "석련사(홍성)",
+    "addr": "충청남도 홍성군 구항면 구성북로160번길 76",
+    "lat": 36.6045369289,
+    "lng": 126.6182078628,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/53/3063053_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "성삼문선생유허지",
+    "addr": "충청남도 홍성군 홍북읍 매죽헌길 403-12",
+    "lat": 36.6454591758,
+    "lng": 126.7310715906,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/74/3079474_image2_1.jpg",
+    "cat3": "A02010500"
+   },
+   {
+    "title": "속동전망대",
+    "addr": "충청남도 홍성군 서부면 남당항로 689",
+    "lat": 36.5768041393,
+    "lng": 126.4644113664,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/49/3333749_image2_1.jpg",
+    "cat3": "A02050600"
+   },
+   {
+    "title": "아가새농장",
+    "addr": "충청남도 홍성군 서부면 서부로 295-90",
+    "lat": 36.5698333557,
+    "lng": 126.5014887584,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/84/2678984_image2_1.bmp",
+    "cat3": "A02030100"
+   },
+   {
+    "title": "어사리 노을공원",
+    "addr": "충청남도 홍성군 서부면 남당항자전거길 53",
+    "lat": 36.5561538055,
+    "lng": 126.4683671084,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/17/3065317_image2_1.jpg",
+    "cat3": "A02020700"
+   },
+   {
+    "title": "용봉산자연휴양림",
+    "addr": "충청남도 홍성군 홍북읍 용봉산2길 87",
+    "lat": 36.6449829445,
+    "lng": 126.6569338469,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/35/3340035_image2_1.jpg",
+    "cat3": "A01010600"
+   },
+   {
+    "title": "최치원선생유적지",
+    "addr": "충청남도 홍성군 장곡면 월계리",
+    "lat": 36.5287476428,
+    "lng": 126.733713356,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/93/3091793_image2_1.JPG",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "충령사",
+    "addr": "충청남도 홍성군 홍성읍 충서로 1121-43",
+    "lat": 36.5756825247,
+    "lng": 126.6534832257,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/83/3091083_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "홍성 속동갯벌마을",
+    "addr": "충청남도 홍성군 서부면 남당항로 689",
+    "lat": 36.5769902321,
+    "lng": 126.464589123,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/05/2020805_image2_1.jpg",
+    "cat3": "A02030100"
+   },
+   {
+    "title": "홍성 한솔기마을",
+    "addr": "충청남도 홍성군 홍북읍 매죽헌길 403-26",
+    "lat": 36.6458285615,
+    "lng": 126.7301050014,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/27/3338027_image2_1.jpg",
+    "cat3": "A02030100"
    }
   ],
   "foods": [
@@ -1340,8 +3735,7 @@
     "lat": 36.527272385,
     "lng": 126.5480773458,
     "img": "http://tong.visitkorea.or.kr/cms/resource/66/2912366_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "광천원조어죽",
@@ -1349,8 +3743,7 @@
     "lat": 36.5027209641,
     "lng": 126.6242933472,
     "img": "http://tong.visitkorea.or.kr/cms/resource/78/2784678_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "꽃동산횟집",
@@ -1358,8 +3751,7 @@
     "lat": 36.5308569463,
     "lng": 126.4817887857,
     "img": "http://tong.visitkorea.or.kr/cms/resource/36/2767136_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "내당한우",
@@ -1367,8 +3759,7 @@
     "lat": 36.6003965259,
     "lng": 126.6637594194,
     "img": "http://tong.visitkorea.or.kr/cms/resource/33/2735133_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "내포해물촌",
@@ -1376,8 +3767,199 @@
     "lat": 36.5929448586,
     "lng": 126.6783583017,
     "img": "http://tong.visitkorea.or.kr/cms/resource/62/2850162_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
+   },
+   {
+    "title": "돌산가든",
+    "addr": "충청남도 홍성군 홍북읍 용봉산2길 37",
+    "lat": 36.6426776956,
+    "lng": 126.6593364698,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/51/612151_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "미도식당",
+    "addr": "충청남도 홍성군 광천읍 광천로 302",
+    "lat": 36.5009017667,
+    "lng": 126.6264876415,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/54/2913554_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "용봉산 호랭이",
+    "addr": "충청남도 홍성군 의향로 283 골든타워",
+    "lat": 36.6594761397,
+    "lng": 126.681128499,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/55/2849855_image2_1.jpg",
+    "cat3": "A05020200"
+   },
+   {
+    "title": "70년소머리국밥",
+    "addr": "충청남도 홍성군 의사로43번길 27-9",
+    "lat": 36.6014936991,
+    "lng": 126.668208989,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/42/2850142_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "[백년가게]동해루",
+    "addr": "충청남도 홍성군 홍성읍 아문길29번길 48",
+    "lat": 36.6014075244,
+    "lng": 126.6639232666,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/84/2630884_image2_1.JPG",
+    "cat3": "A05020400"
+   },
+   {
+    "title": "한올채",
+    "addr": "충청남도 홍성군 금마면 광금북로 419",
+    "lat": 36.6069053134,
+    "lng": 126.7331196587,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "홍성한우미당",
+    "addr": "충청남도 홍성군 홍성읍 홍덕서로 193",
+    "lat": 36.6107837163,
+    "lng": 126.6346395475,
+    "img": "",
+    "cat3": "A05020100"
+   }
+  ],
+  "cafes": [
+   {
+    "title": "카페드하리",
+    "addr": "충청남도 홍성군 서부면 남당항로 860",
+    "lat": 36.5898830759,
+    "lng": 126.457783842,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/43/2767143_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "케렌시아",
+    "addr": "충청남도 홍성군 남당항로213번길 96",
+    "lat": 36.5448133931,
+    "lng": 126.4654232284,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/72/2849872_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "케이카페",
+    "addr": "충청남도 홍성군 용봉산2길 41",
+    "lat": 36.6422860643,
+    "lng": 126.6587754197,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/66/2849966_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "까쎄 토라도",
+    "addr": "충청남도 홍성군 홍성읍 문화로80번길 12",
+    "lat": 36.5945027456,
+    "lng": 126.6629179858,
+    "img": "",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "지구에서 너뿐",
+    "addr": "충청남도 홍성군 홍성읍 역재3길 40",
+    "lat": 36.5908922255,
+    "lng": 126.6730699441,
+    "img": "",
+    "cat3": "A05020900"
+   }
+  ],
+  "culture": [
+   {
+    "title": "고암이응노생가기념관",
+    "addr": "충청남도 홍성군 홍북면 이응노로 61-7",
+    "lat": 36.6223823313,
+    "lng": 126.6317283904,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/52/3351452_image2_1.jpg",
+    "cat3": "A02060200"
+   },
+   {
+    "title": "백야기념관",
+    "addr": "충청남도 홍성군 갈산면 백야로546번길 12",
+    "lat": 36.5978475838,
+    "lng": 126.5471366762,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/61/3340061_image2_1.jpg",
+    "cat3": "A02060200"
+   },
+   {
+    "title": "결성농요농사박물관",
+    "addr": "충청남도 홍성군 결성면 구성남로 91",
+    "lat": 36.53260512,
+    "lng": 126.5489604587,
+    "img": "",
+    "cat3": "A02060100"
+   }
+  ],
+  "shopping": [
+   {
+    "title": "광천전통시장",
+    "addr": "충청남도 홍성군 광천읍 광천로285번길 8-16",
+    "lat": 36.5006767661,
+    "lng": 126.6249711176,
+    "img": "",
+    "cat3": "A04010100"
+   }
+  ],
+  "leports": [
+   {
+    "title": "글로리아 야영장",
+    "addr": "충청남도 홍성군 서부면 서부서길554번길 68",
+    "lat": 36.579659435,
+    "lng": 126.4684053744,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/50/2793350_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "세울터 오토캠핑장",
+    "addr": "충청남도 홍성군 서부면 홍남서로362번길 46",
+    "lat": 36.5392898768,
+    "lng": 126.5148605801,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/71/2793371_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "용봉산캠핑장",
+    "addr": "충청남도 홍성군 홍북읍 이응노로 227-13",
+    "lat": 36.6324980569,
+    "lng": 126.6446186244,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/34/2731534_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "천수만권역상황오토캠핑장",
+    "addr": "충청남도 홍성군 서부면 서부서길 633-60",
+    "lat": 36.5845867841,
+    "lng": 126.4765072911,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/97/2729497_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "카라반에코빌리지",
+    "addr": "충청남도 홍성군 구항면 구성북로 229",
+    "lat": 36.6052477372,
+    "lng": 126.6054228863,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/67/2740367_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "홍성군 승마장",
+    "addr": "충청남도 홍성군 서부면 남당항로 690",
+    "lat": 36.578459559,
+    "lng": 126.4675804805,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/78/3587078_image2_1.jpg",
+    "cat3": "A03021100"
+   },
+   {
+    "title": "홍양저수지",
+    "addr": "충청남도 홍성군 금마면 장성리",
+    "lat": 36.5884486568,
+    "lng": 126.7074141355,
+    "img": "",
+    "cat3": "A03030500"
    }
   ],
   "stays": [
@@ -1387,8 +3969,7 @@
     "lat": 36.5287943496,
     "lng": 126.5432499636,
     "img": "http://tong.visitkorea.or.kr/cms/resource/74/2568074_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "B02011600"
    },
    {
     "title": "장충영각",
@@ -1396,8 +3977,7 @@
     "lat": 36.572537726,
     "lng": 126.6120509347,
     "img": "",
-    "start": null,
-    "end": null
+    "cat3": "B02011600"
    }
   ],
   "festivals": [
@@ -1407,6 +3987,8 @@
     "lat": 36.5018183007,
     "lng": 126.6249155367,
     "img": "http://tong.visitkorea.or.kr/cms/resource/96/3567096_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "070-4125-2815",
     "start": "20251115",
     "end": "20251116",
     "scope": "sigungu",
@@ -1418,6 +4000,8 @@
     "lat": 36.600246495,
     "lng": 126.6609319005,
     "img": "http://tong.visitkorea.or.kr/cms/resource/70/3544670_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "041-634-8706",
     "start": "20251030",
     "end": "20251102",
     "scope": "sigungu",
@@ -1429,6 +4013,8 @@
     "lat": 36.6575484446,
     "lng": 126.6730820546,
     "img": "http://tong.visitkorea.or.kr/cms/resource/38/3530138_image2_1.jpg",
+    "cat3": "A02081300",
+    "tel": "041-635-4797",
     "start": "20250920",
     "end": "20250920",
     "scope": "sigungu",
@@ -1451,8 +4037,8 @@
    "attract": 2.5,
    "connect": 0.6
   },
-  "lat": 36.159898,
-  "lng": 128.349993,
+  "lat": 36.151603,
+  "lng": 128.3504,
   "spots": [
    {
     "title": "구미 낙성리 느티나무",
@@ -1460,8 +4046,7 @@
     "lat": 36.1980594138,
     "lng": 128.3840388514,
     "img": "http://tong.visitkorea.or.kr/cms/resource/30/2605830_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01020100"
    },
    {
     "title": "구미 선산향교",
@@ -1469,8 +4054,7 @@
     "lat": 36.2555707508,
     "lng": 128.2992058715,
     "img": "http://tong.visitkorea.or.kr/cms/resource/55/3348855_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "구미 채미정",
@@ -1478,8 +4062,7 @@
     "lat": 36.112531722,
     "lng": 128.3129780927,
     "img": "http://tong.visitkorea.or.kr/cms/resource/59/3566259_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "금오산성",
@@ -1487,8 +4070,7 @@
     "lat": 36.1025188973,
     "lng": 128.3089370629,
     "img": "http://tong.visitkorea.or.kr/cms/resource/87/3041887_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010200"
    },
    {
     "title": "금오산케이블카",
@@ -1496,8 +4078,7 @@
     "lat": 36.108415417,
     "lng": 128.3071787206,
     "img": "http://tong.visitkorea.or.kr/cms/resource/42/3566342_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02030400"
    },
    {
     "title": "낙동강",
@@ -1505,8 +4086,7 @@
     "lat": 36.0838530046,
     "lng": 128.3868640183,
     "img": "http://tong.visitkorea.or.kr/cms/resource/14/3548914_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01011800"
    },
    {
     "title": "낙봉서원",
@@ -1514,8 +4094,7 @@
     "lat": 36.2014229331,
     "lng": 128.3847331399,
     "img": "http://tong.visitkorea.or.kr/cms/resource/53/3402553_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "대둔사(구미)",
@@ -1523,8 +4102,103 @@
     "lat": 36.3357827815,
     "lng": 128.2420253649,
     "img": "http://tong.visitkorea.or.kr/cms/resource/78/3526678_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010800"
+   },
+   {
+    "title": "대혜폭포",
+    "addr": "경상북도 구미시 금오산로 434-1 (남통동)",
+    "lat": 36.1062405109,
+    "lng": 128.2988156329,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/93/3407293_image2_1.jpg",
+    "cat3": "A01010800"
+   },
+   {
+    "title": "도리사(구미)",
+    "addr": "경상북도 구미시 해평면 도리사로 526",
+    "lat": 36.2554642817,
+    "lng": 128.3997080718,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/31/3041831_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "도선굴",
+    "addr": "경상북도 구미시 금오산로 434-1",
+    "lat": 36.1062405109,
+    "lng": 128.2988156329,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/15/3566415_image2_1.jpg",
+    "cat3": "A01011900"
+   },
+   {
+    "title": "동락공원",
+    "addr": "경상북도 구미시 3공단1로 191",
+    "lat": 36.0971156643,
+    "lng": 128.4019512022,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/37/3029537_image2_1.jpg",
+    "cat3": "A02020700"
+   },
+   {
+    "title": "동락서원",
+    "addr": "경상북도 구미시 임수동",
+    "lat": 36.1114667606,
+    "lng": 128.3992149323,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/91/3545391_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "동락신나루",
+    "addr": "경상북도 구미시 수출대로 326-12 (임수동)",
+    "lat": 36.1105002058,
+    "lng": 128.399317728,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/36/3402536_image2_1.jpg",
+    "cat3": "A02050600"
+   },
+   {
+    "title": "매학정일원",
+    "addr": "경상북도 구미시 고아읍 강정4길 63-6",
+    "lat": 36.1956009637,
+    "lng": 128.3624936073,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/86/3348986_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "문산서원",
+    "addr": "경상북도 구미시 선산읍 유학길 334-32",
+    "lat": 36.2437448082,
+    "lng": 128.3257732906,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/82/3401582_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "박정희대통령생가",
+    "addr": "경상북도 구미시 박정희로 107",
+    "lat": 36.0886212034,
+    "lng": 128.3485506092,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/31/3566231_image2_1.jpg",
+    "cat3": "A02010500"
+   },
+   {
+    "title": "보천사(구미)",
+    "addr": "경상북도 구미시 해평면 해평4길 86",
+    "lat": 36.2032614048,
+    "lng": 128.3734507551,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/21/3538021_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "봉곡테마공원",
+    "addr": "경상북도 구미시 봉곡로18길 30 봉곡테마공원화장실",
+    "lat": 36.1510051444,
+    "lng": 128.3140019289,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/01/2902601_image2_1.jpg",
+    "cat3": "A02020700"
+   },
+   {
+    "title": "산동참생태숲",
+    "addr": "경상북도 구미시 산동읍 인덕1길 240",
+    "lat": 36.177449296,
+    "lng": 128.4613575819,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/09/2737009_image2_1.jpg",
+    "cat3": "A01010500"
    }
   ],
   "foods": [
@@ -1534,8 +4208,7 @@
     "lat": 36.1100109887,
     "lng": 128.3784556988,
     "img": "http://tong.visitkorea.or.kr/cms/resource/89/2831889_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020300"
    },
    {
     "title": "배키우동",
@@ -1543,8 +4216,7 @@
     "lat": 36.1254611412,
     "lng": 128.3311316804,
     "img": "http://tong.visitkorea.or.kr/cms/resource/66/2766966_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020300"
    },
    {
     "title": "빠리맨션",
@@ -1552,8 +4224,7 @@
     "lat": 36.1250111665,
     "lng": 128.3297345937,
     "img": "http://tong.visitkorea.or.kr/cms/resource/75/2840975_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020200"
    },
    {
     "title": "삐에노 스테이크 뷔페",
@@ -1561,8 +4232,7 @@
     "lat": 36.1549318256,
     "lng": 128.4296332456,
     "img": "http://tong.visitkorea.or.kr/cms/resource/55/2841155_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020200"
    },
    {
     "title": "산동장안식당",
@@ -1570,8 +4240,263 @@
     "lat": 36.1651033595,
     "lng": 128.4549890486,
     "img": "http://tong.visitkorea.or.kr/cms/resource/29/2832129_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
+   },
+   {
+    "title": "소풍 수제초밥전문점",
+    "addr": "경상북도 구미시 봉곡남로 49",
+    "lat": 36.1500079262,
+    "lng": 128.3080469292,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/94/2840994_image2_1.jpg",
+    "cat3": "A05020300"
+   },
+   {
+    "title": "순수보리밥",
+    "addr": "경상북도 구미시 봉곡남로23길 30",
+    "lat": 36.1533993553,
+    "lng": 128.3161100087,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/00/2841000_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "스시소담",
+    "addr": "경상북도 구미시 박정희로 114",
+    "lat": 36.0890739669,
+    "lng": 128.3505781949,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/16/2866816_image2_1.jpg",
+    "cat3": "A05020300"
+   },
+   {
+    "title": "천안문",
+    "addr": "경상북도 구미시 봉곡로10길 10",
+    "lat": 36.1461362028,
+    "lng": 128.3112162008,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/23/2840323_image2_1.jpg",
+    "cat3": "A05020400"
+   },
+   {
+    "title": "궁원",
+    "addr": "경상북도 구미시 금오산로 126",
+    "lat": 36.1253083787,
+    "lng": 128.3310344704,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "금오산길",
+    "addr": "경상북도 구미시 공원로 20 (남통동)",
+    "lat": 36.111679095,
+    "lng": 128.3159111898,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "목마식당",
+    "addr": "경상북도 구미시 강동로 177-38",
+    "lat": 36.1256835678,
+    "lng": 128.4944227771,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "버드나무백숙",
+    "addr": "경상북도 구미시 공원로 26",
+    "lat": 36.1113180289,
+    "lng": 128.3161139596,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "상송식당",
+    "addr": "경상북도 구미시 상무로 608-6",
+    "lat": 36.2694943883,
+    "lng": 128.1599817319,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "순수가성",
+    "addr": "경상북도 구미시 인동북길 99",
+    "lat": 36.0986270688,
+    "lng": 128.4272378117,
+    "img": "",
+    "cat3": "A05020100"
+   }
+  ],
+  "cafes": [
+   {
+    "title": "카페화담",
+    "addr": "경상북도 구미시 지주중류4길 15-14",
+    "lat": 36.0814863722,
+    "lng": 128.3741041025,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/78/2766978_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "컬리넌",
+    "addr": "경상북도 구미시 송동로 42-36",
+    "lat": 36.1351183141,
+    "lng": 128.3277483772,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/33/2841033_image2_1.jpg",
+    "cat3": "A05020900"
+   }
+  ],
+  "culture": [
+   {
+    "title": "구미과학관",
+    "addr": "경상북도 구미시 3공단1로 219-1",
+    "lat": 36.1023178242,
+    "lng": 128.4004984075,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/13/3344613_image2_1.jpg",
+    "cat3": "A02060300"
+   },
+   {
+    "title": "구미문화원",
+    "addr": "경상북도 구미시 선산읍 선산중앙로 83-2",
+    "lat": 36.2437026739,
+    "lng": 128.3000922367,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/72/3401572_image2_1.jpg",
+    "cat3": "A02060700"
+   },
+   {
+    "title": "구미시립중앙도서관",
+    "addr": "경상북도 구미시 경은로 85",
+    "lat": 36.1138069853,
+    "lng": 128.3352233093,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/34/3029334_image2_1.jpg",
+    "cat3": "A02060900"
+   },
+   {
+    "title": "구미코",
+    "addr": "경상북도 구미시 산동읍 첨단기업1로 49",
+    "lat": 36.1416419026,
+    "lng": 128.442257501,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/65/3401565_image2_1.jpg",
+    "cat3": "A02060400"
+   },
+   {
+    "title": "박정희대통령역사자료관",
+    "addr": "경상북도 구미시 박정희로 123 (상모동)",
+    "lat": 36.0906098736,
+    "lng": 128.3489532959,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/01/2732401_image2_1.jpg",
+    "cat3": "A02060300"
+   },
+   {
+    "title": "삼일문고",
+    "addr": "경상북도 구미시 금오시장로 6 (원평동)",
+    "lat": 36.1254835359,
+    "lng": 128.3406613907,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/29/3566129_image2_1.jpg",
+    "cat3": "A02061000"
+   }
+  ],
+  "shopping": [
+   {
+    "title": "구미농수산물도매시장",
+    "addr": "경상북도 구미시 고아읍 선산대로 309",
+    "lat": 36.1569523508,
+    "lng": 128.3499596886,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/49/2737049_image2_1.jpg",
+    "cat3": "A04010200"
+   },
+   {
+    "title": "구미인동시장",
+    "addr": "경상북도 구미시 인동중앙로5길 16-7",
+    "lat": 36.1084869505,
+    "lng": 128.4213047274,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/65/3565965_image2_1.jpg",
+    "cat3": "A04010200"
+   },
+   {
+    "title": "금오시장",
+    "addr": "경상북도 구미시 금오시장로 13",
+    "lat": 36.126155681,
+    "lng": 128.3406252638,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/95/3565895_image2_1.jpg",
+    "cat3": "A04010200"
+   },
+   {
+    "title": "선산5일장 (2, 7일)",
+    "addr": "경상북도 구미시 선산읍 단계동길 24",
+    "lat": 36.2395170545,
+    "lng": 128.3009117256,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/52/3041752_image2_1.jpg",
+    "cat3": "A04010100"
+   },
+   {
+    "title": "선산봉황시장",
+    "addr": "경상북도 구미시 선산읍 단계동길 24",
+    "lat": 36.2395642714,
+    "lng": 128.3009089467,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/64/2737064_image2_1.jpg",
+    "cat3": "A04010200"
+   },
+   {
+    "title": "장천장 (5, 10일)",
+    "addr": "경상북도 구미시 장천면 상장5길 4",
+    "lat": 36.125702991,
+    "lng": 128.4933978676,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/22/3029422_image2_1.jpg",
+    "cat3": "A04010100"
+   }
+  ],
+  "leports": [
+   {
+    "title": "구미CC",
+    "addr": "경상북도 구미시 장천면 송백로 229",
+    "lat": 36.1697756403,
+    "lng": 128.4868999815,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/83/2772583_image2_1.jpg",
+    "cat3": "A03020700"
+   },
+   {
+    "title": "구미시평생교육원",
+    "addr": "경상북도 구미시 산호대로 243",
+    "lat": 36.1055838153,
+    "lng": 128.3839608909,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/57/3029257_image2_1.jpg",
+    "cat3": "A03020200"
+   },
+   {
+    "title": "구미캠핑장",
+    "addr": "경상북도 구미시 낙동제방길 200 (양호동)",
+    "lat": 36.1376965336,
+    "lng": 128.3677280976,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/06/2727106_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "금오랜드 아이스링크장",
+    "addr": "경상북도 구미시 금오산로 339 (남통동)",
+    "lat": 36.1133483448,
+    "lng": 128.3156083922,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/29/3572929_image2_1.jpg",
+    "cat3": "A03021300"
+   },
+   {
+    "title": "산호야관광농원",
+    "addr": "경상북도 구미시 옥성면 선상서로 797",
+    "lat": 36.2790864966,
+    "lng": 128.2436740308,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/60/2752160_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "송하루오토캠핑장",
+    "addr": "경상북도 구미시 옥성면 주아령로 192-1",
+    "lat": 36.27971462,
+    "lng": 128.266410883,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/29/2729329_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "옥성자연휴양림 야영장",
+    "addr": "경상북도 구미시 옥성면 휴양림길 150",
+    "lat": 36.2825701398,
+    "lng": 128.2821816252,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/17/2743917_image2_1.jpg",
+    "cat3": "A03021700"
    }
   ],
   "stays": [
@@ -1581,8 +4506,7 @@
     "lat": 36.1086671428,
     "lng": 128.4026924803,
     "img": "http://tong.visitkorea.or.kr/cms/resource/63/3573663_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "B02010100"
    },
    {
     "title": "라마다 바이 윈덤 구미 호텔",
@@ -1590,8 +4514,7 @@
     "lat": 36.109917289,
     "lng": 128.4183521711,
     "img": "http://tong.visitkorea.or.kr/cms/resource/03/2811903_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010100"
    },
    {
     "title": "신라불교초전지",
@@ -1599,8 +4522,7 @@
     "lat": 36.2910706657,
     "lng": 128.3632519698,
     "img": "http://tong.visitkorea.or.kr/cms/resource/49/2679949_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02011600"
    },
    {
     "title": "YOU & I (유앤아이)(구미 유앤아이펜션)",
@@ -1608,8 +4530,7 @@
     "lat": 36.1108680611,
     "lng": 128.3150918404,
     "img": "http://tong.visitkorea.or.kr/cms/resource/28/2571128_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010700"
    }
   ],
   "festivals": [
@@ -1619,6 +4540,8 @@
     "lat": 36.1018394432,
     "lng": 128.3647571396,
     "img": "http://tong.visitkorea.or.kr/cms/resource/99/3590399_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "054-441-7419",
     "start": "20251008",
     "end": "20251009",
     "scope": "sigungu",
@@ -1641,8 +4564,8 @@
    "attract": 0.4,
    "connect": 0.8
   },
-  "lat": 35.727546,
-  "lng": 127.878478,
+  "lat": 35.732563,
+  "lng": 127.877236,
   "spots": [
    {
     "title": "갈계숲",
@@ -1650,8 +4573,7 @@
     "lat": 35.7789272818,
     "lng": 127.8160256582,
     "img": "http://tong.visitkorea.or.kr/cms/resource/44/3335844_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01010400"
    },
    {
     "title": "거열산성군립공원",
@@ -1659,8 +4581,7 @@
     "lat": 35.6928937045,
     "lng": 127.8786196518,
     "img": "http://tong.visitkorea.or.kr/cms/resource/44/3348744_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01010300"
    },
    {
     "title": "거창 가섭암지 마애여래삼존입상",
@@ -1668,8 +4589,7 @@
     "lat": 35.7345485901,
     "lng": 127.7941371179,
     "img": "http://tong.visitkorea.or.kr/cms/resource/99/3570199_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "거창 갈계리 삼층석탑",
@@ -1677,8 +4597,7 @@
     "lat": 35.7931506445,
     "lng": 127.8147003936,
     "img": "http://tong.visitkorea.or.kr/cms/resource/96/3372596_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02050200"
    },
    {
     "title": "거창 갈천서당",
@@ -1686,8 +4605,7 @@
     "lat": 35.7808909491,
     "lng": 127.8160978214,
     "img": "http://tong.visitkorea.or.kr/cms/resource/28/3571128_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "거창 감악사지 승탑",
@@ -1695,8 +4613,7 @@
     "lat": 35.5905507092,
     "lng": 127.933350892,
     "img": "http://tong.visitkorea.or.kr/cms/resource/34/3372634_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02010800"
    },
    {
     "title": "거창 강남사지 석조여래입상",
@@ -1704,8 +4621,7 @@
     "lat": 35.7403816619,
     "lng": 127.8165766434,
     "img": "http://tong.visitkorea.or.kr/cms/resource/49/3373949_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "거창 거기리 성황단",
@@ -1713,8 +4629,103 @@
     "lat": 35.7559265332,
     "lng": 127.9391237212,
     "img": "http://tong.visitkorea.or.kr/cms/resource/40/3340940_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010900"
+   },
+   {
+    "title": "거창 건계정",
+    "addr": "경상남도 거창군 거창읍 거안로 1173-21",
+    "lat": 35.6926715144,
+    "lng": 127.8790001805,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/77/3570677_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "거창 김숙자 사당",
+    "addr": "경상남도 거창군 남상면 한산1길 132-7",
+    "lat": 35.641178385,
+    "lng": 127.9372825231,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/16/3570716_image2_1.JPG",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "거창 내오리 지석묘",
+    "addr": "경상남도 거창군 주상면",
+    "lat": 35.7819116096,
+    "lng": 127.8907050804,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/76/3373976_image2_1.JPG",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "거창 농산리 석조여래입상",
+    "addr": "경상남도 거창군 북상면 농산리",
+    "lat": 35.7679617584,
+    "lng": 127.8103903399,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/36/3570336_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "거창 당동 당집",
+    "addr": "경상남도 거창군 가조면 장군봉1길 439-42",
+    "lat": 35.7241036091,
+    "lng": 128.0087489825,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/81/3372681_image2_1.JPG",
+    "cat3": "A02010900"
+   },
+   {
+    "title": "거창 동계종택",
+    "addr": "경상남도 거창군 위천면 강동1길 13",
+    "lat": 35.7554662802,
+    "lng": 127.8287668267,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/17/3571217_image2_1.jpg",
+    "cat3": "A02010400"
+   },
+   {
+    "title": "거창 동호리 이씨고가",
+    "addr": "경상남도 거창군 웅양면 동호1길 217",
+    "lat": 35.7989520008,
+    "lng": 127.927362489,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/99/3344299_image2_1.jpg",
+    "cat3": "A02010400"
+   },
+   {
+    "title": "거창 둔마리 벽화 고분",
+    "addr": "경상남도 거창군 남하면 둔마리",
+    "lat": 35.7223419492,
+    "lng": 127.9670193828,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/29/3570229_image2_1.JPG",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "거창 반구헌",
+    "addr": "경상남도 거창군 위천면 강천리",
+    "lat": 35.7551413233,
+    "lng": 127.8291195821,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/13/3571113_image2_1.JPG",
+    "cat3": "A02010400"
+   },
+   {
+    "title": "거창 솔향기돌담마을",
+    "addr": "경상남도 거창군 웅양면 동호3길 20",
+    "lat": 35.798626998,
+    "lng": 127.9251793584,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/05/3373905_image2_1.JPG",
+    "cat3": "A02030100"
+   },
+   {
+    "title": "거창 수승대",
+    "addr": "경상남도 거창군 위천면 은하리길 2",
+    "lat": 35.7609657443,
+    "lng": 127.8336967988,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/04/3020304_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "거창 요수정",
+    "addr": "경상남도 거창군 위천면 은하리길 100",
+    "lat": 35.7622516612,
+    "lng": 127.8309664506,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/89/3341989_image2_1.jpg",
+    "cat3": "A02010700"
    }
   ],
   "foods": [
@@ -1724,17 +4735,7 @@
     "lat": 35.7105164331,
     "lng": 128.0184540475,
     "img": "http://tong.visitkorea.or.kr/cms/resource/22/2837522_image2_1.JPG",
-    "start": null,
-    "end": null
-   },
-   {
-    "title": "거창허브빌리지",
-    "addr": "경상남도 거창군 가조면 지산로 1242",
-    "lat": 35.6883301231,
-    "lng": 128.0221793172,
-    "img": "http://tong.visitkorea.or.kr/cms/resource/76/3014576_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "마리반점",
@@ -1742,8 +4743,7 @@
     "lat": 35.7497864731,
     "lng": 127.8346442371,
     "img": "http://tong.visitkorea.or.kr/cms/resource/89/2841889_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A05020400"
    },
    {
     "title": "비룡",
@@ -1751,8 +4751,7 @@
     "lat": 35.6869448222,
     "lng": 127.9034787263,
     "img": "http://tong.visitkorea.or.kr/cms/resource/16/2841916_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A05020400"
    },
    {
     "title": "수승대 임정은가든",
@@ -1760,8 +4759,214 @@
     "lat": 35.7552497104,
     "lng": 127.8328220297,
     "img": "http://tong.visitkorea.or.kr/cms/resource/44/3563944_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
+   },
+   {
+    "title": "외양간구시",
+    "addr": "경상남도 거창군 상동2길 70",
+    "lat": 35.688516942,
+    "lng": 127.9077199756,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/63/2837563_image2_1.JPG",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "우담",
+    "addr": "경상남도 거창군 거창읍 밭들길 87",
+    "lat": 35.6858480988,
+    "lng": 127.9244519029,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/44/2841944_image2_1.JPG",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "월성계곡산장",
+    "addr": "경상남도 거창군 덕유월성로 1588-45 월성가족수양관",
+    "lat": 35.763211358,
+    "lng": 127.7576618013,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/86/2911086_image2_1.jpeg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "카페금원산갤러리",
+    "addr": "경상남도 거창군 덕거길 39",
+    "lat": 35.7446617392,
+    "lng": 127.8169570507,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/91/2910191_image2_1.jpeg",
+    "cat3": "A05020200"
+   },
+   {
+    "title": "거창추어탕",
+    "addr": "경상남도 거창군 거창읍 강남로 114",
+    "lat": 35.6830148265,
+    "lng": 127.9099171513,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "구구추어탕",
+    "addr": "경상남도 거창군 거창읍 강남로 164",
+    "lat": 35.6841842335,
+    "lng": 127.9152499825,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "삼산이수",
+    "addr": "경상남도 거창군 거창읍 내학길 35-4",
+    "lat": 35.7391198482,
+    "lng": 127.9248143282,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "왕우렁쌈밥",
+    "addr": "경상남도 거창군 거창읍 거함대로5길 71",
+    "lat": 35.6829428264,
+    "lng": 127.921871653,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "원동별미갈비찜",
+    "addr": "경상남도 거창군 거창읍 서변원동길 14",
+    "lat": 35.7389531694,
+    "lng": 127.9230700417,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "월성횟집",
+    "addr": "경상남도 거창군 북상면 깊은골길 23",
+    "lat": 35.7653361241,
+    "lng": 127.758039489,
+    "img": "",
+    "cat3": "A05020100"
+   }
+  ],
+  "cafes": [
+   {
+    "title": "거창허브빌리지",
+    "addr": "경상남도 거창군 가조면 지산로 1242",
+    "lat": 35.6883301231,
+    "lng": 128.0221793172,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/76/3014576_image2_1.jpg",
+    "cat3": "A05020900"
+   }
+  ],
+  "culture": [
+   {
+    "title": "거창근대의료박물관",
+    "addr": "경상남도 거창군 거창읍 시장1길 32",
+    "lat": 35.6864616973,
+    "lng": 127.9120946443,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/72/3571472_image2_1.JPG",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "거창박물관",
+    "addr": "경상남도 거창군 거창읍 수남로 2181",
+    "lat": 35.6734631366,
+    "lng": 127.9102618219,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/64/3374064_image2_1.JPG",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "거창사건역사교육관",
+    "addr": "경상남도 거창군 신원면 신차로 2924",
+    "lat": 35.5557433836,
+    "lng": 127.9248970117,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/81/3476181_image2_1.jpg",
+    "cat3": "A02060300"
+   },
+   {
+    "title": "천적생태과학관",
+    "addr": "경상남도 거창군 거함대로 3372-60 사과전시관,천적생태과학관",
+    "lat": 35.6745576914,
+    "lng": 127.9233745229,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/40/3571340_image2_1.JPG",
+    "cat3": "A02060300"
+   }
+  ],
+  "shopping": [],
+  "leports": [
+   {
+    "title": "강가민박캠핑장",
+    "addr": "경상남도 거창군 북상면 덕유월성로 2123-15",
+    "lat": 35.7803351709,
+    "lng": 127.8000686996,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/31/2722031_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "거창 A글램핑",
+    "addr": "경상남도 거창군 마리면 세동길 7",
+    "lat": 35.6886912297,
+    "lng": 127.8689039568,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/18/2720618_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "거창국민여가캠핑장",
+    "addr": "경상남도 거창군 북상면 덕유월성로 1312-96",
+    "lat": 35.7620025911,
+    "lng": 127.7255174577,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/94/2719994_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "늘예솔글램핑",
+    "addr": "경상남도 거창군 북상면 덕유월성로 1384-5",
+    "lat": 35.7643275292,
+    "lng": 127.7368997214,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/82/2720882_image2_1.jpeg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "달빛고운병곡캠핑장",
+    "addr": "경상남도 거창군 북상면 병곡길 447-11",
+    "lat": 35.8091564656,
+    "lng": 127.7756478666,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/95/2720195_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "봉스글램핑",
+    "addr": "경상남도 거창군 마리면 풍계1길 27-71",
+    "lat": 35.7355107073,
+    "lng": 127.8566815601,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/93/2723593_image2_1.jpeg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "산중오토캠핑장",
+    "addr": "경상남도 거창군 북상면 송계사길 63-107",
+    "lat": 35.8254384276,
+    "lng": 127.8023617292,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/39/2720339_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "서출동류 물길 트레킹길",
+    "addr": "경상남도 거창군 북상면 달맞이길 6",
+    "lat": 35.76378603,
+    "lng": 127.7428825392,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/91/2721191_image2_1.JPG",
+    "cat3": "A03022700"
+   },
+   {
+    "title": "수승대 썰매장",
+    "addr": "경상남도 거창군 위천면 은하리길 43-101",
+    "lat": 35.7588187292,
+    "lng": 127.8316553704,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/68/3584068_image2_1.jpg",
+    "cat3": "A03021400"
+   },
+   {
+    "title": "수승대야영장",
+    "addr": "경상남도 거창군 위천면 은하리길 43-101",
+    "lat": 35.7588187292,
+    "lng": 127.8316553704,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/80/2743180_image2_1.jpg",
+    "cat3": "A03021700"
    }
   ],
   "stays": [],
@@ -1772,6 +4977,8 @@
     "lat": 35.5896644164,
     "lng": 127.9175273118,
     "img": "http://tong.visitkorea.or.kr/cms/resource/19/3539719_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "055-940-8227",
     "start": "20250919",
     "end": "20251012",
     "scope": "sigungu",
@@ -1794,8 +5001,8 @@
    "attract": 1.8,
    "connect": 1.0
   },
-  "lat": 35.508957,
-  "lng": 128.507324,
+  "lat": 35.513585,
+  "lng": 128.493113,
   "spots": [
    {
     "title": "관룡사",
@@ -1803,8 +5010,7 @@
     "lat": 35.5319601845,
     "lng": 128.5534645773,
     "img": "http://tong.visitkorea.or.kr/cms/resource/65/3375465_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02010800"
    },
    {
     "title": "관산서당",
@@ -1812,8 +5018,7 @@
     "lat": 35.5709107777,
     "lng": 128.5223079142,
     "img": "http://tong.visitkorea.or.kr/cms/resource/25/3375525_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "구니서당",
@@ -1821,8 +5026,7 @@
     "lat": 35.5802403282,
     "lng": 128.5249129861,
     "img": "http://tong.visitkorea.or.kr/cms/resource/32/3376132_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "금호재",
@@ -1830,8 +5034,7 @@
     "lat": 35.6112050108,
     "lng": 128.4554710186,
     "img": "http://tong.visitkorea.or.kr/cms/resource/83/3376183_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "남지체육공원",
@@ -1839,8 +5042,7 @@
     "lat": 35.3847586113,
     "lng": 128.4715924261,
     "img": "http://tong.visitkorea.or.kr/cms/resource/03/3564603_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02020700"
    },
    {
     "title": "놀러와외갓집(우리동네협동조합)",
@@ -1848,8 +5050,7 @@
     "lat": 35.3880333679,
     "lng": 128.4784778448,
     "img": "http://tong.visitkorea.or.kr/cms/resource/27/2995827_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02030400"
    },
    {
     "title": "달창재(달창사랑 협동조합)",
@@ -1857,8 +5058,7 @@
     "lat": 35.6352889794,
     "lng": 128.4870814696,
     "img": "http://tong.visitkorea.or.kr/cms/resource/41/2995841_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02030400"
    },
    {
     "title": "더 하리(더하리스토리 주식회사)",
@@ -1866,8 +5066,103 @@
     "lat": 35.5313176837,
     "lng": 128.5037856221,
     "img": "http://tong.visitkorea.or.kr/cms/resource/84/2995484_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02030400"
+   },
+   {
+    "title": "도성암(창녕)",
+    "addr": "경상남도 창녕군 창녕읍 자하곡길 147",
+    "lat": 35.54369715,
+    "lng": 128.5206199172,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/65/3375565_image2_1.JPG",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "명덕생태수변공원",
+    "addr": "경상남도 창녕군 창녕읍 교리159",
+    "lat": 35.5461714751,
+    "lng": 128.4989189773,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/23/3339523_image2_1.jpg",
+    "cat3": "A02020700"
+   },
+   {
+    "title": "물계서원",
+    "addr": "경상남도 창녕군 대지면 모산1길 109-36",
+    "lat": 35.5650438011,
+    "lng": 128.4689960906,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/97/3375697_image2_1.JPG",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "물계서원 원정비",
+    "addr": "경상남도 창녕군 대지면 모산1길 109-36",
+    "lat": 35.5650438011,
+    "lng": 128.4689960906,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/08/3556408_image2_1.jpg",
+    "cat3": "A02050200"
+   },
+   {
+    "title": "버들국수 (농업법인 주식회사 유화 ㈜)",
+    "addr": "경상남도 창녕군 쟁반2길 13",
+    "lat": 35.5763003186,
+    "lng": 128.4390484145,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/36/2995836_image2_1.jpg",
+    "cat3": "A02030400"
+   },
+   {
+    "title": "산토끼 노래동산",
+    "addr": "경상남도 창녕군 이방면 이방로 623",
+    "lat": 35.5777908098,
+    "lng": 128.3836226903,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/77/3375777_image2_1.JPG",
+    "cat3": "A02030400"
+   },
+   {
+    "title": "소곡서당",
+    "addr": "경상남도 창녕군 고암면 우천길 111",
+    "lat": 35.5651890785,
+    "lng": 128.5155781062,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/42/3376142_image2_1.JPG",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "영산향교",
+    "addr": "경상남도 창녕군 영산면 유생길 19",
+    "lat": 35.4612567054,
+    "lng": 128.5350320112,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/49/3376149_image2_1.JPG",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "영산호국공원",
+    "addr": "경상남도 창녕군 영산면 동리",
+    "lat": 35.45364084,
+    "lng": 128.5319241576,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/81/3564581_image2_1.jpg",
+    "cat3": "A02020700"
+   },
+   {
+    "title": "옥천계곡",
+    "addr": "경상남도 창녕군 창녕읍 계성화왕산로 638",
+    "lat": 35.5188893927,
+    "lng": 128.5511151405,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/61/3376161_image2_1.JPG",
+    "cat3": "A01010900"
+   },
+   {
+    "title": "우포가시연꽃마을",
+    "addr": "경상남도 창녕군 대합면 닭계1길 12",
+    "lat": 35.5749726591,
+    "lng": 128.4372986046,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/12/3564512_image2_1.jpg",
+    "cat3": "A02030100"
+   },
+   {
+    "title": "우포출렁다리",
+    "addr": "경상남도 창녕군 이방면 옥천리 756",
+    "lat": 35.5391538284,
+    "lng": 128.4015193902,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/28/3537928_image2_1.jpg",
+    "cat3": "A02050100"
    }
   ],
   "foods": [
@@ -1877,8 +5172,7 @@
     "lat": 35.6125245898,
     "lng": 128.4709946178,
     "img": "http://tong.visitkorea.or.kr/cms/resource/35/2844135_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A05020400"
    },
    {
     "title": "김숙녀시래기밥상",
@@ -1886,8 +5180,7 @@
     "lat": 35.4487997363,
     "lng": 128.5329186466,
     "img": "http://tong.visitkorea.or.kr/cms/resource/06/2875806_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "남지 학계식육식당",
@@ -1895,17 +5188,7 @@
     "lat": 35.3923607073,
     "lng": 128.4811747137,
     "img": "http://tong.visitkorea.or.kr/cms/resource/12/2837712_image2_1.JPG",
-    "start": null,
-    "end": null
-   },
-   {
-    "title": "노리",
-    "addr": "경상남도 창녕군 노리2길 7-20",
-    "lat": 35.3878248834,
-    "lng": 128.6215458734,
-    "img": "http://tong.visitkorea.or.kr/cms/resource/31/2837731_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "대중분식당",
@@ -1913,10 +5196,167 @@
     "lat": 35.5412135655,
     "lng": 128.4914892095,
     "img": "http://tong.visitkorea.or.kr/cms/resource/41/2853841_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
+   },
+   {
+    "title": "도천 진짜순대 본점",
+    "addr": "경상남도 창녕군 일리새긴길 8",
+    "lat": 35.4360370357,
+    "lng": 128.5191813087,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/76/2853876_image2_1.JPG",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "물망초횟집",
+    "addr": "경상남도 창녕군 남지강변길 112",
+    "lat": 35.3861419119,
+    "lng": 128.4783223537,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/94/2842094_image2_1.JPG",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "삼오식당 창녕본점",
+    "addr": "경상남도 창녕군 창녕시장길 90",
+    "lat": 35.5414080965,
+    "lng": 128.497430349,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/23/2853823_image2_1.JPG",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "송이네밥상",
+    "addr": "경상남도 창녕군 원앙로 116",
+    "lat": 35.4412070845,
+    "lng": 128.5843337908,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/89/2875889_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "양반청국장",
+    "addr": "경상남도 창녕군 창녕읍 화왕산로 64",
+    "lat": 35.540313936,
+    "lng": 128.5062462715,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/10/2875910_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "우포한우프라자",
+    "addr": "경상남도 창녕군 계성면 영산계성로 457",
+    "lat": 35.4852757724,
+    "lng": 128.5104001843,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/06/2837806_image2_1.JPG",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "창녕힐마루석이네한우뜰",
+    "addr": "경상남도 창녕군 영산계성로 490",
+    "lat": 35.4882143332,
+    "lng": 128.5105695341,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/48/2837748_image2_1.JPG",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "통일냉면",
+    "addr": "경상남도 창녕군 도천면 개울길 29-8",
+    "lat": 35.4382839887,
+    "lng": 128.5183118797,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/30/2875830_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "[백년가게]이방식당",
+    "addr": "경상남도 창녕군 이방면 옥야길 1",
+    "lat": 35.6016686524,
+    "lng": 128.3826998992,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/39/2609239_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "남지철교돼지국밥",
+    "addr": "경상남도 창녕군 남지읍 상남2길 25",
+    "lat": 35.3868806785,
+    "lng": 128.4761919654,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "느티나무집",
+    "addr": "경상남도 창녕군 창녕읍 계성화왕산로 575",
+    "lat": 35.5142843157,
+    "lng": 128.548923792,
+    "img": "",
+    "cat3": "A05020100"
    }
   ],
+  "cafes": [
+   {
+    "title": "노리",
+    "addr": "경상남도 창녕군 노리2길 7-20",
+    "lat": 35.3878248834,
+    "lng": 128.6215458734,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/31/2837731_image2_1.JPG",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "오시우연",
+    "addr": "경상남도 창녕군 연지길 26-6 휴게음식점",
+    "lat": 35.455443345,
+    "lng": 128.5280938887,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/19/2842119_image2_1.JPG",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "우포명당",
+    "addr": "경상남도 창녕군 사지동길 17",
+    "lat": 35.5637681875,
+    "lng": 128.4273747816,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/55/2864655_image2_1.JPG",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "카페귀촌",
+    "addr": "경상남도 창녕군 원다리길 8",
+    "lat": 35.4503272848,
+    "lng": 128.529777214,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/09/2838509_image2_1.JPG",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "퍼피앤독",
+    "addr": "경상남도 창녕군 길곡면 길곡로 137",
+    "lat": 35.3981727662,
+    "lng": 128.5692973898,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/37/2894337_image2_1.jpeg",
+    "cat3": "A05020900"
+   }
+  ],
+  "culture": [
+   {
+    "title": "박진전쟁기념관",
+    "addr": "경상남도 창녕군 남지읍 월상길 27",
+    "lat": 35.4480082741,
+    "lng": 128.3862176485,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/99/3568999_image2_1.jpg",
+    "cat3": "A02060200"
+   },
+   {
+    "title": "우포늪체험장",
+    "addr": "경상남도 창녕군 대합면 우포2로 370",
+    "lat": 35.565995603,
+    "lng": 128.4212641473,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/95/3537895_image2_1.jpg",
+    "cat3": "A02060300"
+   },
+   {
+    "title": "창녕우포곤충나라",
+    "addr": "경상남도 창녕군 대합면 우포2로 333",
+    "lat": 35.565590033,
+    "lng": 128.4179977787,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/91/3538791_image2_1.jpg",
+    "cat3": "A02060300"
+   }
+  ],
+  "shopping": [],
+  "leports": [],
   "stays": [
    {
     "title": "키즈스테이호텔 인 부곡",
@@ -1924,8 +5364,7 @@
     "lat": 35.4396184802,
     "lng": 128.5901305488,
     "img": "http://tong.visitkorea.or.kr/cms/resource/48/3349948_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010900"
    },
    {
     "title": "부곡 로얄관광호텔",
@@ -1933,8 +5372,7 @@
     "lat": 35.4414154223,
     "lng": 128.5858614292,
     "img": "",
-    "start": null,
-    "end": null
+    "cat3": "B02010100"
    }
   ],
   "festivals": [
@@ -1944,6 +5382,8 @@
     "lat": 35.0911816485,
     "lng": 128.0699132182,
     "img": "http://tong.visitkorea.or.kr/cms/resource/49/3566649_image2_1.png",
+    "cat3": "A02070200",
+    "tel": "055-831-2061",
     "start": "20261022",
     "end": "20261025",
     "scope": "sido",
@@ -1955,6 +5395,8 @@
     "lat": 35.2213639824,
     "lng": 128.6734819584,
     "img": "http://tong.visitkorea.or.kr/cms/resource/32/3562932_image2_1.png",
+    "cat3": "A02070200",
+    "tel": "070-5117-3755",
     "start": "20251108",
     "end": "20251109",
     "scope": "sido",
@@ -1966,6 +5408,8 @@
     "lat": 35.0594575822,
     "lng": 127.7625159968,
     "img": "http://tong.visitkorea.or.kr/cms/resource/08/3559708_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "055-880-6582~4",
     "start": "20251107",
     "end": "20251109",
     "scope": "sido",
@@ -1977,6 +5421,8 @@
     "lat": 35.2517674455,
     "lng": 128.7459053654,
     "img": "http://tong.visitkorea.or.kr/cms/resource/49/3546549_image2_1.jpg",
+    "cat3": "A02070100",
+    "tel": "055-330-3244",
     "start": "20251104",
     "end": "20251109",
     "scope": "sido",
@@ -1988,8 +5434,23 @@
     "lat": 35.7673871185,
     "lng": 128.1365143052,
     "img": "http://tong.visitkorea.or.kr/cms/resource/75/3559875_image2_1.JPG",
+    "cat3": "A02070200",
+    "tel": "055-930-4697",
     "start": "20251024",
     "end": "20251102",
+    "scope": "sido",
+    "status": "annual"
+   },
+   {
+    "title": "합천황토한우축제",
+    "addr": "경상남도 합천군 합천읍 문화로 62",
+    "lat": 35.5601470965,
+    "lng": 128.1601289425,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/18/3544918_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "055-933-0050",
+    "start": "20251024",
+    "end": "20251026",
     "scope": "sido",
     "status": "annual"
    }
@@ -2010,8 +5471,8 @@
    "attract": -0.8,
    "connect": 1.3
   },
-  "lat": 33.333204,
-  "lng": 126.605405,
+  "lat": 33.311677,
+  "lng": 126.567102,
   "spots": [
    {
     "title": "가문이오름(감은이오름)",
@@ -2019,8 +5480,7 @@
     "lat": 33.4018299117,
     "lng": 126.6876111209,
     "img": "http://tong.visitkorea.or.kr/cms/resource/92/3477392_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01010400"
    },
    {
     "title": "가세오름",
@@ -2028,8 +5488,7 @@
     "lat": 33.3931758821,
     "lng": 126.7231832338,
     "img": "http://tong.visitkorea.or.kr/cms/resource/61/3477261_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01010400"
    },
    {
     "title": "가시리국산화풍력발전단지",
@@ -2037,8 +5496,7 @@
     "lat": 33.3939370848,
     "lng": 126.7341100468,
     "img": "http://tong.visitkorea.or.kr/cms/resource/92/3026692_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02040400"
    },
    {
     "title": "가시오름",
@@ -2046,8 +5504,7 @@
     "lat": 33.2236315617,
     "lng": 126.2500169782,
     "img": "http://tong.visitkorea.or.kr/cms/resource/13/3477513_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01010400"
    },
    {
     "title": "각시바위오름",
@@ -2055,8 +5512,7 @@
     "lat": 33.2777271543,
     "lng": 126.5259918298,
     "img": "http://tong.visitkorea.or.kr/cms/resource/64/3477364_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01010400"
    },
    {
     "title": "갈마못(갈뫼못)",
@@ -2064,8 +5520,7 @@
     "lat": 33.3873529469,
     "lng": 126.8116979172,
     "img": "http://tong.visitkorea.or.kr/cms/resource/31/3477231_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01010500"
    },
    {
     "title": "감낭오름",
@@ -2073,8 +5528,7 @@
     "lat": 33.3250274801,
     "lng": 126.3497088457,
     "img": "http://tong.visitkorea.or.kr/cms/resource/06/3477406_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01010400"
    },
    {
     "title": "갑선이오름",
@@ -2082,8 +5536,103 @@
     "lat": 33.3608276172,
     "lng": 126.7818122232,
     "img": "http://tong.visitkorea.or.kr/cms/resource/45/3523545_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01010400"
+   },
+   {
+    "title": "강정포구",
+    "addr": "제주특별자치도 서귀포시 말질로 291",
+    "lat": 33.2271624839,
+    "lng": 126.4750196034,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/95/3552095_image2_1.jpg",
+    "cat3": "A01011400"
+   },
+   {
+    "title": "개오름",
+    "addr": "제주특별자치도 서귀포시 표선면 성읍이리로57번길 162",
+    "lat": 33.423862104,
+    "lng": 126.7682286281,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/94/3526894_image2_1.jpg",
+    "cat3": "A01010400"
+   },
+   {
+    "title": "갯거리오름",
+    "addr": "제주특별자치도 서귀포시 대포동",
+    "lat": 33.3101086116,
+    "lng": 126.4578470138,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/00/3585200_image2_1.jpg",
+    "cat3": "A01010400"
+   },
+   {
+    "title": "거린사슴",
+    "addr": "제주특별자치도 서귀포시 1100로 823",
+    "lat": 33.3073171985,
+    "lng": 126.4543696003,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/97/3477397_image2_1.jpg",
+    "cat3": "A01010400"
+   },
+   {
+    "title": "고근산",
+    "addr": "제주특별자치도 서귀포시 서호동",
+    "lat": 33.2668281661,
+    "lng": 126.5139125656,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/54/3477254_image2_1.jpg",
+    "cat3": "A01010400"
+   },
+   {
+    "title": "고산일과해안도로",
+    "addr": "제주특별자치도 서귀포시 대정읍 영락하동로 9-6",
+    "lat": 33.256424536,
+    "lng": 126.2099419548,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/27/3551727_image2_1.jpg",
+    "cat3": "A01010500"
+   },
+   {
+    "title": "광명사(제주)",
+    "addr": "제주특별자치도 서귀포시 중문상로17번길 51",
+    "lat": 33.249045297,
+    "lng": 126.4190406356,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/36/3477436_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "광치기해변",
+    "addr": "제주특별자치도 서귀포시 성산읍 고성리",
+    "lat": 33.4515393485,
+    "lng": 126.9246505478,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/75/3400775_image2_1.jpg",
+    "cat3": "A01011200"
+   },
+   {
+    "title": "구두리오름",
+    "addr": "제주특별자치도 서귀포시 표선면 가시리",
+    "lat": 33.4124065362,
+    "lng": 126.6885413552,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/75/3585175_image2_1.jpg",
+    "cat3": "A01010400"
+   },
+   {
+    "title": "구두미포구",
+    "addr": "제주특별자치도 서귀포시 보목동",
+    "lat": 33.2368272299,
+    "lng": 126.5965116372,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/76/3550576_image2_1.jpg",
+    "cat3": "A01011400"
+   },
+   {
+    "title": "금호리조트 제주",
+    "addr": "제주특별자치도 서귀포시 남원읍 태위로 522-12",
+    "lat": 33.2740331563,
+    "lng": 126.703084902,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/67/3024967_image2_1.jpg",
+    "cat3": "A02020200"
+   },
+   {
+    "title": "금호리조트 제주아쿠아나",
+    "addr": "제주특별자치도 서귀포시 남원읍 태위로 522-12",
+    "lat": 33.2737526275,
+    "lng": 126.7028238197,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/67/3024967_image2_1.jpg",
+    "cat3": "A02020600"
    }
   ],
   "foods": [
@@ -2093,8 +5642,7 @@
     "lat": 33.2496926417,
     "lng": 126.4313090015,
     "img": "http://tong.visitkorea.or.kr/cms/resource/47/2755047_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "가시식당",
@@ -2102,8 +5650,7 @@
     "lat": 33.3530172003,
     "lng": 126.7713633064,
     "img": "http://tong.visitkorea.or.kr/cms/resource/76/3389976_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "가시아방국수",
@@ -2111,8 +5658,7 @@
     "lat": 33.4386573313,
     "lng": 126.9180930788,
     "img": "http://tong.visitkorea.or.kr/cms/resource/08/2800608_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "갈치왕",
@@ -2120,17 +5666,463 @@
     "lat": 33.2646820142,
     "lng": 126.3907705168,
     "img": "http://tong.visitkorea.or.kr/cms/resource/03/2783703_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
+   {
+    "title": "검은노루",
+    "addr": "제주특별자치도 서귀포시 대정읍 상모로 257",
+    "lat": 33.2238983821,
+    "lng": 126.2617326224,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/69/2873669_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "경미네집",
+    "addr": "제주특별자치도 서귀포시 성산읍 일출로 259",
+    "lat": 33.4612828593,
+    "lng": 126.9334967787,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/16/2758916_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "고집돌우럭 중문점",
+    "addr": "제주특별자치도 서귀포시 일주서로 879 (색달동)",
+    "lat": 33.2580109376,
+    "lng": 126.4167184145,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/40/2832740_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "공천포식당",
+    "addr": "제주특별자치도 서귀포시 남원읍 공천포로 89",
+    "lat": 33.266416366,
+    "lng": 126.6425958686,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/94/2800294_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "그리운바다성산포",
+    "addr": "제주특별자치도 서귀포시 성산읍 성산등용로 94",
+    "lat": 33.4698901853,
+    "lng": 126.9299885503,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/57/2859157_image2_1.JPG",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "글라글라하와이",
+    "addr": "제주특별자치도 서귀포시 대정읍 하모항구로 70",
+    "lat": 33.2196098046,
+    "lng": 126.2513363972,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/39/2843739_image2_1.png",
+    "cat3": "A05020200"
+   },
+   {
+    "title": "나니아레스토랑",
+    "addr": "제주특별자치도 서귀포시 예래로396번길 13-33",
+    "lat": 33.238017998,
+    "lng": 126.3721032863,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/69/2655469_image2_1.jpg",
+    "cat3": "A05020200"
+   },
+   {
+    "title": "난드르바당",
+    "addr": "제주특별자치도 서귀포시 하예하동로16번길 11-1",
+    "lat": 33.2346461302,
+    "lng": 126.370989569,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/02/2755602_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "누이밥집",
+    "addr": "제주특별자치도 서귀포시 중산간서로 695 (회수동)",
+    "lat": 33.2631329802,
+    "lng": 126.4411800675,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/45/2871845_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "다정이네 올레시장 본점",
+    "addr": "제주특별자치도 서귀포시 동문로 59-1",
+    "lat": 33.2494253692,
+    "lng": 126.5668250373,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/97/2843797_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "달팽이식당",
+    "addr": "제주특별자치도 서귀포시 안덕면 일주서로 1322-1",
+    "lat": 33.2655038505,
+    "lng": 126.3719637973,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/17/2847817_image2_1.jpg",
+    "cat3": "A05020100"
+   }
+  ],
+  "cafes": [
    {
     "title": "감따남",
     "addr": "제주특별자치도 서귀포시 월산로 16",
     "lat": 33.2620894948,
     "lng": 126.4946032358,
     "img": "http://tong.visitkorea.or.kr/cms/resource/54/2854454_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020900"
+   },
+   {
+    "title": "그레이그로브",
+    "addr": "제주특별자치도 서귀포시 안덕면 형제해안로 70",
+    "lat": 33.2258737598,
+    "lng": 126.299826494,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/83/2861383_image2_1.JPG",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "나비정원",
+    "addr": "제주특별자치도 서귀포시 대정읍 신영로 60-7",
+    "lat": 33.2204763428,
+    "lng": 126.2492726682,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/16/2839716_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "다린",
+    "addr": "제주특별자치도 서귀포시 법환로 11 (법환동)",
+    "lat": 33.2365509509,
+    "lng": 126.5138521391,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/89/2876389_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "더리트리브",
+    "addr": "제주특별자치도 서귀포시 안덕면 화순로 67",
+    "lat": 33.2479552633,
+    "lng": 126.3385643087,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/17/2850117_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "덴드리",
+    "addr": "제주특별자치도 서귀포시 성산읍 삼달로 28-1",
+    "lat": 33.3694419084,
+    "lng": 126.8659214086,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/71/2845271_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "도렐 제주 본점",
+    "addr": "제주특별자치도 서귀포시 성산읍 동류암로 20",
+    "lat": 33.4496450053,
+    "lng": 126.9180400527,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/17/2830217_image2_1.JPG",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "드르쿰다",
+    "addr": "제주특별자치도 서귀포시 성산읍 섭지코지로25번길 64",
+    "lat": 33.4444983695,
+    "lng": 126.9191261882,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/88/2755588_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "라임오렌지카페앤플라워",
+    "addr": "제주특별자치도 서귀포시 칠십리로 330 라임오렌지레스토랑",
+    "lat": 33.2464510197,
+    "lng": 126.5871289007,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/30/2899730_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "랜딩커피",
+    "addr": "제주특별자치도 서귀포시 신양로122번길 45-1",
+    "lat": 33.435535467,
+    "lng": 126.9189153017,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/22/2877622_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "리틀포레스트",
+    "addr": "제주특별자치도 서귀포시 월평로 15",
+    "lat": 33.2448352854,
+    "lng": 126.4592955715,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/08/2899708_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "마노커피하우스",
+    "addr": "제주특별자치도 서귀포시 천제연로188번길 6-6 (중문동)",
+    "lat": 33.2513867831,
+    "lng": 126.4239762659,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/95/2853295_image2_1.jpg",
+    "cat3": "A05020900"
+   }
+  ],
+  "culture": [
+   {
+    "title": "김영갑갤러리두모악",
+    "addr": "제주특별자치도 서귀포시 성산읍 삼달로 137",
+    "lat": 33.37240806,
+    "lng": 126.8542667942,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/57/3548157_image2_1.jpg",
+    "cat3": "A02060500"
+   },
+   {
+    "title": "바이나흐튼 크리스마스박물관",
+    "addr": "제주특별자치도 서귀포시 안덕면 평화로 654",
+    "lat": 33.291341969,
+    "lng": 126.3278198313,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/82/3548182_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "박물관은살아있다 제주",
+    "addr": "제주특별자치도 서귀포시 중문관광로 42",
+    "lat": 33.2546667452,
+    "lng": 126.4092858005,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/96/3548296_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "빛의 벙커",
+    "addr": "제주특별자치도 서귀포시 성산읍 서성일로1168번길 89-17",
+    "lat": 19.69442748,
+    "lng": 117.9925662504,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/19/3548819_image2_1.jpg",
+    "cat3": "A02060300"
+   },
+   {
+    "title": "삼매봉도서관",
+    "addr": "제주특별자치도 서귀포시 남성중로153번길 15 (서홍동)",
+    "lat": 33.2448561932,
+    "lng": 126.551973649,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/49/3383849_image2_1.jpg",
+    "cat3": "A02060900"
+   },
+   {
+    "title": "서귀포문화원",
+    "addr": "제주특별자치도 서귀포시 동홍로 30 (동홍동)",
+    "lat": 33.2509974498,
+    "lng": 126.5688303839,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/24/3548124_image2_1.jpg",
+    "cat3": "A02060700"
+   },
+   {
+    "title": "서귀포시립기당미술관",
+    "addr": "제주특별자치도 서귀포시 남성중로153번길 15",
+    "lat": 33.2447978549,
+    "lng": 126.5512403807,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/41/3548141_image2_1.jpg",
+    "cat3": "A02060500"
+   },
+   {
+    "title": "서귀포천문과학문화관",
+    "addr": "제주특별자치도 서귀포시 1100로 506-1 천문과학문화관",
+    "lat": 33.2888776636,
+    "lng": 126.460411156,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/54/3477154_image2_1.jpg",
+    "cat3": "A02060300"
+   },
+   {
+    "title": "성산포 해녀물질공연장",
+    "addr": "제주특별자치도 서귀포시 성산읍 일출로 284-34",
+    "lat": 33.4628688824,
+    "lng": 126.9388907191,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/46/3024646_image2_1.jpg",
+    "cat3": "A02060600"
+   },
+   {
+    "title": "세계술박물관",
+    "addr": "제주특별자치도 서귀포시 표선면 한마음초등로 431",
+    "lat": 33.3540344982,
+    "lng": 126.8176314979,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/89/3548789_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "세계자동차&피아노 박물관",
+    "addr": "제주특별자치도 서귀포시 안덕면 중산간서로 1610",
+    "lat": 33.2834376347,
+    "lng": 126.3499458641,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/03/3548503_image2_1.jpg",
+    "cat3": "A02060100"
+   },
+   {
+    "title": "세계조가비박물관",
+    "addr": "제주특별자치도 서귀포시 태평로 284",
+    "lat": 33.2474447916,
+    "lng": 126.5516736169,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/10/3548310_image2_1.jpg",
+    "cat3": "A02060100"
+   }
+  ],
+  "shopping": [
+   {
+    "title": "고성오일시장",
+    "addr": "제주특별자치도 서귀포시 성산읍 고성오조로 93",
+    "lat": 33.4518891163,
+    "lng": 126.9127293498,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/92/2947292_image2_1.jpg",
+    "cat3": "A04010100"
+   },
+   {
+    "title": "대정오일시장",
+    "addr": "제주특별자치도 서귀포시 대정읍 신영로36번길 65",
+    "lat": 33.2204929929,
+    "lng": 126.2483310829,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/95/3477195_image2_1.jpg",
+    "cat3": "A04010100"
+   },
+   {
+    "title": "동부농원",
+    "addr": "제주특별자치도 서귀포시 성산읍 서성일로 1007",
+    "lat": 33.4429313439,
+    "lng": 126.8862290743,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/05/3477505_image2_1.jpg",
+    "cat3": "A04010600"
+   },
+   {
+    "title": "불란지야시장",
+    "addr": "제주특별자치도 서귀포시 중문상로17번길 4 (중문동)",
+    "lat": 33.2503257899,
+    "lng": 126.4240207301,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/88/2800688_image2_1.jpg",
+    "cat3": "A04010200"
+   },
+   {
+    "title": "서귀포매일올레시장",
+    "addr": "제주특별자치도 서귀포시 서귀동",
+    "lat": 33.2487281813,
+    "lng": 126.5641113997,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/66/3546866_image2_1.jpg",
+    "cat3": "A04010200"
+   },
+   {
+    "title": "서귀포향토오일시장",
+    "addr": "제주특별자치도 서귀포시 중산간동로7894번길 18-5 (동홍동)",
+    "lat": 33.2669040864,
+    "lng": 126.5724963753,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/24/3477324_image2_1.jpg",
+    "cat3": "A04010100"
+   },
+   {
+    "title": "제스토리",
+    "addr": "제주특별자치도 서귀포시 막숙포로 60 (법환동)",
+    "lat": 33.2361121271,
+    "lng": 126.5149353881,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/04/3579104_image2_1.jpg",
+    "cat3": "A04010900"
+   },
+   {
+    "title": "제주관광공사 중문면세점",
+    "addr": "제주특별자치도 서귀포시 중문관광로 224",
+    "lat": 33.2413184576,
+    "lng": 126.4244653377,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/13/3477413_image2_1.jpg",
+    "cat3": "A04010400"
+   },
+   {
+    "title": "중문농수산물직판장",
+    "addr": "제주특별자치도 서귀포시 천제연로 355 (회수동)",
+    "lat": 33.2524564006,
+    "lng": 126.4423968665,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/69/3403269_image2_1.jpg",
+    "cat3": "A04010600"
+   },
+   {
+    "title": "중문향토오일시장",
+    "addr": "제주특별자치도 서귀포시 천제연로188번길 12",
+    "lat": 33.2507951855,
+    "lng": 126.4242345901,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/50/3477250_image2_1.jpg",
+    "cat3": "A04010100"
+   },
+   {
+    "title": "표선오일시장",
+    "addr": "제주특별자치도 서귀포시 표선면 표선동서로 203-1",
+    "lat": 33.3225437337,
+    "lng": 126.8304061108,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/86/3077586_image2_1.jpg",
+    "cat3": "A04010100"
+   }
+  ],
+  "leports": [
+   {
+    "title": "산방산‧용머리해안 지질트레일",
+    "addr": "제주특별자치도 서귀포시 안덕면 사계북로41번길 192",
+    "lat": 33.2490739567,
+    "lng": 126.2985816429,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/37/2369537_image2_1.jpg",
+    "cat3": "A03022700"
+   },
+   {
+    "title": "서귀포시청소년수련관",
+    "addr": "제주특별자치도 서귀포시 중산간서로 97-1",
+    "lat": 33.2607119261,
+    "lng": 126.498227952,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/52/3550252_image2_1.jpg",
+    "cat3": "A03020200"
+   },
+   {
+    "title": "세리월드",
+    "addr": "제주특별자치도 서귀포시 법환상로2번길 97-17 (법환동)",
+    "lat": 33.2470442084,
+    "lng": 126.5120270623,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/46/3024846_image2_1.jpg",
+    "cat3": "A03050100"
+   },
+   {
+    "title": "유리바닥보트",
+    "addr": "제주특별자치도 서귀포시 안덕면 화순해안로106번길 8",
+    "lat": 33.2383007397,
+    "lng": 126.3364258198,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/67/3073167_image2_1.jpg",
+    "cat3": "A03010200"
+   },
+   {
+    "title": "제이엠그랑블루요트",
+    "addr": "제주특별자치도 서귀포시 대포로 172-7",
+    "lat": 33.2382440357,
+    "lng": 126.4396057595,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/49/2571149_image2_1.bmp",
+    "cat3": "A03030300"
+   },
+   {
+    "title": "제주도파인비치 펜션",
+    "addr": "제주특별자치도 서귀포시 남원읍 태위로 976-10",
+    "lat": 33.2875796161,
+    "lng": 126.7488667422,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/55/2748055_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "제주제트",
+    "addr": "제주특별자치도 서귀포시 대포로 172-5",
+    "lat": 33.2384245706,
+    "lng": 126.4395613149,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/41/3373941_image2_1.jpg",
+    "cat3": "A03010200"
+   },
+   {
+    "title": "제주해양레저",
+    "addr": "제주특별자치도 서귀포시 중문관광로 192",
+    "lat": 33.2432598241,
+    "lng": 126.4190129892,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/63/1930963_image2_1.jpg",
+    "cat3": "A03050100"
+   },
+   {
+    "title": "중문오프로드체험장",
+    "addr": "제주특별자치도 서귀포시 상예로 349 (상예동)",
+    "lat": 33.2758281031,
+    "lng": 126.3969419551,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/63/3066963_image2_1.jpg",
+    "cat3": "A03022100"
+   },
+   {
+    "title": "캐슬렉스제주 골프클럽",
+    "addr": "제주특별자치도 서귀포시 안덕면 평화로 1241",
+    "lat": 33.3402563388,
+    "lng": 126.3488696895,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/07/3402907_image2_1.jpg",
+    "cat3": "A03020700"
    }
   ],
   "stays": [
@@ -2140,8 +6132,7 @@
     "lat": 33.2562936895,
     "lng": 126.1903769911,
     "img": "http://tong.visitkorea.or.kr/cms/resource/64/3562864_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010700"
    },
    {
     "title": "롯데호텔 제주",
@@ -2149,8 +6140,7 @@
     "lat": 33.2487146442,
     "lng": 126.4105247144,
     "img": "http://tong.visitkorea.or.kr/cms/resource/46/3538946_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010100"
    },
    {
     "title": "바다에누워 펜션",
@@ -2158,8 +6148,7 @@
     "lat": 33.2696884696,
     "lng": 126.6578361411,
     "img": "http://tong.visitkorea.or.kr/cms/resource/97/3477297_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010700"
    },
    {
     "title": "발트하우스",
@@ -2167,8 +6156,7 @@
     "lat": 33.3491324273,
     "lng": 126.8279307185,
     "img": "http://tong.visitkorea.or.kr/cms/resource/58/3082058_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010700"
    },
    {
     "title": "보물섬펜션",
@@ -2176,8 +6164,7 @@
     "lat": 33.4664517038,
     "lng": 126.931705148,
     "img": "http://tong.visitkorea.or.kr/cms/resource/71/3477371_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010700"
    },
    {
     "title": "서귀포 귤림성",
@@ -2185,8 +6172,39 @@
     "lat": 33.2503192271,
     "lng": 126.5360193536,
     "img": "http://tong.visitkorea.or.kr/cms/resource/45/3569245_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02010700"
+   },
+   {
+    "title": "서귀포칼호텔 (서귀포KAL호텔)",
+    "addr": "제주특별자치도 서귀포시 칠십리로 242",
+    "lat": 33.2443539282,
+    "lng": 126.5808072727,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/06/3564306_image2_1.jpg",
+    "cat3": "B02010100"
+   },
+   {
+    "title": "서툰가족",
+    "addr": "제주특별자치도 서귀포시 안덕면 사계중앙로 41-15",
+    "lat": 33.2282179181,
+    "lng": 126.2980682613,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/36/2707436_image2_1.jpg",
+    "cat3": "B02011000"
+   },
+   {
+    "title": "아망뜨펜션(제주)",
+    "addr": "제주특별자치도 서귀포시 표선면 민속해안로 11",
+    "lat": 33.3060923857,
+    "lng": 126.806436338,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/19/729219_image2_1.jpg",
+    "cat3": "B02010700"
+   },
+   {
+    "title": "앙끄리에펜션",
+    "addr": "제주특별자치도 서귀포시 색달로61번길 59-8",
+    "lat": 33.2632769775,
+    "lng": 126.4138213265,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/80/3477380_image2_1.jpg",
+    "cat3": "B02010700"
    }
   ],
   "festivals": [
@@ -2196,6 +6214,8 @@
     "lat": 33.241942872,
     "lng": 126.5675084795,
     "img": "http://tong.visitkorea.or.kr/cms/resource/00/3554700_image2_1.jpg",
+    "cat3": "A02081300",
+    "tel": "064-741-8754",
     "start": "20251101",
     "end": "20251102",
     "scope": "sigungu",
@@ -2207,6 +6227,8 @@
     "lat": 33.2438675382,
     "lng": 126.5598424335,
     "img": "http://tong.visitkorea.or.kr/cms/resource/69/3562069_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "064-760-0901",
     "start": "20251017",
     "end": "20251019",
     "scope": "sigungu",
@@ -2218,6 +6240,8 @@
     "lat": 33.2505344492,
     "lng": 126.6215230516,
     "img": "http://tong.visitkorea.or.kr/cms/resource/80/3358380_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "064-760-4623<br>010-4614-4281",
     "start": "20250920",
     "end": "20250921",
     "scope": "sigungu",
@@ -2229,6 +6253,8 @@
     "lat": 33.2403346868,
     "lng": 126.5656503433,
     "img": "http://tong.visitkorea.or.kr/cms/resource/68/3520768_image2_1.JPG",
+    "cat3": "A02070200",
+    "tel": "064-733-3501",
     "start": "20250912",
     "end": "20250914",
     "scope": "sigungu",
@@ -2240,6 +6266,8 @@
     "lat": 33.2520782258,
     "lng": 126.4145798438,
     "img": "http://tong.visitkorea.or.kr/cms/resource/92/3525092_image2_1.jpg",
+    "cat3": "A02080600",
+    "tel": "064-805-3353",
     "start": "20250905",
     "end": "20250907",
     "scope": "sigungu",
@@ -2262,8 +6290,8 @@
    "attract": 2.8,
    "connect": -0.3
   },
-  "lat": 36.176905,
-  "lng": 127.06659,
+  "lat": 36.194762,
+  "lng": 127.098334,
   "spots": [
    {
     "title": "강경 구 연수당 건재 약방",
@@ -2271,8 +6299,7 @@
     "lat": 36.162022392,
     "lng": 127.0184336426,
     "img": "http://tong.visitkorea.or.kr/cms/resource/52/3339052_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "강경 옥녀봉",
@@ -2280,8 +6307,7 @@
     "lat": 36.1649080602,
     "lng": 127.0119397028,
     "img": "http://tong.visitkorea.or.kr/cms/resource/46/3577146_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A01010400"
    },
    {
     "title": "강경 중앙초등학교 강당",
@@ -2289,8 +6315,7 @@
     "lat": 36.1602309428,
     "lng": 127.0191725131,
     "img": "http://tong.visitkorea.or.kr/cms/resource/69/3339069_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "강경구락부",
@@ -2298,8 +6323,7 @@
     "lat": 36.1618473607,
     "lng": 127.0155005764,
     "img": "http://tong.visitkorea.or.kr/cms/resource/34/3581734_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02030400"
    },
    {
     "title": "강경근대거리",
@@ -2307,8 +6331,7 @@
     "lat": 36.161772411,
     "lng": 127.0178753661,
     "img": "http://tong.visitkorea.or.kr/cms/resource/63/3577163_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02030600"
    },
    {
     "title": "강경미내다리",
@@ -2316,8 +6339,7 @@
     "lat": 36.152857008,
     "lng": 127.031949343,
     "img": "http://tong.visitkorea.or.kr/cms/resource/16/3577116_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "강경역사문화안내소(구 강경노동조합)",
@@ -2325,8 +6347,7 @@
     "lat": 36.1610252177,
     "lng": 127.0146367865,
     "img": "http://tong.visitkorea.or.kr/cms/resource/43/3339243_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A02010700"
    },
    {
     "title": "개태사(논산)",
@@ -2334,8 +6355,103 @@
     "lat": 36.2407281973,
     "lng": 127.2293710155,
     "img": "http://tong.visitkorea.or.kr/cms/resource/77/3050177_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "A02010800"
+   },
+   {
+    "title": "계백장군 유적지",
+    "addr": "충청남도 논산시 부적면 충곡로 311-54",
+    "lat": 36.1924523165,
+    "lng": 127.1814127047,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/78/3577178_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "관촉사(논산)",
+    "addr": "충청남도 논산시 관촉로1번길 25",
+    "lat": 36.1888348777,
+    "lng": 127.1136855228,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/30/3533430_image2_1.jpg",
+    "cat3": "A02010800"
+   },
+   {
+    "title": "구 강경공립상업고등학교 관사",
+    "addr": "충청남도 논산시 강경읍 계백로 220",
+    "lat": 36.1605559606,
+    "lng": 127.022330555,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/06/3356006_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "구 강경성결교회 예배당",
+    "addr": "충청남도 논산시 강경읍 계백로219번길 40-1",
+    "lat": 36.1627889719,
+    "lng": 127.0185058382,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/27/3577127_image2_1.jpg",
+    "cat3": "A02010900"
+   },
+   {
+    "title": "금곡서원",
+    "addr": "충청남도 논산시 연무읍 왕릉로 170-35",
+    "lat": 36.1181229996,
+    "lng": 127.0843677982,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/26/3356026_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "노성궐리사",
+    "addr": "충청남도 논산시 노성면 교촌길 35",
+    "lat": 36.2825300589,
+    "lng": 127.1330923985,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/76/3577176_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "노성향교",
+    "addr": "충청남도 논산시 노성면 노성산성길 54",
+    "lat": 36.2821939432,
+    "lng": 127.1306204062,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/11/3577111_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "논산 딸기삼촌농장",
+    "addr": "충청남도 논산시 노성면 명재로 222-17",
+    "lat": 36.2716167254,
+    "lng": 127.0935017899,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/54/2372154_image2_1.bmp",
+    "cat3": "A02040800"
+   },
+   {
+    "title": "논산 시민가족공원",
+    "addr": "충청남도 논산시 관촉동",
+    "lat": 36.1946451717,
+    "lng": 127.1049167081,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/92/3577092_image2_1.jpg",
+    "cat3": "A02020700"
+   },
+   {
+    "title": "논산 연산역 급수탑",
+    "addr": "충청남도 논산시 연산면 선비로275번길 31-2",
+    "lat": 36.2124170413,
+    "lng": 127.2007521095,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/28/3339228_image2_1.jpg",
+    "cat3": "A02010700"
+   },
+   {
+    "title": "논산 황산벌참살이마을",
+    "addr": "충청남도 논산시 연산면 신양길 167-10",
+    "lat": 36.1931114002,
+    "lng": 127.2284473723,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/31/3577131_image2_1.jpg",
+    "cat3": "A02030100"
+   },
+   {
+    "title": "논산명재고택",
+    "addr": "충청남도 논산시 노성면 노성산성길 50",
+    "lat": 36.2819800939,
+    "lng": 127.1314897789,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/01/3577201_image2_1.jpg",
+    "cat3": "A02010400"
    }
   ],
   "foods": [
@@ -2345,8 +6461,7 @@
     "lat": 36.157520077,
     "lng": 127.0154423627,
     "img": "http://tong.visitkorea.or.kr/cms/resource/82/2747882_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "강짬뽕",
@@ -2354,8 +6469,7 @@
     "lat": 36.2118385765,
     "lng": 127.1578392952,
     "img": "http://tong.visitkorea.or.kr/cms/resource/99/2834499_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020400"
    },
    {
     "title": "김재성두부촌",
@@ -2363,17 +6477,7 @@
     "lat": 36.1957058328,
     "lng": 127.0860989186,
     "img": "http://tong.visitkorea.or.kr/cms/resource/12/3050212_image2_1.JPG",
-    "start": null,
-    "end": null
-   },
-   {
-    "title": "레이크힐 제빵소",
-    "addr": "충청남도 논산시 탑정로 872",
-    "lat": 36.1772369722,
-    "lng": 127.1576457903,
-    "img": "http://tong.visitkorea.or.kr/cms/resource/18/2834518_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020100"
    },
    {
     "title": "민스시",
@@ -2381,8 +6485,279 @@
     "lat": 36.1920757563,
     "lng": 127.0897681316,
     "img": "http://tong.visitkorea.or.kr/cms/resource/51/2913851_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "A05020300"
+   },
+   {
+    "title": "신풍매운탕",
+    "addr": "충청남도 논산시 신풍길 84-15",
+    "lat": 36.1813535198,
+    "lng": 127.177702221,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/23/2877223_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "알바노",
+    "addr": "충청남도 논산시 가야곡면 산노1길 79-12",
+    "lat": 36.1697881909,
+    "lng": 127.1786413345,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/46/2735146_image2_1.jpg",
+    "cat3": "A05020200"
+   },
+   {
+    "title": "천안문",
+    "addr": "충청남도 논산시 관촉로31번길 36-1",
+    "lat": 36.191862305,
+    "lng": 127.1134215768,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/52/2735152_image2_1.jpg",
+    "cat3": "A05020400"
+   },
+   {
+    "title": "태능초가집갈비",
+    "addr": "충청남도 논산시 중앙로398번길 7-7",
+    "lat": 36.2005303358,
+    "lng": 127.0892373989,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/93/2834593_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "태평식당",
+    "addr": "충청남도 논산시 옥녀봉로35번길 9",
+    "lat": 36.1616973962,
+    "lng": 127.0165365989,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/40/2913940_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "황산항아리보쌈",
+    "addr": "충청남도 논산시 노성면 읍내리 453-4",
+    "lat": 36.2678510894,
+    "lng": 127.1277488244,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/54/2913954_image2_1.jpg",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "내동춘천닭갈비",
+    "addr": "충청남도 논산시 시민로132번길 52",
+    "lat": 36.1804745993,
+    "lng": 127.1066558184,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "루체",
+    "addr": "충청남도 논산시 가야곡면 탑정로 840",
+    "lat": 36.1755232187,
+    "lng": 127.1541933666,
+    "img": "",
+    "cat3": "A05020200"
+   },
+   {
+    "title": "반월소바",
+    "addr": "충청남도 논산시 해월로 132",
+    "lat": 36.2029854933,
+    "lng": 127.0825018249,
+    "img": "",
+    "cat3": "A05020300"
+   },
+   {
+    "title": "신동회관",
+    "addr": "충청남도 논산시 상월면 백일헌로 999",
+    "lat": 36.2910820084,
+    "lng": 127.1416358489,
+    "img": "",
+    "cat3": "A05020100"
+   },
+   {
+    "title": "유진짬뽕앤돈까스",
+    "addr": "충청남도 논산시 안심로140번길 49",
+    "lat": 36.1297386517,
+    "lng": 127.1022658911,
+    "img": "",
+    "cat3": "A05020700"
+   }
+  ],
+  "cafes": [
+   {
+    "title": "레이크힐 제빵소",
+    "addr": "충청남도 논산시 탑정로 872",
+    "lat": 36.1772369722,
+    "lng": 127.1576457903,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/18/2834518_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "뷰포인트카페",
+    "addr": "충청남도 논산시 탑정로 900",
+    "lat": 36.17743977,
+    "lng": 127.1601177865,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/32/2834532_image2_1.jpg",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "초서",
+    "addr": "충청남도 논산시 탑정로 802",
+    "lat": 36.1741233185,
+    "lng": 127.1507714876,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/77/2834577_image2_1.png",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "코이비꼬",
+    "addr": "충청남도 논산시 강산길 84",
+    "lat": 36.1905201928,
+    "lng": 127.0791357905,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/56/2877256_image2_1.png",
+    "cat3": "A05020900"
+   },
+   {
+    "title": "사탕수수 족욕카페",
+    "addr": "충청남도 논산시 은진면 방축길 16-10",
+    "lat": 36.1586797672,
+    "lng": 127.1009069114,
+    "img": "",
+    "cat3": "A05020900"
+   }
+  ],
+  "culture": [
+   {
+    "title": "김홍신 문학관",
+    "addr": "충청남도 논산시 중앙로 146-23",
+    "lat": 36.1827382381,
+    "lng": 127.1071251608,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/39/3577039_image2_1.jpg",
+    "cat3": "A02060300"
+   },
+   {
+    "title": "논산아트센터",
+    "addr": "충청남도 논산시 시민로 270",
+    "lat": 36.1910259698,
+    "lng": 127.0951315686,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/64/3356064_image2_1.jpg",
+    "cat3": "A02060600"
+   },
+   {
+    "title": "백제군사박물관",
+    "addr": "충청남도 논산시 부적면 충곡로 311-54",
+    "lat": 36.1923939899,
+    "lng": 127.1814015962,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/49/3577049_image2_1.jpg",
+    "cat3": "A02060100"
+   }
+  ],
+  "shopping": [
+   {
+    "title": "강경대흥시장",
+    "addr": "충청남도 논산시 계백로105번길 8-4",
+    "lat": 36.1555869215,
+    "lng": 127.0129759676,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/24/2913824_image2_1.jpg",
+    "cat3": "A04010100"
+   },
+   {
+    "title": "강경젓갈시장",
+    "addr": "충청남도 논산시 강경읍 옥녀봉로27번길 30-3",
+    "lat": 36.1597837058,
+    "lng": 127.0153645321,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/26/3577026_image2_1.jpg",
+    "cat3": "A04010200"
+   },
+   {
+    "title": "논산화지중앙시장",
+    "addr": "충청남도 논산시 대화로 78",
+    "lat": 36.2086321138,
+    "lng": 127.0850264488,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/64/2772064_image2_1.jpg",
+    "cat3": "A04010200"
+   },
+   {
+    "title": "밸리피싱",
+    "addr": "충청남도 논산시 가야곡면 병암리",
+    "lat": 36.1748851637,
+    "lng": 127.1976450565,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/16/3035116_image2_1.JPG",
+    "cat3": "A04010600"
+   }
+  ],
+  "leports": [
+   {
+    "title": "논산 탑정호글램핑",
+    "addr": "충청남도 논산시 가야곡면 종연리 238-7",
+    "lat": 36.1752399106,
+    "lng": 127.1537934103,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/81/2749981_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "마음수련 메인센터(마음수련 논산 메인센터)",
+    "addr": "충청남도 논산시 상월면 상월로 749-23",
+    "lat": 36.3219875052,
+    "lng": 127.1814786757,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/79/2772079_image2_1.jpg",
+    "cat3": "A03020200"
+   },
+   {
+    "title": "벌곡오토캠핑장",
+    "addr": "충청남도 논산시 벌곡면 수락로517번길 36-5",
+    "lat": 36.1923403706,
+    "lng": 127.2912445606,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/97/2729297_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "별바라기캠핑펜션",
+    "addr": "충청남도 논산시 수락로 669-54",
+    "lat": 36.1972759207,
+    "lng": 127.291391637,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/34/2908634_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "상상마당논산아트캠핑빌리지",
+    "addr": "충청남도 논산시 상월면 한천길 15-11",
+    "lat": 36.2637630974,
+    "lng": 127.1522522966,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/63/2728363_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "수락베이스캠프",
+    "addr": "충청남도 논산시 벌곡면 수락계곡길 242",
+    "lat": 36.1443572026,
+    "lng": 127.3049640651,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/76/2743476_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "아리스타CC",
+    "addr": "충청남도 논산시 연무읍 연무로 810",
+    "lat": 36.087666174,
+    "lng": 127.1306866892,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/17/2772017_image2_1.jpg",
+    "cat3": "A03020700"
+   },
+   {
+    "title": "양촌성구랜드",
+    "addr": "충청남도 논산시 양촌면 양촌리",
+    "lat": 36.1267443172,
+    "lng": 127.2477168677,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/27/3036627_image2_1.JPG",
+    "cat3": "A03030700"
+   },
+   {
+    "title": "연산나그네캠핑장",
+    "addr": "충청남도 논산시 연산면 선비로866번길 166-4",
+    "lat": 36.2665745312,
+    "lng": 127.1889100523,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/40/2729440_image2_1.jpg",
+    "cat3": "A03021700"
+   },
+   {
+    "title": "연산황산벌오토캠핑장",
+    "addr": "충청남도 논산시 연산면 신신양로 187-8",
+    "lat": 36.1878953783,
+    "lng": 127.2312250413,
+    "img": "http://tong.visitkorea.or.kr/cms/resource/59/2729459_image2_1.jpg",
+    "cat3": "A03021700"
    }
   ],
   "stays": [
@@ -2392,8 +6767,7 @@
     "lat": 36.2818689912,
     "lng": 127.1312092519,
     "img": "http://tong.visitkorea.or.kr/cms/resource/55/3036955_image2_1.jpg",
-    "start": null,
-    "end": null
+    "cat3": "B02011600"
    },
    {
     "title": "잉스힐",
@@ -2401,8 +6775,7 @@
     "lat": 36.1554891993,
     "lng": 127.3012390999,
     "img": "http://tong.visitkorea.or.kr/cms/resource/41/3569341_image2_1.JPG",
-    "start": null,
-    "end": null
+    "cat3": "B02010700"
    },
    {
     "title": "논산 백일헌 종택",
@@ -2410,8 +6783,7 @@
     "lat": 36.2791002222,
     "lng": 127.1516797155,
     "img": "",
-    "start": null,
-    "end": null
+    "cat3": "B02010100"
    },
    {
     "title": "논산문화관광재단(논산한옥마을)",
@@ -2419,8 +6791,7 @@
     "lat": 36.1909981956,
     "lng": 127.0951593442,
     "img": "",
-    "start": null,
-    "end": null
+    "cat3": "B02011600"
    }
   ],
   "festivals": [
@@ -2430,6 +6801,8 @@
     "lat": 36.129182914,
     "lng": 127.24692243,
     "img": "http://tong.visitkorea.or.kr/cms/resource/87/3574987_image2_1.JPG",
+    "cat3": "A02070200",
+    "tel": "041-730-2928",
     "start": "20251212",
     "end": "20251214",
     "scope": "sigungu",
@@ -2441,6 +6814,8 @@
     "lat": 36.1575977477,
     "lng": 127.0098123087,
     "img": "http://tong.visitkorea.or.kr/cms/resource/99/3538099_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "041-730-2928",
     "start": "20251023",
     "end": "20251026",
     "scope": "sigungu",
@@ -2452,6 +6827,8 @@
     "lat": 36.2884982085,
     "lng": 127.0981370354,
     "img": "http://tong.visitkorea.or.kr/cms/resource/41/3530741_image2_1.jpg",
+    "cat3": "A02070200",
+    "tel": "1566-9310",
     "start": "20250912",
     "end": "20250914",
     "scope": "sigungu",

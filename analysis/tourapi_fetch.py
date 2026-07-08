@@ -72,20 +72,24 @@ def fetch_region(sido_s, sigungu):
         return {"error": f"sigunguCode 못 찾음: {sido_s} {sigungu}"}
     def pull(**kw):
         return api("areaBasedList2", areaCode=ac, sigunguCode=sc, arrange="O", **kw)
-    spots = pull(contentTypeId=12)   # 관광지
-    culture = pull(contentTypeId=14) # 문화시설
-    foods = pull(contentTypeId=39)   # 음식점
-    stays = pull(contentTypeId=32)   # 숙박(체류형 코스 야간 스톱·한달살기)
-    fests = fetch_festivals(ac, sc)  # 축제/행사(시군구 0건이면 도 단위 폴백)
+    spots   = pull(contentTypeId=12)  # 관광지
+    culture = pull(contentTypeId=14)  # 문화시설(박물관·미술관·도서관·공연장)
+    leports = pull(contentTypeId=28)  # 레포츠(등산·자전거·체험)
+    shopping= pull(contentTypeId=38)  # 쇼핑(전통시장·로컬상점)
+    foods   = pull(contentTypeId=39)  # 음식점(카페 포함 — cat3로 분리)
+    stays   = pull(contentTypeId=32)  # 숙박(체류형 야간 스톱·한달살기)
+    fests   = fetch_festivals(ac, sc) # 축제/행사(시군구 0건이면 도 단위 폴백)
     def slim(items):
         return [{"title":x.get("title"), "addr":x.get("addr1"),
                  "lng":x.get("mapx"), "lat":x.get("mapy"),
                  "img":x.get("firstimage"), "id":x.get("contentid"),
+                 "cat3":x.get("cat3"), "tel":x.get("tel"),
                  "start":x.get("eventstartdate"), "end":x.get("eventenddate"),
                  "scope":x.get("scope"), "status":x.get("status")}
                 for x in items]
     return {"sido":sido_s, "sigungu":sigungu, "areaCode":ac, "sigunguCode":sc,
             "spots":slim(spots), "culture":slim(culture),
+            "leports":slim(leports), "shopping":slim(shopping),
             "foods":slim(foods), "stays":slim(stays), "festivals":slim(fests)}
 
 if __name__ == "__main__":

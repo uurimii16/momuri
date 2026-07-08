@@ -97,8 +97,9 @@
     .poi-pop .links a.naver{ background:#eaf6ea; color:#199319; }
     .poi-pop .links a.naver:hover{ background:#d8efd8; }
     .maplibregl-popup-content,.routogl-popup-content{ border-radius:12px; padding:12px 12px 13px; box-shadow:0 8px 30px rgba(0,0,0,.18); }
-    /* 팝업을 매력지 카드(z-index:9)보다 앞으로 */
-    .maplibregl-popup,.routogl-popup{ z-index:30; }
+    /* 팝업을 모든 마커(카드·핀) 위 최상단으로 — 클래스명 불확실 대비 3종 + !important */
+    .maplibregl-popup,.mapboxgl-popup,.routogl-popup{ z-index:10000 !important; }
+    .poi-pop a{ outline:none; -webkit-tap-highlight-color:transparent; }
 
     /* 마커 색상 범례 */
     .mlegend{ position:absolute; left:14px; bottom:16px; z-index:5; background:rgba(255,255,255,.96); border-radius:12px; padding:11px 13px; box-shadow:0 3px 14px rgba(0,0,0,.13); font-size:12px; }
@@ -205,6 +206,13 @@
 
     function esc(s){ return String(s ?? '').replace(/</g,'&lt;').replace(/"/g,'&quot;'); }
 
+    // 팝업 생성 + 열릴 때 자기 요소를 최상단으로 강제(라이브러리 클래스명과 무관하게 확실히)
+    function mkPopup(opts, html){
+      const p = new routogl.Popup(opts).setHTML(html);
+      p.on('open', ()=>{ try{ const el = (p.getElement && p.getElement()) || p._container; if(el) el.style.zIndex = '10000'; }catch(e){} });
+      return p;
+    }
+
     // 지도 핀(SVG): 둥근 머리 + 아래로 뾰족한 팁 + 흰 속점
     function pinSVG(color, w){
       const h = Math.round(w*32/24);
@@ -270,7 +278,7 @@
         el.innerHTML = poiMarkerHTML(s);
         const m = new routogl.Marker({ element:el, anchor:'bottom' })
           .setLngLat([s.lng,s.lat])
-          .setPopup(new routogl.Popup({ offset:20, maxWidth:'240px' }).setHTML(poiPopup(s)))
+          .setPopup(mkPopup({ offset:20, maxWidth:'240px' }, poiPopup(s)))
           .addTo(map);
         poiMarkers.push(m);
       });
@@ -337,7 +345,7 @@
         el.innerHTML = heriIconSVG(22);
         const m = new routogl.Marker({ element:el, anchor:'bottom' })
           .setLngLat([s.lo,s.la])
-          .setPopup(new routogl.Popup({ offset:14, maxWidth:'240px' }).setHTML(heriPopup(s)))
+          .setPopup(mkPopup({ offset:14, maxWidth:'240px' }, heriPopup(s)))
           .addTo(map);
         heriMarkers.push(m);
       });

@@ -76,8 +76,8 @@
     .month .wk .n{ width:50px; flex:none; font-weight:800; color:var(--brand-d); font-size:12.5px; }
     .month .wk .t{ font-size:13.5px; font-weight:700; }
     .month .wk .d{ font-size:12px; color:var(--muted); line-height:1.5; margin-top:1px; }
-    .month .settle{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
-    .month .settle a{ flex:1; min-width:140px; text-align:center; text-decoration:none; font-size:12.5px; font-weight:700; padding:9px 8px; border-radius:9px; border:1px solid var(--line); color:var(--brand-d); background:var(--soft); }
+    .month .settle{ display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:12px; }
+    .month .settle a{ display:flex; align-items:center; justify-content:center; min-height:42px; text-align:center; text-decoration:none; font-size:12px; line-height:1.3; font-weight:700; padding:8px 8px; border-radius:9px; border:1px solid var(--line); color:var(--brand-d); background:var(--soft); word-break:keep-all; }
     /* 일자리 */
     .signal{ display:flex; gap:8px; margin-bottom:12px; }
     .signal div{ flex:1; background:var(--soft); border-radius:9px; padding:8px 6px; text-align:center; font-size:10.5px; color:var(--muted); }
@@ -404,7 +404,7 @@
         </div>
         <div class="hint" style="margin-top:6px;font-size:10.5px">※ 지역·숙소 유형·계절에 따라 달라지는 추정치예요.</div>
         <div class="settle" style="margin-top:12px">
-          <a href="https://search.naver.com/search.naver?query=${encodeURIComponent(nm+' 한달살기')}" target="_blank" rel="noopener">🏘 ${esc(nm)} 한달살기 프로그램</a>
+          <a href="https://search.naver.com/search.naver?query=${encodeURIComponent(nm+' 한달살기')}" target="_blank" rel="noopener">🏘 한달살기 프로그램</a>
           <a href="${nmap('주민센터')}" target="_blank" rel="noopener">🏛 전입·주민센터</a>
           <a href="${nmap('마트')}" target="_blank" rel="noopener">🛒 생활 마트</a>
           <a href="${nmap('병원')}" target="_blank" rel="noopener">🏥 병원·의료</a>

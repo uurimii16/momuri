@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers(정적 자산) 배포 설정.
+  // Git 연결(Connect to Git → Workers Builds) 상태면 main에 push할 때마다 자동 재배포됨.
+  // 자산 루트는 저장소 루트(".") — 현재 라이브 구조 유지(/ = 루트 index, /map/*.html = 지도 페이지).
+  "name": "momuri",
+  "compatibility_date": "2025-06-01",
+  "assets": {
+    "directory": "."
+  }
+}

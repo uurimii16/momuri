@@ -50,11 +50,10 @@
     .panel .tag{ display:inline-block; font-size:11px; background:#e6f7f4; color:var(--brand-d); padding:3px 9px; border-radius:20px; margin:7px 0; }
     .panel .big{ font-size:30px; font-weight:800; color:var(--decl); line-height:1.1; }
     .panel .idx{ display:flex; gap:6px; margin-top:12px; }
-    .panel .idx div{ flex:1; background:var(--soft); border-radius:9px; padding:8px 4px 9px; text-align:center; font-size:10px; color:var(--muted); }
-    .panel .idx b{ display:block; font-size:14px; margin-top:2px; font-variant-numeric:tabular-nums; }
-    .panel .idx .bar{ height:6px; border-radius:3px; margin:6px 5px 0; background:#e6ebe9; overflow:hidden; }
-    .panel .idx .bar span{ display:block; height:100%; border-radius:3px; }
-    .panel .idx .axw{ display:block; font-size:9.5px; font-weight:700; margin-top:4px; }
+    .panel .idx div{ flex:1; border-radius:10px; padding:9px 4px 10px; text-align:center; border:1px solid rgba(0,0,0,.05); }
+    .panel .idx .axn{ font-size:11px; color:#5f6a70; font-weight:600; }
+    .panel .idx b{ display:block; font-size:16px; margin-top:3px; font-variant-numeric:tabular-nums; }
+    .panel .idx .axw{ display:block; font-size:10px; font-weight:800; margin-top:3px; }
     .panel .axcap{ font-size:10.5px; color:#8a949a; line-height:1.45; margin-top:8px; }
     .panel .why{ margin-top:12px; font-size:12px; color:#48555b; background:#fff6f0; border-left:3px solid var(--decl); border-radius:6px; padding:8px 10px; line-height:1.5; }
     .panel .meta{ font-size:12px; color:var(--muted); margin-top:10px; }
@@ -124,19 +123,12 @@
     const panel = document.getElementById('panel');
     let hoverId = null;
 
-    // z값(양수=쇠퇴)을 막대폭·색으로 — 0에 가까워도 최소폭을 줘 빈칸으로 안 보이게
-    function axBar(v){
-      const w = Math.max(Math.min(Math.abs(v),3)/3*100, 7);
-      const color = v > 0 ? 'var(--decl)' : 'var(--brand)';
-      return `<div class="bar"><span style="width:${w.toFixed(0)}%;background:${color}"></span></div>`;
-    }
-    function axValColor(v){ return v > 0 ? 'var(--decl)' : 'var(--brand-d)'; }
-    // 각 축이 쇠퇴인지 양호인지 한 단어로
+    // 각 축의 상태(단어·색·상자배경) — z값 양수=쇠퇴
     function axWord(v){
-      if(v >= 0.5)  return {t:'쇠퇴 심함', c:'var(--decl)'};
-      if(v > 0)     return {t:'다소 쇠퇴', c:'var(--decl)'};
-      if(v > -0.5)  return {t:'평균 수준', c:'#8a949a'};
-      return {t:'양호', c:'var(--brand-d)'};
+      if(v >= 0.5)  return {t:'쇠퇴 심함', c:'#d63f18', bg:'#fdece3'};
+      if(v > 0)     return {t:'다소 쇠퇴', c:'#e0561a', bg:'#fdf3ec'};
+      if(v > -0.5)  return {t:'평균 수준', c:'#8a949a', bg:'#f2f4f4'};
+      return {t:'양호', c:'var(--brand-d)', bg:'#e7f6f2'};
     }
 
     function renderPanel(p){
@@ -149,8 +141,8 @@
       }
       const idx = has3 ? `<div class="idx">${
         AX.map(a=>{ const v=+p[a.key]; const w=axWord(v);
-          return `<div>${a.name}<b style="color:${axValColor(v)}">${v>0?'+':''}${v.toFixed(2)}</b>${axBar(v)}<span class="axw" style="color:${w.c}">${w.t}</span></div>`; }).join('')
-      }</div><div class="axcap">막대가 <b style="color:var(--decl)">오른쪽으로 길수록</b> 그 축의 쇠퇴가 심해요 (양수 = 전국 평균보다 쇠퇴).</div>` : '';
+          return `<div style="background:${w.bg}"><span class="axn">${a.name}</span><b style="color:${w.c}">${v>0?'+':''}${v.toFixed(2)}</b><span class="axw" style="color:${w.c}">${w.t}</span></div>`; }).join('')
+      }</div><div class="axcap">숫자가 <b style="color:var(--decl)">양수(+)일수록</b> 그 축의 쇠퇴가 심해요 (전국 평균 대비).</div>` : '';
       panel.innerHTML = `
         <button class="close" aria-label="닫기" onclick="document.getElementById('panel').style.display='none'">×</button>
         <h2>${p.sido} ${p.name}</h2>

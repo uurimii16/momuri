@@ -64,7 +64,7 @@ def prefix_of(sigungu):
     s = (sigungu or "").strip()
     return s[:-1] if s and s[-1] in "시군구" else s
 
-def collect(sido, sigungu):
+def collect(sido, sigungu, center=None, radius=0.55):
     code = SIDO2CTCD.get((sido or "").strip())
     if not code:
         return []
@@ -78,6 +78,9 @@ def collect(sido, sigungu):
         except ValueError:
             continue
         if not (124 < lng < 132 and 33 < lat < 39):   # 0,0 등 무효좌표 제외
+            continue
+        # 동산유산(유물)은 소장처(서울 박물관 등) 좌표라 지역 밖에 찍힘 → 지역 중심 반경으로 제외
+        if center and (abs(lng - center[0]) > radius or abs(lat - center[1]) > radius):
             continue
         key = (round(lng, 4), round(lat, 4))
         if key in seen:
@@ -93,7 +96,8 @@ def main():
     regions = json.load(open(MOMURI, encoding="utf-8"))
     result = {}
     for r in regions:
-        lst = collect(r.get("sido"), r.get("sigungu"))
+        center = [r.get("lng"), r.get("lat")] if r.get("lng") and r.get("lat") else None
+        lst = collect(r.get("sido"), r.get("sigungu"), center)
         result[r["sigungu"]] = lst
         r["heritage_mapped"] = len(lst)          # 지도표시 가능 국가지정 건수
         print(f"  {r['region']:16s} 국가지정 {len(lst):>3d}건 (밀도값 {r.get('heritage')})")

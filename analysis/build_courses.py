@@ -41,7 +41,8 @@ def get(url, tries=3, use_curl=False, referer=None):
                 cmd = ["curl", "-s", "--max-time", "25", "-A", "momuri-course/1.0"]
                 if referer:
                     cmd += ["-e", referer]
-                out = subprocess.run(cmd + [url], capture_output=True, text=True, timeout=30).stdout
+                out = subprocess.run(cmd + [url], capture_output=True, text=True,
+                                     encoding="utf-8", errors="replace", timeout=30).stdout
                 return json.loads(out) if out.strip() else None
             with urllib.request.urlopen(url, timeout=25) as r:
                 return json.load(r)

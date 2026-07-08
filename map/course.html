@@ -104,7 +104,7 @@
     map = new routogl.Map({ container:'map', style:routogl.RoutoStyle.LIGHT, center:[127.8,36.3], zoom:7 });
 
     map.on('load', async () => {
-      courses = await (await fetch(`data/courses.json?v=1`)).json();
+      courses = await (await fetch(`data/courses.json?v=3`)).json();
       const want = qparam('region');
       const idx = courses.findIndex(c => c.sigungu === want || c.region === want);
       cur = idx >= 0 ? idx : 0;

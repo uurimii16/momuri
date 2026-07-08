@@ -193,7 +193,8 @@
     "scope": "sido",
     "status": "annual"
    }
-  ]
+  ],
+  "heritage_mapped": 75
  },
  {
   "region": "충청남도 공주시",
@@ -400,7 +401,8 @@
     "scope": "sigungu",
     "status": "annual"
    }
-  ]
+  ],
+  "heritage_mapped": 98
  },
  {
   "region": "전라북도 익산시",
@@ -633,7 +635,8 @@
     "scope": "sigungu",
     "status": "annual"
    }
-  ]
+  ],
+  "heritage_mapped": 65
  },
  {
   "region": "경기도 여주시",
@@ -806,7 +809,8 @@
     "scope": "sigungu",
     "status": "annual"
    }
-  ]
+  ],
+  "heritage_mapped": 54
  },
  {
   "region": "경상남도 진주시",
@@ -1046,7 +1050,8 @@
     "scope": "sigungu",
     "status": "annual"
    }
-  ]
+  ],
+  "heritage_mapped": 121
  },
  {
   "region": "충청남도 부여군",
@@ -1235,7 +1240,8 @@
     "scope": "sigungu",
     "status": "annual"
    }
-  ]
+  ],
+  "heritage_mapped": 119
  },
  {
   "region": "충청남도 홍성군",
@@ -1428,7 +1434,8 @@
     "scope": "sigungu",
     "status": "annual"
    }
-  ]
+  ],
+  "heritage_mapped": 41
  },
  {
   "region": "경상북도 구미시",
@@ -1617,7 +1624,8 @@
     "scope": "sigungu",
     "status": "annual"
    }
-  ]
+  ],
+  "heritage_mapped": 65
  },
  {
   "region": "경상남도 거창군",
@@ -1769,7 +1777,8 @@
     "scope": "sigungu",
     "status": "annual"
    }
-  ]
+  ],
+  "heritage_mapped": 70
  },
  {
   "region": "경상남도 창녕군",
@@ -1984,7 +1993,8 @@
     "scope": "sido",
     "status": "annual"
    }
-  ]
+  ],
+  "heritage_mapped": 87
  },
  {
   "region": "제주특별자치도 서귀포시",
@@ -2235,7 +2245,8 @@
     "scope": "sigungu",
     "status": "annual"
    }
-  ]
+  ],
+  "heritage_mapped": 130
  },
  {
   "region": "충청남도 논산시",
@@ -2446,6 +2457,7 @@
     "scope": "sigungu",
     "status": "annual"
    }
-  ]
+  ],
+  "heritage_mapped": 91
  }
 ]

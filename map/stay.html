@@ -61,6 +61,23 @@
     .leg .info{ flex:1; padding:5px 0; }
     .leg .pill{ display:inline-flex; align-items:center; gap:6px; background:#fff; border:1px solid var(--line); border-radius:20px; padding:4px 11px; font-size:12px; color:#48555b; }
     .leg .pill b{ color:var(--ink); }
+    .leg .steps{ margin-top:6px; font-size:11.5px; color:#5a666c; line-height:1.7; }
+    .leg .step{ display:inline-block; background:#eef4f2; border-radius:6px; padding:2px 7px; margin:2px 4px 2px 0; }
+    .leg .step.버스{ background:#e7f0fa; color:#245b93; } .leg .step.지하철{ background:#fdeede; color:#9a5a12; }
+    .leg .rec{ color:#b56a25; font-weight:700; }
+    /* 이동수단 토글 */
+    .modes{ display:flex; gap:6px; margin:12px 0 6px; background:#eef1f2; border-radius:10px; padding:4px; }
+    .modes button{ flex:1; border:none; background:none; padding:8px; border-radius:8px; font-size:13px; font-weight:700; color:var(--muted); cursor:pointer; }
+    .modes button.on{ background:#fff; color:var(--brand-d); box-shadow:0 1px 4px rgba(0,0,0,.1); }
+    .banner{ font-size:12px; background:#fff6f0; border-left:3px solid var(--amber); border-radius:7px; padding:8px 10px; margin:8px 0 4px; color:#7a5a3a; line-height:1.5; display:none; }
+    /* 한 달 살기 로드맵 */
+    .month .wk{ display:flex; gap:10px; padding:8px 0; border-bottom:1px solid #f0efea; }
+    .month .wk:last-of-type{ border-bottom:none; }
+    .month .wk .n{ width:50px; flex:none; font-weight:800; color:var(--brand-d); font-size:12.5px; }
+    .month .wk .t{ font-size:13.5px; font-weight:700; }
+    .month .wk .d{ font-size:12px; color:var(--muted); line-height:1.5; margin-top:1px; }
+    .month .settle{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+    .month .settle a{ flex:1; min-width:140px; text-align:center; text-decoration:none; font-size:12.5px; font-weight:700; padding:9px 8px; border-radius:9px; border:1px solid var(--line); color:var(--brand-d); background:var(--soft); }
     /* 일자리 */
     .signal{ display:flex; gap:8px; margin-bottom:12px; }
     .signal div{ flex:1; background:var(--soft); border-radius:9px; padding:8px 6px; text-align:center; font-size:10.5px; color:var(--muted); }
@@ -122,9 +139,15 @@
       </div>
 
       <div class="summary" id="summary"></div>
+      <div class="modes" id="modes">
+        <button data-m="car" class="on">🚗 자동차</button>
+        <button data-m="transit">🚌 대중교통</button>
+      </div>
+      <div class="banner" id="banner"></div>
       <div class="days" id="daytabs"></div>
       <div id="timeline"></div>
 
+      <div class="sec month" id="monthSec"></div>
       <div class="sec" id="jobsSec"></div>
       <div class="sec" id="staySec"></div>
       <div class="sec story" id="storySec"></div>
@@ -135,7 +158,7 @@
   <script>
     const COLOR = { '명소':'#2e79c4', '맛집':'#f59e0b', '숙박':'#7c5cff' };
     const START = 9*60 + 30;
-    let map, courses = [], jobs = {}, regions = [], cur = 0, dayIdx = 0, period = 30, markers = [];
+    let map, courses = [], jobs = {}, regions = [], cur = 0, dayIdx = 0, period = 30, mode = 'car', markers = [];
 
     const fmt = m => `${String(Math.floor(m/60)%24).padStart(2,'0')}:${String(m%60).padStart(2,'0')}`;
     const esc = s => String(s ?? '').replace(/</g,'&lt;').replace(/"/g,'&quot;');
@@ -146,7 +169,7 @@
 
     map.on('load', async () => {
       [courses, jobs, regions] = await Promise.all([
-        fetch('data/courses.json?v=2').then(r=>r.json()),
+        fetch('data/courses.json?v=3').then(r=>r.json()),
         fetch('data/jobs.json?v=1').then(r=>r.json()).catch(()=>({})),
         fetch('data/momuri.json?v=2').then(r=>r.json()).catch(()=>([])),
       ]);
@@ -162,8 +185,33 @@
         document.querySelectorAll('#period button').forEach(x=>x.classList.toggle('on', x===b));
         dayIdx = 0; render();
       });
+      document.querySelectorAll('#modes button').forEach(b => b.onclick = () => {
+        mode = b.dataset.m;
+        document.querySelectorAll('#modes button').forEach(x=>x.classList.toggle('on', x===b));
+        render();
+      });
       render();
     });
+
+    // 선택 모드의 구간 이동분(대중교통 없으면 자동차 폴백)
+    function legMin(leg){ return (mode==='transit' && leg.transit) ? leg.transit.min : leg.car.min; }
+    function moveMinOf(day){
+      let s = day.legs.reduce((a,l)=>a+legMin(l),0);
+      if(day.to_night) s += (mode==='transit' && day.to_night.transit) ? day.to_night.transit.min : day.to_night.car.min;
+      return s;
+    }
+    // 대중교통 스텝 렌더(구간 이동칸 내부)
+    function legInner(leg, carLabel){
+      if(mode==='transit' && leg.transit){
+        const tr = leg.transit;
+        const steps = tr.steps.map(st => st.type==='도보'
+          ? `<span class="step">🚶 도보 ${st.min}분</span>`
+          : `<span class="step ${st.type}">${st.type==='버스'?'🚌':'🚇'} ${esc(st.name)} ${st.min}분</span>`).join('');
+        return `<span class="pill">🚌 <b>${tr.min}분</b> · 환승 ${tr.transfers}회</span><div class="steps">${steps}</div>`;
+      }
+      const rec = (mode==='transit') ? ` <span class="rec">🚗 자동차 권장</span>` : '';
+      return `<span class="pill">🚗 <b>${leg.car.min}분</b> · ${carLabel}${leg.car.estimated?' (추정)':''}</span>${rec}`;
+    }
 
     // 이 기간에서 계획에 넣을 '실제 데이터가 있는' 날 수 (데모 코스 상한 내)
     const planDays = c => Math.min(c.days.length, period <= 3 ? period - 0 : c.days.length);
@@ -175,13 +223,25 @@
       const region = regions.find(r => r.sigungu === c.sigungu) || {};
       const job = jobs[c.sigungu] || null;
 
-      // 요약
+      // 요약(선택 모드 기준)
       const stayNights = period===30 ? '한 달+' : (nd-1)+'박';
-      const carTot = c.days.slice(0,nd).reduce((s,d)=>s+d.car_total_min,0);
+      const moveTot = c.days.slice(0,nd).reduce((s,d)=>s+moveMinOf(d),0);
+      const moveIcon = mode==='transit' ? '🚌' : '🚗';
       document.getElementById('summary').innerHTML =
         `<div>체류<b>${stayNights}</b></div>`+
         `<div>코스<b>${nd}일</b></div>`+
-        `<div>이동 총<b>${carTot}분</b></div>`;
+        `<div>이동 총<b>${moveIcon}${moveTot}분</b></div>`;
+
+      // 대중교통 미제공 배너
+      const day0 = c.days[dayIdx];
+      const anyTransit = day0.legs.some(l=>l.transit) || (day0.to_night && day0.to_night.transit);
+      const banner = document.getElementById('banner');
+      if(mode==='transit' && !c.has_transit){
+        banner.style.display='block';
+        banner.innerHTML = anyTransit
+          ? '일부 구간만 대중교통 경로가 있어, 없는 구간은 <b>자동차 기준(🚗 자동차 권장)</b>으로 표시합니다.'
+          : '🚗 <b>자동차 권장</b> — 이 지역은 대중교통 노선이 드물어 자동차 기준으로 안내합니다.';
+      } else banner.style.display='none';
 
       // Day 탭
       const dt = document.getElementById('daytabs');
@@ -191,10 +251,31 @@
       dt.querySelectorAll('button[data-i]').forEach(b=> b.onclick=()=>{ dayIdx=+b.dataset.i; render(); });
 
       renderTimeline(c.days[dayIdx]);
+      renderMonth(c, region);
       renderJobs(job, c, region);
       renderStays(region);
       renderStory(c, region, nd);
       drawMap(c.days[dayIdx]);
+    }
+
+    function renderMonth(c, region){
+      const sec = document.getElementById('monthSec');
+      if(period !== 30){ sec.style.display='none'; return; }
+      sec.style.display='';
+      const nm = esc(c.region.split(' ').pop());
+      const q = encodeURIComponent(c.region.split(' ').pop() + ' 한달살기');
+      const kto = encodeURIComponent(c.region.split(' ').pop());
+      sec.innerHTML = `<h3>🗓 한 달 살기 로드맵</h3>
+        <div class="hint">데모 3일 코스를 씨앗으로, 한 달을 주차별 리듬으로 설계했어요. <b>관광 → 로컬 → 관계 → 정착</b>으로 갈수록 생활인구에 가까워집니다.</div>
+        <div class="wk"><div class="n">1주차</div><div><div class="t">둘러보기</div><div class="d">대표 명소·문화유산 순회(위 3일 코스). 지역의 큰 그림을 익히는 주.</div></div></div>
+        <div class="wk"><div class="n">2주차</div><div><div class="t">로컬 깊이</div><div class="d">단골 맛집·전통시장·카페, 문화유산 심화 탐방. 관광객에서 생활자로.</div></div></div>
+        <div class="wk"><div class="n">3주차</div><div><div class="t">관계 맺기</div><div class="d">워케이션 거점에서 일하며 지역 모임·로컬 커뮤니티와 연결.</div></div></div>
+        <div class="wk"><div class="n">4주차</div><div><div class="t">정착 준비</div><div class="d">장기 숙소·로컬 일자리 확정, 전입 등 행정. 다음 달을 이어갈 기반 만들기.</div></div></div>
+        <div class="settle">
+          <a href="https://search.naver.com/search.naver?query=${q}" target="_blank" rel="noopener">🏘 ${nm} 한달살기 프로그램</a>
+          <a href="https://korean.visitkorea.or.kr/search/search_list.do?keyword=${kto}" target="_blank" rel="noopener">🧭 구석구석 지역정보</a>
+        </div>
+        <div class="hint" style="margin-top:10px;font-size:10.5px">※ 장기 숙소는 아래 <b>🏡 장기 숙소</b>, 일자리는 <b>💼 로컬 일자리</b> 섹션을 함께 보세요.</div>`;
     }
 
     function renderTimeline(day){
@@ -212,16 +293,14 @@
             ${s.img?`<img src="${esc(s.img)}" onerror="this.style.display='none'">`:''}
           </div></div>`;
         if(i < legs.length){
-          const m = legs[i].car.min;
-          html += `<div class="leg"><div class="rail"><div class="line"></div></div><div class="info"><span class="pill">🚗 <b>${m}분</b> · ${legs[i].car.km}km${legs[i].car.estimated?' (추정)':''}</span></div></div>`;
-          t = depart + m;
+          html += `<div class="leg"><div class="rail"><div class="line"></div></div><div class="info">${legInner(legs[i], legs[i].car.km+'km')}</div></div>`;
+          t = depart + legMin(legs[i]);
         }
       });
       // 야간 숙소
       if(day.night){
         if(day.to_night){
-          const m = day.to_night.car.min;
-          html += `<div class="leg"><div class="rail"><div class="line"></div></div><div class="info"><span class="pill">🚗 <b>${m}분</b> · 숙소로 이동</span></div></div>`;
+          html += `<div class="leg"><div class="rail"><div class="line"></div></div><div class="info">${legInner(day.to_night, '숙소로 이동')}</div></div>`;
         }
         const n = day.night;
         html += `<div class="stop">

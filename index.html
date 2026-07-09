@@ -60,8 +60,14 @@
     .card .body h3{ font-size:16px; color:var(--brand-d); margin-bottom:7px; display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
     .card .body p{ font-size:13px; color:#54616a; line-height:1.6; flex:1; }
 
-    .thumb{ position:relative; background:#eaf5f2; }
+    .thumb{ position:relative; background:#eaf5f2; overflow:hidden; }
     .thumb svg{ display:block; width:100%; height:100%; }
+    .thumb.photo img{ display:block; width:100%; height:100%; object-fit:cover; }
+    .thumb.photo::after{ content:""; position:absolute; inset:0; background:linear-gradient(105deg, rgba(11,90,83,.28), rgba(11,90,83,0) 55%); }
+    .thumb .place{ position:absolute; top:12px; left:12px; z-index:1; font-size:12px; font-weight:700; color:#0b5a53;
+      background:rgba(255,255,255,.9); padding:4px 10px; border-radius:20px; backdrop-filter:blur(3px); }
+    .thumb .credit{ position:absolute; bottom:8px; right:10px; z-index:1; font-size:10px; font-weight:600; color:#fff;
+      text-shadow:0 1px 3px rgba(0,0,0,.5); }
     .go{ display:inline-block; margin-top:12px; font-size:13px; color:var(--brand-d); font-weight:700; }
     .new{ font-size:10.5px; color:#0f766e; background:#e6f7f4; padding:2px 7px; border-radius:20px; font-weight:700; }
 
@@ -133,30 +139,10 @@
 
     <!-- 대표 카드 -->
     <a class="feature" href="map/momuri.html">
-      <div class="thumb">
-        <svg viewBox="0 0 480 240" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <linearGradient id="fsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfeee7"/><stop offset="1" stop-color="#eef8f5"/></linearGradient>
-            <linearGradient id="fhill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fc9ba"/><stop offset="1" stop-color="#a6ddd1"/></linearGradient>
-          </defs>
-          <rect width="480" height="240" fill="url(#fsky)"/>
-          <circle cx="380" cy="58" r="30" fill="#fff1e3"/>
-          <path d="M0 165 C90 130 170 150 250 145 C340 139 410 168 480 150 L480 240 L0 240 Z" fill="url(#fhill)"/>
-          <!-- 한옥 3채 -->
-          <g>
-            <rect x="70" y="150" width="70" height="50" rx="3" fill="#f4efe6"/>
-            <path d="M56 152 C88 122 122 122 154 152 C160 157 150 152 144 154 L66 154 C60 152 50 157 56 152 Z" fill="#3f5c5a"/>
-            <rect x="150" y="158" width="60" height="42" rx="3" fill="#efe9df"/>
-            <path d="M138 160 C166 134 194 134 222 160 C227 164 218 160 213 162 L147 162 C142 160 133 164 138 160 Z" fill="#4d6d68"/>
-            <rect x="300" y="146" width="78" height="54" rx="3" fill="#f4efe6"/>
-            <path d="M285 148 C322 116 356 116 393 148 C399 153 388 148 382 150 L296 150 C290 148 279 153 285 148 Z" fill="#3f5c5a"/>
-          </g>
-          <!-- 위치 핀 -->
-          <g transform="translate(232,70)">
-            <path d="M0 0c-11 0-20 8.6-20 20 0 14.4 20 32 20 32s20-17.6 20-32C20 8.6 11 0 0 0z" fill="#0f766e"/>
-            <circle cx="0" cy="19" r="8" fill="#fff"/>
-          </g>
-        </svg>
+      <div class="thumb photo">
+        <img src="assets/hero_sangju.jpg" alt="숨은 매력지 대표 예시 — 경북 상주 낙동강 경천대" loading="lazy">
+        <span class="place">📍 대표 예시 · 경북 상주</span>
+        <span class="credit">사진 ⓒ 한국관광공사</span>
       </div>
       <div class="body">
         <h3>숨은 매력지</h3>

@@ -5,57 +5,246 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>머무리 · 쇠퇴 소도시 관광 활성화 플래너</title>
   <style>
-    :root{ --brand:#14b8a6; --brand-d:#0f766e; --ink:#26343a; --muted:#6b7684; --line:#e7ebec; --soft:#f5f8f7; }
+    :root{
+      --brand:#14b8a6; --brand-d:#0f766e; --brand-dd:#0b5a53;
+      --ink:#26343a; --muted:#6b7684; --line:#e7ebec; --soft:#f5f8f7;
+      --amber:#d98c5f; --amber-d:#b96b45;
+    }
     *{ box-sizing:border-box; margin:0; padding:0; }
-    body{ font-family:'Pretendard',-apple-system,sans-serif; color:var(--ink); background:#fff; }
-    .hero{ max-width:900px; margin:0 auto; padding:70px 24px 30px; text-align:center; }
-    .logo{ display:inline-flex; align-items:center; gap:10px; font-weight:800; font-size:26px; color:var(--brand-d); }
-    h1{ font-size:30px; margin:22px 0 10px; }
-    .lead{ color:var(--muted); font-size:16px; line-height:1.6; max-width:640px; margin:0 auto; }
-    .kto{ font-size:12px; color:#94a0a8; margin-top:14px; }
+    body{ font-family:'Pretendard',-apple-system,'Segoe UI',sans-serif; color:var(--ink); background:#fff; }
+    a{ text-decoration:none; color:inherit; }
+
+    /* ── 상단 바 (로고 + 관광공사 출처 배지) ── */
+    .topbar{ max-width:1040px; margin:0 auto; padding:16px 24px 0; display:flex; align-items:center; justify-content:space-between; gap:12px; position:relative; z-index:2; }
+    .brand{ display:inline-flex; align-items:center; gap:9px; font-weight:800; font-size:20px; color:var(--brand-d); }
+    .kto-badge{ display:inline-flex; align-items:center; gap:8px; min-width:0; font-size:12px; font-weight:700; color:var(--brand-dd);
+      background:rgba(255,255,255,.72); border:1px solid var(--line); padding:6px 12px 6px 8px; border-radius:20px; backdrop-filter:blur(4px); }
+    .kto-badge .em{ flex:none; width:22px; height:22px; border-radius:50%; background:linear-gradient(135deg,var(--brand),var(--brand-dd)); display:inline-flex; align-items:center; justify-content:center; }
+    .kto-badge small{ display:block; font-size:10px; font-weight:600; color:var(--muted); letter-spacing:.2px; }
+
+    /* ── 히어로 (블러 한옥 배경) ── */
+    .hero{ position:relative; overflow:hidden; }
+    .hero-bg{ position:absolute; inset:-40px -20px 0; z-index:0; filter:blur(7px); opacity:.55;
+      -webkit-mask-image:linear-gradient(to bottom, #000 55%, transparent 100%);
+      mask-image:linear-gradient(to bottom, #000 55%, transparent 100%); pointer-events:none; }
+    .hero-inner{ position:relative; z-index:1; max-width:820px; margin:0 auto; padding:54px 24px 30px; text-align:center; }
+    h1{ font-size:33px; line-height:1.25; margin:14px 0 12px; letter-spacing:-.5px; }
+    h1 b{ color:var(--brand-d); }
+    .lead{ color:#4a5860; font-size:16px; line-height:1.65; max-width:620px; margin:0 auto; }
+    .kto{ font-size:12px; color:#8b98a0; margin-top:18px; }
     .kto b{ color:var(--brand-d); }
-    .cards{ max-width:960px; margin:16px auto 70px; padding:0 24px; display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:18px; }
-    a.card{ display:block; text-decoration:none; color:inherit; background:var(--soft); border:1px solid var(--line); border-radius:16px; padding:24px 22px; transition:.15s; }
-    a.card:hover{ border-color:var(--brand); box-shadow:0 6px 22px rgba(20,184,166,.15); transform:translateY(-2px); }
-    a.card h3{ font-size:17px; color:var(--brand-d); margin-bottom:8px; }
-    a.card p{ font-size:13.5px; color:#48555b; line-height:1.6; }
-    a.card .go{ display:inline-block; margin-top:12px; font-size:13px; color:var(--brand-d); font-weight:700; }
-    @media(max-width:760px){ .cards{ grid-template-columns:1fr; } }
+
+    /* ── 카드 ── */
+    .wrap{ max-width:1040px; margin:8px auto 72px; padding:0 24px; }
+
+    /* 대표 카드 (가로 배너) */
+    .feature{ display:grid; grid-template-columns:minmax(0,1.05fr) minmax(0,1.35fr); gap:0; align-items:stretch;
+      background:#fff; border:1px solid var(--line); border-radius:20px; overflow:hidden; transition:.16s; margin-bottom:18px; }
+    .feature:hover{ border-color:var(--brand); box-shadow:0 12px 34px rgba(20,184,166,.16); transform:translateY(-2px); }
+    .feature .thumb{ min-height:190px; }
+    .feature .body{ padding:28px 30px; display:flex; flex-direction:column; justify-content:center; }
+    .feature .body h3{ font-size:22px; color:var(--brand-d); margin-bottom:10px; }
+    .feature .body p{ font-size:14.5px; color:#48555b; line-height:1.7; max-width:440px; }
+    .feature .go{ margin-top:16px; }
+
+    /* 나머지 4개 카드 */
+    .cards{ display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+    .card{ display:flex; flex-direction:column; background:#fff; border:1px solid var(--line); border-radius:18px; overflow:hidden; transition:.16s; }
+    .card:hover{ border-color:var(--brand); box-shadow:0 8px 26px rgba(20,184,166,.15); transform:translateY(-3px); }
+    .card .thumb{ height:118px; }
+    .card .body{ padding:18px 18px 20px; display:flex; flex-direction:column; flex:1; }
+    .card .body h3{ font-size:16px; color:var(--brand-d); margin-bottom:7px; display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+    .card .body p{ font-size:13px; color:#54616a; line-height:1.6; flex:1; }
+
+    .thumb{ position:relative; background:#eaf5f2; }
+    .thumb svg{ display:block; width:100%; height:100%; }
+    .go{ display:inline-block; margin-top:12px; font-size:13px; color:var(--brand-d); font-weight:700; }
+    .new{ font-size:10.5px; color:#0f766e; background:#e6f7f4; padding:2px 7px; border-radius:20px; font-weight:700; }
+
+    @media(max-width:900px){
+      .cards{ grid-template-columns:repeat(2,1fr); }
+      .feature{ grid-template-columns:1fr; }
+      .feature .thumb{ min-height:150px; }
+    }
+    @media(max-width:520px){
+      .cards{ grid-template-columns:1fr; }
+      h1{ font-size:27px; }
+      .topbar{ align-items:flex-start; }
+      .kto-badge{ font-size:11px; padding:5px 11px 5px 6px; }
+      .kto-badge small{ display:none; }
+      .kto-badge > span:last-child{ white-space:normal; line-height:1.2; }
+    }
   </style>
 </head>
 <body>
+
+  <!-- 상단 바 -->
+  <div class="topbar">
+    <span class="brand">
+      <svg width="26" height="26" viewBox="0 0 32 32" fill="none"><path d="M16 3c-5.5 0-10 4.3-10 10 0 7.2 10 16 10 16s10-8.8 10-16c0-5.7-4.5-10-10-10z" fill="#14b8a6"/><path d="M16 9l6 5v7h-3.9v-4.4h-4.2V21H10v-7z" fill="#fff"/></svg>
+      머무리
+    </span>
+    <span class="kto-badge" title="한국관광공사 TourAPI 데이터 활용">
+      <span class="em"><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#fff" stroke-width="1.6"/><path d="M3 12h18M12 3c2.6 2.4 2.6 15 0 18M12 3c-2.6 2.4-2.6 15 0 18" stroke="#fff" stroke-width="1.3"/></svg></span>
+      <span>한국관광공사 TourAPI<small>데이터 제공 · 2026 관광데이터 활용 공모전</small></span>
+    </span>
+  </div>
+
+  <!-- 히어로 -->
   <div class="hero">
-    <span class="logo"><svg width="30" height="30" viewBox="0 0 32 32" fill="none"><path d="M16 3c-5.5 0-10 4.3-10 10 0 7.2 10 16 10 16s10-8.8 10-16c0-5.7-4.5-10-10-10z" fill="#14b8a6"/><path d="M16 9l6 5v7h-3.9v-4.4h-4.2V21H10v-7z" fill="#fff"/></svg>머무리</span>
-    <h1>쇠퇴 소도시 관광 활성화 플래너</h1>
-    <p class="lead">데이터가 진단한 <b>“살릴 자원은 있는데 소외된”</b> 쇠퇴 소도시를 테마로 매칭하고, 관광 콘텐츠로 코스를 만들어 체류·재방문까지 잇습니다.</p>
-    <p class="kto">2026 관광데이터 활용 공모전 · 데이터 · <b>한국관광공사 TourAPI</b></p>
+    <div class="hero-bg" aria-hidden="true">
+      <svg viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#d6f2ec"/><stop offset="1" stop-color="#f5faf8"/>
+          </linearGradient>
+          <linearGradient id="r1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fd8cc"/><stop offset="1" stop-color="#bde7dd"/></linearGradient>
+          <linearGradient id="r2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6bc0b0"/><stop offset="1" stop-color="#8fd0c2"/></linearGradient>
+          <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f5c5a"/><stop offset="1" stop-color="#4d6d68"/></linearGradient>
+        </defs>
+        <rect width="1200" height="420" fill="url(#sky)"/>
+        <circle cx="960" cy="120" r="60" fill="#fff2e6" opacity=".8"/>
+        <!-- 먼 산 능선 -->
+        <path d="M0 250 C180 180 320 210 480 200 C660 188 820 235 1000 205 C1100 190 1160 210 1200 200 L1200 420 L0 420 Z" fill="url(#r1)"/>
+        <path d="M0 300 C160 250 300 285 460 270 C640 253 800 300 980 278 C1090 264 1150 288 1200 278 L1200 420 L0 420 Z" fill="url(#r2)"/>
+        <!-- 한옥 지붕 줄 (기와 처마) -->
+        <g fill="url(#roof)">
+          <path d="M120 330 C170 296 220 288 260 288 C300 288 350 296 400 330 C408 336 396 330 388 332 L132 332 C124 330 112 336 120 330 Z"/>
+          <path d="M430 342 C475 312 520 305 556 305 C592 305 637 312 682 342 C690 347 678 342 671 344 L441 344 C434 342 422 347 430 342 Z"/>
+          <path d="M770 336 C818 304 866 297 904 297 C942 297 990 304 1038 336 C1046 341 1034 336 1026 338 L780 338 C772 336 762 341 770 336 Z"/>
+        </g>
+      </svg>
+    </div>
+    <div class="hero-inner">
+      <h1>데이터가 찾은 <b>쇠퇴 소도시</b>,<br>머물수록 살아나는 여행</h1>
+      <p class="lead">데이터가 진단한 <b>“살릴 자원은 있는데 소외된”</b> 쇠퇴 소도시를 테마로 매칭하고, 관광 콘텐츠로 코스를 만들어 체류·재방문·생활인구까지 잇습니다.</p>
+      <p class="kto">2026 관광데이터 활용 공모전 · 데이터 <b>한국관광공사 TourAPI</b></p>
+    </div>
   </div>
-  <div class="cards">
-    <a class="card" href="map/momuri.html">
-      <h3>숨은 매력지</h3>
-      <p>쇠퇴 × 문화유산으로 뽑은 소도시와 실제 관광 콘텐츠를 지도로.</p>
-      <span class="go">바로가기 →</span>
+
+  <!-- 카드 -->
+  <div class="wrap">
+
+    <!-- 대표 카드 -->
+    <a class="feature" href="map/momuri.html">
+      <div class="thumb">
+        <svg viewBox="0 0 480 240" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="fsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfeee7"/><stop offset="1" stop-color="#eef8f5"/></linearGradient>
+            <linearGradient id="fhill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fc9ba"/><stop offset="1" stop-color="#a6ddd1"/></linearGradient>
+          </defs>
+          <rect width="480" height="240" fill="url(#fsky)"/>
+          <circle cx="380" cy="58" r="30" fill="#fff1e3"/>
+          <path d="M0 165 C90 130 170 150 250 145 C340 139 410 168 480 150 L480 240 L0 240 Z" fill="url(#fhill)"/>
+          <!-- 한옥 3채 -->
+          <g>
+            <rect x="70" y="150" width="70" height="50" rx="3" fill="#f4efe6"/>
+            <path d="M56 152 C88 122 122 122 154 152 C160 157 150 152 144 154 L66 154 C60 152 50 157 56 152 Z" fill="#3f5c5a"/>
+            <rect x="150" y="158" width="60" height="42" rx="3" fill="#efe9df"/>
+            <path d="M138 160 C166 134 194 134 222 160 C227 164 218 160 213 162 L147 162 C142 160 133 164 138 160 Z" fill="#4d6d68"/>
+            <rect x="300" y="146" width="78" height="54" rx="3" fill="#f4efe6"/>
+            <path d="M285 148 C322 116 356 116 393 148 C399 153 388 148 382 150 L296 150 C290 148 279 153 285 148 Z" fill="#3f5c5a"/>
+          </g>
+          <!-- 위치 핀 -->
+          <g transform="translate(232,70)">
+            <path d="M0 0c-11 0-20 8.6-20 20 0 14.4 20 32 20 32s20-17.6 20-32C20 8.6 11 0 0 0z" fill="#0f766e"/>
+            <circle cx="0" cy="19" r="8" fill="#fff"/>
+          </g>
+        </svg>
+      </div>
+      <div class="body">
+        <h3>숨은 매력지</h3>
+        <p>쇠퇴 × 문화유산으로 뽑은 소도시와 실제 관광 콘텐츠를 지도로. 데이터가 “살릴 자원은 있는데 소외된” 곳을 짚어줍니다.</p>
+        <span class="go">지도에서 보기 →</span>
+      </div>
     </a>
-    <a class="card" href="map/course.html">
-      <h3>하루 코스</h3>
-      <p>명소·맛집을 현실적 동선으로 묶은 하루 일정. 구간별 이동시간·경로를 한눈에.</p>
-      <span class="go">바로가기 →</span>
-    </a>
-    <a class="card" href="map/stay.html">
-      <h3>체류 플래너 <span style="font-size:11px;color:#0f766e;background:#e6f7f4;padding:2px 7px;border-radius:20px;vertical-align:middle">NEW</span></h3>
-      <p>며칠 머무는 체류형 코스 + 로컬 일자리·장기 숙소로 워케이션·한달살기. 관광을 생활인구로.</p>
-      <span class="go">바로가기 →</span>
-    </a>
-    <a class="card" href="map/decline-map.html">
-      <h3>쇠퇴지수 지도</h3>
-      <p>전국 시군구 복합 관광쇠퇴지수 단계구분도(Jenks 자연분류).</p>
-      <span class="go">바로가기 →</span>
-    </a>
-    <a class="card" href="map/methodology.html">
-      <h3>지표 방법론</h3>
-      <p>데이터·3축 계산식·알고리즘·한계까지 지수 산출 방법 설명.</p>
-      <span class="go">바로가기 →</span>
-    </a>
+
+    <!-- 나머지 4개 -->
+    <div class="cards">
+
+      <a class="card" href="map/course.html">
+        <div class="thumb">
+          <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <rect width="320" height="180" fill="#e8f5f1"/>
+            <circle cx="266" cy="42" r="22" fill="#fff1e3"/>
+            <path d="M40 150 C90 150 90 96 140 96 C190 96 190 54 250 54" stroke="#57bfae" stroke-width="7" fill="none" stroke-linecap="round" stroke-dasharray="2 15"/>
+            <g fill="#0f766e">
+              <circle cx="40" cy="150" r="13"/><circle cx="140" cy="96" r="13"/><circle cx="250" cy="54" r="13"/>
+            </g>
+            <g fill="#fff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+              <text x="40" y="155">1</text><text x="140" y="101">2</text><text x="250" y="59">3</text>
+            </g>
+          </svg>
+        </div>
+        <div class="body">
+          <h3>하루 코스</h3>
+          <p>명소·맛집을 현실적 동선으로 묶은 하루 일정. 구간별 이동시간·경로를 한눈에.</p>
+          <span class="go">바로가기 →</span>
+        </div>
+      </a>
+
+      <a class="card" href="map/stay.html">
+        <div class="thumb">
+          <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <rect width="320" height="180" fill="#e6f3ef"/>
+            <path d="M250 34a16 16 0 100 30 20 20 0 11 0-30z" fill="#fbe4c4"/>
+            <rect x="96" y="86" width="128" height="70" rx="5" fill="#f4efe6"/>
+            <path d="M80 90 C130 44 190 44 240 90 C247 96 234 90 226 92 L94 92 C86 90 73 96 80 90 Z" fill="#3f5c5a"/>
+            <rect x="146" y="112" width="30" height="44" rx="3" fill="#0f766e"/>
+            <rect x="196" y="150" width="44" height="26" rx="4" fill="#d98c5f"/>
+            <rect x="212" y="144" width="12" height="8" rx="2" fill="#b96b45"/>
+          </svg>
+        </div>
+        <div class="body">
+          <h3>체류 플래너 <span class="new">NEW</span></h3>
+          <p>며칠 머무는 체류형 코스 + 로컬 일자리·장기 숙소로 워케이션·한달살기. 관광을 생활인구로.</p>
+          <span class="go">바로가기 →</span>
+        </div>
+      </a>
+
+      <a class="card" href="map/decline-map.html">
+        <div class="thumb">
+          <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <rect width="320" height="180" fill="#eef6f3"/>
+            <g stroke="#fff" stroke-width="2">
+              <rect x="70" y="34" width="60" height="52" fill="#0b5a53"/>
+              <rect x="130" y="34" width="52" height="52" fill="#57bfae"/>
+              <rect x="182" y="34" width="66" height="52" fill="#bde7dd"/>
+              <rect x="70" y="86" width="52" height="60" fill="#2b8f80"/>
+              <rect x="122" y="86" width="66" height="60" fill="#0b5a53"/>
+              <rect x="188" y="86" width="60" height="60" fill="#8fd0c2"/>
+            </g>
+          </svg>
+        </div>
+        <div class="body">
+          <h3>쇠퇴지수 지도</h3>
+          <p>전국 시군구 복합 관광쇠퇴지수 단계구분도(Jenks 자연분류).</p>
+          <span class="go">바로가기 →</span>
+        </div>
+      </a>
+
+      <a class="card" href="map/methodology.html">
+        <div class="thumb">
+          <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <rect width="320" height="180" fill="#e8f5f1"/>
+            <g fill="#57bfae">
+              <rect x="60" y="96" width="26" height="52" rx="3"/>
+              <rect x="98" y="72" width="26" height="76" rx="3"/>
+              <rect x="136" y="52" width="26" height="96" rx="3" fill="#0f766e"/>
+            </g>
+            <circle cx="220" cy="72" r="30" fill="none" stroke="#0b5a53" stroke-width="7"/>
+            <line x1="242" y1="94" x2="266" y2="118" stroke="#0b5a53" stroke-width="9" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="body">
+          <h3>지표 방법론</h3>
+          <p>데이터·3축 계산식·알고리즘·한계까지 지수 산출 방법 설명.</p>
+          <span class="go">바로가기 →</span>
+        </div>
+      </a>
+
+    </div>
   </div>
+
 </body>
 </html>

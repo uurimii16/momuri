@@ -113,7 +113,8 @@
     .wtabs button.on{ background:var(--brand); color:#fff; border-color:var(--brand); }
     .wk-head{ font-size:15px; font-weight:800; }
     .wk-desc{ font-size:12px; color:var(--muted); line-height:1.5; margin:2px 0 10px; }
-    .cal{ display:flex; gap:4px; margin-bottom:8px; }
+    .cal{ display:flex; gap:4px; margin-bottom:6px; }
+    .cal-legend{ font-size:10.5px; color:var(--muted); margin-bottom:8px; }
     .cal div{ flex:1; text-align:center; background:var(--soft); border-radius:8px; padding:6px 2px; font-size:10px; color:var(--muted); }
     .cal div b{ display:block; font-size:15px; margin-top:2px; }
     .cal div.wknd{ background:#eef6f3; color:var(--brand-d); }
@@ -354,9 +355,10 @@
 
     function calHTML(){
       const days=['월','화','수','목','금','토','일'];
-      return `<div class="cal">${days.map((d,i)=>{
+      const cal = `<div class="cal">${days.map((d,i)=>{
         const wknd=i>=5, ic=i<5?'💻':(i===5?'🚶':'☕');
         return `<div class="${wknd?'wknd':''}">${d}<b>${ic}</b></div>`;}).join('')}</div>`;
+      return cal + `<div class="cal-legend">💻 워케이션(원격근무) · 🚶 나들이 · ☕ 휴식</div>`;
     }
 
     function renderMonthMode(c, region){
@@ -498,14 +500,14 @@
       const sido = (job && job.sido_jobs) || [];
       const wknet = `https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?searchClcd=&keyword=${encodeURIComponent(c.sigungu)}`;
       let html = `<h3>💼 로컬 일자리 · 워케이션</h3>
-        <div class="hint">장기 체류라면 <b>지역에서 일하며 머무는 것</b>이 핵심. 인력난 지표·실물 채용 딥링크·공공기관 공고를 함께 봅니다.</div>
+        <div class="hint">장기 체류라면 <b>지역에서 일하며 머무는 것</b>이 핵심. <b>민간·중소기업</b>은 고용24, <b>공공기관</b>은 잡알리오로 나눠 봐요. (아래 카드는 공식 API로 검증된 공공기관 공고)</div>
         <div class="signal">
           <div>문화유산<b>${region.heritage ?? '-'}건</b></div>
           <div>방문 잠재<b>${ax.visit ?? '-'}</b></div>
           <div>청년 유출 신호<b class="${outflow?'warn':''}">${outflow?'있음':'낮음'}</b></div>
         </div>
         <div class="btnrow">
-          <a class="lnk p" href="${wknet}" target="_blank" rel="noopener">이 지역 채용 보기 (고용24)</a>
+          <a class="lnk p" href="${wknet}" target="_blank" rel="noopener">민간·중소기업 채용 (고용24) →</a>
           ${job?`<a class="lnk" href="${esc(job.deeplink)}" target="_blank" rel="noopener">공공기관 채용 (잡알리오)</a>`:''}
         </div>`;
       if(local.length){

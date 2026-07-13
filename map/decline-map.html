@@ -188,7 +188,22 @@
       map.setFeatureState({source:'sgg',id:hoverId},{hover:true});
     }
 
-    map.on('load', async () => {
+    // 지도 준비 헬퍼: Routo style 첫 요청이 503으로 실패하면 'load' 이벤트가 안 와서
+    // UI 전체가 죽는 문제가 있어, load/style.load + 폴링 폴백으로 반드시 한 번 실행한다.
+    function onMapReady(fn){
+      let done = false;
+      const go = () => { if(done) return; done = true; try{ map.resize(); }catch(e){} fn(); };
+      if (map.loaded && map.loaded()) { go(); return; }
+      map.on('load', go);
+      map.on('style.load', go);
+      let n = 0;
+      const iv = setInterval(() => {
+        if (done) { clearInterval(iv); return; }
+        if ((map.isStyleLoaded && map.isStyleLoaded()) || ++n >= 6) { clearInterval(iv); go(); }
+      }, 800);
+    }
+
+    onMapReady(async () => {
       buildLegend();
       const gj = await (await fetch(`data/decline_choropleth.geojson?v=${DATA_V}`)).json();
 

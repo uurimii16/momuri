@@ -145,6 +145,10 @@
     const map = new maplibregl.Map({ container:'map', style:BASE_STYLE, center:[127.7,36.3], zoom:7 });
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
     map.addControl(new maplibregl.ScaleControl(), 'bottom-right');
+    // 가벼운 리페인트(데이터/이동 이벤트 단위): 일부 환경에서 렌더 루프가 idle일 때 타일 로드·카메라
+    // 이동이 화면에 반영되도록 한다. (60fps 펌프는 렌더러 프리즈를 유발하므로 절대 사용 금지.)
+    map.on('data', ()=>map.triggerRepaint());
+    map.on('moveend', ()=>map.triggerRepaint());
     // VWorld 타일 실패(에러 또는 4초 내 무타일) 시 Carto 폴백으로 자동 전환(tourgo와 동일)
     let basemapSwitched=false, vworldTileOk=false;
     function useFallbackBasemap(){
@@ -166,7 +170,10 @@
     // isStyleLoaded()는 인라인 스타일에서 조기 true를 반환해 addSource가 "Style is not done loading"로
     // 터질 수 있으므로, 신뢰 가능한 map.loaded()/once('load')만 사용한다.
     function onMapReady(fn){
-      const run = () => { try{ map.resize(); }catch(e){} fn(); };
+      // 렌더 kick: 로드 직후 렌더 루프가 idle이면 fitBounds 등 카메라 이동이 화면에 반영 안 될 수 있어,
+      // fn 실행 후 잠깐(약 3초) 가벼운 리페인트를 예약해 타일·카메라를 확실히 반영한다.
+      const kick = () => { let k=0; const ki=setInterval(()=>{ map.triggerRepaint(); if(++k>=20) clearInterval(ki); }, 150); };
+      const run = () => { try{ map.resize(); }catch(e){} Promise.resolve(fn()).finally(kick); };
       if (map.loaded()) { run(); return; }
       map.once('load', run);
     }

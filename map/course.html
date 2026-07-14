@@ -7,7 +7,7 @@
   <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
   <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
   <style>
-    :root{ --brand:#14b8a6; --brand-d:#0f766e; --amber:#f59e0b; --blue:#2e79c4; --ink:#26343a; --muted:#6b7684; --line:#e7ebec; --soft:#f5f8f7; }
+    :root{ --brand:#14b8a6; --brand-d:#0f766e; --amber:#f472b6; --blue:#38bdf8; --ink:#26343a; --muted:#6b7684; --line:#e7ebec; --soft:#f5f8f7; }
     *{ box-sizing:border-box; margin:0; padding:0; }
     body{ font-family:'Pretendard',-apple-system,sans-serif; color:var(--ink); }
     .nav{ height:56px; background:#fff; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:22px; padding:0 24px; }
@@ -57,8 +57,14 @@
     .leg .step{ display:inline-block; background:#eef4f2; border-radius:6px; padding:2px 7px; margin:2px 4px 2px 0; }
     .leg .step.버스{ background:#e7f0fa; color:#245b93; } .leg .step.지하철{ background:#fdeede; color:#9a5a12; }
     .leg .rec{ color:#b56a25; font-weight:700; }
-    /* 지도 번호 마커(물방울 핀) */
-    .pin-marker{ cursor:pointer; }
+    /* 지도 번호 마커 — tourgo식 반투명 물방울 핀 (--cat=카테고리 색, 팁이 좌표를 가리킴) */
+    .pin-marker{ cursor:pointer; width:30px; height:38px; filter:drop-shadow(0 5px 8px rgba(20,18,15,.28)); }
+    .drop-pin{ position:relative; display:flex; align-items:center; justify-content:center; width:27px; height:27px; margin:0 auto;
+      border-radius:50% 50% 50% 0; transform:rotate(-45deg);
+      background:radial-gradient(circle at 32% 28%, rgba(255,255,255,.80), var(--cat,#888) 62%);
+      border:2px solid rgba(255,255,255,.92); box-shadow:0 4px 12px rgba(30,30,30,.28), inset 0 1px 3px rgba(255,255,255,.55); transition:transform .16s ease; }
+    .pin-marker:hover .drop-pin{ transform:rotate(-45deg) scale(1.14); }
+    .drop-pin b{ transform:rotate(45deg); color:#fff; font-size:12.5px; font-weight:900; line-height:1; text-shadow:0 1px 2px rgba(0,0,0,.55); }
     /* POI 팝업 (숨은 매력지와 동일 스타일) */
     .poi-pop{ width:210px; }
     .poi-pop img{ width:100%; height:110px; object-fit:cover; border-radius:8px; display:block; margin-bottom:8px; background:#eef1f2; }
@@ -116,16 +122,20 @@
   </div>
 
   <script>
-    const COLOR = { '명소':'#2e79c4', '맛집':'#f59e0b' };
+    const COLOR = { '명소':'#38bdf8', '맛집':'#f472b6' };   // 하늘(명소)·분홍(맛집)
     const START = 9*60 + 30;   // 09:30 출발
     let map, courses = [], cur = 0, mode = 'car', markers = [];
 
     // 반투명 번호 물방울 핀(숨은 매력지·한달살기와 통일)
     function numPin(color, n){
-      const w=28, h=Math.round(w*32/24);
-      return `<svg width="${w}" height="${h}" viewBox="0 0 24 32" style="opacity:.85;filter:drop-shadow(0 2px 3px rgba(0,0,0,.3))">
-        <path d="M12 0C5.37 0 0 5.37 0 12c0 8.5 12 20 12 20s12-11.5 12-20C24 5.37 18.63 0 12 0z" fill="${color}"/>
-        <text x="12" y="16.5" text-anchor="middle" font-size="12" font-weight="800" fill="#fff" font-family="sans-serif">${n}</text></svg>`;
+      // CSS 물방울 핀(SVG text 대신 — 일부 환경서 네모로 깨지던 문제 해결)
+      return `<span class="drop-pin" style="--cat:${color}"><b>${n}</b></span>`;
+    }
+    // 점→경로(도로) 최근접 정점. 핀이 도로에서 떨어지면 리더선으로 연결하기 위함.
+    function nearestOnPath(pt, path){
+      let best=null, bd=Infinity;
+      for(const p of path){ const dx=p[0]-pt[0], dy=p[1]-pt[1], d=dx*dx+dy*dy; if(d<bd){ bd=d; best=p; } }
+      return best;
     }
     // 팝업 생성 + 열릴 때 최상단으로
     function mkPopup(opts, html){
@@ -287,9 +297,14 @@
 
     function drawMap(c){
       markers.forEach(m=>m.remove()); markers = [];
-      // 경로선(자동차 실도로 경로 연결)
+      // 경로선(자동차 실도로 경로) + 핀→도로 리더선(핀이 도로에서 ~8m↑ 떨어지면 연결)
       const path = c.legs.flatMap(l => l.car.path);
-      const gj = { type:'Feature', geometry:{ type:'LineString', coordinates:path } };
+      const segs = path.length ? [path] : [];
+      c.stops.forEach(s=>{
+        const poi=[+s.lng,+s.lat], snap=nearestOnPath(poi, path);
+        if(snap){ const gap=Math.hypot(snap[0]-poi[0], snap[1]-poi[1]); if(gap>0.00008) segs.push([poi, snap]); }
+      });
+      const gj = { type:'Feature', geometry:{ type:'MultiLineString', coordinates:segs } };
       if(map.getSource('route')) map.getSource('route').setData(gj);
       else {
         map.addSource('route',{ type:'geojson', data:gj });
@@ -302,7 +317,7 @@
         const el = document.createElement('div');
         el.className = 'pin-marker';
         el.innerHTML = numPin(COLOR[s.kind] || '#888', i+1);
-        const m = new maplibregl.Marker({ element:el, anchor:'bottom' })
+        const m = new maplibregl.Marker({ element:el, anchor:'bottom', subpixelPositioning:true })
           .setLngLat([s.lng,s.lat])
           .setPopup(mkPopup({ offset:20, maxWidth:'240px' }, stopPopup(s, i)))
           .addTo(map);

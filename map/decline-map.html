@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>시군구 관광쇠퇴지수 단계구분도 · 머무리</title>
-  <link href="https://tile.routo.com/webgis_tile01/TEST/gljs-qa/20241205/developers/web_gl_js/routo-gl.css" rel="stylesheet">
-  <script src="https://stg-api.routo.com/v3/maps/map?key=c914fb43-0d44-4fa7-838a-84619e3486c3"></script>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
   <style>
     :root{ --brand:#14b8a6; --brand-d:#0f766e; --ink:#26343a; --muted:#6b7684; --line:#e7ebec; --soft:#f5f8f7; --decl:#e0561a; }
     *{ box-sizing:border-box; margin:0; padding:0; }
@@ -119,7 +119,30 @@
       {key:'ax_attract', name:'매력', desc:'재방문·추천이 약한'},
       {key:'ax_connect', name:'연결', desc:'동선에서 소외된'}
     ];
-    const map = new routogl.Map({ container:'map', style:routogl.RoutoStyle.LIGHT, center:[127.8,36.25], zoom:6.5 });
+    // ── 베이스맵: VWorld(국토교통부) 기본 + 실패 시 Carto 무키 폴백 자동 전환(tourgo와 동일) ──
+    const VWORLD_KEY = 'C666A4B9-67F8-3D8B-BC1A-66CB6A90ADC3';
+    const VW = (layer,ext) => `https://api.vworld.kr/req/wmts/1.0.0/${VWORLD_KEY}/${layer}/{z}/{y}/{x}.${ext}`;
+    const FALLBACK_TILES = ['https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png','https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png','https://c.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png'];
+    const BASE_STYLE = { version:8, sources:{
+      'vworld-base':{ type:'raster', tiles:[VW('Base','png')], tileSize:256, maxzoom:19, attribution:'© VWorld (국토교통부)' },
+      'fallback-base':{ type:'raster', tiles:FALLBACK_TILES, tileSize:256, maxzoom:19, attribution:'© OpenStreetMap contributors © CARTO' }
+    }, layers:[
+      { id:'vworld-base', type:'raster', source:'vworld-base' },
+      { id:'fallback-base', type:'raster', source:'fallback-base', layout:{ visibility:'none' } }
+    ]};
+    const map = new maplibregl.Map({ container:'map', style:BASE_STYLE, center:[127.8,36.25], zoom:6.5 });
+    map.addControl(new maplibregl.NavigationControl(), 'top-right');
+    map.addControl(new maplibregl.ScaleControl(), 'bottom-right');
+    // VWorld 타일 실패(에러 또는 4초 내 무타일) 시 Carto 폴백으로 자동 전환(tourgo와 동일)
+    let basemapSwitched=false, vworldTileOk=false;
+    function useFallbackBasemap(){
+      if(basemapSwitched || !map.getLayer('fallback-base')) return;
+      basemapSwitched=true;
+      try{ map.setLayoutProperty('fallback-base','visibility','visible'); map.setLayoutProperty('vworld-base','visibility','none'); }catch(e){}
+    }
+    map.on('data', e=>{ if(e && e.sourceId==='vworld-base' && e.tile && e.dataType==='source') vworldTileOk=true; });
+    map.on('error', e=>{ if(e && e.sourceId==='vworld-base') useFallbackBasemap(); });
+    map.on('load', ()=>{ setTimeout(()=>{ if(!vworldTileOk) useFallbackBasemap(); }, 4000); });
     const panel = document.getElementById('panel');
     let hoverId = null;
 
@@ -188,19 +211,13 @@
       map.setFeatureState({source:'sgg',id:hoverId},{hover:true});
     }
 
-    // 지도 준비 헬퍼: Routo style 첫 요청이 503으로 실패하면 'load' 이벤트가 안 와서
-    // UI 전체가 죽는 문제가 있어, load/style.load + 폴링 폴백으로 반드시 한 번 실행한다.
+    // 지도 준비 헬퍼: MapLibre는 addSource/addLayer 전에 스타일 로드가 끝나야 한다('load'가 보장).
+    // isStyleLoaded()는 인라인 스타일에서 조기 true를 반환해 addSource가 "Style is not done loading"로
+    // 터질 수 있으므로, 신뢰 가능한 map.loaded()/once('load')만 사용한다.
     function onMapReady(fn){
-      let done = false;
-      const go = () => { if(done) return; done = true; try{ map.resize(); }catch(e){} fn(); };
-      if (map.loaded && map.loaded()) { go(); return; }
-      map.on('load', go);
-      map.on('style.load', go);
-      let n = 0;
-      const iv = setInterval(() => {
-        if (done) { clearInterval(iv); return; }
-        if ((map.isStyleLoaded && map.isStyleLoaded()) || ++n >= 6) { clearInterval(iv); go(); }
-      }, 800);
+      const run = () => { try{ map.resize(); }catch(e){} fn(); };
+      if (map.loaded()) { run(); return; }
+      map.once('load', run);
     }
 
     onMapReady(async () => {

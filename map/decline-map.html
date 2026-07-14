@@ -208,7 +208,7 @@
 
     function focusFeat(feat){
       const c = feat.__c;
-      if(c) map.flyTo({center:c, zoom:8.4, speed:0.9});
+      if(c) map.jumpTo({center:c, zoom:8.4});
       renderPanel(feat.properties);
       if(hoverId!==null) map.setFeatureState({source:'sgg',id:hoverId},{hover:false});
       hoverId = feat.properties.code;

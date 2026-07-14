@@ -321,7 +321,7 @@
           .addTo(map);
         poiMarkers.push(m);
       });
-      map.flyTo({ center:[r.lng,r.lat], zoom:11, duration:800 });
+      map.flyTo({ center:[r.lng,r.lat], zoom:11, duration:0 });
       liftMarkers();
       map.once('moveend', liftMarkers);   // 지도 라이브러리가 이동 후 z-index 재정렬해도 다시 올림
 
@@ -360,7 +360,7 @@
     function focusPoi(idx){
       const s = curPois[idx]; const m = poiMarkers[idx];
       if(!s || !m) return;
-      map.flyTo({ center:[s.lng,s.lat], zoom:13.5, duration:800 });
+      map.flyTo({ center:[s.lng,s.lat], zoom:13.5, duration:0 });
       poiMarkers.forEach(mk=>{ if(mk.getPopup()?.isOpen()) mk.togglePopup(); });
       m.togglePopup();
     }
@@ -405,7 +405,7 @@
       if(!s) return;
       if(!heriOn) toggleHeri();
       const m = heriMarkers[k];
-      map.flyTo({ center:[s.lo,s.la], zoom:14, duration:800 });
+      map.flyTo({ center:[s.lo,s.la], zoom:14, duration:0 });
       heriMarkers.forEach(mk=>{ if(mk.getPopup()?.isOpen()) mk.togglePopup(); });
       if(m) m.togglePopup();
     }

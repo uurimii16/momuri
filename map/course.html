@@ -278,7 +278,7 @@
       document.querySelectorAll('#tl .stop').forEach(el=>{
         el.addEventListener('click', ()=>{
           const i = +el.dataset.i, s = c.stops[i];
-          if(markers[i]){ map.flyTo({ center:[s.lng,s.lat], zoom:14, duration:800 }); markers[i].togglePopup(); }
+          if(markers[i]){ map.flyTo({ center:[s.lng,s.lat], zoom:14, duration:0 }); markers[i].togglePopup(); }
         });
       });
 
@@ -311,7 +311,7 @@
       // 화면 맞춤
       const lngs = c.stops.map(s=>s.lng), lats = c.stops.map(s=>s.lat);
       map.fitBounds([[Math.min(...lngs),Math.min(...lats)],[Math.max(...lngs),Math.max(...lats)]],
-        { padding:70, duration:800, maxZoom:13 });
+        { padding:70, duration:0, maxZoom:13 });
     }
   </script>
 </body>

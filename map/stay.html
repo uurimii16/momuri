@@ -468,7 +468,7 @@
       sec.querySelectorAll('.wtabs button').forEach(b=> b.onclick=()=>{ weekIdx=+b.dataset.w; render(); });
       sec.querySelectorAll('.pick').forEach(el=> el.onclick=()=>{
         const p = w.picks[+el.dataset.i];
-        if(p && p.lat && p.lng) map.flyTo({ center:[p.lng,p.lat], zoom:14, duration:800 });
+        if(p && p.lat && p.lng) map.flyTo({ center:[p.lng,p.lat], zoom:14, duration:0 });
       });
     }
 
@@ -517,7 +517,7 @@
       });
       if(pts.length){
         const lngs=pts.map(p=>p[0]), lats=pts.map(p=>p[1]);
-        map.fitBounds([[Math.min(...lngs),Math.min(...lats)],[Math.max(...lngs),Math.max(...lats)]], { padding:70, duration:800, maxZoom:13 });
+        map.fitBounds([[Math.min(...lngs),Math.min(...lats)],[Math.max(...lngs),Math.max(...lats)]], { padding:70, duration:0, maxZoom:13 });
       }
       drawStays();
     }
@@ -672,7 +672,7 @@
       }
       const lngs = pts.map(p=>p[0]), lats = pts.map(p=>p[1]);
       map.fitBounds([[Math.min(...lngs),Math.min(...lats)],[Math.max(...lngs),Math.max(...lats)]],
-        { padding:70, duration:800, maxZoom:13 });
+        { padding:70, duration:0, maxZoom:13 });
       drawStays();
     }
   </script>

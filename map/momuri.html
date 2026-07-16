@@ -70,11 +70,14 @@
     .poi-marker{ display:flex; flex-direction:column; align-items:center; cursor:pointer; }
     .poi-marker .poi-label{ font-size:11px; font-weight:700; color:var(--ink); background:rgba(255,255,255,.9); border-radius:20px; padding:1.5px 8px; margin-bottom:2px; white-space:nowrap; box-shadow:0 1px 4px rgba(0,0,0,.13); }
 
-    /* 공통 핀(SVG) — 색·투명도 유지, 팁이 좌표를 가리킴 */
-    .mk-pin{ opacity:.72; filter:drop-shadow(0 2px 3px rgba(0,0,0,.28)); transition:transform .12s, opacity .12s; transform-origin:50% 100%; display:block; }
-    .poi-marker:hover .mk-pin, .gem-pin:hover .mk-pin{ opacity:1; transform:scale(1.15); }
+    /* 공통 핀 — tourgo식 반투명 물방울 핀 (--cat=카테고리 색, 팁이 좌표를 가리킴 · course/stay와 통일) */
+    .drop-pin{ --sz:24px; position:relative; display:block; width:var(--sz); height:var(--sz); margin:0 0 calc(var(--sz)*0.2);
+      border-radius:50% 50% 50% 0; transform:rotate(-45deg);
+      background:radial-gradient(circle at 32% 28%, rgba(255,255,255,.82), var(--cat,#888) 62%);
+      border:2px solid rgba(255,255,255,.92);
+      box-shadow:0 4px 11px rgba(30,30,30,.26), inset 0 1px 3px rgba(255,255,255,.55); transition:transform .14s ease; }
+    .poi-marker:hover .drop-pin, .gem-pin:hover .drop-pin{ transform:rotate(-45deg) scale(1.15); }
     .poi-marker:hover .poi-label, .gem-pin:hover .gp-label{ color:var(--brand-d); }
-    .gem-pin .mk-pin{ opacity:.85; }
 
     /* ── 문화유산 마커: 사적지(기념물) 모양 SVG, 배경 없음 ── */
     .her-marker{ cursor:pointer; transition:transform .12s; transform-origin:50% 100%; line-height:0; }
@@ -105,7 +108,7 @@
     .mlegend{ position:absolute; left:14px; bottom:16px; z-index:5; background:rgba(255,255,255,.96); border-radius:12px; padding:11px 13px; box-shadow:0 3px 14px rgba(0,0,0,.13); font-size:12px; }
     .mlegend h4{ font-size:11.5px; margin-bottom:8px; color:var(--ink); }
     .mlegend .row{ display:flex; align-items:center; gap:8px; margin:5px 0; color:#48555b; }
-    .mlegend .row .mk-pin, .mlegend .row .her-ic{ flex:none; }
+    .mlegend .row .drop-pin, .mlegend .row .her-ic{ flex:none; }
   </style>
 </head>
 <body>
@@ -252,12 +255,9 @@
       return p;
     }
 
-    // 지도 핀(SVG): 둥근 머리 + 아래로 뾰족한 팁 + 흰 속점
+    // 지도 핀: tourgo식 반투명 물방울(CSS) — SVG 불투명 핀 대신, course·stay와 통일
     function pinSVG(color, w){
-      const h = Math.round(w*32/24);
-      return `<svg class="mk-pin" width="${w}" height="${h}" viewBox="0 0 24 32" style="fill:${color}">
-        <path d="M12 0C5.37 0 0 5.37 0 12c0 8.5 12 20 12 20s12-11.5 12-20C24 5.37 18.63 0 12 0z"/>
-        <circle cx="12" cy="12" r="4.4" fill="#fff"/></svg>`;
+      return `<span class="drop-pin" style="--cat:${color};--sz:${w}px"></span>`;
     }
     // 문화유산 아이콘(사적지·기념물 실루엣): 지붕+기둥+기단
     function heriIconSVG(w){

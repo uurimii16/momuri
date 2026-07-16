@@ -30,7 +30,7 @@
     .bar{ flex:1; text-align:center; font-size:11px; color:#9aa4ab; background:var(--soft); border-radius:8px; padding:6px 2px; }
     .bar b{ display:block; font-size:15px; color:var(--ink); margin-top:1px; }
 
-    #detail{ position:absolute; right:16px; top:16px; width:330px; max-height:calc(100vh - 88px); overflow-y:auto; background:#fff; border-radius:16px; box-shadow:0 8px 30px rgba(0,0,0,.16); padding:18px; display:none; }
+    #detail{ position:absolute; right:16px; top:16px; z-index:1200; width:330px; max-height:calc(100vh - 88px); overflow-y:auto; background:#fff; border-radius:16px; box-shadow:0 8px 30px rgba(0,0,0,.16); padding:18px; display:none; }
     #detail h2{ font-size:21px; }
     #detail .tag{ display:inline-block; font-size:11px; background:#e6f7f4; color:var(--brand-d); padding:3px 9px; border-radius:20px; margin:7px 0; }
     #detail h3{ font-size:13.5px; margin:15px 0 7px; color:var(--brand-d); }
@@ -105,7 +105,7 @@
     .poi-pop a{ outline:none; -webkit-tap-highlight-color:transparent; }
 
     /* 마커 색상 범례 */
-    .mlegend{ position:absolute; left:14px; bottom:16px; z-index:5; background:rgba(255,255,255,.96); border-radius:12px; padding:11px 13px; box-shadow:0 3px 14px rgba(0,0,0,.13); font-size:12px; }
+    .mlegend{ position:absolute; left:14px; bottom:16px; z-index:1200; background:rgba(255,255,255,.96); border-radius:12px; padding:11px 13px; box-shadow:0 3px 14px rgba(0,0,0,.13); font-size:12px; }
     .mlegend h4{ font-size:11.5px; margin-bottom:8px; color:var(--ink); }
     .mlegend .row{ display:flex; align-items:center; gap:8px; margin:5px 0; color:#48555b; }
     .mlegend .row .drop-pin, .mlegend .row .her-ic{ flex:none; }
